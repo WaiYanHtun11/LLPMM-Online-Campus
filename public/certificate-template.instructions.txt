@@ -1,0 +1,15 @@
+Place your Canva certificate background image here as:
+
+public/certificate-template.png
+
+Recommended:
+- PNG format
+- Keep same aspect ratio as your template (1086 x 768)
+- No student-specific text in the exported image
+
+The generator overlays these dynamic fields on top of that image:
+- Student name
+- Course title
+- Issue date
+- Batch name
+- Certificate ID
