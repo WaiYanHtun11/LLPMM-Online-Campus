@@ -1,46 +1,53 @@
+'use client'
+
 import Link from 'next/link'
 import Image from 'next/image'
 import { supabase } from '@/lib/supabase'
 import { CodeRain, FloatingCodeSymbols } from '@/components/CodeElements'
+import { useState, useEffect } from 'react'
 
-export default async function CoursesPage() {
-  // Fetch courses from Supabase
-  const { data: courses, error } = await supabase
-    .from('courses')
-    .select(`
-      *,
-      batches:batches(id, status)
-    `)
-    .eq('is_active', true)
-    .order('created_at', { ascending: true })
+export default function CoursesPage() {
+  const [courses, setCourses] = useState<any[]>([])
+  const [error, setError] = useState<any>(null)
+  const [loading, setLoading] = useState(true)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
-  // If error, show error state
-  if (error) {
-    return (
-      <div className="min-h-screen bg-gradient-to-br from-red-50 to-pink-50 flex items-center justify-center p-4">
-        <div className="bg-white rounded-2xl shadow-2xl p-8 max-w-md border border-red-100">
-          <div className="text-5xl mb-4">⚠️</div>
-          <h1 className="text-2xl font-bold text-red-600 mb-4">Database Error</h1>
-          <p className="text-gray-700 mb-6">{error.message}</p>
-          <Link 
-            href="/" 
-            className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold transition-colors"
-          >
-            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-            </svg>
-            Back to Home
-          </Link>
-        </div>
-      </div>
-    )
-  }
+  const navItems = [
+    { href: '/courses', label: 'Courses' },
+    { href: '/batches', label: 'Batches' },
+    { href: '/roadmaps', label: 'Roadmaps' },
+    { href: '/about', label: 'About' },
+  ]
 
-  // Count upcoming batches for each course
-  const coursesWithBatches = courses?.map(course => ({
+  useEffect(() => {
+    const fetchCourses = async () => {
+      try {
+        const { data, error: dbError } = await supabase
+          .from('courses')
+          .select(`
+            *,
+            batches:batches(id, status)
+          `)
+          .eq('is_active', true)
+          .order('created_at', { ascending: true })
+        
+        if (dbError) throw dbError
+        setCourses(data || [])
+      } catch (err) {
+        setError(err)
+      } finally {
+        setLoading(false)
+      }
+    }
+    
+    fetchCourses()
+  }, [])
+  
+  // Calculate coursesWithBatches
+  const coursesWithBatches = courses.map(course => ({
     ...course,
     upcomingBatches: course.batches?.filter((b: any) => b.status === 'upcoming').length || 0
-  })) || []
+  }))
   
   const levelColors = {
     'Beginner': 'bg-green-100 text-green-700 border-green-200',
@@ -68,41 +75,124 @@ export default async function CoursesPage() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
-      <header className="border-b bg-white/95 backdrop-blur-md sticky top-0 z-50 shadow-sm">
-        <nav className="container mx-auto px-4 py-5 flex justify-between items-center">
-          <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-all">
-            <Image 
-              src="/llpmm-logo.jpg" 
-              alt="LLPMM Logo" 
-              width={55} 
-              height={55}
-              className="rounded-full ring-2 ring-blue-100"
-            />
-            <div>
-              <div className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                LLPMM Online Campus
-              </div>
-              <div className="text-xs text-gray-500">Let's Learn Programming - Myanmar</div>
-            </div>
-          </Link>
-          <div className="hidden md:flex gap-8">
-            <Link href="/courses" className="text-blue-600 font-semibold border-b-2 border-blue-600">Courses</Link>
-            <Link href="/batches" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">Batches</Link>
-            <Link href="/roadmaps" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">Roadmaps</Link>
-            <Link href="/about" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">About</Link>
+      {/* Error State */}
+      {error && (
+        <div className="min-h-screen bg-gradient-to-br from-red-50 to-pink-50 flex items-center justify-center p-4">
+          <div className="bg-white rounded-2xl shadow-2xl p-8 max-w-md border border-red-100">
+            <div className="text-5xl mb-4">⚠️</div>
+            <h1 className="text-2xl font-bold text-red-600 mb-4">Database Error</h1>
+            <p className="text-gray-700 mb-6">{error.message}</p>
+            <Link 
+              href="/" 
+              className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold transition-colors"
+            >
+              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+              </svg>
+              Back to Home
+            </Link>
           </div>
-          <Link 
-            href="/login" 
-            className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full hover:shadow-lg hover:scale-105 transition-all font-semibold"
-          >
-            Login
-          </Link>
-        </nav>
-      </header>
+        </div>
+      )}
 
-      {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50">
+      {!error && (
+        <>
+          {/* Header */}
+          <header className="border-b bg-white/95 backdrop-blur-md sticky top-0 z-50 shadow-sm">
+            <nav className="container mx-auto px-4 py-3 sm:py-4 flex items-center gap-3">
+              <button
+                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                className="md:hidden p-2 hover:bg-gray-100 rounded-lg transition-colors flex-shrink-0"
+                aria-label="Toggle menu"
+              >
+                <svg className="w-6 h-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  {mobileMenuOpen ? (
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  ) : (
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                  )}
+                </svg>
+              </button>
+              <Link href="/" className="flex items-center gap-2 sm:gap-3 hover:opacity-80 transition-all min-w-0">
+                <Image 
+                  src="/llpmm-logo.jpg" 
+                  alt="LLPMM Logo" 
+                  width={44} 
+                  height={44}
+                  className="rounded-full ring-2 ring-blue-100"
+                />
+                <div className="min-w-0">
+                  <div className="text-base sm:text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent truncate">
+                    LLPMM Online Campus
+                  </div>
+                  <div className="hidden sm:block text-xs text-gray-500">Let's Learn Programming - Myanmar</div>
+                </div>
+              </Link>
+              <div className="hidden md:flex gap-8 flex-1 justify-center">
+                {navItems.map((item) => (
+                  <Link 
+                    key={item.href} 
+                    href={item.href} 
+                    className={`font-medium transition-colors ${
+                      item.href === '/courses' 
+                        ? 'text-blue-600 border-b-2 border-blue-600' 
+                        : 'text-gray-700 hover:text-blue-600'
+                    }`}
+                  >
+                    {item.label}
+                  </Link>
+                ))}
+              </div>
+              <Link 
+                href="/login" 
+                className="ml-auto bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 sm:px-8 py-2 sm:py-3 rounded-full hover:shadow-lg hover:scale-105 transition-all font-semibold text-sm sm:text-base"
+              >
+                Login
+              </Link>
+            </nav>
+
+            {/* Mobile Menu Drawer */}
+            {mobileMenuOpen && (
+              <div className="md:hidden border-t border-gray-200 bg-white">
+                <div className="px-4 py-4 space-y-2">
+                  {navItems.map((item) => (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      className={`block px-4 py-3 rounded-lg transition-colors font-medium ${
+                        item.href === '/courses'
+                          ? 'text-blue-600 bg-blue-50'
+                          : 'text-gray-700 hover:bg-blue-50 hover:text-blue-600'
+                      }`}
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      {item.label}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
+          </header>
+        </>
+        )}
+
+        {/* Loading State */}
+        {loading && (
+          <div className="min-h-screen flex items-center justify-center bg-white">
+            <div className="text-center">
+              <svg className="animate-spin h-12 w-12 mx-auto text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+              </svg>
+              <p className="mt-4 text-gray-600">Loading courses...</p>
+            </div>
+          </div>
+        )}
+
+        {!loading && !error && (
+          <>
+            {/* Hero Section */}
+            <section className="relative overflow-hidden bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50">
         {/* Decorative blobs */}
         <div className="absolute top-0 left-0 w-96 h-96 bg-blue-400 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
         <div className="absolute top-0 right-0 w-96 h-96 bg-purple-400 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse" style={{animationDelay: '2s'}}></div>
@@ -385,19 +475,11 @@ export default async function CoursesPage() {
               <ul className="space-y-3 text-sm">
                 <li className="flex items-center gap-2">
                   <svg className="w-4 h-4 text-blue-400" fill="currentColor" viewBox="0 0 20 20"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/></svg>
-                  contact@llp-myanmar.com
+                  contact.llpmm@gmail.com
                 </li>
                 <li className="flex items-center gap-2">
                   <svg className="w-4 h-4 text-green-400" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
-                  <a href="https://t.me/LetsLearnProgrammingMyanmar" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
-                    Telegram: @LetsLearnProgrammingMyanmar
-                  </a>
-                </li>
-                <li className="flex items-center gap-2">
-                  <svg className="w-4 h-4 text-red-400" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"/></svg>
-                  <a href="https://www.youtube.com/@letslearnprogramming-myanmar" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
-                    YouTube Channel
-                  </a>
+                  09452784045
                 </li>
               </ul>
             </div>
@@ -414,6 +496,8 @@ export default async function CoursesPage() {
           </div>
         </div>
       </footer>
+          </>
+        )}
     </div>
   )
 }

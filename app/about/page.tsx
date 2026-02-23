@@ -1,8 +1,20 @@
+'use client'
+
 import Link from 'next/link'
 import Image from 'next/image'
+import { useState } from 'react'
 import { CodeRain, FloatingCodeSymbols, CodeBadge } from '@/components/CodeElements'
 
 export default function AboutPage() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
+  const navItems = [
+    { href: '/courses', label: 'Courses' },
+    { href: '/batches', label: 'Batches' },
+    { href: '/roadmaps', label: 'Roadmaps' },
+    { href: '/about', label: 'About' },
+  ]
+
   const technologies = [
     { name: 'C', icon: '🔷', color: 'from-blue-500 to-blue-600', category: 'Systems Programming' },
     { name: 'C++', icon: '🔶', color: 'from-indigo-500 to-indigo-600', category: 'Systems Programming' },
@@ -53,31 +65,79 @@ export default function AboutPage() {
     <div className="min-h-screen bg-white">
       {/* Header */}
       <header className="border-b bg-white/95 backdrop-blur-md sticky top-0 z-50 shadow-sm">
-        <nav className="container mx-auto px-4 py-5 flex justify-between items-center">
-          <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-all">
+        <nav className="container mx-auto px-4 py-3 sm:py-4 flex items-center gap-3">
+          <button
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            className="md:hidden p-2 hover:bg-gray-100 rounded-lg transition-colors flex-shrink-0"
+            aria-label="Toggle menu"
+          >
+            <svg className="w-6 h-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              {mobileMenuOpen ? (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              ) : (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+              )}
+            </svg>
+          </button>
+          <Link href="/" className="flex items-center gap-2 sm:gap-3 hover:opacity-80 transition-all min-w-0">
             <Image 
               src="/llpmm-logo.jpg" 
               alt="LLPMM Logo" 
-              width={50} 
-              height={50}
-              className="rounded-full"
+              width={44}
+              height={44}
+              className="rounded-full ring-2 ring-blue-100"
             />
-            <span className="text-xl font-bold text-gray-900">LLPMM Online Campus</span>
+            <div className="min-w-0">
+              <div className="text-base sm:text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent truncate">
+                LLPMM Online Campus
+              </div>
+              <div className="hidden sm:block text-xs text-gray-500">Let's Learn Programming - Myanmar</div>
+            </div>
           </Link>
-          <div className="hidden md:flex gap-6 items-center">
-            <Link href="/courses" className="hover:text-blue-600 transition font-medium">Courses</Link>
-            <Link href="/batches" className="hover:text-blue-600 transition font-medium">Upcoming Batches</Link>
-            <Link href="/roadmaps" className="hover:text-blue-600 transition font-medium">Roadmaps</Link>
-            <Link href="/testimonials" className="hover:text-blue-600 transition font-medium">Testimonials</Link>
-            <Link href="/about" className="text-blue-600 font-bold">About</Link>
+          <div className="hidden md:flex gap-8 flex-1 justify-center">
+            {navItems.map((item) => (
+              <Link 
+                key={item.href}
+                href={item.href} 
+                className={`font-medium transition-colors ${
+                  item.href === '/about' 
+                    ? 'text-blue-600 border-b-2 border-blue-600' 
+                    : 'text-gray-700 hover:text-blue-600'
+                }`}
+              >
+                {item.label}
+              </Link>
+            ))}
           </div>
           <Link 
             href="/login" 
-            className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-lg hover:from-blue-700 hover:to-purple-700 transition shadow-md"
+            className="ml-auto bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 sm:px-6 py-2 rounded-lg hover:from-blue-700 hover:to-purple-700 transition shadow-md text-sm sm:text-base"
           >
             Login
           </Link>
         </nav>
+
+        {/* Mobile Menu Drawer */}
+        {mobileMenuOpen && (
+          <div className="md:hidden border-t border-gray-200 bg-white">
+            <div className="px-4 py-4 space-y-2">
+              {navItems.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={`block px-4 py-3 rounded-lg transition-colors font-medium ${
+                    item.href === '/about'
+                      ? 'text-blue-600 bg-blue-50'
+                      : 'text-gray-700 hover:bg-blue-50 hover:text-blue-600'
+                  }`}
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
       </header>
 
       {/* Hero Section */}
@@ -454,10 +514,10 @@ export default function AboutPage() {
                   <div className="relative">
                     <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-white shadow-xl">
                       <Image 
-                        src="/llpmm-logo.jpg" 
+                        src="/me.png" 
                         alt="Wai Yan Htun" 
-                        width={96} 
-                        height={96}
+                        width={200} 
+                        height={200}
                         className="rounded-full"
                       />
                     </div>
@@ -572,15 +632,15 @@ export default function AboutPage() {
                       <div className="space-y-2 text-sm">
                         <div className="flex items-center gap-2 text-gray-700">
                           <span className="text-blue-600">▸</span>
-                          <span>Python & Django</span>
+                          <span>Python</span>
                         </div>
                         <div className="flex items-center gap-2 text-gray-700">
                           <span className="text-purple-600">▸</span>
-                          <span>Web Development</span>
+                          <span>Java SE</span>
                         </div>
                         <div className="flex items-center gap-2 text-gray-700">
                           <span className="text-pink-600">▸</span>
-                          <span>React & Next.js</span>
+                          <span>Database</span>
                         </div>
                         <div className="flex items-center gap-2 text-gray-700">
                           <span className="text-green-600">▸</span>
@@ -678,19 +738,11 @@ export default function AboutPage() {
               <ul className="space-y-3 text-sm">
                 <li className="flex items-center gap-2">
                   <svg className="w-4 h-4 text-blue-400" fill="currentColor" viewBox="0 0 20 20"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/></svg>
-                  contact@llp-myanmar.com
+                  contact.llpmm@gmail.com
                 </li>
                 <li className="flex items-center gap-2">
                   <svg className="w-4 h-4 text-green-400" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
-                  <a href="https://t.me/LetsLearnProgrammingMyanmar" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
-                    @LetsLearnProgrammingMyanmar
-                  </a>
-                </li>
-                <li className="flex items-center gap-2">
-                  <svg className="w-4 h-4 text-red-400" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"/></svg>
-                  <a href="https://www.youtube.com/@letslearnprogramming-myanmar" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
-                    YouTube Channel
-                  </a>
+                  09452784045
                 </li>
               </ul>
             </div>
