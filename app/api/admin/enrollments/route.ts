@@ -97,7 +97,8 @@ export async function POST(req: NextRequest) {
 
     const isMultiCourse = previousEnrollments && previousEnrollments > 0
     const discountAmount = isMultiCourse ? 10000 : 0
-    const courseFee = batch.courses.fee || 0
+    const courseData = Array.isArray(batch.courses) ? batch.courses[0] : batch.courses
+    const courseFee = courseData?.fee || 0
     const finalAmount = Math.max(0, courseFee - discountAmount)
 
     // Create enrollment

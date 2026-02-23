@@ -24,7 +24,7 @@ interface AttendanceCode {
 
 interface BatchOption {
   id: string
-  name: string
+  batch_name: string
 }
 
 export default function InstructorAttendanceHistory() {
@@ -107,6 +107,8 @@ export default function InstructorAttendanceHistory() {
       // Fetch submissions for each code
       const codesWithSubmissions = await Promise.all(
         (codesData || []).map(async (code: any) => {
+          const codeBatch = Array.isArray(code.batches) ? code.batches[0] : code.batches
+          const codeCourse = Array.isArray(codeBatch?.courses) ? codeBatch.courses[0] : codeBatch?.courses
           const { data: submissions, error: subsError } = await supabase
             .from('attendance_submissions')
             .select(`
@@ -121,8 +123,8 @@ export default function InstructorAttendanceHistory() {
             return {
               id: code.id,
               code: code.code,
-              batch_name: code.batches.batch_name,
-              course_title: code.batches.courses.title,
+              batch_name: codeBatch?.batch_name || 'Unknown Batch',
+              course_title: codeCourse?.title || 'Unknown Course',
               generated_at: code.generated_at,
               valid_until: code.valid_until,
               is_active: code.is_active,
@@ -134,15 +136,15 @@ export default function InstructorAttendanceHistory() {
           return {
             id: code.id,
             code: code.code,
-            batch_name: code.batches.batch_name,
-            course_title: code.batches.courses.title,
+            batch_name: codeBatch?.batch_name || 'Unknown Batch',
+            course_title: codeCourse?.title || 'Unknown Course',
             generated_at: code.generated_at,
             valid_until: code.valid_until,
             is_active: code.is_active,
             submission_count: submissions?.length || 0,
             submissions: (submissions || []).map((s: any) => ({
-              student_name: s.users.name,
-              student_email: s.users.email,
+              student_name: (Array.isArray(s.users) ? s.users[0] : s.users)?.name || 'Unknown Student',
+              student_email: (Array.isArray(s.users) ? s.users[0] : s.users)?.email || '',
               submitted_at: s.submitted_at
             }))
           }

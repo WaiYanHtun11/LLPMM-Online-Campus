@@ -98,12 +98,19 @@ export default function StudentPaymentDetail() {
         console.error('Payment fetch error:', paymentError)
       }
 
+      const batchData = Array.isArray(enrollmentData.batches)
+        ? enrollmentData.batches[0]
+        : enrollmentData.batches
+      const courseData = Array.isArray(batchData?.courses)
+        ? batchData.courses[0]
+        : batchData?.courses
+
       const paymentInfo: PaymentDetail = {
         enrollment_id: enrollmentId,
         student_name: userProfile.name,
         student_email: userProfile.email,
-        course_title: enrollmentData.batches.courses.title,
-        batch_name: enrollmentData.batches.batch_name,
+        course_title: courseData?.title || 'Untitled Course',
+        batch_name: batchData?.batch_name || 'Unknown Batch',
         enrolled_date: enrollmentData.enrolled_date,
         base_amount: paymentData?.base_amount || 0,
         discount_amount: paymentData?.discount_amount || 0,

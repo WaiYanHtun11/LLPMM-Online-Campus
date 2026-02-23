@@ -125,16 +125,26 @@ export default function EnrollmentPayment({ params }: { params: Promise<{ id: st
 
       if (enrollmentError) throw enrollmentError
 
+      const student = Array.isArray(enrollmentData.users)
+        ? enrollmentData.users[0]
+        : enrollmentData.users
+      const batchData = Array.isArray(enrollmentData.batches)
+        ? enrollmentData.batches[0]
+        : enrollmentData.batches
+      const course = Array.isArray(batchData?.courses)
+        ? batchData.courses[0]
+        : batchData?.courses
+
       setEnrollment({
         id: enrollmentData.id,
-        student_name: enrollmentData.users.name,
-        student_email: enrollmentData.users.email,
-        batch_name: enrollmentData.batches.batch_name,
-        course_title: enrollmentData.batches.courses.title,
+        student_name: student?.name || '',
+        student_email: student?.email || '',
+        batch_name: batchData?.batch_name || '',
+        course_title: course?.title || '',
         enrolled_date: enrollmentData.enrolled_date,
         status: enrollmentData.status,
         batch_id: enrollmentData.batch_id,
-        batch_start_date: enrollmentData.batches.start_date,
+        batch_start_date: batchData?.start_date || '',
         certificate: enrollmentData.certificate || false,
         certificate_url: enrollmentData.certificate_url || null,
         certificate_source: enrollmentData.certificate_source || null,

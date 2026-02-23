@@ -100,6 +100,10 @@ export default function InstructorBatchDetail({ params }: { params: Promise<{ id
 
       if (batchError) throw batchError
 
+      const batchCourse = Array.isArray(batchData.courses)
+        ? batchData.courses[0]
+        : batchData.courses
+
       // Check if this batch belongs to the logged-in instructor
       if (batchData.instructor_id !== userProfile?.id) {
         setError('You do not have access to this batch')
@@ -109,7 +113,7 @@ export default function InstructorBatchDetail({ params }: { params: Promise<{ id
       setBatch({
         id: batchData.id,
         batch_name: batchData.batch_name,
-        course_title: batchData.courses.title,
+        course_title: batchCourse?.title || 'Untitled Course',
         start_date: batchData.start_date,
         end_date: batchData.end_date,
         status: batchData.status,
@@ -134,13 +138,17 @@ export default function InstructorBatchDetail({ params }: { params: Promise<{ id
 
       if (enrollmentsError) throw enrollmentsError
 
-      const formattedStudents = (enrollmentsData || []).map((e: any) => ({
-        id: e.id,
-        student_name: e.users.name,
-        student_email: e.users.email,
-        enrolled_date: e.enrolled_date,
-        status: e.status
-      }))
+      const formattedStudents = (enrollmentsData || []).map((e: any) => {
+        const student = Array.isArray(e.users) ? e.users[0] : e.users
+
+        return {
+          id: e.id,
+          student_name: student?.name || 'Unknown Student',
+          student_email: student?.email || '',
+          enrolled_date: e.enrolled_date,
+          status: e.status
+        }
+      })
 
       setStudents(formattedStudents)
 

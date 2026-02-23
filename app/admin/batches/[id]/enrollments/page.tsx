@@ -91,10 +91,14 @@ export default function BatchEnrollments({ params }: { params: Promise<{ id: str
 
       if (batchError) throw batchError
 
+      const batchCourse = Array.isArray(batchData.courses)
+        ? batchData.courses[0]
+        : batchData.courses
+
       setBatch({
         id: batchData.id,
         batch_name: batchData.batch_name,
-        course_title: batchData.courses.title,
+        course_title: batchCourse?.title || 'Untitled Course',
         max_students: batchData.max_students
       })
 
@@ -117,14 +121,15 @@ export default function BatchEnrollments({ params }: { params: Promise<{ id: str
       const formattedEnrollments = (enrollmentsData || []).map((e: any) => {
         // Handle both array (Supabase default) and object (some cases) formats
         const payment = Array.isArray(e.payments) ? e.payments[0] : e.payments
+        const student = Array.isArray(e.users) ? e.users[0] : e.users
         
         return {
           id: e.id,
           student_id: e.student_id,
           enrolled_date: e.enrolled_date,
           status: e.status,
-          student_name: e.users.name,
-          student_email: e.users.email,
+          student_name: student?.name || 'Unknown Student',
+          student_email: student?.email || '',
           payment_status: payment?.status || 'no record',
           payment_amount: payment?.total_amount || 0,
           paid_amount: payment?.paid_amount || 0
