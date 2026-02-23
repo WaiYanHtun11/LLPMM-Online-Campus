@@ -68,6 +68,7 @@ export default function AboutPage() {
             <Link href="/courses" className="hover:text-blue-600 transition font-medium">Courses</Link>
             <Link href="/batches" className="hover:text-blue-600 transition font-medium">Upcoming Batches</Link>
             <Link href="/roadmaps" className="hover:text-blue-600 transition font-medium">Roadmaps</Link>
+            <Link href="/testimonials" className="hover:text-blue-600 transition font-medium">Testimonials</Link>
             <Link href="/about" className="text-blue-600 font-bold">About</Link>
           </div>
           <Link 

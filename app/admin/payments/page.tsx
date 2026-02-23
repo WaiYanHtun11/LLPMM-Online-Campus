@@ -21,20 +21,24 @@ interface PaymentRecord {
   planType: 'full' | 'installment_2' | 'unknown'
 }
 
-interface InstructorPaymentRecord {
-  financeId: string
+interface InstructorBatchPayment {
+  batchId: string
   batchName: string
+  instructorId: string
   instructorName: string
-  paymentModel: 'fixed_salary' | 'profit_share' | 'unknown'
-  paymentMethod: string
-  accountName: string
-  accountNumber: string
-  totalRevenue: number
-  totalCosts: number
-  profit: number
-  calculatedPayment: number
-  payoutStatus: 'paid' | 'pending'
-  paidDate: string | null
+  salary: number
+  totalPaid: number
+  paymentStatus: 'Paid' | 'Partially Paid' | 'Pending'
+  paymentMethod: string | null
+  paymentAccountName: string | null
+  paymentAccountNumber: string | null
+  payments: Array<{
+    id: string
+    amount: number
+    paymentDate: string
+    paymentMethod: string | null
+    notes: string | null
+  }>
 }
 
 interface EnrollmentPaymentQueryResult {
@@ -73,11 +77,22 @@ export default function AdminPaymentsPage() {
   const router = useRouter()
 
   const [records, setRecords] = useState<PaymentRecord[]>([])
-  const [instructorRecords, setInstructorRecords] = useState<InstructorPaymentRecord[]>([])
+  const [instructorPayments, setInstructorPayments] = useState<InstructorBatchPayment[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
   const [searchQuery, setSearchQuery] = useState('')
   const [statusFilter, setStatusFilter] = useState<'all' | 'paid' | 'partial' | 'unpaid'>('all')
+  const [paymentView, setPaymentView] = useState<'student' | 'instructor'>('student')
+  
+  // Payment recording modal state
+  const [showPaymentModal, setShowPaymentModal] = useState(false)
+  const [selectedBatch, setSelectedBatch] = useState<InstructorBatchPayment | null>(null)
+  const [paymentForm, setPaymentForm] = useState({
+    amount: '',
+    paymentMethod: 'kpay',
+    notes: ''
+  })
+  const [recordingPayment, setRecordingPayment] = useState(false)
 
   useEffect(() => {
     if (!authLoading) {
@@ -152,79 +167,109 @@ export default function AdminPaymentsPage() {
 
       setRecords(normalized)
 
-      const { data: instructorData, error: instructorError } = await supabase
-        .from('batch_finances')
+      // Fetch instructor payments
+      const { data: batchesData, error: batchesError } = await supabase
+        .from('batches')
         .select(`
           id,
-          total_revenue,
-          marketing_cost,
-          extra_costs,
-          profit,
-          instructor_payment_calculated,
-          instructor_payment_status,
-          instructor_paid_date,
-          batches!inner(
-            batch_name,
-            users!inner(
-              name,
-              payment_model,
-              profit_share_percentage,
-              payment_method,
-              payment_account_name,
-              payment_account_number
-            )
-          )
+          batch_name,
+          instructor_id,
+          instructor_salary,
+          users!inner(id, name, payment_method, payment_account_name, payment_account_number)
         `)
-        .order('created_at', { ascending: false })
+        .not('instructor_id', 'is', null)
+        .order('start_date', { ascending: false })
 
-      if (!instructorError) {
-        const normalizedInstructor = (instructorData || []).map((row: any) => {
-          const batch = pickOne(row.batches)
-          const instructor = pickOne(batch?.users ?? null)
+      if (batchesError) throw batchesError
 
-          const paymentModel: 'fixed_salary' | 'profit_share' | 'unknown' =
-            instructor?.payment_model === 'fixed_salary' || instructor?.payment_model === 'profit_share'
-              ? instructor.payment_model
-              : 'unknown'
+      // Fetch payment records for each batch
+      const batchesWithPayments = await Promise.all(
+        (batchesData || []).map(async (batch: any) => {
+          const instructor = pickOne(batch.users)
+          const { data: paymentsData, error: paymentsError } = await supabase
+            .from('instructor_payments')
+            .select('id, amount, payment_date, payment_method, notes')
+            .eq('batch_id', batch.id)
+            .order('payment_date', { ascending: false })
 
-          const totalRevenue = Number(row.total_revenue || 0)
-          const marketingCost = Number(row.marketing_cost || 0)
-          const extraCosts = Number(row.extra_costs || 0)
-          const totalCosts = marketingCost + extraCosts
-          const profit = Number(row.profit ?? totalRevenue - totalCosts)
+          if (paymentsError) console.error('Error fetching payments:', paymentsError)
 
-          let calculatedPayment = Number(row.instructor_payment_calculated || 0)
-          if (calculatedPayment <= 0) {
-            if (paymentModel === 'profit_share') {
-              const percent = Number(instructor?.profit_share_percentage || 0)
-              calculatedPayment = Math.max(0, Math.round(profit * (percent / 100)))
-            }
+          const payments = paymentsData || []
+          const totalPaid = payments.reduce((sum: number, p: any) => sum + (p.amount || 0), 0)
+          const salaryAmount = batch.instructor_salary || 0
+
+          let paymentStatus: 'Paid' | 'Partially Paid' | 'Pending'
+          if (totalPaid >= salaryAmount && salaryAmount > 0) {
+            paymentStatus = 'Paid'
+          } else if (totalPaid > 0 && totalPaid < salaryAmount) {
+            paymentStatus = 'Partially Paid'
+          } else {
+            paymentStatus = 'Pending'
           }
 
           return {
-            financeId: row.id,
-            batchName: batch?.batch_name || 'Unknown Batch',
-            instructorName: instructor?.name || 'Unknown Instructor',
-            paymentModel,
-            paymentMethod: instructor?.payment_method || '-',
-            accountName: instructor?.payment_account_name || '-',
-            accountNumber: instructor?.payment_account_number || '-',
-            totalRevenue,
-            totalCosts,
-            profit,
-            calculatedPayment,
-            payoutStatus: row.instructor_payment_status === 'paid' ? 'paid' : 'pending',
-            paidDate: row.instructor_paid_date || null,
+            batchId: batch.id,
+            batchName: batch.batch_name,
+            instructorId: instructor?.id,
+            instructorName: instructor?.name || 'Unknown',
+            salary: salaryAmount,
+            totalPaid,
+            paymentStatus,
+            paymentMethod: instructor?.payment_method,
+            paymentAccountName: instructor?.payment_account_name,
+            paymentAccountNumber: instructor?.payment_account_number,
+            payments: (payments || []).map((p: any) => ({
+              id: p.id,
+              amount: p.amount,
+              paymentDate: p.payment_date,
+              paymentMethod: p.payment_method,
+              notes: p.notes
+            }))
           }
         })
+      )
 
-        setInstructorRecords(normalizedInstructor)
-      }
+      setInstructorPayments(batchesWithPayments)
     } catch (fetchError: unknown) {
       const message = fetchError instanceof Error ? fetchError.message : 'Failed to load payment records'
       setError(message)
     } finally {
       setLoading(false)
+    }
+  }
+
+  async function handleRecordPayment() {
+    if (!selectedBatch || !paymentForm.amount) {
+      alert('Please enter an amount')
+      return
+    }
+
+    try {
+      setRecordingPayment(true)
+      const { error } = await supabase
+        .from('instructor_payments')
+        .insert([
+          {
+            batch_id: selectedBatch.batchId,
+            instructor_id: selectedBatch.instructorId,
+            amount: parseInt(paymentForm.amount),
+            payment_method: selectedBatch.paymentMethod,
+            notes: paymentForm.notes || null,
+            payment_date: new Date().toISOString()
+          }
+        ])
+
+      if (error) throw error
+
+      // Reset form and refresh
+      setShowPaymentModal(false)
+      setPaymentForm({ amount: '', paymentMethod: 'bank_transfer', notes: '' })
+      setSelectedBatch(null)
+      await fetchPaymentRecords()
+    } catch (err: any) {
+      alert('Error recording payment: ' + err.message)
+    } finally {
+      setRecordingPayment(false)
     }
   }
 
@@ -266,23 +311,24 @@ export default function AdminPaymentsPage() {
   }, [records])
 
   const instructorSummary = useMemo(() => {
-    const totalBatches = instructorRecords.length
-    const paidBatches = instructorRecords.filter((r) => r.payoutStatus === 'paid').length
-    const pendingBatches = instructorRecords.filter((r) => r.payoutStatus === 'pending').length
-    const totalPayout = instructorRecords.reduce((sum, r) => sum + r.calculatedPayment, 0)
-    const paidPayout = instructorRecords
-      .filter((r) => r.payoutStatus === 'paid')
-      .reduce((sum, r) => sum + r.calculatedPayment, 0)
+    const totalBatches = instructorPayments.length
+    const paidBatches = instructorPayments.filter((r) => r.paymentStatus === 'Paid').length
+    const partialBatches = instructorPayments.filter((r) => r.paymentStatus === 'Partially Paid').length
+    const pendingBatches = instructorPayments.filter((r) => r.paymentStatus === 'Pending').length
+    const totalSalary = instructorPayments.reduce((sum, r) => sum + r.salary, 0)
+    const totalPaid = instructorPayments.reduce((sum, r) => sum + r.totalPaid, 0)
+    const pendingPayout = totalSalary - totalPaid
 
     return {
       totalBatches,
       paidBatches,
+      partialBatches,
       pendingBatches,
-      totalPayout,
-      paidPayout,
-      pendingPayout: Math.max(0, totalPayout - paidPayout),
+      totalSalary,
+      totalPaid,
+      pendingPayout,
     }
-  }, [instructorRecords])
+  }, [instructorPayments])
 
   if (authLoading || loading) {
     return (
@@ -319,10 +365,20 @@ export default function AdminPaymentsPage() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="mb-6">
+        <div className="mb-6 flex justify-between items-center">
           <Link href="/admin" className="text-blue-600 hover:text-blue-700 text-sm font-semibold">
             ← Back to Dashboard
           </Link>
+          <div className="rounded-xl bg-gradient-to-r from-blue-200 via-purple-200 to-pink-200 p-[1px]">
+            <select
+              value={paymentView}
+              onChange={(e) => setPaymentView(e.target.value as 'student' | 'instructor')}
+              className="px-4 py-2 border-0 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white w-full"
+            >
+              <option value="student">Student Payments</option>
+              <option value="instructor">Instructor Payments</option>
+            </select>
+          </div>
         </div>
 
         {error && (
@@ -330,6 +386,13 @@ export default function AdminPaymentsPage() {
             <div className="bg-red-50 text-red-700 px-4 py-3 rounded-xl">{error}</div>
           </div>
         )}
+
+        {paymentView === 'student' && (
+          <>
+            <div className="mb-4">
+              <h2 className="text-2xl font-bold text-gray-900">Student Payment Tracking</h2>
+              <p className="text-sm text-gray-600 mt-1">Enrollment payment status and collection details</p>
+            </div>
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-6">
           <div className="rounded-xl bg-gradient-to-r from-blue-200 via-purple-200 to-pink-200 p-[1px]">
@@ -478,23 +541,33 @@ export default function AdminPaymentsPage() {
             </div>
           </div>
         </div>
+          </>
+        )}
 
-        <div className="mt-10 mb-4">
-          <h2 className="text-2xl font-bold text-gray-900">Instructor Payment Tracking</h2>
-          <p className="text-sm text-gray-600 mt-1">Per-batch instructor payout status and payment details</p>
-        </div>
+        {paymentView === 'instructor' && (
+          <>
+            <div className="mb-4">
+              <h2 className="text-2xl font-bold text-gray-900">Instructor Payment Tracking</h2>
+              <p className="text-sm text-gray-600 mt-1">Per-batch instructor payout status and payment details</p>
+            </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-6">
           <div className="rounded-xl bg-gradient-to-r from-blue-200 via-purple-200 to-pink-200 p-[1px]">
             <div className="bg-white rounded-xl shadow-sm p-6">
-              <div className="text-sm text-gray-600 mb-1">Total Instructor Payout</div>
-              <div className="text-2xl font-bold text-gray-900">{instructorSummary.totalPayout.toLocaleString()} MMK</div>
+              <div className="text-sm text-gray-600 mb-1">Total Batches</div>
+              <div className="text-2xl font-bold text-gray-900">{instructorSummary.totalBatches}</div>
             </div>
           </div>
           <div className="rounded-xl bg-gradient-to-r from-blue-200 via-purple-200 to-pink-200 p-[1px]">
             <div className="bg-white rounded-xl shadow-sm p-6">
-              <div className="text-sm text-gray-600 mb-1">Paid Out</div>
-              <div className="text-2xl font-bold text-green-600">{instructorSummary.paidPayout.toLocaleString()} MMK</div>
+              <div className="text-sm text-gray-600 mb-1">Total Salary Due</div>
+              <div className="text-2xl font-bold text-gray-900">{instructorSummary.totalSalary.toLocaleString()} MMK</div>
+            </div>
+          </div>
+          <div className="rounded-xl bg-gradient-to-r from-blue-200 via-purple-200 to-pink-200 p-[1px]">
+            <div className="bg-white rounded-xl shadow-sm p-6">
+              <div className="text-sm text-gray-600 mb-1">Total Paid</div>
+              <div className="text-2xl font-bold text-green-600">{instructorSummary.totalPaid.toLocaleString()} MMK</div>
             </div>
           </div>
           <div className="rounded-xl bg-gradient-to-r from-blue-200 via-purple-200 to-pink-200 p-[1px]">
@@ -513,54 +586,59 @@ export default function AdminPaymentsPage() {
                   <tr>
                     <th className="px-6 py-4 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Instructor</th>
                     <th className="px-6 py-4 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Batch</th>
-                    <th className="px-6 py-4 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Model</th>
-                    <th className="px-6 py-4 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Revenue / Profit</th>
-                    <th className="px-6 py-4 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Payout</th>
-                    <th className="px-6 py-4 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">Status</th>
+                    <th className="px-6 py-4 text-right text-xs font-semibold text-gray-700 uppercase tracking-wider">Salary</th>
+                    <th className="px-6 py-4 text-right text-xs font-semibold text-gray-700 uppercase tracking-wider">Paid</th>
+                    <th className="px-6 py-4 text-right text-xs font-semibold text-gray-700 uppercase tracking-wider">Remaining</th>
+                    <th className="px-6 py-4 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">Status</th>
+                    <th className="px-6 py-4 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider">Action</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-gray-200">
-                  {instructorRecords.length === 0 ? (
+                  {instructorPayments.length === 0 ? (
                     <tr>
-                      <td colSpan={6} className="px-6 py-12 text-center text-gray-500">
-                        No instructor payment finance records yet.
+                      <td colSpan={7} className="px-6 py-12 text-center text-gray-500">
+                        No instructor batches yet.
                       </td>
                     </tr>
                   ) : (
-                    instructorRecords.map((record) => (
-                      <tr key={record.financeId} className="hover:bg-gray-50 transition">
+                    instructorPayments.map((record) => (
+                      <tr key={record.batchId} className="hover:bg-gray-50 transition">
                         <td className="px-6 py-4">
                           <div className="font-semibold text-gray-900">{record.instructorName}</div>
-                          <div className="text-xs text-gray-600">
-                            {record.paymentMethod} • {record.accountName} • {record.accountNumber}
-                          </div>
                         </td>
                         <td className="px-6 py-4 text-sm text-gray-700">{record.batchName}</td>
-                        <td className="px-6 py-4 text-sm text-gray-700">
-                          {record.paymentModel === 'fixed_salary'
-                            ? 'Fixed Salary'
-                            : record.paymentModel === 'profit_share'
-                            ? 'Profit Share'
-                            : 'Unknown'}
+                        <td className="px-6 py-4 text-sm font-semibold text-gray-900 text-right">
+                          {(record.salary || 0).toLocaleString()} MMK
                         </td>
-                        <td className="px-6 py-4 text-sm">
-                          <div className="text-gray-900">Revenue: {record.totalRevenue.toLocaleString()} MMK</div>
-                          <div className="text-xs text-gray-600">Profit: {record.profit.toLocaleString()} MMK</div>
+                        <td className="px-6 py-4 text-sm font-semibold text-green-700 text-right">
+                          {(record.totalPaid || 0).toLocaleString()} MMK
                         </td>
-                        <td className="px-6 py-4 text-sm font-semibold text-gray-900">
-                          {record.calculatedPayment.toLocaleString()} MMK
+                        <td className="px-6 py-4 text-sm font-semibold text-orange-700 text-right">
+                          {Math.max(0, (record.salary || 0) - (record.totalPaid || 0)).toLocaleString()} MMK
                         </td>
-                        <td className="px-6 py-4">
+                        <td className="px-6 py-4 text-center">
                           <span
                             className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold ${
-                              record.payoutStatus === 'paid' ? 'bg-green-100 text-green-700' : 'bg-yellow-100 text-yellow-700'
+                              record.paymentStatus === 'Paid'
+                                ? 'bg-green-100 text-green-700'
+                                : record.paymentStatus === 'Partially Paid'
+                                ? 'bg-blue-100 text-blue-700'
+                                : 'bg-yellow-100 text-yellow-700'
                             }`}
                           >
-                            {record.payoutStatus}
+                            {record.paymentStatus}
                           </span>
-                          {record.paidDate && (
-                            <div className="text-xs text-gray-500 mt-1">Paid: {record.paidDate}</div>
-                          )}
+                        </td>
+                        <td className="px-6 py-4 text-center">
+                          <button
+                            onClick={() => {
+                              setSelectedBatch(record)
+                              setShowPaymentModal(true)
+                            }}
+                            className="inline-flex items-center px-3 py-1 text-sm bg-purple-100 text-purple-700 rounded hover:bg-purple-200 transition font-semibold"
+                          >
+                            Record Payment
+                          </button>
                         </td>
                       </tr>
                     ))
@@ -568,9 +646,130 @@ export default function AdminPaymentsPage() {
                 </tbody>
               </table>
             </div>
+
+            {/* Payment History Accordion */}
+            <div className="border-t border-gray-200 p-6">
+              <h3 className="text-lg font-bold text-gray-900 mb-4">Recent Payments</h3>
+              <div className="space-y-4">
+                {instructorPayments.flatMap((batch) =>
+                  batch.payments.map((payment) => (
+                    <div key={payment.id} className="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                      <div>
+                        <p className="font-semibold text-gray-900">{batch.instructorName} • {batch.batchName}</p>
+                        <p className="text-sm text-gray-600">
+                          {new Date(payment.paymentDate).toLocaleDateString('en-US', {
+                            month: 'short',
+                            day: 'numeric',
+                            year: 'numeric'
+                          })} • {payment.paymentMethod || 'N/A'}
+                        </p>
+                        {payment.notes && <p className="text-xs text-gray-500 mt-1">{payment.notes}</p>}
+                      </div>
+                      <div className="text-right">
+                        <p className="font-bold text-green-700">{(payment.amount || 0).toLocaleString()} MMK</p>
+                      </div>
+                    </div>
+                  ))
+                )}
+                {instructorPayments.every((b) => b.payments.length === 0) && (
+                  <p className="text-center text-gray-500 py-4">No payments recorded yet</p>
+                )}
+              </div>
+            </div>
           </div>
         </div>
+          </>
+        )}
       </div>
+
+      {/* Payment Recording Modal */}
+      {showPaymentModal && selectedBatch && (
+        <div className="fixed inset-0 bg-white/30 backdrop-blur-sm flex items-center justify-center z-50 p-4">
+          <div className="bg-white rounded-xl shadow-2xl max-w-2xl w-full max-h-[90vh] flex flex-col">
+            <div className="px-6 py-4 border-b border-gray-200 flex-shrink-0">
+              <h3 className="text-lg font-bold text-gray-900">Record Payment</h3>
+              <p className="text-sm text-gray-600 mt-1">
+                {selectedBatch.instructorName} • {selectedBatch.batchName}
+              </p>
+            </div>
+
+            <div className="px-6 py-4 space-y-4 overflow-y-auto flex-1">
+              <div>
+                <label className="block text-sm font-semibold text-gray-700 mb-2">Salary Due</label>
+                <p className="font-bold text-gray-900">{(selectedBatch.salary || 0).toLocaleString()} MMK</p>
+                <p className="text-sm text-gray-600 mt-1">Already Paid: {(selectedBatch.totalPaid || 0).toLocaleString()} MMK</p>
+              </div>
+
+              <div className="border-t border-gray-200 pt-4">
+                <label className="block text-sm font-semibold text-gray-700 mb-2">Payment Information</label>
+                <div className="bg-gray-50 p-3 rounded-lg space-y-2">
+                  <div>
+                    <p className="text-xs text-gray-600">Payment Method</p>
+                    <p className="font-semibold text-gray-900">{selectedBatch.paymentMethod || 'N/A'}</p>
+                  </div>
+                  <div>
+                    <p className="text-xs text-gray-600">Account Name</p>
+                    <p className="font-semibold text-gray-900">{selectedBatch.paymentAccountName || 'N/A'}</p>
+                  </div>
+                  <div>
+                    <p className="text-xs text-gray-600">Account Number</p>
+                    <p className="font-semibold text-gray-900">{selectedBatch.paymentAccountNumber || 'N/A'}</p>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <label htmlFor="amount" className="block text-sm font-semibold text-gray-700 mb-2">
+                  Amount to Pay
+                </label>
+                <input
+                  id="amount"
+                  type="number"
+                  value={paymentForm.amount}
+                  onChange={(e) => setPaymentForm({ ...paymentForm, amount: e.target.value })}
+                  placeholder="0"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                />
+              </div>
+
+              <div>
+                <label htmlFor="notes" className="block text-sm font-semibold text-gray-700 mb-2">
+                  Notes (Optional)
+                </label>
+                <textarea
+                  id="notes"
+                  value={paymentForm.notes}
+                  onChange={(e) => setPaymentForm({ ...paymentForm, notes: e.target.value })}
+                  placeholder="e.g., Partial payment, installment 1/2..."
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent resize-none"
+                  rows={3}
+                />
+              </div>
+            </div>
+
+            <div className="px-6 py-4 border-t border-gray-200 flex gap-3 justify-end flex-shrink-0">
+              <button
+                onClick={() => {
+                  setShowPaymentModal(false)
+                  setSelectedBatch(null)
+                  setPaymentForm({ amount: '', paymentMethod: 'kpay', notes: '' })
+                }}
+                className="px-4 py-2 text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition font-semibold"
+                disabled={recordingPayment}
+              >
+                Cancel
+              </button>
+              <button
+                onClick={handleRecordPayment}
+                disabled={recordingPayment || !paymentForm.amount}
+                className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                {recordingPayment ? 'Recording...' : 'Record Payment'}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   )
 }

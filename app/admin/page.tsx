@@ -328,7 +328,7 @@ export default function AdminDashboard() {
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-6">
           <Link href="/admin/attendance" className="rounded-xl bg-gradient-to-r from-blue-200 via-purple-200 to-pink-200 p-[1px] hover:shadow-md transition cursor-pointer">
             <div className="bg-white rounded-xl p-6 h-full flex flex-col">
               <h3 className="text-lg font-bold text-gray-900 mb-2">✅ Attendance Reports</h3>
@@ -350,6 +350,14 @@ export default function AdminDashboard() {
               <h3 className="text-lg font-bold text-gray-900 mb-2">📈 Revenue & Expense Tracking</h3>
               <p className="text-gray-600 text-sm mb-4">Track income trends and operational costs in one place</p>
               <span className="text-blue-600 text-sm font-semibold mt-auto">Open Revenue & Expense Tracking →</span>
+            </div>
+          </Link>
+
+          <Link href="/admin/testimonials" className="rounded-xl bg-gradient-to-r from-blue-200 via-purple-200 to-pink-200 p-[1px] hover:shadow-md transition cursor-pointer">
+            <div className="bg-white rounded-xl p-6 h-full flex flex-col">
+              <h3 className="text-lg font-bold text-gray-900 mb-2">⭐ Manage Testimonials</h3>
+              <p className="text-gray-600 text-sm mb-4">Review student feedback and control approval status</p>
+              <span className="text-blue-600 text-sm font-semibold mt-auto">Manage Testimonials →</span>
             </div>
           </Link>
         </div>

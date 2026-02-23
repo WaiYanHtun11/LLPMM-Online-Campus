@@ -61,6 +61,13 @@ interface CertificateState {
   certificate: boolean
 }
 
+interface TestimonialData {
+  id: string
+  testimonial_text: string
+  rating: number
+  created_at: string
+}
+
 export default function StudentCourseDetail({ params }: { params: Promise<{ id: string }> }) {
   const { user, userProfile, loading: authLoading, signOut } = useAuth()
   const router = useRouter()
@@ -76,6 +83,16 @@ export default function StudentCourseDetail({ params }: { params: Promise<{ id: 
   const [recentActivity, setRecentActivity] = useState<RecentActivity[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
+  
+  // Testimonial states
+  const [existingTestimonial, setExistingTestimonial] = useState<TestimonialData | null>(null)
+  const [showTestimonialForm, setShowTestimonialForm] = useState(false)
+  const [testimonialForm, setTestimonialForm] = useState({
+    rating: 5,
+    testimonial_text: ''
+  })
+  const [submittingTestimonial, setSubmittingTestimonial] = useState(false)
+  const [showThankYouDialog, setShowThankYouDialog] = useState(false)
 
   useEffect(() => {
     params.then(p => setBatchId(p.id))
@@ -155,7 +172,7 @@ export default function StudentCourseDetail({ params }: { params: Promise<{ id: 
       const course = Array.isArray(batchData.courses) ? batchData.courses[0] : batchData.courses
       const instructor = Array.isArray(batchData.users) ? batchData.users[0] : batchData.users
 
-      setBatch({
+      const normalizedBatch: BatchData = {
         id: batchData.id,
         batch_name: batchData.batch_name,
         course_title: course?.title ?? 'Untitled Course',
@@ -169,7 +186,9 @@ export default function StudentCourseDetail({ params }: { params: Promise<{ id: 
         zoom_link: batchData.zoom_link,
         zoom_password: batchData.zoom_password,
         telegram_group_id: batchData.telegram_group_id
-      })
+      }
+
+      setBatch(normalizedBatch)
 
       // Fetch classmates
       const { data: classmatesData, error: classmatesError } = await supabase
@@ -188,6 +207,9 @@ export default function StudentCourseDetail({ params }: { params: Promise<{ id: 
 
       // Fetch performance stats
       await fetchPerformanceStats()
+
+      // Check for existing testimonial
+      await checkExistingTestimonial(normalizedBatch)
 
     } catch (err: any) {
       setError(err.message)
@@ -335,6 +357,86 @@ export default function StudentCourseDetail({ params }: { params: Promise<{ id: 
     }
   }
 
+  async function checkExistingTestimonial(batchInfo?: BatchData | null) {
+    const targetBatch = batchInfo ?? batch
+    if (!userProfile?.name || !targetBatch?.batch_name) return
+
+    try {
+      // Check if student already submitted testimonial for this specific batch
+      const { data, error } = await supabase
+        .from('testimonials')
+        .select('id, testimonial_text, rating, created_at')
+        .eq('student_name', userProfile.name)
+        .eq('batch_name', targetBatch.batch_name)
+        .order('created_at', { ascending: false })
+        .limit(1)
+        .maybeSingle()
+
+      if (error) {
+        console.error('Error checking testimonial:', error)
+        return
+      }
+
+      if (data) {
+        console.log('Found existing testimonial:', data)
+        setExistingTestimonial(data)
+        setTestimonialForm({
+          rating: data.rating,
+          testimonial_text: data.testimonial_text
+        })
+        setShowTestimonialForm(false)
+      } else {
+        console.log('No existing testimonial found')
+        setExistingTestimonial(null)
+      }
+    } catch (err: any) {
+      console.error('Exception in checkExistingTestimonial:', err)
+    }
+  }
+
+  async function handleSubmitTestimonial() {
+    if (!userProfile?.id || !batch) return
+    if (testimonialForm.testimonial_text.trim().length < 20) {
+      alert('Please write at least 20 characters for your feedback.')
+      return
+    }
+
+    try {
+      setSubmittingTestimonial(true)
+      setError('')
+
+      const { error: insertError } = await supabase
+        .from('testimonials')
+        .insert({
+          student_name: userProfile.name,
+          instructor_name: batch.instructor_name,
+          course_name: batch.course_title,
+          batch_name: batch.batch_name,
+          rating: testimonialForm.rating,
+          testimonial_text: testimonialForm.testimonial_text.trim(),
+          testimonial_date: new Date().toLocaleDateString('en-US', {
+            month: 'long',
+            year: 'numeric'
+          }),
+          status: 'pending',
+          is_featured: false
+        })
+
+      if (insertError) throw insertError
+
+      setShowTestimonialForm(false)
+      setTestimonialForm({ rating: 5, testimonial_text: '' })
+      await checkExistingTestimonial()
+      setShowThankYouDialog(true)
+
+    } catch (err: any) {
+      setError(err.message || 'Failed to submit testimonial')
+      alert(`Error: ${err.message}`)
+    } finally {
+      setSubmittingTestimonial(false)
+    }
+  }
+
   const handleLogout = async () => {
     await signOut()
     router.push('/login')
@@ -347,6 +449,16 @@ export default function StudentCourseDetail({ params }: { params: Promise<{ id: 
       hour: '2-digit',
       minute: '2-digit'
     })
+  }
+
+  const maskEmail = (email: string) => {
+    if (!email || !email.includes('@')) return '****'
+
+    const [localPart, domainPart] = email.split('@')
+    const visibleLength = Math.min(3, localPart.length)
+    const visiblePart = localPart.slice(0, visibleLength)
+
+    return `${visiblePart}****@${domainPart}`
   }
 
   if (authLoading || loading) {
@@ -694,6 +806,163 @@ export default function StudentCourseDetail({ params }: { params: Promise<{ id: 
         </div>
         </div>
 
+        {/* Give Feedback Section */}
+        <div className="bg-gradient-to-r from-yellow-200 via-orange-200 to-yellow-200 p-[1px] rounded-xl mb-6">
+          <div className="bg-white rounded-xl shadow-sm p-6">
+            <div className="flex items-center justify-between mb-4">
+              <div className="flex items-center gap-3">
+                <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center">
+                  <svg className="w-6 h-6 text-orange-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-gray-900">Share Your Experience</h3>
+                  <p className="text-sm text-gray-600">Help other students by sharing your feedback about this course</p>
+                </div>
+              </div>
+              {!existingTestimonial && !showTestimonialForm && (
+                <button
+                  onClick={() => setShowTestimonialForm(true)}
+                  className="px-6 py-2.5 bg-gradient-to-r from-orange-500 to-yellow-500 text-white rounded-lg font-semibold hover:from-orange-600 hover:to-yellow-600 transition flex items-center gap-2 whitespace-nowrap"
+                >
+                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                  </svg>
+                  Give Feedback
+                </button>
+              )}
+            </div>
+
+            {existingTestimonial ? (
+              <div className="space-y-4">
+                <div className="bg-green-50 border border-green-200 rounded-lg px-4 py-3 mb-4">
+                  <div className="flex items-center gap-2">
+                    <svg className="w-5 h-5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <div>
+                      <div className="font-semibold text-green-900">You have already submitted your feedback</div>
+                      <p className="text-sm text-green-800 mt-0.5">
+                        Thank you for sharing your learning experience with us. We truly appreciate your feedback.
+                      </p>
+                      <p className="text-xs text-gray-600">
+                        Submitted on {new Date(existingTestimonial.created_at).toLocaleDateString('en-US', {
+                          month: 'long',
+                          day: 'numeric',
+                          year: 'numeric'
+                        })}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Rating - Disabled */}
+                <div>
+                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                    Rating
+                  </label>
+                  <div className="flex gap-2">
+                    {[1, 2, 3, 4, 5].map((star) => (
+                      <div key={star}>
+                        <svg 
+                          className={`w-8 h-8 ${star <= existingTestimonial.rating ? 'text-yellow-400 fill-current' : 'text-gray-300'}`}
+                          viewBox="0 0 20 20"
+                        >
+                          <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+                        </svg>
+                      </div>
+                    ))}
+                    <span className="ml-2 text-sm text-gray-600 self-center">
+                      {existingTestimonial.rating} {existingTestimonial.rating === 1 ? 'star' : 'stars'}
+                    </span>
+                  </div>
+                </div>
+
+                {/* Testimonial Text - Disabled */}
+                <div>
+                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                    Your Feedback
+                  </label>
+                  <textarea
+                    value={existingTestimonial.testimonial_text}
+                    disabled
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 text-gray-700 cursor-not-allowed"
+                    rows={5}
+                  />
+                </div>
+              </div>
+            ) : showTestimonialForm ? (
+              <div className="space-y-4">
+                {/* Rating */}
+                <div>
+                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                    Rating <span className="text-red-600">*</span>
+                  </label>
+                  <div className="flex gap-2">
+                    {[1, 2, 3, 4, 5].map((star) => (
+                      <button
+                        key={star}
+                        type="button"
+                        onClick={() => setTestimonialForm({ ...testimonialForm, rating: star })}
+                        className="focus:outline-none transition-transform hover:scale-110"
+                      >
+                        <svg 
+                          className={`w-8 h-8 ${star <= testimonialForm.rating ? 'text-yellow-400 fill-current' : 'text-gray-300'}`}
+                          viewBox="0 0 20 20"
+                        >
+                          <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+                        </svg>
+                      </button>
+                    ))}
+                    <span className="ml-2 text-sm text-gray-600 self-center">
+                      {testimonialForm.rating} {testimonialForm.rating === 1 ? 'star' : 'stars'}
+                    </span>
+                  </div>
+                </div>
+
+                {/* Testimonial Text */}
+                <div>
+                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                    Your Feedback <span className="text-red-600">*</span>
+                  </label>
+                  <textarea
+                    value={testimonialForm.testimonial_text}
+                    onChange={(e) => setTestimonialForm({ ...testimonialForm, testimonial_text: e.target.value })}
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+                    rows={5}
+                    placeholder="Share your experience with this course and your instructor ... What did you like? How has it helped you? (Minimum 20 characters)"
+                    required
+                  />
+                  <p className="text-xs text-gray-500 mt-1">
+                    {testimonialForm.testimonial_text.length} characters
+                  </p>
+                </div>
+
+                {/* Buttons */}
+                <div className="flex gap-3">
+                  <button
+                    onClick={handleSubmitTestimonial}
+                    disabled={submittingTestimonial}
+                    className="px-6 py-2 bg-gradient-to-r from-orange-500 to-yellow-500 text-white rounded-lg font-semibold hover:from-orange-600 hover:to-yellow-600 transition disabled:opacity-50 disabled:cursor-not-allowed"
+                  >
+                    {submittingTestimonial ? 'Submitting...' : 'Submit Feedback'}
+                  </button>
+                  <button
+                    onClick={() => {
+                      setShowTestimonialForm(false)
+                      setTestimonialForm({ rating: 5, testimonial_text: '' })
+                    }}
+                    className="px-6 py-2 bg-gray-200 text-gray-700 rounded-lg font-semibold hover:bg-gray-300 transition"
+                  >
+                    Cancel
+                  </button>
+                </div>
+              </div>
+            ) : null}
+          </div>
+        </div>
+
         {/* Recent Activity */}
         {recentActivity.length > 0 && (
           <div className="bg-gradient-to-r from-purple-200 via-pink-200 to-purple-200 p-[1px] rounded-xl">
@@ -800,7 +1069,7 @@ export default function StudentCourseDetail({ params }: { params: Promise<{ id: 
                     </div>
                     <div className="flex-1 min-w-0">
                       <div className="font-semibold text-gray-900 truncate">{classmate.name}</div>
-                      <div className="text-xs text-gray-600 truncate">{classmate.email}</div>
+                      <div className="text-xs text-gray-600 truncate">{maskEmail(classmate.email)}</div>
                     </div>
                   </div>
                 ))}
@@ -808,6 +1077,37 @@ export default function StudentCourseDetail({ params }: { params: Promise<{ id: 
             )}
           </div>
         </div>
+
+        {showThankYouDialog && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 px-4">
+            <div className="w-full max-w-md bg-white rounded-2xl shadow-2xl overflow-hidden">
+              <div className="bg-gradient-to-r from-emerald-500 to-green-500 p-5 text-white">
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center">
+                    <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <h3 className="text-xl font-bold">Thank You!</h3>
+                </div>
+              </div>
+
+              <div className="p-6">
+                <p className="text-gray-700 leading-relaxed">
+                  Your feedback has been submitted successfully and is now pending approval. Thank you for helping us improve and guiding future students.
+                </p>
+                <div className="mt-6 flex justify-end">
+                  <button
+                    onClick={() => setShowThankYouDialog(false)}
+                    className="px-5 py-2.5 bg-gradient-to-r from-orange-500 to-yellow-500 text-white rounded-lg font-semibold hover:from-orange-600 hover:to-yellow-600 transition"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   )

@@ -14,6 +14,9 @@ interface BatchInfo {
   start_date: string
   status: string
   enrollment_count: number
+  instructor_salary: number | null
+  total_paid: number
+  payment_status: string
 }
 
 export default function InstructorDashboard() {
@@ -24,7 +27,8 @@ export default function InstructorDashboard() {
   const [stats, setStats] = useState({
     totalBatches: 0,
     totalStudents: 0,
-    activeBatches: 0
+    activeBatches: 0,
+    totalEarnings: 0
   })
   const [loading, setLoading] = useState(true)
 
@@ -62,6 +66,8 @@ export default function InstructorDashboard() {
           batch_name,
           start_date,
           status,
+          instructor_salary,
+          payment_status,
           courses!inner(title)
         `)
         .eq('instructor_id', userProfile.id)
@@ -77,13 +83,35 @@ export default function InstructorDashboard() {
             .select('*', { count: 'exact', head: true })
             .eq('batch_id', batch.id)
 
+          // Fetch payment records for this batch
+          const { data: paymentsData, error: paymentsError } = await supabase
+            .from('instructor_payments')
+            .select('amount')
+            .eq('batch_id', batch.id)
+
+          if (paymentsError) console.error('Payment fetch error:', paymentsError)
+
+          const totalPaid = (paymentsData || []).reduce((sum: number, p: any) => sum + (p.amount || 0), 0)
+          const salaryAmount = batch.instructor_salary || 0
+          
+          // Determine payment status
+          let paymentStatus = 'Pending'
+          if (totalPaid >= salaryAmount && salaryAmount > 0) {
+            paymentStatus = 'Paid'
+          } else if (totalPaid > 0 && totalPaid < salaryAmount) {
+            paymentStatus = 'Partially Paid'
+          }
+
           return {
             id: batch.id,
             batch_name: batch.batch_name,
             course_title: batch.courses.title,
             start_date: batch.start_date,
             status: batch.status,
-            enrollment_count: count || 0
+            enrollment_count: count || 0,
+            instructor_salary: salaryAmount,
+            total_paid: totalPaid,
+            payment_status: paymentStatus
           }
         })
       )
@@ -93,11 +121,13 @@ export default function InstructorDashboard() {
       // Calculate stats
       const totalStudents = batchesWithCounts.reduce((sum, b) => sum + b.enrollment_count, 0)
       const activeBatches = batchesWithCounts.filter(b => b.status === 'ongoing').length
+      const totalEarnings = batchesWithCounts.reduce((sum, b) => sum + (b.instructor_salary || 0), 0)
 
       setStats({
         totalBatches: batchesWithCounts.length,
         totalStudents,
-        activeBatches
+        activeBatches,
+        totalEarnings
       })
 
     } catch (err: any) {
@@ -172,7 +202,7 @@ export default function InstructorDashboard() {
         </div>
 
         {/* Quick Stats */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
           <div className="rounded-xl bg-gradient-to-r from-blue-200 via-purple-200 to-pink-200 p-[1px]">
             <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition">
               <div className="flex items-center gap-4">
@@ -223,6 +253,26 @@ export default function InstructorDashboard() {
               </div>
             </div>
           </div>
+
+          <Link 
+            href="/instructor/payments"
+            className="rounded-xl bg-gradient-to-r from-blue-200 via-purple-200 to-pink-200 p-[1px] hover:shadow-lg transition cursor-pointer"
+          >
+            <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition">
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center">
+                  <svg className="w-6 h-6 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <div>
+                  <p className="text-sm text-gray-600">My Earnings</p>
+                  <p className="text-2xl font-bold text-gray-900">{stats.totalEarnings.toLocaleString('en-US')}</p>
+                  <p className="text-xs text-emerald-600">MMK</p>
+                </div>
+              </div>
+            </div>
+          </Link>
         </div>
 
         {/* Quick Actions */}
@@ -343,6 +393,83 @@ export default function InstructorDashboard() {
                     </svg>
                   </Link>
                 ))}
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* Payment Summary */}
+        <div className="mt-8 rounded-xl bg-gradient-to-r from-blue-200 via-purple-200 to-pink-200 p-[1px]">
+          <div className="bg-white rounded-xl shadow-sm">
+            <div className="px-6 py-4 border-b border-gray-200">
+              <h3 className="text-lg font-bold text-gray-900">Payment Breakdown by Batch</h3>
+              <p className="text-sm text-gray-600 mt-1">Your earnings for each batch you teach</p>
+            </div>
+          
+            {batches.length === 0 ? (
+              <div className="px-6 py-12 text-center text-gray-500">
+                <p className="text-sm">No batches yet</p>
+              </div>
+            ) : (
+              <div className="overflow-x-auto">
+                <table className="w-full">
+                  <thead className="bg-gray-50 border-b border-gray-200">
+                    <tr>
+                      <th className="px-6 py-3 text-left text-xs font-semibold text-gray-700">Batch Name</th>
+                      <th className="px-6 py-3 text-left text-xs font-semibold text-gray-700">Course</th>
+                      <th className="px-6 py-3 text-left text-xs font-semibold text-gray-700">Status</th>
+                      <th className="px-6 py-3 text-right text-xs font-semibold text-gray-700">Salary (MMK)</th>
+                      <th className="px-6 py-3 text-right text-xs font-semibold text-gray-700">Paid (MMK)</th>
+                      <th className="px-6 py-3 text-left text-xs font-semibold text-gray-700">Payment Status</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-gray-200">
+                    {batches.map((batch) => (
+                      <tr key={batch.id} className="hover:bg-gray-50 transition">
+                        <td className="px-6 py-4 text-sm font-medium text-gray-900">{batch.batch_name}</td>
+                        <td className="px-6 py-4 text-sm text-gray-600">{batch.course_title}</td>
+                        <td className="px-6 py-4 text-sm">
+                          <span className={`inline-flex items-center px-2 py-1 rounded-full text-xs font-semibold ${
+                            batch.status === 'upcoming'
+                              ? 'bg-blue-100 text-blue-700'
+                              : batch.status === 'ongoing'
+                              ? 'bg-green-100 text-green-700'
+                              : 'bg-gray-100 text-gray-700'
+                          }`}>
+                            {batch.status}
+                          </span>
+                        </td>
+                        <td className="px-6 py-4 text-sm font-semibold text-gray-900 text-right">
+                          {batch.instructor_salary ? (batch.instructor_salary || 0).toLocaleString('en-US') : '-'}
+                        </td>
+                        <td className="px-6 py-4 text-sm font-semibold text-green-700 text-right">
+                          {(batch.total_paid || 0).toLocaleString('en-US')}
+                        </td>
+                        <td className="px-6 py-4 text-sm">
+                          {batch.payment_status === 'Paid' ? (
+                            <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-semibold bg-green-100 text-green-700">
+                              Paid
+                            </span>
+                          ) : batch.payment_status === 'Partially Paid' ? (
+                            <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-semibold bg-blue-100 text-blue-700">
+                              Partially Paid
+                            </span>
+                          ) : (
+                            <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-semibold bg-yellow-100 text-yellow-700">
+                              Pending
+                            </span>
+                          )}
+                        </td>
+                      </tr>
+                    ))}
+                    <tr className="bg-purple-50 font-bold">
+                      <td colSpan={3} className="px-6 py-4 text-sm text-gray-900">Total Earnings</td>
+                      <td className="px-6 py-4 text-sm text-purple-700 text-right">
+                        {stats.totalEarnings.toLocaleString('en-US')} MMK
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             )}
           </div>

@@ -236,7 +236,7 @@ export default function InstructorAttendanceHistory() {
               <option value="all">All Batches</option>
               {batches.map((batch) => (
                 <option key={batch.id} value={batch.id}>
-                  {batch.name}
+                  {batch.batch_name}
                 </option>
               ))}
             </select>
