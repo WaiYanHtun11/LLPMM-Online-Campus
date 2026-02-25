@@ -4,6 +4,7 @@ import { useAuth } from '@/lib/auth-context'
 import { useRouter } from 'next/navigation'
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { supabase } from '@/lib/supabase'
 
 interface BatchData {
@@ -83,6 +84,15 @@ export default function StudentCourseDetail({ params }: { params: Promise<{ id: 
   const [recentActivity, setRecentActivity] = useState<RecentActivity[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
+  const navItems = [
+    { href: '/', label: 'Home' },
+    { href: '/student/courses', label: 'My Courses' },
+    { href: '/student/attendance', label: 'Attendance' },
+    { href: '/student/assignments', label: 'Assignments' },
+    { href: '/student/payments', label: 'Payments' },
+  ]
   
   // Testimonial states
   const [existingTestimonial, setExistingTestimonial] = useState<TestimonialData | null>(null)
@@ -485,25 +495,94 @@ export default function StudentCourseDetail({ params }: { params: Promise<{ id: 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
       {/* Header */}
-      <div className="bg-white border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-          <div>
-            <Link href="/student" className="text-2xl font-bold text-blue-600 hover:text-blue-700 transition">
-              LLPMM Campus
-            </Link>
-            <p className="text-sm text-gray-600 mt-1">Student Portal</p>
-          </div>
-          <div className="flex items-center gap-4">
-            <span className="text-sm text-gray-600">Student: {userProfile.name}</span>
-            <button
-              onClick={handleLogout}
-              className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition text-sm font-semibold"
-            >
-              Logout
-            </button>
+      <header className="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4">
+          <div className="flex items-center justify-between gap-2 sm:gap-4">
+            <div className="flex items-center gap-2 sm:gap-4 min-w-0">
+              <button
+                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                className="md:hidden p-2 hover:bg-gray-100 rounded-lg transition-colors flex-shrink-0"
+                aria-label="Toggle menu"
+              >
+                <svg className="w-6 h-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  {mobileMenuOpen ? (
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  ) : (
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                  )}
+                </svg>
+              </button>
+              <Link href="/">
+                <Image
+                  src="/llpmm-logo.jpg"
+                  alt="LLPMM Logo"
+                  width={44}
+                  height={44}
+                  className="rounded-full"
+                />
+              </Link>
+              <div className="min-w-0">
+                <h1 className="text-base sm:text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent truncate">Student Portal</h1>
+                <p className="text-xs sm:text-sm text-gray-500 truncate hidden sm:block">LLPMM Online Campus</p>
+              </div>
+            </div>
+            <div className="hidden md:flex gap-6 items-center">
+              {navItems.map((item) => (
+                <div key={item.href} className="relative">
+                  <Link
+                    href={item.href}
+                    className={`transition-all font-medium text-sm bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent ${
+                      item.href === '/student/courses'
+                        ? ''
+                        : 'hover:from-blue-700 hover:to-pink-600'
+                    }`}
+                  >
+                    {item.label}
+                  </Link>
+                  {item.href === '/student/courses' && (
+                    <div className="absolute -bottom-[13px] left-0 right-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600"></div>
+                  )}
+                </div>
+              ))}
+            </div>
+            <div className="flex items-center gap-2 sm:gap-4 flex-shrink-0">
+              <div className="text-right hidden sm:block">
+                <p className="text-xs sm:text-sm font-semibold text-gray-900 truncate">{userProfile.name}</p>
+                <p className="text-xs text-gray-600 truncate">{userProfile.email}</p>
+              </div>
+              <p className="text-xs sm:text-sm font-semibold text-gray-900 sm:hidden truncate">{userProfile.name}</p>
+              <button
+                onClick={handleLogout}
+                className="px-2 sm:px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition text-xs sm:text-sm font-semibold whitespace-nowrap"
+              >
+                Logout
+              </button>
+            </div>
           </div>
         </div>
-      </div>
+
+        {/* Mobile Menu Drawer */}
+        {mobileMenuOpen && (
+          <div className="md:hidden border-t border-gray-200 bg-white">
+            <div className="px-4 py-4 space-y-2">
+              {navItems.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={`block px-4 py-3 rounded-lg transition-all font-medium bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent ${
+                    item.href === '/student/courses'
+                      ? 'bg-blue-50'
+                      : 'hover:bg-blue-50 hover:from-blue-700 hover:to-pink-600'
+                  }`}
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
+      </header>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Breadcrumb */}

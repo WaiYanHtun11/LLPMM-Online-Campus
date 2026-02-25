@@ -2,84 +2,48 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { CodeRain, FloatingCodeSymbols, CodeBadge } from '@/components/CodeElements'
-import HomeNavbarAuthButton from '@/components/HomeNavbarAuthButton'
+import { supabase } from '@/lib/supabase'
+import PublicNavbar from '@/components/PublicNavbar'
+import PublicFooter from '@/components/PublicFooter'
 
 export default function Home() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [batchCount, setBatchCount] = useState(0)
+  const [popularCourses, setPopularCourses] = useState<any[]>([])
 
-  const navItems = [
-    { href: '/courses', label: 'Courses' },
-    { href: '/batches', label: 'Batches' },
-    { href: '/roadmaps', label: 'Roadmaps' },
-    { href: '/testimonials', label: 'Testimonials' },
-    { href: '/about', label: 'About' },
-  ]
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        // Fetch batch count
+        const { count, error: batchError } = await supabase
+          .from('batches')
+          .select('*', { count: 'exact', head: true })
+          .in('status', ['upcoming', 'ongoing'])
+        
+        if (batchError) throw batchError
+        setBatchCount(count || 0)
+
+        // Fetch popular courses (just get first 3 courses for now)
+        const { data: coursesData, error: coursesError } = await supabase
+          .from('courses')
+          .select('*')
+          .order('created_at', { ascending: false })
+          .limit(3)
+        
+        if (coursesError) throw coursesError
+        setPopularCourses(coursesData || [])
+      } catch (err) {
+        console.error('Error fetching data:', err)
+      }
+    }
+    
+    fetchData()
+  }, [])
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
-      <header className="border-b bg-white/95 backdrop-blur-md sticky top-0 z-50 shadow-sm">
-        <nav className="container mx-auto px-4 py-3 sm:py-4 flex items-center gap-3">
-          <button
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-2 hover:bg-gray-100 rounded-lg transition-colors flex-shrink-0"
-            aria-label="Toggle menu"
-          >
-            <svg className="w-6 h-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              {mobileMenuOpen ? (
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              ) : (
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              )}
-            </svg>
-          </button>
-          <Link href="/" className="flex items-center gap-2 sm:gap-3 hover:opacity-80 transition-all min-w-0">
-            <Image 
-              src="/llpmm-logo.jpg" 
-              alt="LLPMM Logo" 
-              width={44} 
-              height={44}
-              className="rounded-full ring-2 ring-blue-100"
-            />
-            <div className="min-w-0">
-              <div className="text-base sm:text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent truncate">
-                LLPMM Online Campus
-              </div>
-              <div className="hidden sm:block text-xs text-gray-500">Let's Learn Programming - Myanmar</div>
-            </div>
-          </Link>
-          <div className="hidden md:flex gap-8 flex-1 justify-center">
-            {navItems.map((item) => (
-              <Link key={item.href} href={item.href} className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
-                {item.label}
-              </Link>
-            ))}
-          </div>
-          <div className="ml-auto">
-            <HomeNavbarAuthButton />
-          </div>
-        </nav>
-
-        {/* Mobile Menu Drawer */}
-        {mobileMenuOpen && (
-          <div className="md:hidden border-t border-gray-200 bg-white">
-            <div className="px-4 py-4 space-y-2">
-              {navItems.map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors font-medium"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  {item.label}
-                </Link>
-              ))}
-            </div>
-          </div>
-        )}
-      </header>
+      <PublicNavbar activeHref="/" includeTestimonials />
 
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50">
@@ -102,7 +66,9 @@ export default function Home() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
               </span>
-              <span className="text-xs sm:text-sm font-semibold text-gray-700">🎓 Now Enrolling - 5 Batches Available</span>
+              <span className="text-xs sm:text-sm font-semibold text-gray-700">
+                🎓 Now Enrolling - {batchCount} {batchCount === 1 ? 'Batch' : 'Batches'} Available
+              </span>
             </div>
 
             <h1 className="text-3xl sm:text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
@@ -110,7 +76,7 @@ export default function Home() {
                 Master Programming
               </span>
               <br />
-              <span className="text-gray-900">In Myanmar 🇲🇲</span>
+              <span className="text-gray-900">In Myanmar</span>
             </h1>
             
             <p className="text-base sm:text-xl md:text-2xl text-gray-600 mb-6 max-w-3xl mx-auto leading-relaxed">
@@ -315,86 +281,146 @@ export default function Home() {
       </section>
 
       {/* Course Highlights */}
-      <section className="py-16 sm:py-20 md:py-24 bg-gray-50">
+      <section className="py-20 md:py-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-4 text-gray-900">
+            <h2 className="text-5xl md:text-6xl font-extrabold mb-6 leading-tight text-gray-900">
               Popular <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Courses</span>
             </h2>
-            <p className="text-base sm:text-xl text-gray-600 max-w-2xl mx-auto">
+            <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               Start your programming journey with our most loved courses
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12">
-            {/* Course Card 1 */}
-            <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2 overflow-hidden border border-gray-100 flex flex-col">
-              <div className="bg-gradient-to-br from-blue-500 to-blue-600 h-32 flex items-center justify-center">
-                <svg className="w-16 h-16 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                </svg>
-              </div>
-              <div className="p-6 flex flex-col flex-grow">
-                <span className="inline-block px-3 py-1 bg-green-100 text-green-700 rounded-full text-xs font-semibold mb-3 w-fit">Beginner</span>
-                <h3 className="text-xl sm:text-2xl font-bold mb-2 text-gray-900">Python Fundamentals</h3>
-                <p className="text-gray-600 mb-4 flex-grow">Learn Python from scratch. Build real projects and prepare for advanced courses.</p>
-                <div className="mt-auto">
-                  <div className="flex items-center justify-between text-sm text-gray-500 mb-4">
-                    <span>⏱️ 8 weeks</span>
-                    <span className="font-bold text-gray-900">100,000 MMK</span>
-                  </div>
-                  <Link href="/courses/python-fundamentals" className="block text-center bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition">
-                    View Course
-                  </Link>
-                </div>
-              </div>
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+            {popularCourses.length > 0 ? (
+              popularCourses.map((course) => {
+                const levelColors = {
+                  'Beginner': 'bg-green-100 text-green-700 border-green-200',
+                  'Intermediate': 'bg-yellow-100 text-yellow-700 border-yellow-200',
+                  'Advanced': 'bg-red-100 text-red-700 border-red-200'
+                }
+                const levelColor = levelColors[course.level as keyof typeof levelColors] || 'bg-gray-100 text-gray-700 border-gray-200'
+                
+                const categoryIcons: Record<string, string> = {
+                  'Programming': '💻',
+                  'Web Development': '🌐',
+                  'Mobile Development': '📱',
+                  'Computer Science': '🎓',
+                  'Data Science': '📊',
+                  'DevOps': '⚙️'
+                }
+                const categoryGradients: Record<string, string> = {
+                  'Programming': 'from-blue-500 to-blue-600',
+                  'Web Development': 'from-purple-500 to-purple-600',
+                  'Mobile Development': 'from-pink-500 to-pink-600',
+                  'Computer Science': 'from-indigo-500 to-indigo-600',
+                  'Data Science': 'from-green-500 to-green-600',
+                  'DevOps': 'from-orange-500 to-orange-600'
+                }
 
-            {/* Course Card 2 */}
-            <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2 overflow-hidden border border-gray-100 flex flex-col">
-              <div className="bg-gradient-to-br from-purple-500 to-purple-600 h-32 flex items-center justify-center">
-                <svg className="w-16 h-16 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
-                </svg>
-              </div>
-              <div className="p-6 flex flex-col flex-grow">
-                <span className="inline-block px-3 py-1 bg-green-100 text-green-700 rounded-full text-xs font-semibold mb-3 w-fit">Beginner</span>
-                <h3 className="text-xl sm:text-2xl font-bold mb-2 text-gray-900">Web Development</h3>
-                <p className="text-gray-600 mb-4 flex-grow">Master HTML, CSS, and JavaScript. Build responsive websites from scratch.</p>
-                <div className="mt-auto">
-                  <div className="flex items-center justify-between text-sm text-gray-500 mb-4">
-                    <span>⏱️ 10 weeks</span>
-                    <span className="font-bold text-gray-900">120,000 MMK</span>
-                  </div>
-                  <Link href="/courses/web-dev-basics" className="block text-center bg-purple-600 text-white py-3 rounded-lg font-semibold hover:bg-purple-700 transition">
-                    View Course
-                  </Link>
-                </div>
-              </div>
-            </div>
+                const categoryGradient = categoryGradients[course.category] || 'from-gray-500 to-gray-600'
+                const categoryIcon = categoryIcons[course.category] || '📖'
+                const courseDurationText = course.duration || (course.duration_weeks ? `${course.duration_weeks} weeks` : 'TBA')
 
-            {/* Course Card 3 */}
-            <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2 overflow-hidden border border-gray-100 flex flex-col">
-              <div className="bg-gradient-to-br from-pink-500 to-pink-600 h-32 flex items-center justify-center">
-                <svg className="w-16 h-16 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                </svg>
-              </div>
-              <div className="p-6 flex flex-col flex-grow">
-                <span className="inline-block px-3 py-1 bg-yellow-100 text-yellow-700 rounded-full text-xs font-semibold mb-3 w-fit">Intermediate</span>
-                <h3 className="text-xl sm:text-2xl font-bold mb-2 text-gray-900">React & Next.js</h3>
-                <p className="text-gray-600 mb-4 flex-grow">Build modern web apps with React and Next.js framework.</p>
-                <div className="mt-auto">
-                  <div className="flex items-center justify-between text-sm text-gray-500 mb-4">
-                    <span>⏱️ 10 weeks</span>
-                    <span className="font-bold text-gray-900">150,000 MMK</span>
+                return (
+                  <div key={course.id} className="bg-gradient-to-r from-blue-200 via-purple-200 to-blue-200 p-[1px] rounded-2xl h-full">
+                    <Link
+                      href={`/courses/${course.slug}`}
+                      className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden flex flex-col h-full"
+                    >
+                      <div className="relative h-48 overflow-hidden">
+                        {course.image_url ? (
+                          <>
+                            <Image
+                              src={course.image_url}
+                              alt={course.title}
+                              fill
+                              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                            />
+                            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+                          </>
+                        ) : (
+                          <>
+                            <div className={`bg-gradient-to-br ${categoryGradient} h-full flex items-center justify-center relative`}>
+                              <div className="absolute inset-0 bg-black/10"></div>
+                              <div className="text-6xl relative z-10 group-hover:scale-110 transition-transform duration-300">
+                                {categoryIcon}
+                              </div>
+                            </div>
+                          </>
+                        )}
+
+                        <div className="absolute top-4 right-4 z-10">
+                          <span className={`px-3 py-1 rounded-full text-xs font-bold border ${levelColor} backdrop-blur-sm bg-white/90`}>
+                            {course.level}
+                          </span>
+                        </div>
+
+                        <div className="absolute bottom-4 left-4 z-10">
+                          <span className="px-3 py-2 rounded-lg text-xs font-bold bg-white/90 backdrop-blur-sm text-gray-800 flex items-center gap-2">
+                            <span>{categoryIcon}</span>
+                            <span>{course.category}</span>
+                          </span>
+                        </div>
+                      </div>
+
+                      <div className="flex items-center justify-between px-4 py-2 bg-gray-900 border-b border-gray-800">
+                        <div className="flex items-center gap-1.5">
+                          <span className="w-2.5 h-2.5 rounded-full bg-red-400"></span>
+                          <span className="w-2.5 h-2.5 rounded-full bg-yellow-400"></span>
+                          <span className="w-2.5 h-2.5 rounded-full bg-green-400"></span>
+                        </div>
+                        <span className="text-[11px] text-gray-400 font-mono">course.config.ts</span>
+                        <span className="text-[11px] text-emerald-400 font-mono">/{course.slug}</span>
+                      </div>
+
+                      <div className="p-6 flex flex-col flex-grow">
+                        <div className="flex justify-start items-center mb-3">
+                          <span className="text-sm text-gray-500 flex items-center gap-1">
+                            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            <span className="font-mono text-xs bg-gray-100 text-gray-700 px-2 py-0.5 rounded">duration</span>
+                            {courseDurationText}
+                          </span>
+                        </div>
+
+                        <h3 className="text-2xl font-bold mb-3 text-gray-900 group-hover:text-blue-600 transition-colors">
+                          {course.title}
+                        </h3>
+                        <p className="text-xs font-mono text-gray-500 mb-3">{`const coursePath = '/courses/${course.slug}'`}</p>
+
+                        <p className="text-gray-600 text-sm mb-4 line-clamp-3 leading-relaxed flex-grow">
+                          {course.short_description || course.description}
+                        </p>
+
+                        <div className="mt-auto">
+                          <div className="flex justify-between items-center pt-4 border-t border-gray-100 mb-4">
+                            <div>
+                              <div className="text-sm text-gray-500 mb-1">Course Fee</div>
+                              <div className="text-2xl font-extrabold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                                {course.fee.toLocaleString()} MMK
+                              </div>
+                              <div className="text-xs text-gray-500 mt-1">💳 2 installments OK</div>
+                            </div>
+                          </div>
+
+                          <div className="w-full bg-gray-900 border border-gray-700 text-center py-3 rounded-xl font-mono text-sm font-semibold group-hover:bg-gray-800 group-hover:border-emerald-400/60 transition-all">
+                            <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">{'cat ./course-details.md'}</span>
+                          </div>
+                        </div>
+                      </div>
+                    </Link>
                   </div>
-                  <Link href="/courses/react-nextjs-mastery" className="block text-center bg-pink-600 text-white py-3 rounded-lg font-semibold hover:bg-pink-700 transition">
-                    View Course
-                  </Link>
-                </div>
+                )
+              })
+            ) : (
+              // Fallback/Loading state
+              <div className="col-span-full text-center py-12 text-gray-500">
+                Loading courses...
               </div>
-            </div>
+            )}
           </div>
 
           <div className="text-center">
@@ -524,78 +550,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-gray-900 text-gray-300 py-16">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
-            <div className="md:col-span-2">
-              <div className="flex items-center gap-3 mb-6">
-                <Image 
-                  src="/llpmm-logo.jpg" 
-                  alt="LLPMM Logo" 
-                  width={50} 
-                  height={50}
-                  className="rounded-full"
-                />
-                <div>
-                  <h3 className="text-white font-bold text-xl">LLPMM Online Campus</h3>
-                  <p className="text-sm text-gray-400">Let's Learn Programming - Myanmar</p>
-                </div>
-              </div>
-              <p className="text-gray-400 mb-6 max-w-md">
-                Empowering Myanmar's next generation of developers with world-class programming education. 
-                Learn, Build, Launch.
-              </p>
-              <div className="flex gap-4">
-                <a href="https://www.facebook.com/LetsLearnProgrammingMyanmar" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition">
-                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-                </a>
-                <a href="https://t.me/LetsLearnProgrammingMyanmar" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-400 transition">
-                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.053 5.56-5.023c.242-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z"/></svg>
-                </a>
-                <a href="https://www.youtube.com/@letslearnprogramming-myanmar" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-red-600 transition">
-                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-                </a>
-              </div>
-            </div>
-            
-            <div>
-              <h3 className="text-white font-bold text-lg mb-4">Quick Links</h3>
-              <ul className="space-y-3 text-sm">
-                <li><Link href="/courses" className="hover:text-white transition">All Courses</Link></li>
-                <li><Link href="/batches" className="hover:text-white transition">Upcoming Batches</Link></li>
-                <li><Link href="/roadmaps" className="hover:text-white transition">Learning Roadmaps</Link></li>
-                <li><Link href="/about" className="hover:text-white transition">About Us</Link></li>
-                <li><Link href="/faq" className="hover:text-white transition">FAQ</Link></li>
-              </ul>
-            </div>
-            
-            <div>
-              <h3 className="text-white font-bold text-lg mb-4">Contact</h3>
-              <ul className="space-y-3 text-sm">
-                <li className="flex items-center gap-2">
-                  <svg className="w-4 h-4 text-blue-400" fill="currentColor" viewBox="0 0 20 20"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/></svg>
-                  contact.llpmm@gmail.com
-                </li>
-                <li className="flex items-center gap-2">
-                  <svg className="w-4 h-4 text-green-400" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
-                  09452784045
-                </li>
-              </ul>
-            </div>
-          </div>
-          
-          <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-sm text-gray-400">
-              &copy; 2026 Let's Learn Programming - Myanmar. All rights reserved.
-            </p>
-            <div className="flex gap-6 text-sm">
-              <Link href="/privacy" className="hover:text-white transition">Privacy Policy</Link>
-              <Link href="/terms" className="hover:text-white transition">Terms of Service</Link>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <PublicFooter includeTestimonials showLegalLinks showFaq />
     </div>
   )
 }

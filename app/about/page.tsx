@@ -2,18 +2,11 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
-import { useState } from 'react'
 import { CodeRain, FloatingCodeSymbols, CodeBadge } from '@/components/CodeElements'
+import PublicNavbar from '@/components/PublicNavbar'
+import PublicFooter from '@/components/PublicFooter'
 
 export default function AboutPage() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-
-  const navItems = [
-    { href: '/courses', label: 'Courses' },
-    { href: '/batches', label: 'Batches' },
-    { href: '/roadmaps', label: 'Roadmaps' },
-    { href: '/about', label: 'About' },
-  ]
 
   const technologies = [
     { name: 'C', icon: '🔷', color: 'from-blue-500 to-blue-600', category: 'Systems Programming' },
@@ -63,82 +56,7 @@ export default function AboutPage() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
-      <header className="border-b bg-white/95 backdrop-blur-md sticky top-0 z-50 shadow-sm">
-        <nav className="container mx-auto px-4 py-3 sm:py-4 flex items-center gap-3">
-          <button
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-2 hover:bg-gray-100 rounded-lg transition-colors flex-shrink-0"
-            aria-label="Toggle menu"
-          >
-            <svg className="w-6 h-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              {mobileMenuOpen ? (
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              ) : (
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              )}
-            </svg>
-          </button>
-          <Link href="/" className="flex items-center gap-2 sm:gap-3 hover:opacity-80 transition-all min-w-0">
-            <Image 
-              src="/llpmm-logo.jpg" 
-              alt="LLPMM Logo" 
-              width={44}
-              height={44}
-              className="rounded-full ring-2 ring-blue-100"
-            />
-            <div className="min-w-0">
-              <div className="text-base sm:text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent truncate">
-                LLPMM Online Campus
-              </div>
-              <div className="hidden sm:block text-xs text-gray-500">Let's Learn Programming - Myanmar</div>
-            </div>
-          </Link>
-          <div className="hidden md:flex gap-8 flex-1 justify-center">
-            {navItems.map((item) => (
-              <Link 
-                key={item.href}
-                href={item.href} 
-                className={`font-medium transition-colors ${
-                  item.href === '/about' 
-                    ? 'text-blue-600 border-b-2 border-blue-600' 
-                    : 'text-gray-700 hover:text-blue-600'
-                }`}
-              >
-                {item.label}
-              </Link>
-            ))}
-          </div>
-          <Link 
-            href="/login" 
-            className="ml-auto bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 sm:px-6 py-2 rounded-lg hover:from-blue-700 hover:to-purple-700 transition shadow-md text-sm sm:text-base"
-          >
-            Login
-          </Link>
-        </nav>
-
-        {/* Mobile Menu Drawer */}
-        {mobileMenuOpen && (
-          <div className="md:hidden border-t border-gray-200 bg-white">
-            <div className="px-4 py-4 space-y-2">
-              {navItems.map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className={`block px-4 py-3 rounded-lg transition-colors font-medium ${
-                    item.href === '/about'
-                      ? 'text-blue-600 bg-blue-50'
-                      : 'text-gray-700 hover:bg-blue-50 hover:text-blue-600'
-                  }`}
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  {item.label}
-                </Link>
-              ))}
-            </div>
-          </div>
-        )}
-      </header>
+      <PublicNavbar activeHref="/about" includeTestimonials />
 
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50">
@@ -693,65 +611,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-gray-900 text-gray-300 py-16">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
-            <div className="md:col-span-2">
-              <div className="flex items-center gap-3 mb-6">
-                <Image 
-                  src="/llpmm-logo.jpg" 
-                  alt="LLPMM Logo" 
-                  width={50} 
-                  height={50}
-                  className="rounded-full"
-                />
-                <h3 className="text-white font-bold text-lg">LLPMM Online Campus</h3>
-              </div>
-              <p className="text-sm mb-6 leading-relaxed">
-                Let's Learn Programming - Myanmar<br />
-                Your gateway to programming excellence. Join 8,870+ students building their future in tech.
-              </p>
-              <div className="flex gap-4">
-                <a href="https://www.facebook.com/LetsLearnProgrammingMyanmar" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition">
-                  <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-                </a>
-                <a href="https://t.me/LetsLearnProgrammingMyanmar" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center hover:bg-blue-600 transition">
-                  <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.053 5.56-5.023c.242-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z"/></svg>
-                </a>
-                <a href="https://www.youtube.com/@letslearnprogramming-myanmar" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-red-600 rounded-full flex items-center justify-center hover:bg-red-700 transition">
-                  <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-                </a>
-              </div>
-            </div>
-            <div>
-              <h3 className="text-white font-bold text-lg mb-4">Quick Links</h3>
-              <ul className="space-y-2 text-sm">
-                <li><Link href="/courses" className="hover:text-white transition">Courses</Link></li>
-                <li><Link href="/batches" className="hover:text-white transition">Upcoming Batches</Link></li>
-                <li><Link href="/roadmaps" className="hover:text-white transition">Learning Roadmaps</Link></li>
-                <li><Link href="/about" className="hover:text-white transition">About Us</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-white font-bold text-lg mb-4">Contact</h3>
-              <ul className="space-y-3 text-sm">
-                <li className="flex items-center gap-2">
-                  <svg className="w-4 h-4 text-blue-400" fill="currentColor" viewBox="0 0 20 20"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/></svg>
-                  contact.llpmm@gmail.com
-                </li>
-                <li className="flex items-center gap-2">
-                  <svg className="w-4 h-4 text-green-400" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
-                  09452784045
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="border-t border-gray-800 pt-8 text-center text-sm">
-            <p>&copy; 2026 Let's Learn Programming - Myanmar. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
+      <PublicFooter />
     </div>
   )
 }

@@ -3,6 +3,8 @@ import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import { supabase } from '@/lib/supabase'
 import { CodeRain, FloatingCodeSymbols, CodeBadge } from '@/components/CodeElements'
+import PublicNavbar from '@/components/PublicNavbar'
+import PublicFooter from '@/components/PublicFooter'
 
 export default async function CourseDetailPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
@@ -47,9 +49,15 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ s
   }) || []
 
   const levelColors = {
-    'Beginner': 'bg-gradient-to-r from-green-500 to-emerald-500 text-white',
-    'Intermediate': 'bg-gradient-to-r from-yellow-500 to-orange-500 text-white',
-    'Advanced': 'bg-gradient-to-r from-red-500 to-pink-500 text-white'
+    'Beginner': 'bg-gradient-to-r from-green-500 to-emerald-500',
+    'Intermediate': 'bg-gradient-to-r from-yellow-500 to-orange-500',
+    'Advanced': 'bg-gradient-to-r from-red-500 to-pink-500'
+  }
+
+  const levelTextColors = {
+    'Beginner': 'from-green-600 to-emerald-600',
+    'Intermediate': 'from-yellow-600 to-orange-600',
+    'Advanced': 'from-red-600 to-pink-600'
   }
 
   const categoryColors = {
@@ -60,10 +68,14 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ s
     'DevOps': 'from-orange-500 to-orange-600'
   }
 
-  const levelColor = levelColors[course.level as keyof typeof levelColors] || 'bg-gray-100 text-gray-700'
+  const levelColor = levelColors[course.level as keyof typeof levelColors] || 'bg-gradient-to-r from-gray-400 to-gray-500'
+  const levelTextColor = levelTextColors[course.level as keyof typeof levelTextColors] || 'from-gray-600 to-gray-700'
   const categoryGradient = categoryColors[course.category as keyof typeof categoryColors] || 'from-gray-500 to-gray-600'
   const rawOutlines = Array.isArray(course.outlines) ? course.outlines : []
   const learningOutcomes = Array.isArray(course.learning_outcomes) ? course.learning_outcomes : []
+  const courseDurationText = course.duration_weeks
+    ? `${course.duration_weeks} weeks`
+    : (course.duration || 'N/A')
 
   const parseOutlineText = (text: string) => {
     const sections: Array<{ title: string; items: string[] }> = []
@@ -114,33 +126,7 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ s
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
-      <header className="border-b bg-white/95 backdrop-blur-md sticky top-0 z-50 shadow-sm">
-        <nav className="container mx-auto px-4 py-5 flex justify-between items-center">
-          <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-all">
-            <Image 
-              src="/llpmm-logo.jpg" 
-              alt="LLPMM Logo" 
-              width={50} 
-              height={50}
-              className="rounded-full"
-            />
-            <span className="text-xl font-bold text-gray-900">LLPMM Online Campus</span>
-          </Link>
-          <div className="hidden md:flex gap-6 items-center">
-            <Link href="/courses" className="text-blue-600 font-bold">Courses</Link>
-            <Link href="/batches" className="hover:text-blue-600 transition font-medium">Upcoming Batches</Link>
-            <Link href="/roadmaps" className="hover:text-blue-600 transition font-medium">Roadmaps</Link>
-            <Link href="/about" className="hover:text-blue-600 transition font-medium">About</Link>
-          </div>
-          <Link 
-            href="/login" 
-            className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-lg hover:from-blue-700 hover:to-purple-700 transition shadow-md"
-          >
-            Login
-          </Link>
-        </nav>
-      </header>
+      <PublicNavbar activeHref="/courses" />
 
       {/* Hero Section with Course Image */}
       <section className="relative overflow-hidden bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50">
@@ -162,10 +148,20 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ s
               {/* Left: Course Info */}
               <div>
                 <div className="flex items-center gap-3 mb-4">
-                  <span className={`px-4 py-2 rounded-full text-sm font-bold shadow-lg ${levelColor}`}>
-                    {course.level}
-                  </span>
-                  <CodeBadge>{course.category}</CodeBadge>
+                  <div className={`${levelColor} p-[2px] rounded-full shadow-lg`}>
+                    <span className="block px-4 py-2 rounded-full text-sm font-bold bg-white">
+                      <span className={`bg-gradient-to-r ${levelTextColor} bg-clip-text text-transparent`}>
+                        {course.level}
+                      </span>
+                    </span>
+                  </div>
+                  <div className="bg-gradient-to-r from-blue-600 to-purple-600 p-[2px] rounded-md shadow-sm">
+                    <span className="inline-flex items-center px-3 py-1 rounded-[5px] bg-white font-mono text-sm">
+                      <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                        {course.category}
+                      </span>
+                    </span>
+                  </div>
                 </div>
 
                 <h1 className="text-4xl md:text-5xl font-extrabold mb-4 text-gray-900">
@@ -184,7 +180,7 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ s
                     <svg className="w-5 h-5 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
-                    <span className="font-semibold">{course.duration_weeks} weeks</span>
+                    <span className="font-semibold">{courseDurationText}</span>
                   </div>
                   <div className="flex items-center gap-2 text-gray-700">
                     <svg className="w-5 h-5 text-purple-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -283,8 +279,8 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ s
                   const items = Array.isArray(outline?.items) ? outline.items : []
 
                   return (
-                    <div key={index} className="bg-gradient-to-r from-blue-200 via-purple-200 to-blue-200 p-[1px] rounded-xl">
-                      <div className="bg-white rounded-xl p-6 shadow-sm">
+                    <div key={index} className="bg-gradient-to-r from-blue-200 via-purple-200 to-blue-200 p-[1px] rounded-xl h-full">
+                      <div className="bg-white rounded-xl p-6 shadow-sm h-full">
                         <div className="text-xs text-gray-500 mb-1">Module {index + 1}</div>
                         <h3 className="text-lg font-bold text-gray-900 mb-3">{title}</h3>
                         {items.length > 0 ? (
@@ -444,65 +440,7 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ s
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-gray-900 text-gray-300 py-16">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
-            <div className="md:col-span-2">
-              <div className="flex items-center gap-3 mb-6">
-                <Image 
-                  src="/llpmm-logo.jpg" 
-                  alt="LLPMM Logo" 
-                  width={50} 
-                  height={50}
-                  className="rounded-full"
-                />
-                <h3 className="text-white font-bold text-lg">LLPMM Online Campus</h3>
-              </div>
-              <p className="text-sm mb-6 leading-relaxed">
-                Let's Learn Programming - Myanmar<br />
-                Your gateway to programming excellence. Join 8,870+ students building their future in tech.
-              </p>
-              <div className="flex gap-4">
-                <a href="https://www.facebook.com/LetsLearnProgrammingMyanmar" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition">
-                  <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-                </a>
-                <a href="https://t.me/LLP_MM" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center hover:bg-blue-600 transition">
-                  <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.053 5.56-5.023c.242-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z"/></svg>
-                </a>
-                <a href="https://www.youtube.com/@letslearnprogramming-myanmar" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-red-600 rounded-full flex items-center justify-center hover:bg-red-700 transition">
-                  <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-                </a>
-              </div>
-            </div>
-            <div>
-              <h3 className="text-white font-bold text-lg mb-4">Quick Links</h3>
-              <ul className="space-y-2 text-sm">
-                <li><Link href="/courses" className="hover:text-white transition">Courses</Link></li>
-                <li><Link href="/batches" className="hover:text-white transition">Upcoming Batches</Link></li>
-                <li><Link href="/roadmaps" className="hover:text-white transition">Learning Roadmaps</Link></li>
-                <li><Link href="/about" className="hover:text-white transition">About Us</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-white font-bold text-lg mb-4">Contact</h3>
-              <ul className="space-y-3 text-sm">
-                <li className="flex items-center gap-2">
-                  <svg className="w-4 h-4 text-blue-400" fill="currentColor" viewBox="0 0 20 20"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/></svg>
-                  contact.llpmm@gmail.com
-                </li>
-                <li className="flex items-center gap-2">
-                  <svg className="w-4 h-4 text-green-400" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
-                  09452784045
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="border-t border-gray-800 pt-8 text-center text-sm">
-            <p>&copy; 2026 Let's Learn Programming - Myanmar. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
+      <PublicFooter />
     </div>
   )
 }

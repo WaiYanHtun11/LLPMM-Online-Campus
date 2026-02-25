@@ -182,17 +182,21 @@ export default function StudentCourses() {
 
             <div className="hidden md:flex gap-6 items-center">
               {navItems.map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className={`transition-colors font-medium text-sm ${
-                    item.href === '/student/courses'
-                      ? 'text-blue-600 border-b-2 border-blue-600'
-                      : 'text-gray-700 hover:text-blue-600'
-                  }`}
-                >
-                  {item.label}
-                </Link>
+                <div key={item.href} className="relative">
+                  <Link
+                    href={item.href}
+                    className={`transition-all font-medium text-sm bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent ${
+                      item.href === '/student/courses'
+                        ? ''
+                        : 'hover:from-blue-700 hover:to-pink-600'
+                    }`}
+                  >
+                    {item.label}
+                  </Link>
+                  {item.href === '/student/courses' && (
+                    <div className="absolute -bottom-[13px] left-0 right-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600"></div>
+                  )}
+                </div>
               ))}
             </div>
 
@@ -219,10 +223,10 @@ export default function StudentCourses() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className={`block px-4 py-3 rounded-lg transition-colors font-medium ${
+                  className={`block px-4 py-3 rounded-lg transition-all font-medium bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent ${
                     item.href === '/student/courses'
-                      ? 'text-blue-600 bg-blue-50'
-                      : 'text-gray-700 hover:bg-blue-50 hover:text-blue-600'
+                      ? 'bg-blue-50'
+                      : 'hover:bg-blue-50 hover:from-blue-700 hover:to-pink-600'
                   }`}
                   onClick={() => setMobileMenuOpen(false)}
                 >

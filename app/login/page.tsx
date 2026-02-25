@@ -150,8 +150,10 @@ export default function LoginPage() {
                 rel="noopener noreferrer"
                 className="inline-block w-full rounded-lg p-[1px] bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-500"
               >
-                <span className="block w-full rounded-lg bg-white py-3 font-semibold text-cyan-700 hover:bg-cyan-50 transition">
-                  📱 Contact Admin to Enroll
+                <span className="block w-full rounded-lg bg-white py-3 font-semibold hover:bg-cyan-50 transition">
+                  <span className="bg-gradient-to-r from-cyan-600 via-blue-600 to-purple-600 bg-clip-text text-transparent">
+                    Contact Admin to Enroll
+                  </span>
                 </span>
               </a>
             </div>

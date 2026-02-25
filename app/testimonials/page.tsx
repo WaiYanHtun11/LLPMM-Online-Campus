@@ -4,6 +4,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import { supabase } from '@/lib/supabase'
+import PublicNavbar from '@/components/PublicNavbar'
+import PublicFooter from '@/components/PublicFooter'
 
 interface Testimonial {
   id: string
@@ -58,34 +60,7 @@ export default function TestimonialsPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-purple-50">
-      {/* Header */}
-      <header className="border-b bg-white/95 backdrop-blur-md sticky top-0 z-50 shadow-sm">
-        <nav className="container mx-auto px-4 py-5 flex justify-between items-center">
-          <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-all">
-            <Image 
-              src="/llpmm-logo.jpg" 
-              alt="LLPMM Logo" 
-              width={50} 
-              height={50}
-              className="rounded-full"
-            />
-            <span className="text-xl font-bold text-gray-900">LLPMM Online Campus</span>
-          </Link>
-          <div className="hidden md:flex gap-6 items-center">
-            <Link href="/courses" className="hover:text-blue-600 transition font-medium">Courses</Link>
-            <Link href="/batches" className="hover:text-blue-600 transition font-medium">Batches</Link>
-            <Link href="/roadmaps" className="hover:text-blue-600 transition font-medium">Roadmaps</Link>
-            <Link href="/testimonials" className="text-blue-600 font-bold">Testimonials</Link>
-            <Link href="/about" className="hover:text-blue-600 transition font-medium">About</Link>
-          </div>
-          <Link 
-            href="/login" 
-            className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-lg hover:from-blue-700 hover:to-purple-700 transition shadow-md"
-          >
-            Login
-          </Link>
-        </nav>
-      </header>
+      <PublicNavbar activeHref="/testimonials" includeTestimonials />
 
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-br from-blue-600 via-purple-600 to-pink-600 text-white py-20">
@@ -216,32 +191,7 @@ export default function TestimonialsPage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12">
-        <div className="container mx-auto px-4">
-          <div className="text-center">
-            <div className="flex items-center justify-center gap-3 mb-4">
-              <Image 
-                src="/llpmm-logo.jpg" 
-                alt="LLPMM Logo" 
-                width={40} 
-                height={40}
-                className="rounded-full"
-              />
-              <span className="text-xl font-bold">LLPMM Online Campus</span>
-            </div>
-            <p className="text-gray-400 mb-6">Let's Learn Programming - Myanmar</p>
-            <div className="flex justify-center gap-6 mb-6">
-              <Link href="/courses" className="hover:text-blue-400 transition">Courses</Link>
-              <Link href="/batches" className="hover:text-blue-400 transition">Batches</Link>
-              <Link href="/roadmaps" className="hover:text-blue-400 transition">Roadmaps</Link>
-              <Link href="/testimonials" className="hover:text-blue-400 transition">Testimonials</Link>
-              <Link href="/about" className="hover:text-blue-400 transition">About</Link>
-            </div>
-            <p className="text-sm text-gray-500">© 2024 LLPMM. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
+      <PublicFooter compact includeTestimonials />
     </div>
   )
 }

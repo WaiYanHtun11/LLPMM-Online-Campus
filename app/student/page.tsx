@@ -185,7 +185,7 @@ export default function StudentDashboard() {
                 <Link 
                   key={item.href}
                   href={item.href} 
-                  className="text-gray-700 hover:text-blue-600 transition-colors font-medium text-sm"
+                  className="font-medium text-sm transition-all bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent hover:from-blue-700 hover:to-pink-600"
                 >
                   {item.label}
                 </Link>
@@ -215,7 +215,7 @@ export default function StudentDashboard() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="block px-4 py-3 rounded-lg transition-colors font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+                  className="block px-4 py-3 rounded-lg transition-all font-medium bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent hover:bg-blue-50 hover:from-blue-700 hover:to-pink-600"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   {item.label}
