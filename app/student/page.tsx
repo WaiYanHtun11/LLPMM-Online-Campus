@@ -34,6 +34,7 @@ export default function StudentDashboard() {
   const [loading, setLoading] = useState(true)
 
   const navItems = [
+    { href: '/', label: 'Home' },
     { href: '/student/courses', label: 'My Courses' },
     { href: '/student/attendance', label: 'Attendance' },
     { href: '/student/assignments', label: 'Assignments' },

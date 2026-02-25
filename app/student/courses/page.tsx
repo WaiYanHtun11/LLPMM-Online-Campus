@@ -35,6 +35,7 @@ export default function StudentCourses() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   const navItems = [
+    { href: '/', label: 'Home' },
     { href: '/student/courses', label: 'My Courses' },
     { href: '/student/attendance', label: 'Attendance' },
     { href: '/student/assignments', label: 'Assignments' },

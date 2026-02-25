@@ -544,7 +544,7 @@ export default function Home() {
               </div>
               <p className="text-gray-400 mb-6 max-w-md">
                 Empowering Myanmar's next generation of developers with world-class programming education. 
-                Learn, Build, Launch. 🚀
+                Learn, Build, Launch.
               </p>
               <div className="flex gap-4">
                 <a href="https://www.facebook.com/LetsLearnProgrammingMyanmar" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition">

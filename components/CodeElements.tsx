@@ -69,6 +69,20 @@ export function CodeBlock({ code, language = "javascript" }: { code: string, lan
 export function FloatingCodeSymbols() {
   const symbols = ['{ }', '< >', '[ ]', '( )', '//', '=>', '...', '&&', '||', '++']
   
+  // Fixed positions for SSR compatibility (no Math.random)
+  const positions = [
+    { left: 10, top: 15 },
+    { left: 85, top: 25 },
+    { left: 20, top: 70 },
+    { left: 75, top: 80 },
+    { left: 45, top: 10 },
+    { left: 60, top: 65 },
+    { left: 30, top: 40 },
+    { left: 90, top: 50 },
+    { left: 15, top: 85 },
+    { left: 70, top: 35 },
+  ]
+  
   return (
     <div className="absolute inset-0 overflow-hidden pointer-events-none opacity-10">
       {symbols.map((symbol, i) => (
@@ -76,8 +90,8 @@ export function FloatingCodeSymbols() {
           key={i}
           className="absolute text-blue-500 font-mono text-4xl font-bold float-code"
           style={{
-            left: `${Math.random() * 100}%`,
-            top: `${Math.random() * 100}%`,
+            left: `${positions[i].left}%`,
+            top: `${positions[i].top}%`,
             animationDelay: `${i * 0.5}s`,
           }}
         >
