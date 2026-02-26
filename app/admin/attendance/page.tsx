@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation'
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { supabase } from '@/lib/supabase'
+import AdminNavbar from '@/components/AdminNavbar'
 
 interface BatchReport {
   id: string
@@ -149,26 +150,13 @@ export default function AdminAttendanceReports() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
-      {/* Header */}
-      <div className="bg-white border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-          <div>
-            <Link href="/admin" className="text-2xl font-bold text-blue-600 hover:text-blue-700 transition">
-              LLPMM Campus
-            </Link>
-            <p className="text-sm text-gray-600 mt-1">Admin Portal</p>
-          </div>
-          <div className="flex items-center gap-4">
-            <span className="text-sm text-gray-600">Admin: {userProfile.name}</span>
-            <button
-              onClick={handleLogout}
-              className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition text-sm font-semibold"
-            >
-              Logout
-            </button>
-          </div>
-        </div>
-      </div>
+      <AdminNavbar
+        title="Attendance Reports"
+        subtitle="Overview of attendance across all batches"
+        userName={userProfile.name}
+        userEmail={userProfile.email}
+        onLogout={handleLogout}
+      />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Breadcrumb */}

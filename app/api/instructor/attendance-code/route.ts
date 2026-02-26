@@ -67,3 +67,67 @@ export async function POST(request: NextRequest) {
     )
   }
 }
+
+export async function DELETE(request: NextRequest) {
+  try {
+    const { codeId, instructorId } = await request.json()
+
+    if (!codeId || !instructorId) {
+      return NextResponse.json(
+        { error: 'Missing required fields' },
+        { status: 400 }
+      )
+    }
+
+    const { data: codeRecord, error: fetchError } = await supabase
+      .from('attendance_codes')
+      .select('id, batch_id, generated_by')
+      .eq('id', codeId)
+      .single()
+
+    if (fetchError || !codeRecord) {
+      return NextResponse.json(
+        { error: 'Attendance code not found' },
+        { status: 404 }
+      )
+    }
+
+    const { data: batchRecord, error: batchError } = await supabase
+      .from('batches')
+      .select('id, instructor_id')
+      .eq('id', codeRecord.batch_id)
+      .single()
+
+    if (batchError || !batchRecord) {
+      return NextResponse.json(
+        { error: 'Batch not found for this attendance code' },
+        { status: 404 }
+      )
+    }
+
+    const isCodeOwner = codeRecord.generated_by === instructorId
+    const isBatchOwner = batchRecord.instructor_id === instructorId
+
+    if (!isCodeOwner && !isBatchOwner) {
+      return NextResponse.json(
+        { error: 'You do not have permission to delete this attendance code' },
+        { status: 403 }
+      )
+    }
+
+    const { error: deleteError } = await supabase
+      .from('attendance_codes')
+      .delete()
+      .eq('id', codeId)
+
+    if (deleteError) throw deleteError
+
+    return NextResponse.json({ success: true })
+  } catch (error: any) {
+    console.error('Delete attendance code error:', error)
+    return NextResponse.json(
+      { error: error.message || 'Failed to delete attendance code' },
+      { status: 500 }
+    )
+  }
+}

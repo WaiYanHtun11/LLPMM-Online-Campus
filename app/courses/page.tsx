@@ -12,6 +12,9 @@ export default function CoursesPage() {
   const [courses, setCourses] = useState<any[]>([])
   const [error, setError] = useState<any>(null)
   const [loading, setLoading] = useState(true)
+  const [searchQuery, setSearchQuery] = useState('')
+  const [levelFilter, setLevelFilter] = useState('all')
+  const [categoryFilter, setCategoryFilter] = useState('all')
 
   useEffect(() => {
     const fetchCourses = async () => {
@@ -42,6 +45,23 @@ export default function CoursesPage() {
     ...course,
     upcomingBatches: course.batches?.filter((b: any) => b.status === 'upcoming').length || 0
   }))
+
+  const availableLevels = Array.from(new Set(coursesWithBatches.map((course) => course.level).filter(Boolean)))
+  const availableCategories = Array.from(new Set(coursesWithBatches.map((course) => course.category).filter(Boolean)))
+
+  const filteredCourses = coursesWithBatches.filter((course) => {
+    const normalizedSearch = searchQuery.trim().toLowerCase()
+    const matchesSearch =
+      normalizedSearch.length === 0 ||
+      course.title?.toLowerCase().includes(normalizedSearch) ||
+      course.description?.toLowerCase().includes(normalizedSearch) ||
+      course.category?.toLowerCase().includes(normalizedSearch)
+
+    const matchesLevel = levelFilter === 'all' || course.level === levelFilter
+    const matchesCategory = categoryFilter === 'all' || course.category === categoryFilter
+
+    return matchesSearch && matchesLevel && matchesCategory
+  })
   
   const levelColors = {
     'Beginner': 'bg-green-100 text-green-700 border-green-200',
@@ -156,33 +176,64 @@ export default function CoursesPage() {
               <input 
                 type="text" 
                 placeholder="Search courses by name or keyword..." 
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full pl-12 pr-4 py-3 border-2 border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
               />
             </div>
-            <select className="px-6 py-3 border-2 border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all font-medium bg-white">
-              <option>🎯 All Levels</option>
-              <option>🌱 Beginner</option>
-              <option>⚡ Intermediate</option>
-              <option>🚀 Advanced</option>
+            <select
+              value={levelFilter}
+              onChange={(e) => setLevelFilter(e.target.value)}
+              className="px-6 py-3 border-2 border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all font-medium bg-white"
+            >
+              <option value="all">🎯 All Levels</option>
+              {availableLevels.map((level) => (
+                <option key={level} value={level}>
+                  {level === 'Beginner' ? '🌱' : level === 'Intermediate' ? '⚡' : level === 'Advanced' ? '🚀' : '🎯'} {level}
+                </option>
+              ))}
             </select>
-            <select className="px-6 py-3 border-2 border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all font-medium bg-white">
-              <option>📚 All Categories</option>
-              <option>💻 Programming</option>
-              <option>🌐 Web Development</option>
-              <option>📱 Mobile Development</option>
-              <option>🎓 Computer Science</option>
+            <select
+              value={categoryFilter}
+              onChange={(e) => setCategoryFilter(e.target.value)}
+              className="px-6 py-3 border-2 border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all font-medium bg-white"
+            >
+              <option value="all">📚 All Categories</option>
+              {availableCategories.map((category) => (
+                <option key={category} value={category}>
+                  {categoryIcons[category] || '📖'} {category}
+                </option>
+              ))}
             </select>
+
+            <button
+              type="button"
+              onClick={() => {
+                setSearchQuery('')
+                setLevelFilter('all')
+                setCategoryFilter('all')
+              }}
+              className="px-6 py-3 border-2 border-gray-200 text-gray-700 rounded-xl font-semibold hover:bg-gray-50 transition-all"
+            >
+              Clear Filters
+            </button>
           </div>
         </div>
       </section>
 
       {/* Course Grid */}
       <section className="container mx-auto px-4 pb-24">
-        {coursesWithBatches.length === 0 ? (
+        {filteredCourses.length === 0 ? (
           <div className="text-center py-20">
             <div className="text-6xl mb-6">📚</div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">No Courses Available</h3>
-            <p className="text-gray-500 text-lg mb-8">Check back soon for new courses!</p>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">
+              {coursesWithBatches.length === 0 ? 'No Courses Available' : 'No Courses Match Your Filters'}
+            </h3>
+            <p className="text-gray-500 text-lg mb-8">
+              {coursesWithBatches.length === 0
+                ? 'Check back soon for new courses!'
+                : 'Try changing search text, level, or category filters.'}
+            </p>
             <Link 
               href="/" 
               className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full font-bold hover:shadow-xl hover:scale-105 transition-all"
@@ -195,7 +246,7 @@ export default function CoursesPage() {
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {coursesWithBatches.map((course) => {
+            {filteredCourses.map((course) => {
               const prerequisites = Array.isArray(course.prerequisites) ? course.prerequisites : []
               const categoryGradient = categoryGradients[course.category] || 'from-gray-500 to-gray-600'
               const categoryIcon = categoryIcons[course.category] || '📖'

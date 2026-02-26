@@ -4,8 +4,8 @@ import { useAuth } from '@/lib/auth-context'
 import { useRouter } from 'next/navigation'
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import { supabase } from '@/lib/supabase'
+import AdminNavbar from '@/components/AdminNavbar'
 
 interface DashboardActivity {
   id: string
@@ -196,39 +196,13 @@ export default function AdminDashboard() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <header className="bg-white shadow-sm border-b">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-4">
-              <Link href="/">
-                <Image
-                  src="/llpmm-logo.jpg"
-                  alt="LLPMM Logo"
-                  width={50}
-                  height={50}
-                  className="rounded-full"
-                />
-              </Link>
-              <div>
-                <h1 className="text-2xl font-bold text-gray-900">Admin Dashboard</h1>
-                <p className="text-sm text-gray-600">LLPMM Online Campus</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-4">
-              <div className="text-right">
-                <p className="text-sm font-semibold text-gray-900">{userProfile.name}</p>
-                <p className="text-xs text-gray-600">{userProfile.email}</p>
-              </div>
-              <button
-                onClick={handleLogout}
-                className="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition text-sm font-semibold"
-              >
-                Logout
-              </button>
-            </div>
-          </div>
-        </div>
-      </header>
+      <AdminNavbar
+        title="Admin Dashboard"
+        subtitle="LLPMM Online Campus"
+        userName={userProfile.name}
+        userEmail={userProfile.email}
+        onLogout={handleLogout}
+      />
 
       <main className="container mx-auto px-4 py-8">
         <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white mb-8">

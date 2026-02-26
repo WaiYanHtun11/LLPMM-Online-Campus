@@ -4,8 +4,8 @@ import { useAuth } from '@/lib/auth-context'
 import { useRouter } from 'next/navigation'
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import { supabase } from '@/lib/supabase'
+import AdminNavbar from '@/components/AdminNavbar'
 
 interface User {
   id: string
@@ -185,40 +185,13 @@ export default function UsersManagement() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <header className="bg-white shadow-sm border-b sticky top-0 z-10">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-4">
-              <Link href="/admin">
-                <Image 
-                  src="/llpmm-logo.jpg" 
-                  alt="LLPMM Logo" 
-                  width={50} 
-                  height={50}
-                  className="rounded-full cursor-pointer hover:opacity-80 transition"
-                />
-              </Link>
-              <div>
-                <h1 className="text-2xl font-bold text-gray-900">User Management</h1>
-                <p className="text-sm text-gray-600">Manage students, instructors, and admins</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-4">
-              <div className="text-right">
-                <p className="text-sm font-semibold text-gray-900">{userProfile?.name}</p>
-                <p className="text-xs text-gray-600">{userProfile?.email}</p>
-              </div>
-              <button
-                onClick={handleLogout}
-                className="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition text-sm font-semibold"
-              >
-                Logout
-              </button>
-            </div>
-          </div>
-        </div>
-      </header>
+      <AdminNavbar
+        title="User Management"
+        subtitle="Manage students, instructors, and admins"
+        userName={userProfile?.name}
+        userEmail={userProfile?.email}
+        onLogout={handleLogout}
+      />
 
       {/* Main Content */}
       <main className="container mx-auto px-4 py-8">

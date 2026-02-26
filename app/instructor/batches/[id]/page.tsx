@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation'
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { supabase } from '@/lib/supabase'
+import InstructorNavbar from '@/components/InstructorNavbar'
 
 interface BatchData {
   id: string
@@ -51,6 +52,8 @@ export default function InstructorBatchDetail({ params }: { params: Promise<{ id
   
   const [showCodeModal, setShowCodeModal] = useState(false)
   const [generatingCode, setGeneratingCode] = useState(false)
+  const [deletingCodeId, setDeletingCodeId] = useState<string | null>(null)
+  const [deleteConfirmCode, setDeleteConfirmCode] = useState<{ id: string; code: string } | null>(null)
   const [attendanceCode, setAttendanceCode] = useState('')
   const [codeValidUntil, setCodeValidUntil] = useState('')
 
@@ -291,6 +294,48 @@ export default function InstructorBatchDetail({ params }: { params: Promise<{ id
     setTimeout(() => setCopiedCode(null), 2000)
   }
 
+  const openDeleteConfirm = (codeId: string, codeValue: string) => {
+    setDeleteConfirmCode({ id: codeId, code: codeValue })
+  }
+
+  const closeDeleteConfirm = () => {
+    if (deletingCodeId) return
+    setDeleteConfirmCode(null)
+  }
+
+  const deleteAttendanceCode = async () => {
+    if (!userProfile?.id) return
+    if (!deleteConfirmCode) return
+
+    const codeId = deleteConfirmCode.id
+
+    try {
+      setDeletingCodeId(codeId)
+      setError('')
+
+      const response = await fetch('/api/instructor/attendance-code', {
+        method: 'DELETE',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          codeId,
+          instructorId: userProfile.id,
+        }),
+      })
+
+      const result = await response.json()
+      if (!response.ok) {
+        throw new Error(result.error || 'Failed to delete attendance code')
+      }
+
+      setAttendanceCodes((prev) => prev.filter((item) => item.id !== codeId))
+      setDeleteConfirmCode(null)
+    } catch (err: any) {
+      setError(err.message || 'Failed to delete attendance code')
+    } finally {
+      setDeletingCodeId(null)
+    }
+  }
+
   if (authLoading || loading) {
     return (
       <div className="min-h-screen flex items-center justify-center">
@@ -314,26 +359,13 @@ export default function InstructorBatchDetail({ params }: { params: Promise<{ id
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-purple-50 to-pink-50">
-      {/* Header */}
-      <div className="bg-white border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-          <div>
-            <Link href="/instructor" className="text-2xl font-bold text-purple-600 hover:text-purple-700 transition">
-              LLPMM Campus
-            </Link>
-            <p className="text-sm text-gray-600 mt-1">Instructor Portal</p>
-          </div>
-          <div className="flex items-center gap-4">
-            <span className="text-sm text-gray-600">Instructor: {userProfile.name}</span>
-            <button
-              onClick={handleLogout}
-              className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition text-sm font-semibold"
-            >
-              Logout
-            </button>
-          </div>
-        </div>
-      </div>
+      <InstructorNavbar
+        title="Instructor Portal"
+        subtitle="LLPMM Online Campus"
+        userName={userProfile.name}
+        userEmail={userProfile.email}
+        onLogout={handleLogout}
+      />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Breadcrumb */}
@@ -522,16 +554,25 @@ export default function InstructorBatchDetail({ params }: { params: Promise<{ id
                           )}
                         </div>
                       </div>
-                      <button
-                        onClick={() => copyAttendanceCode(code.code)}
-                        className={`px-4 py-2 rounded-lg font-semibold transition ${
-                          copiedCode === code.code
-                            ? 'bg-green-100 text-green-700'
-                            : 'bg-purple-100 text-purple-700 hover:bg-purple-200'
-                        }`}
-                      >
-                        {copiedCode === code.code ? '✓ Copied' : '📋 Copy'}
-                      </button>
+                      <div className="flex items-center gap-2">
+                        <button
+                          onClick={() => copyAttendanceCode(code.code)}
+                          className={`px-4 py-2 rounded-lg font-semibold transition ${
+                            copiedCode === code.code
+                              ? 'bg-green-100 text-green-700'
+                              : 'bg-purple-100 text-purple-700 hover:bg-purple-200'
+                          }`}
+                        >
+                          {copiedCode === code.code ? '✓ Copied' : '📋 Copy'}
+                        </button>
+                        <button
+                          onClick={() => openDeleteConfirm(code.id, code.code)}
+                          disabled={deletingCodeId === code.id}
+                          className="px-4 py-2 rounded-lg font-semibold transition bg-red-100 text-red-700 hover:bg-red-200 disabled:opacity-50 disabled:cursor-not-allowed"
+                        >
+                          {deletingCodeId === code.id ? 'Deleting...' : '🗑 Delete'}
+                        </button>
+                      </div>
                     </div>
                   </div>
                 ))}
@@ -660,6 +701,40 @@ export default function InstructorBatchDetail({ params }: { params: Promise<{ id
             <p className="text-xs text-gray-500 text-center mt-4">
               💡 Students can submit this code within 3 days to mark their attendance
             </p>
+          </div>
+        </div>
+      )}
+
+      {deleteConfirmCode && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+          <div className="bg-white rounded-xl shadow-xl max-w-md w-full p-6">
+            <h3 className="text-xl font-bold text-gray-900 mb-2">Delete Attendance Code</h3>
+            <p className="text-sm text-gray-600 mb-4">
+              Are you sure you want to delete this attendance code?
+            </p>
+
+            <div className="bg-red-50 border border-red-200 rounded-lg px-4 py-3 mb-6">
+              <p className="text-xs text-red-700 mb-1">CODE TO DELETE</p>
+              <p className="text-lg font-bold text-red-700 font-mono">{deleteConfirmCode.code}</p>
+              <p className="text-xs text-red-600 mt-2">This action cannot be undone.</p>
+            </div>
+
+            <div className="flex gap-3 justify-end">
+              <button
+                onClick={closeDeleteConfirm}
+                disabled={!!deletingCodeId}
+                className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition font-semibold disabled:opacity-50"
+              >
+                Cancel
+              </button>
+              <button
+                onClick={deleteAttendanceCode}
+                disabled={!!deletingCodeId}
+                className="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                {deletingCodeId ? 'Deleting...' : 'Delete'}
+              </button>
+            </div>
           </div>
         </div>
       )}

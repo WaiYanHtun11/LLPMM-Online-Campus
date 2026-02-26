@@ -3,8 +3,8 @@
 import { useAuth } from '@/lib/auth-context'
 import { useRouter } from 'next/navigation'
 import { useEffect, useState } from 'react'
-import Link from 'next/link'
 import { supabase } from '@/lib/supabase'
+import AdminNavbar from '@/components/AdminNavbar'
 
 interface AdminTestimonial {
   id: string
@@ -146,28 +146,15 @@ export default function AdminTestimonialsPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <header className="bg-white shadow-sm border-b">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div>
-            <h1 className="text-2xl font-bold text-gray-900">Manage Testimonials</h1>
-            <p className="text-sm text-gray-600">Review and moderate student feedback</p>
-          </div>
-          <div className="flex items-center gap-3">
-            <Link
-              href="/admin"
-              className="px-4 py-2 rounded-lg border border-gray-300 text-gray-700 hover:bg-gray-100 transition text-sm font-semibold"
-            >
-              ← Back to Admin
-            </Link>
-            <button
-              onClick={handleLogout}
-              className="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition text-sm font-semibold"
-            >
-              Logout
-            </button>
-          </div>
-        </div>
-      </header>
+      <AdminNavbar
+        title="Manage Testimonials"
+        subtitle="Review and moderate student feedback"
+        userName={userProfile?.name}
+        userEmail={userProfile?.email}
+        onLogout={handleLogout}
+        backHref="/admin"
+        backLabel="← Back to Admin"
+      />
 
       <main className="container mx-auto px-4 py-8">
         {error && (
