@@ -61,7 +61,10 @@ export default function Home() {
         <div className="container mx-auto px-4 py-16 sm:py-20 md:py-32 relative">
           <div className="max-w-4xl mx-auto text-center">
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm px-4 py-2 sm:px-6 sm:py-3 rounded-full shadow-lg mb-8 border border-blue-100">
+            <Link
+              href="/batches"
+              className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm px-4 py-2 sm:px-6 sm:py-3 rounded-full shadow-lg mb-8 border border-blue-100 hover:border-blue-300 transition-all group"
+            >
               <span className="relative flex h-3 w-3">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
@@ -69,7 +72,10 @@ export default function Home() {
               <span className="text-xs sm:text-sm font-semibold text-gray-700">
                 🎓 Now Enrolling - {batchCount} {batchCount === 1 ? 'Batch' : 'Batches'} Available
               </span>
-            </div>
+              <svg className="w-4 h-4 text-gray-700 group-hover:translate-x-0.5 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
 
             <h1 className="text-3xl sm:text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
               <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">

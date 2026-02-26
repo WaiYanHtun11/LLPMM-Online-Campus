@@ -76,6 +76,11 @@ export default function BatchesPage() {
   function BatchCard({ batch, highlight = false }: { batch: any, highlight?: boolean }) {
     const levelColor = levelColors[batch.course?.level as keyof typeof levelColors] || 'bg-gray-100 text-gray-700'
     const statusColor = statusColors[batch.status as keyof typeof statusColors] || 'bg-gray-100 text-gray-700'
+    const rawBatchLabel = batch.batch_name || batch.name || ''
+    const batchMatch = rawBatchLabel.match(/(batch\s*[-_#]?\s*\d+)/i)
+    const batchLabel = batchMatch
+      ? batchMatch[1].replace(/\s+/g, ' ').replace(/[-_#]\s*/g, ' ').trim().replace(/^batch/i, 'Batch')
+      : (rawBatchLabel || (batch.id ? `Batch ${String(batch.id).slice(0, 8)}` : 'Batch N/A'))
     
     return (
       <div className={`bg-gradient-to-r from-blue-200 via-purple-200 to-blue-200 p-[1px] rounded-2xl ${highlight ? 'ring-2 ring-blue-200' : ''}`}>
@@ -136,11 +141,10 @@ export default function BatchesPage() {
         <div className="p-6 flex flex-col flex-grow">
           {/* Batch Name */}
           <h4 className="text-lg font-bold text-gray-900 mb-3">
-            <span className="text-blue-600 font-mono">{'class '}</span>
-            {batch.name}
-            <span className="text-blue-600 font-mono">{' { }'}</span>
+            {batchLabel}
+            <span className="text-blue-600 font-mono">{' {}'}</span>
           </h4>
-          <p className="text-xs font-mono text-gray-500 mb-4">{`const cohort = "${batch.name}"`}</p>
+          <p className="text-xs font-mono text-gray-500 mb-4">{`const cohort = "${batchLabel}"`}</p>
 
           {/* Info Grid */}
           <div className="space-y-3 mb-4 flex-grow">
