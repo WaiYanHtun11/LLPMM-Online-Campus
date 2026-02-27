@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://llpmmcampus.com"),
   title: "LLPMM Online Campus - Let's Learn Programming Myanmar",
   description: "Myanmar's leading online programming education platform. Learn Python, Web Development, React, Flutter, and more.",
   openGraph: {
@@ -27,6 +27,8 @@ export const metadata: Metadata = {
       {
         url: "https://htcaeitweyjoajptofbb.supabase.co/storage/v1/object/public/course-images/1772001338173-gjdzs9.png",
         alt: "LLPMM Online Campus",
+        width: 740,
+        height: 493,
       },
     ],
   },

@@ -13,7 +13,7 @@ function toAbsoluteUrl(url: string | null | undefined): string | undefined {
   if (!url) return undefined
   if (/^https?:\/\//i.test(url)) return url
 
-  const base = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'https://llpmmcampus.com'
   return new URL(url, base).toString()
 }
 
