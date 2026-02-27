@@ -1024,6 +1024,7 @@ WITH CHECK (
 ALTER TABLE public.users ENABLE ROW LEVEL SECURITY;
 
 DROP POLICY IF EXISTS "Users can view own profile" ON public.users;
+DROP POLICY IF EXISTS "Public can view instructor profiles" ON public.users;
 DROP POLICY IF EXISTS "Admins can view all users" ON public.users;
 DROP POLICY IF EXISTS "Admins can manage users" ON public.users;
 
@@ -1034,6 +1035,11 @@ USING (
   auth.uid() IS NOT NULL
   AND id = auth.uid()
 );
+
+CREATE POLICY "Public can view instructor profiles"
+ON public.users
+FOR SELECT
+USING (role = 'instructor');
 
 CREATE POLICY "Admins can view all users"
 ON public.users
