@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS testimonials (
   batch_name TEXT NOT NULL,
   testimonial_date TEXT NOT NULL,
   is_featured BOOLEAN DEFAULT false,
-  status TEXT DEFAULT 'approved' CHECK (status IN ('pending', 'approved', 'rejected')),
+  status TEXT DEFAULT 'approved' CHECK (LOWER(status) IN ('pending', 'approved', 'rejected')),
   created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
   updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
