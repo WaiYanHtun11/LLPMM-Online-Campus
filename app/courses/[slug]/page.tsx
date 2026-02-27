@@ -36,7 +36,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const title = `${course.title} | LLPMM Online Campus`
   const description = course.description || "Learn programming with LLPMM Online Campus."
   const url = `/courses/${course.slug}`
-  const image = toAbsoluteUrl(course.image_url) || toAbsoluteUrl(DEFAULT_SHARE_IMAGE)
+  const imageSource = toAbsoluteUrl(course.image_url) || toAbsoluteUrl(DEFAULT_SHARE_IMAGE)
+  const image = imageSource ? `/api/og-image?src=${encodeURIComponent(imageSource)}` : undefined
 
   return {
     title,
@@ -46,7 +47,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       description,
       url,
       type: 'article',
-      images: image ? [{ url: image, alt: course.title }] : undefined,
+      images: image
+        ? [{
+            url: image,
+            alt: course.title,
+            secureUrl: image,
+            type: 'image/png',
+          }]
+        : undefined,
     },
     twitter: {
       card: 'summary_large_image',
