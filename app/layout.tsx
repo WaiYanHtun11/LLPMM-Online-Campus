@@ -14,8 +14,38 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"),
   title: "LLPMM Online Campus - Let's Learn Programming Myanmar",
   description: "Myanmar's leading online programming education platform. Learn Python, Web Development, React, Flutter, and more.",
+  openGraph: {
+    title: "LLPMM Online Campus - Let's Learn Programming Myanmar",
+    description: "Myanmar's leading online programming education platform. Learn Python, Web Development, React, Flutter, and more.",
+    url: "/",
+    siteName: "LLPMM Online Campus",
+    type: "website",
+    images: [
+      {
+        url: "https://htcaeitweyjoajptofbb.supabase.co/storage/v1/object/public/course-images/1772001338173-gjdzs9.png",
+        alt: "LLPMM Online Campus",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "LLPMM Online Campus - Let's Learn Programming Myanmar",
+    description: "Myanmar's leading online programming education platform. Learn Python, Web Development, React, Flutter, and more.",
+    images: ["https://htcaeitweyjoajptofbb.supabase.co/storage/v1/object/public/course-images/1772001338173-gjdzs9.png"],
+  },
+  manifest: "/favicon_io/site.webmanifest",
+  icons: {
+    icon: [
+      { url: "/favicon_io/favicon.ico" },
+      { url: "/favicon_io/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon_io/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    shortcut: "/favicon_io/favicon.ico",
+    apple: "/favicon_io/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({

@@ -1,3 +1,4 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { notFound } from 'next/navigation'
@@ -5,6 +6,56 @@ import { supabase } from '@/lib/supabase'
 import { CodeRain, FloatingCodeSymbols, CodeBadge } from '@/components/CodeElements'
 import PublicNavbar from '@/components/PublicNavbar'
 import PublicFooter from '@/components/PublicFooter'
+
+const DEFAULT_SHARE_IMAGE = '/favicon_io/android-chrome-512x512.png'
+
+function toAbsoluteUrl(url: string | null | undefined): string | undefined {
+  if (!url) return undefined
+  if (/^https?:\/\//i.test(url)) return url
+
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
+  return new URL(url, base).toString()
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params
+
+  const { data: course } = await supabase
+    .from('courses')
+    .select('title,description,image_url,slug')
+    .eq('slug', slug)
+    .single()
+
+  if (!course) {
+    return {
+      title: 'Course not found | LLPMM Online Campus',
+      description: "Explore programming courses at LLPMM Online Campus.",
+    }
+  }
+
+  const title = `${course.title} | LLPMM Online Campus`
+  const description = course.description || "Learn programming with LLPMM Online Campus."
+  const url = `/courses/${course.slug}`
+  const image = toAbsoluteUrl(course.image_url) || toAbsoluteUrl(DEFAULT_SHARE_IMAGE)
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url,
+      type: 'article',
+      images: image ? [{ url: image, alt: course.title }] : undefined,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: image ? [image] : undefined,
+    },
+  }
+}
 
 export default async function CourseDetailPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
