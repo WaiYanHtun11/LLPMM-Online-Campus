@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/cover.png",
-        secureUrl: "/cover.png",
+        secureUrl: "https://llpmmcampus.com/cover.png",
         alt: "LLPMM Online Campus",
         width: 740,
         height: 493,
