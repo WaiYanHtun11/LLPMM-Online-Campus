@@ -155,7 +155,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-3xl sm:text-5xl font-extrabold mb-2">8.8K+</div>
+              <div className="text-3xl sm:text-5xl font-extrabold mb-2">3.5K+</div>
               <div className="text-blue-100 text-sm uppercase tracking-wide">Students Taught</div>
             </div>
             <div className="text-center">

@@ -17,13 +17,13 @@ const roadmaps: Roadmap[] = [
     id: 'web-dev',
     title: 'Web Developer Roadmap',
     command: '$ roadmap --track web-developer',
-    steps: ['C or Python', 'Database', 'UI,UX Design', 'Web Basic', 'Web Intermediate', 'Web Advance'],
+    steps: ['C or Python', 'Database', 'UI/UX Design', 'Web Basic', 'Web Intermediate', 'Web Advance'],
   },
   {
     id: 'mobile-dev',
     title: 'Mobile App Developer Roadmap',
     command: '$ roadmap --track mobile-app',
-    steps: ['C or Python', 'Java', 'Database', 'UI/UIX Design', 'Dart', 'Flutter'],
+    steps: ['C or Python','Database','Java', 'UI/UIX Design', 'Dart', 'Flutter'],
   },
 ]
 
