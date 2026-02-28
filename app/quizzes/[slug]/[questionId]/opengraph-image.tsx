@@ -2,6 +2,7 @@ import { ImageResponse } from 'next/og'
 import { notFound } from 'next/navigation'
 import { getQuizBySlug } from '@/lib/quizzes-data'
 import { toQuestionPreviewText } from '@/lib/quiz-question-utils'
+import type { QuizQuestion } from '@/lib/quizzes-data'
 
 export const size = {
   width: 1200,
@@ -14,7 +15,7 @@ interface OpenGraphImageProps {
   params: Promise<{ slug: string; questionId: string }>
 }
 
-function resolveQuestionByParam(questions: Array<{ id: number }>, questionParam: string) {
+function resolveQuestionByParam(questions: QuizQuestion[], questionParam: string) {
   const parsed = Number.parseInt(questionParam, 10)
 
   if (Number.isNaN(parsed)) {

@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation'
 import PublicNavbar from '@/components/PublicNavbar'
 import PublicFooter from '@/components/PublicFooter'
 import { getQuizBySlug } from '@/lib/quizzes-data'
+import type { QuizQuestion } from '@/lib/quizzes-data'
 import { toQuestionPreviewText } from '@/lib/quiz-question-utils'
 import SharedQuestionClient from './SharedQuestionClient'
 
@@ -11,7 +12,7 @@ interface SharedQuestionPageProps {
   params: Promise<{ slug: string; questionId: string }>
 }
 
-function resolveQuestionByParam(questions: Array<{ id: number }>, questionParam: string) {
+function resolveQuestionByParam(questions: QuizQuestion[], questionParam: string) {
   const parsed = Number.parseInt(questionParam, 10)
 
   if (Number.isNaN(parsed)) {
