@@ -26,8 +26,8 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/api/og-image?src=https%3A%2F%2Fhtcaeitweyjoajptofbb.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fcourse-images%2F1772001338173-gjdzs9.png",
-        secureUrl: "/api/og-image?src=https%3A%2F%2Fhtcaeitweyjoajptofbb.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fcourse-images%2F1772001338173-gjdzs9.png",
+        url: "/cover.png",
+        secureUrl: "/cover.png",
         alt: "LLPMM Online Campus",
         width: 740,
         height: 493,
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "LLPMM Online Campus - Let's Learn Programming Myanmar",
     description: "Myanmar's leading online programming education platform. Learn Python, Web Development, React, Flutter, and more.",
-    images: ["/api/og-image?src=https%3A%2F%2Fhtcaeitweyjoajptofbb.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fcourse-images%2F1772001338173-gjdzs9.png"],
+    images: ["/cover.png"],
   },
   manifest: "/favicon_io/site.webmanifest",
   icons: {
