@@ -1,0 +1,4407 @@
+{
+  "slug": "dart",
+  "title": "Dart Quiz",
+  "description": "100 Dart programming practice questions",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which keyword declares a compile-time constant in Dart?",
+      "options": [
+        "var",
+        "final",
+        "const",
+        "static"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "Which function is the entry point in Dart applications?",
+      "options": [
+        "start()",
+        "run()",
+        "main()",
+        "init()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "Which keyword is used for asynchronous functions returning Future?",
+      "options": [
+        "sync",
+        "await",
+        "async",
+        "yield"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 4,
+      "question": "Which collection stores key-value pairs in Dart?",
+      "options": [
+        "List",
+        "Set",
+        "Map",
+        "Queue"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Which operator checks type in Dart?",
+      "options": [
+        "is",
+        "typeof",
+        "instanceof",
+        "as?"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "Which keyword defines a class in Dart?",
+      "options": [
+        "struct",
+        "class",
+        "object",
+        "type"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 7,
+      "question": "Which package manager command adds dependencies in Dart/Flutter?",
+      "options": [
+        "npm install",
+        "pip install",
+        "dart pub add",
+        "mvn add"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 8,
+      "question": "Which widget is immutable in Flutter by default?",
+      "options": [
+        "StatefulWidget",
+        "StatelessWidget",
+        "InheritedWidget",
+        "RenderWidget"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "In Dart, which keyword declares a compile-time constant in Dart?",
+      "options": [
+        "var",
+        "final",
+        "const",
+        "static"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "In Dart, which function is the entry point in Dart applications?",
+      "options": [
+        "start()",
+        "run()",
+        "main()",
+        "init()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 11,
+      "question": "In Dart, which keyword is used for asynchronous functions returning Future?",
+      "options": [
+        "sync",
+        "await",
+        "async",
+        "yield"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 12,
+      "question": "In Dart, which collection stores key-value pairs in Dart?",
+      "options": [
+        "List",
+        "Set",
+        "Map",
+        "Queue"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 13,
+      "question": "In Dart, which operator checks type in Dart?",
+      "options": [
+        "is",
+        "typeof",
+        "instanceof",
+        "as?"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 14,
+      "question": "In Dart, which keyword defines a class in Dart?",
+      "options": [
+        "struct",
+        "class",
+        "object",
+        "type"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 15,
+      "question": "In Dart, which package manager command adds dependencies in Dart/Flutter?",
+      "options": [
+        "npm install",
+        "pip install",
+        "dart pub add",
+        "mvn add"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 16,
+      "question": "In Dart, which widget is immutable in Flutter by default?",
+      "options": [
+        "StatefulWidget",
+        "StatelessWidget",
+        "InheritedWidget",
+        "RenderWidget"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 17,
+      "question": "For Dart, which keyword declares a compile-time constant in Dart?",
+      "options": [
+        "var",
+        "final",
+        "const",
+        "static"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 18,
+      "question": "For Dart, which function is the entry point in Dart applications?",
+      "options": [
+        "start()",
+        "run()",
+        "main()",
+        "init()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 19,
+      "question": "For Dart, which keyword is used for asynchronous functions returning Future?",
+      "options": [
+        "sync",
+        "await",
+        "async",
+        "yield"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 20,
+      "question": "For Dart, which collection stores key-value pairs in Dart?",
+      "options": [
+        "List",
+        "Set",
+        "Map",
+        "Queue"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 21,
+      "question": "For Dart, which operator checks type in Dart?",
+      "options": [
+        "is",
+        "typeof",
+        "instanceof",
+        "as?"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 22,
+      "question": "For Dart, which keyword defines a class in Dart?",
+      "options": [
+        "struct",
+        "class",
+        "object",
+        "type"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 23,
+      "question": "For Dart, which package manager command adds dependencies in Dart/Flutter?",
+      "options": [
+        "npm install",
+        "pip install",
+        "dart pub add",
+        "mvn add"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 24,
+      "question": "For Dart, which widget is immutable in Flutter by default?",
+      "options": [
+        "StatefulWidget",
+        "StatelessWidget",
+        "InheritedWidget",
+        "RenderWidget"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 25,
+      "question": "When using Dart, which keyword declares a compile-time constant in Dart?",
+      "options": [
+        "var",
+        "final",
+        "const",
+        "static"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 26,
+      "question": "When using Dart, which function is the entry point in Dart applications?",
+      "options": [
+        "start()",
+        "run()",
+        "main()",
+        "init()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 27,
+      "question": "When using Dart, which keyword is used for asynchronous functions returning Future?",
+      "options": [
+        "sync",
+        "await",
+        "async",
+        "yield"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 28,
+      "question": "When using Dart, which collection stores key-value pairs in Dart?",
+      "options": [
+        "List",
+        "Set",
+        "Map",
+        "Queue"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 29,
+      "question": "When using Dart, which operator checks type in Dart?",
+      "options": [
+        "is",
+        "typeof",
+        "instanceof",
+        "as?"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 30,
+      "question": "When using Dart, which keyword defines a class in Dart?",
+      "options": [
+        "struct",
+        "class",
+        "object",
+        "type"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 31,
+      "question": "When using Dart, which package manager command adds dependencies in Dart/Flutter?",
+      "options": [
+        "npm install",
+        "pip install",
+        "dart pub add",
+        "mvn add"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 32,
+      "question": "When using Dart, which widget is immutable in Flutter by default?",
+      "options": [
+        "StatefulWidget",
+        "StatelessWidget",
+        "InheritedWidget",
+        "RenderWidget"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 33,
+      "question": "In a Dart query, which keyword declares a compile-time constant in Dart?",
+      "options": [
+        "var",
+        "final",
+        "const",
+        "static"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 34,
+      "question": "In a Dart query, which function is the entry point in Dart applications?",
+      "options": [
+        "start()",
+        "run()",
+        "main()",
+        "init()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 35,
+      "question": "In a Dart query, which keyword is used for asynchronous functions returning Future?",
+      "options": [
+        "sync",
+        "await",
+        "async",
+        "yield"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 36,
+      "question": "In a Dart query, which collection stores key-value pairs in Dart?",
+      "options": [
+        "List",
+        "Set",
+        "Map",
+        "Queue"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 37,
+      "question": "In a Dart query, which operator checks type in Dart?",
+      "options": [
+        "is",
+        "typeof",
+        "instanceof",
+        "as?"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 38,
+      "question": "In a Dart query, which keyword defines a class in Dart?",
+      "options": [
+        "struct",
+        "class",
+        "object",
+        "type"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 39,
+      "question": "In a Dart query, which package manager command adds dependencies in Dart/Flutter?",
+      "options": [
+        "npm install",
+        "pip install",
+        "dart pub add",
+        "mvn add"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 40,
+      "question": "In a Dart query, which widget is immutable in Flutter by default?",
+      "options": [
+        "StatefulWidget",
+        "StatelessWidget",
+        "InheritedWidget",
+        "RenderWidget"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 41,
+      "question": "From a Dart perspective, which keyword declares a compile-time constant in Dart?",
+      "options": [
+        "var",
+        "final",
+        "const",
+        "static"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 42,
+      "question": "From a Dart perspective, which function is the entry point in Dart applications?",
+      "options": [
+        "start()",
+        "run()",
+        "main()",
+        "init()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 43,
+      "question": "From a Dart perspective, which keyword is used for asynchronous functions returning Future?",
+      "options": [
+        "sync",
+        "await",
+        "async",
+        "yield"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 44,
+      "question": "From a Dart perspective, which collection stores key-value pairs in Dart?",
+      "options": [
+        "List",
+        "Set",
+        "Map",
+        "Queue"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 45,
+      "question": "From a Dart perspective, which operator checks type in Dart?",
+      "options": [
+        "is",
+        "typeof",
+        "instanceof",
+        "as?"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 46,
+      "question": "From a Dart perspective, which keyword defines a class in Dart?",
+      "options": [
+        "struct",
+        "class",
+        "object",
+        "type"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 47,
+      "question": "From a Dart perspective, which package manager command adds dependencies in Dart/Flutter?",
+      "options": [
+        "npm install",
+        "pip install",
+        "dart pub add",
+        "mvn add"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 48,
+      "question": "From a Dart perspective, which widget is immutable in Flutter by default?",
+      "options": [
+        "StatefulWidget",
+        "StatelessWidget",
+        "InheritedWidget",
+        "RenderWidget"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 49,
+      "question": "In practical Dart usage, which keyword declares a compile-time constant in Dart?",
+      "options": [
+        "var",
+        "final",
+        "const",
+        "static"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 50,
+      "question": "In practical Dart usage, which function is the entry point in Dart applications?",
+      "options": [
+        "start()",
+        "run()",
+        "main()",
+        "init()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 51,
+      "question": "In practical Dart usage, which keyword is used for asynchronous functions returning Future?",
+      "options": [
+        "sync",
+        "await",
+        "async",
+        "yield"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 52,
+      "question": "In practical Dart usage, which collection stores key-value pairs in Dart?",
+      "options": [
+        "List",
+        "Set",
+        "Map",
+        "Queue"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 53,
+      "question": "In practical Dart usage, which operator checks type in Dart?",
+      "options": [
+        "is",
+        "typeof",
+        "instanceof",
+        "as?"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 54,
+      "question": "In practical Dart usage, which keyword defines a class in Dart?",
+      "options": [
+        "struct",
+        "class",
+        "object",
+        "type"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 55,
+      "question": "In practical Dart usage, which package manager command adds dependencies in Dart/Flutter?",
+      "options": [
+        "npm install",
+        "pip install",
+        "dart pub add",
+        "mvn add"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 56,
+      "question": "In practical Dart usage, which widget is immutable in Flutter by default?",
+      "options": [
+        "StatefulWidget",
+        "StatelessWidget",
+        "InheritedWidget",
+        "RenderWidget"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 57,
+      "question": "Within Dart, which keyword declares a compile-time constant in Dart?",
+      "options": [
+        "var",
+        "final",
+        "const",
+        "static"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 58,
+      "question": "Within Dart, which function is the entry point in Dart applications?",
+      "options": [
+        "start()",
+        "run()",
+        "main()",
+        "init()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 59,
+      "question": "Within Dart, which keyword is used for asynchronous functions returning Future?",
+      "options": [
+        "sync",
+        "await",
+        "async",
+        "yield"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 60,
+      "question": "Within Dart, which collection stores key-value pairs in Dart?",
+      "options": [
+        "List",
+        "Set",
+        "Map",
+        "Queue"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 61,
+      "question": "Within Dart, which operator checks type in Dart?",
+      "options": [
+        "is",
+        "typeof",
+        "instanceof",
+        "as?"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 62,
+      "question": "Within Dart, which keyword defines a class in Dart?",
+      "options": [
+        "struct",
+        "class",
+        "object",
+        "type"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 63,
+      "question": "Within Dart, which package manager command adds dependencies in Dart/Flutter?",
+      "options": [
+        "npm install",
+        "pip install",
+        "dart pub add",
+        "mvn add"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 64,
+      "question": "Within Dart, which widget is immutable in Flutter by default?",
+      "options": [
+        "StatefulWidget",
+        "StatelessWidget",
+        "InheritedWidget",
+        "RenderWidget"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 65,
+      "question": "For Dart developers, which keyword declares a compile-time constant in Dart?",
+      "options": [
+        "var",
+        "final",
+        "const",
+        "static"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 66,
+      "question": "For Dart developers, which function is the entry point in Dart applications?",
+      "options": [
+        "start()",
+        "run()",
+        "main()",
+        "init()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 67,
+      "question": "For Dart developers, which keyword is used for asynchronous functions returning Future?",
+      "options": [
+        "sync",
+        "await",
+        "async",
+        "yield"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 68,
+      "question": "For Dart developers, which collection stores key-value pairs in Dart?",
+      "options": [
+        "List",
+        "Set",
+        "Map",
+        "Queue"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 69,
+      "question": "For Dart developers, which operator checks type in Dart?",
+      "options": [
+        "is",
+        "typeof",
+        "instanceof",
+        "as?"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 70,
+      "question": "For Dart developers, which keyword defines a class in Dart?",
+      "options": [
+        "struct",
+        "class",
+        "object",
+        "type"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 71,
+      "question": "For Dart developers, which package manager command adds dependencies in Dart/Flutter?",
+      "options": [
+        "npm install",
+        "pip install",
+        "dart pub add",
+        "mvn add"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 72,
+      "question": "For Dart developers, which widget is immutable in Flutter by default?",
+      "options": [
+        "StatefulWidget",
+        "StatelessWidget",
+        "InheritedWidget",
+        "RenderWidget"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 73,
+      "question": "In day-to-day Dart work, which keyword declares a compile-time constant in Dart?",
+      "options": [
+        "var",
+        "final",
+        "const",
+        "static"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 74,
+      "question": "In day-to-day Dart work, which function is the entry point in Dart applications?",
+      "options": [
+        "start()",
+        "run()",
+        "main()",
+        "init()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 75,
+      "question": "In day-to-day Dart work, which keyword is used for asynchronous functions returning Future?",
+      "options": [
+        "sync",
+        "await",
+        "async",
+        "yield"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 76,
+      "question": "In day-to-day Dart work, which collection stores key-value pairs in Dart?",
+      "options": [
+        "List",
+        "Set",
+        "Map",
+        "Queue"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 77,
+      "question": "In day-to-day Dart work, which operator checks type in Dart?",
+      "options": [
+        "is",
+        "typeof",
+        "instanceof",
+        "as?"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 78,
+      "question": "In day-to-day Dart work, which keyword defines a class in Dart?",
+      "options": [
+        "struct",
+        "class",
+        "object",
+        "type"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 79,
+      "question": "In day-to-day Dart work, which package manager command adds dependencies in Dart/Flutter?",
+      "options": [
+        "npm install",
+        "pip install",
+        "dart pub add",
+        "mvn add"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 80,
+      "question": "In day-to-day Dart work, which widget is immutable in Flutter by default?",
+      "options": [
+        "StatefulWidget",
+        "StatelessWidget",
+        "InheritedWidget",
+        "RenderWidget"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 81,
+      "question": "Using Dart, which keyword declares a compile-time constant in Dart?",
+      "options": [
+        "var",
+        "final",
+        "const",
+        "static"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 82,
+      "question": "Using Dart, which function is the entry point in Dart applications?",
+      "options": [
+        "start()",
+        "run()",
+        "main()",
+        "init()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 83,
+      "question": "Using Dart, which keyword is used for asynchronous functions returning Future?",
+      "options": [
+        "sync",
+        "await",
+        "async",
+        "yield"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 84,
+      "question": "Using Dart, which collection stores key-value pairs in Dart?",
+      "options": [
+        "List",
+        "Set",
+        "Map",
+        "Queue"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 85,
+      "question": "Using Dart, which operator checks type in Dart?",
+      "options": [
+        "is",
+        "typeof",
+        "instanceof",
+        "as?"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 86,
+      "question": "Using Dart, which keyword defines a class in Dart?",
+      "options": [
+        "struct",
+        "class",
+        "object",
+        "type"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 87,
+      "question": "Using Dart, which package manager command adds dependencies in Dart/Flutter?",
+      "options": [
+        "npm install",
+        "pip install",
+        "dart pub add",
+        "mvn add"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 88,
+      "question": "Using Dart, which widget is immutable in Flutter by default?",
+      "options": [
+        "StatefulWidget",
+        "StatelessWidget",
+        "InheritedWidget",
+        "RenderWidget"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 89,
+      "question": "In Dart practice, which keyword declares a compile-time constant in Dart?",
+      "options": [
+        "var",
+        "final",
+        "const",
+        "static"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 90,
+      "question": "In Dart practice, which function is the entry point in Dart applications?",
+      "options": [
+        "start()",
+        "run()",
+        "main()",
+        "init()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 91,
+      "question": "In Dart practice, which keyword is used for asynchronous functions returning Future?",
+      "options": [
+        "sync",
+        "await",
+        "async",
+        "yield"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 92,
+      "question": "In Dart practice, which collection stores key-value pairs in Dart?",
+      "options": [
+        "List",
+        "Set",
+        "Map",
+        "Queue"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 93,
+      "question": "In Dart practice, which operator checks type in Dart?",
+      "options": [
+        "is",
+        "typeof",
+        "instanceof",
+        "as?"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 94,
+      "question": "In Dart practice, which keyword defines a class in Dart?",
+      "options": [
+        "struct",
+        "class",
+        "object",
+        "type"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 95,
+      "question": "In Dart practice, which package manager command adds dependencies in Dart/Flutter?",
+      "options": [
+        "npm install",
+        "pip install",
+        "dart pub add",
+        "mvn add"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 96,
+      "question": "In Dart practice, which widget is immutable in Flutter by default?",
+      "options": [
+        "StatefulWidget",
+        "StatelessWidget",
+        "InheritedWidget",
+        "RenderWidget"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 97,
+      "question": "With Dart, which keyword declares a compile-time constant in Dart?",
+      "options": [
+        "var",
+        "final",
+        "const",
+        "static"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 98,
+      "question": "With Dart, which function is the entry point in Dart applications?",
+      "options": [
+        "start()",
+        "run()",
+        "main()",
+        "init()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 99,
+      "question": "With Dart, which keyword is used for asynchronous functions returning Future?",
+      "options": [
+        "sync",
+        "await",
+        "async",
+        "yield"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 100,
+      "question": "With Dart, which collection stores key-value pairs in Dart?",
+      "options": [
+        "List",
+        "Set",
+        "Map",
+        "Queue"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 101,
+      "question": "Which description best matches \"Future\" in Dart?",
+      "options": [
+        "An asynchronous sequence of multiple events over time.",
+        "A type system feature reducing null reference errors.",
+        "A hierarchical structure describing Flutter UI composition.",
+        "A value representing a result available later."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 102,
+      "question": "In Dart, \"Future\" is mainly used for what?",
+      "options": [
+        "A hierarchical structure describing Flutter UI composition.",
+        "An asynchronous sequence of multiple events over time.",
+        "A value representing a result available later.",
+        "A type system feature reducing null reference errors."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 103,
+      "question": "What is the primary purpose of \"Future\" in Dart?",
+      "options": [
+        "A type system feature reducing null reference errors.",
+        "A value representing a result available later.",
+        "A hierarchical structure describing Flutter UI composition.",
+        "An asynchronous sequence of multiple events over time."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 104,
+      "question": "Choose the most accurate statement about \"Future\" in Dart?",
+      "options": [
+        "A value representing a result available later.",
+        "An asynchronous sequence of multiple events over time.",
+        "A type system feature reducing null reference errors.",
+        "A hierarchical structure describing Flutter UI composition."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 105,
+      "question": "Which option correctly explains \"Future\" for Dart developers?",
+      "options": [
+        "A type system feature reducing null reference errors.",
+        "A hierarchical structure describing Flutter UI composition.",
+        "An asynchronous sequence of multiple events over time.",
+        "A value representing a result available later."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 106,
+      "question": "In practical Dart code, when would you use \"Future\"?",
+      "options": [
+        "An asynchronous sequence of multiple events over time.",
+        "A type system feature reducing null reference errors.",
+        "A value representing a result available later.",
+        "A hierarchical structure describing Flutter UI composition."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 107,
+      "question": "What does \"Future\" represent?",
+      "options": [
+        "A hierarchical structure describing Flutter UI composition.",
+        "A value representing a result available later.",
+        "An asynchronous sequence of multiple events over time.",
+        "A type system feature reducing null reference errors."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 108,
+      "question": "Identify the correct meaning of \"Future\" in Dart?",
+      "options": [
+        "A value representing a result available later.",
+        "A type system feature reducing null reference errors.",
+        "A hierarchical structure describing Flutter UI composition.",
+        "An asynchronous sequence of multiple events over time."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 109,
+      "question": "Which definition of \"Future\" is correct in Dart?",
+      "options": [
+        "A hierarchical structure describing Flutter UI composition.",
+        "An asynchronous sequence of multiple events over time.",
+        "A type system feature reducing null reference errors.",
+        "A value representing a result available later."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 110,
+      "question": "For Dart, \"Future\" is best described as:?",
+      "options": [
+        "A type system feature reducing null reference errors.",
+        "A hierarchical structure describing Flutter UI composition.",
+        "A value representing a result available later.",
+        "An asynchronous sequence of multiple events over time."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 111,
+      "question": "Which description best matches \"Stream\" in Dart?",
+      "options": [
+        "A Flutter widget type with mutable state.",
+        "An asynchronous sequence of multiple events over time.",
+        "A type system feature reducing null reference errors.",
+        "A hierarchical structure describing Flutter UI composition."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 112,
+      "question": "In Dart, \"Stream\" is mainly used for what?",
+      "options": [
+        "An asynchronous sequence of multiple events over time.",
+        "A hierarchical structure describing Flutter UI composition.",
+        "A Flutter widget type with mutable state.",
+        "A type system feature reducing null reference errors."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 113,
+      "question": "What is the primary purpose of \"Stream\" in Dart?",
+      "options": [
+        "A Flutter widget type with mutable state.",
+        "A type system feature reducing null reference errors.",
+        "A hierarchical structure describing Flutter UI composition.",
+        "An asynchronous sequence of multiple events over time."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 114,
+      "question": "Choose the most accurate statement about \"Stream\" in Dart?",
+      "options": [
+        "A hierarchical structure describing Flutter UI composition.",
+        "A Flutter widget type with mutable state.",
+        "An asynchronous sequence of multiple events over time.",
+        "A type system feature reducing null reference errors."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 115,
+      "question": "Which option correctly explains \"Stream\" for Dart developers?",
+      "options": [
+        "A type system feature reducing null reference errors.",
+        "An asynchronous sequence of multiple events over time.",
+        "A hierarchical structure describing Flutter UI composition.",
+        "A Flutter widget type with mutable state."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 116,
+      "question": "In practical Dart code, when would you use \"Stream\"?",
+      "options": [
+        "An asynchronous sequence of multiple events over time.",
+        "A Flutter widget type with mutable state.",
+        "A type system feature reducing null reference errors.",
+        "A hierarchical structure describing Flutter UI composition."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 117,
+      "question": "What does \"Stream\" represent?",
+      "options": [
+        "A type system feature reducing null reference errors.",
+        "A hierarchical structure describing Flutter UI composition.",
+        "A Flutter widget type with mutable state.",
+        "An asynchronous sequence of multiple events over time."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 118,
+      "question": "Identify the correct meaning of \"Stream\" in Dart?",
+      "options": [
+        "A Flutter widget type with mutable state.",
+        "A type system feature reducing null reference errors.",
+        "An asynchronous sequence of multiple events over time.",
+        "A hierarchical structure describing Flutter UI composition."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 119,
+      "question": "Which definition of \"Stream\" is correct in Dart?",
+      "options": [
+        "A hierarchical structure describing Flutter UI composition.",
+        "An asynchronous sequence of multiple events over time.",
+        "A Flutter widget type with mutable state.",
+        "A type system feature reducing null reference errors."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 120,
+      "question": "For Dart, \"Stream\" is best described as:?",
+      "options": [
+        "An asynchronous sequence of multiple events over time.",
+        "A type system feature reducing null reference errors.",
+        "A hierarchical structure describing Flutter UI composition.",
+        "A Flutter widget type with mutable state."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 121,
+      "question": "Which description best matches \"Null safety\" in Dart?",
+      "options": [
+        "A hierarchical structure describing Flutter UI composition.",
+        "A Flutter widget type with mutable state.",
+        "A Flutter widget type with immutable configuration.",
+        "A type system feature reducing null reference errors."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 122,
+      "question": "In Dart, \"Null safety\" is mainly used for what?",
+      "options": [
+        "A Flutter widget type with immutable configuration.",
+        "A hierarchical structure describing Flutter UI composition.",
+        "A type system feature reducing null reference errors.",
+        "A Flutter widget type with mutable state."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 123,
+      "question": "What is the primary purpose of \"Null safety\" in Dart?",
+      "options": [
+        "A Flutter widget type with mutable state.",
+        "A type system feature reducing null reference errors.",
+        "A Flutter widget type with immutable configuration.",
+        "A hierarchical structure describing Flutter UI composition."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 124,
+      "question": "Choose the most accurate statement about \"Null safety\" in Dart?",
+      "options": [
+        "A type system feature reducing null reference errors.",
+        "A hierarchical structure describing Flutter UI composition.",
+        "A Flutter widget type with mutable state.",
+        "A Flutter widget type with immutable configuration."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 125,
+      "question": "Which option correctly explains \"Null safety\" for Dart developers?",
+      "options": [
+        "A Flutter widget type with mutable state.",
+        "A Flutter widget type with immutable configuration.",
+        "A hierarchical structure describing Flutter UI composition.",
+        "A type system feature reducing null reference errors."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 126,
+      "question": "In practical Dart code, when would you use \"Null safety\"?",
+      "options": [
+        "A hierarchical structure describing Flutter UI composition.",
+        "A Flutter widget type with mutable state.",
+        "A type system feature reducing null reference errors.",
+        "A Flutter widget type with immutable configuration."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 127,
+      "question": "What does \"Null safety\" represent?",
+      "options": [
+        "A Flutter widget type with immutable configuration.",
+        "A type system feature reducing null reference errors.",
+        "A hierarchical structure describing Flutter UI composition.",
+        "A Flutter widget type with mutable state."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 128,
+      "question": "Identify the correct meaning of \"Null safety\" in Dart?",
+      "options": [
+        "A type system feature reducing null reference errors.",
+        "A Flutter widget type with mutable state.",
+        "A Flutter widget type with immutable configuration.",
+        "A hierarchical structure describing Flutter UI composition."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 129,
+      "question": "Which definition of \"Null safety\" is correct in Dart?",
+      "options": [
+        "A Flutter widget type with immutable configuration.",
+        "A hierarchical structure describing Flutter UI composition.",
+        "A Flutter widget type with mutable state.",
+        "A type system feature reducing null reference errors."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 130,
+      "question": "For Dart, \"Null safety\" is best described as:?",
+      "options": [
+        "A Flutter widget type with mutable state.",
+        "A Flutter widget type with immutable configuration.",
+        "A type system feature reducing null reference errors.",
+        "A hierarchical structure describing Flutter UI composition."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 131,
+      "question": "Which description best matches \"Widget tree\" in Dart?",
+      "options": [
+        "The project file defining dependencies and metadata.",
+        "A hierarchical structure describing Flutter UI composition.",
+        "A Flutter widget type with mutable state.",
+        "A Flutter widget type with immutable configuration."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 132,
+      "question": "In Dart, \"Widget tree\" is mainly used for what?",
+      "options": [
+        "A hierarchical structure describing Flutter UI composition.",
+        "A Flutter widget type with immutable configuration.",
+        "The project file defining dependencies and metadata.",
+        "A Flutter widget type with mutable state."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 133,
+      "question": "What is the primary purpose of \"Widget tree\" in Dart?",
+      "options": [
+        "The project file defining dependencies and metadata.",
+        "A Flutter widget type with mutable state.",
+        "A Flutter widget type with immutable configuration.",
+        "A hierarchical structure describing Flutter UI composition."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 134,
+      "question": "Choose the most accurate statement about \"Widget tree\" in Dart?",
+      "options": [
+        "A Flutter widget type with immutable configuration.",
+        "The project file defining dependencies and metadata.",
+        "A hierarchical structure describing Flutter UI composition.",
+        "A Flutter widget type with mutable state."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 135,
+      "question": "Which option correctly explains \"Widget tree\" for Dart developers?",
+      "options": [
+        "A Flutter widget type with mutable state.",
+        "A hierarchical structure describing Flutter UI composition.",
+        "A Flutter widget type with immutable configuration.",
+        "The project file defining dependencies and metadata."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 136,
+      "question": "In practical Dart code, when would you use \"Widget tree\"?",
+      "options": [
+        "A hierarchical structure describing Flutter UI composition.",
+        "The project file defining dependencies and metadata.",
+        "A Flutter widget type with mutable state.",
+        "A Flutter widget type with immutable configuration."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 137,
+      "question": "What does \"Widget tree\" represent?",
+      "options": [
+        "A Flutter widget type with mutable state.",
+        "A Flutter widget type with immutable configuration.",
+        "The project file defining dependencies and metadata.",
+        "A hierarchical structure describing Flutter UI composition."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 138,
+      "question": "Identify the correct meaning of \"Widget tree\" in Dart?",
+      "options": [
+        "The project file defining dependencies and metadata.",
+        "A Flutter widget type with mutable state.",
+        "A hierarchical structure describing Flutter UI composition.",
+        "A Flutter widget type with immutable configuration."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 139,
+      "question": "Which definition of \"Widget tree\" is correct in Dart?",
+      "options": [
+        "A Flutter widget type with immutable configuration.",
+        "A hierarchical structure describing Flutter UI composition.",
+        "The project file defining dependencies and metadata.",
+        "A Flutter widget type with mutable state."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 140,
+      "question": "For Dart, \"Widget tree\" is best described as:?",
+      "options": [
+        "A hierarchical structure describing Flutter UI composition.",
+        "A Flutter widget type with mutable state.",
+        "A Flutter widget type with immutable configuration.",
+        "The project file defining dependencies and metadata."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 141,
+      "question": "Which description best matches \"StatefulWidget\" in Dart?",
+      "options": [
+        "A Flutter widget type with immutable configuration.",
+        "The project file defining dependencies and metadata.",
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "A Flutter widget type with mutable state."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 142,
+      "question": "In Dart, \"StatefulWidget\" is mainly used for what?",
+      "options": [
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "A Flutter widget type with immutable configuration.",
+        "A Flutter widget type with mutable state.",
+        "The project file defining dependencies and metadata."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 143,
+      "question": "What is the primary purpose of \"StatefulWidget\" in Dart?",
+      "options": [
+        "The project file defining dependencies and metadata.",
+        "A Flutter widget type with mutable state.",
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "A Flutter widget type with immutable configuration."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 144,
+      "question": "Choose the most accurate statement about \"StatefulWidget\" in Dart?",
+      "options": [
+        "A Flutter widget type with mutable state.",
+        "A Flutter widget type with immutable configuration.",
+        "The project file defining dependencies and metadata.",
+        "Keywords used to write asynchronous Dart code more clearly."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 145,
+      "question": "Which option correctly explains \"StatefulWidget\" for Dart developers?",
+      "options": [
+        "The project file defining dependencies and metadata.",
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "A Flutter widget type with immutable configuration.",
+        "A Flutter widget type with mutable state."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 146,
+      "question": "In practical Dart code, when would you use \"StatefulWidget\"?",
+      "options": [
+        "A Flutter widget type with immutable configuration.",
+        "The project file defining dependencies and metadata.",
+        "A Flutter widget type with mutable state.",
+        "Keywords used to write asynchronous Dart code more clearly."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 147,
+      "question": "What does \"StatefulWidget\" represent?",
+      "options": [
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "A Flutter widget type with mutable state.",
+        "A Flutter widget type with immutable configuration.",
+        "The project file defining dependencies and metadata."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 148,
+      "question": "Identify the correct meaning of \"StatefulWidget\" in Dart?",
+      "options": [
+        "A Flutter widget type with mutable state.",
+        "The project file defining dependencies and metadata.",
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "A Flutter widget type with immutable configuration."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 149,
+      "question": "Which definition of \"StatefulWidget\" is correct in Dart?",
+      "options": [
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "A Flutter widget type with immutable configuration.",
+        "The project file defining dependencies and metadata.",
+        "A Flutter widget type with mutable state."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 150,
+      "question": "For Dart, \"StatefulWidget\" is best described as:?",
+      "options": [
+        "The project file defining dependencies and metadata.",
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "A Flutter widget type with mutable state.",
+        "A Flutter widget type with immutable configuration."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 151,
+      "question": "Which description best matches \"StatelessWidget\" in Dart?",
+      "options": [
+        "A way to reuse class code in multiple class hierarchies.",
+        "A Flutter widget type with immutable configuration.",
+        "The project file defining dependencies and metadata.",
+        "Keywords used to write asynchronous Dart code more clearly."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 152,
+      "question": "In Dart, \"StatelessWidget\" is mainly used for what?",
+      "options": [
+        "A Flutter widget type with immutable configuration.",
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "A way to reuse class code in multiple class hierarchies.",
+        "The project file defining dependencies and metadata."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 153,
+      "question": "What is the primary purpose of \"StatelessWidget\" in Dart?",
+      "options": [
+        "A way to reuse class code in multiple class hierarchies.",
+        "The project file defining dependencies and metadata.",
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "A Flutter widget type with immutable configuration."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 154,
+      "question": "Choose the most accurate statement about \"StatelessWidget\" in Dart?",
+      "options": [
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "A way to reuse class code in multiple class hierarchies.",
+        "A Flutter widget type with immutable configuration.",
+        "The project file defining dependencies and metadata."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 155,
+      "question": "Which option correctly explains \"StatelessWidget\" for Dart developers?",
+      "options": [
+        "The project file defining dependencies and metadata.",
+        "A Flutter widget type with immutable configuration.",
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "A way to reuse class code in multiple class hierarchies."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 156,
+      "question": "In practical Dart code, when would you use \"StatelessWidget\"?",
+      "options": [
+        "A Flutter widget type with immutable configuration.",
+        "A way to reuse class code in multiple class hierarchies.",
+        "The project file defining dependencies and metadata.",
+        "Keywords used to write asynchronous Dart code more clearly."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 157,
+      "question": "What does \"StatelessWidget\" represent?",
+      "options": [
+        "The project file defining dependencies and metadata.",
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "A way to reuse class code in multiple class hierarchies.",
+        "A Flutter widget type with immutable configuration."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 158,
+      "question": "Identify the correct meaning of \"StatelessWidget\" in Dart?",
+      "options": [
+        "A way to reuse class code in multiple class hierarchies.",
+        "The project file defining dependencies and metadata.",
+        "A Flutter widget type with immutable configuration.",
+        "Keywords used to write asynchronous Dart code more clearly."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 159,
+      "question": "Which definition of \"StatelessWidget\" is correct in Dart?",
+      "options": [
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "A Flutter widget type with immutable configuration.",
+        "A way to reuse class code in multiple class hierarchies.",
+        "The project file defining dependencies and metadata."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 160,
+      "question": "For Dart, \"StatelessWidget\" is best described as:?",
+      "options": [
+        "A Flutter widget type with immutable configuration.",
+        "The project file defining dependencies and metadata.",
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "A way to reuse class code in multiple class hierarchies."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 161,
+      "question": "Which description best matches \"pubspec.yaml\" in Dart?",
+      "options": [
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "A way to reuse class code in multiple class hierarchies.",
+        "Parameters identified by name when calling functions.",
+        "The project file defining dependencies and metadata."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 162,
+      "question": "In Dart, \"pubspec.yaml\" is mainly used for what?",
+      "options": [
+        "Parameters identified by name when calling functions.",
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "The project file defining dependencies and metadata.",
+        "A way to reuse class code in multiple class hierarchies."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 163,
+      "question": "What is the primary purpose of \"pubspec.yaml\" in Dart?",
+      "options": [
+        "A way to reuse class code in multiple class hierarchies.",
+        "The project file defining dependencies and metadata.",
+        "Parameters identified by name when calling functions.",
+        "Keywords used to write asynchronous Dart code more clearly."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 164,
+      "question": "Choose the most accurate statement about \"pubspec.yaml\" in Dart?",
+      "options": [
+        "The project file defining dependencies and metadata.",
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "A way to reuse class code in multiple class hierarchies.",
+        "Parameters identified by name when calling functions."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 165,
+      "question": "Which option correctly explains \"pubspec.yaml\" for Dart developers?",
+      "options": [
+        "A way to reuse class code in multiple class hierarchies.",
+        "Parameters identified by name when calling functions.",
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "The project file defining dependencies and metadata."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 166,
+      "question": "In practical Dart code, when would you use \"pubspec.yaml\"?",
+      "options": [
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "A way to reuse class code in multiple class hierarchies.",
+        "The project file defining dependencies and metadata.",
+        "Parameters identified by name when calling functions."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 167,
+      "question": "What does \"pubspec.yaml\" represent?",
+      "options": [
+        "Parameters identified by name when calling functions.",
+        "The project file defining dependencies and metadata.",
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "A way to reuse class code in multiple class hierarchies."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 168,
+      "question": "Identify the correct meaning of \"pubspec.yaml\" in Dart?",
+      "options": [
+        "The project file defining dependencies and metadata.",
+        "A way to reuse class code in multiple class hierarchies.",
+        "Parameters identified by name when calling functions.",
+        "Keywords used to write asynchronous Dart code more clearly."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 169,
+      "question": "Which definition of \"pubspec.yaml\" is correct in Dart?",
+      "options": [
+        "Parameters identified by name when calling functions.",
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "A way to reuse class code in multiple class hierarchies.",
+        "The project file defining dependencies and metadata."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 170,
+      "question": "For Dart, \"pubspec.yaml\" is best described as:?",
+      "options": [
+        "A way to reuse class code in multiple class hierarchies.",
+        "Parameters identified by name when calling functions.",
+        "The project file defining dependencies and metadata.",
+        "Keywords used to write asynchronous Dart code more clearly."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 171,
+      "question": "Which description best matches \"async/await\" in Dart?",
+      "options": [
+        "A value representing a result available later.",
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "A way to reuse class code in multiple class hierarchies.",
+        "Parameters identified by name when calling functions."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 172,
+      "question": "In Dart, \"async/await\" is mainly used for what?",
+      "options": [
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "Parameters identified by name when calling functions.",
+        "A value representing a result available later.",
+        "A way to reuse class code in multiple class hierarchies."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 173,
+      "question": "What is the primary purpose of \"async/await\" in Dart?",
+      "options": [
+        "A value representing a result available later.",
+        "A way to reuse class code in multiple class hierarchies.",
+        "Parameters identified by name when calling functions.",
+        "Keywords used to write asynchronous Dart code more clearly."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 174,
+      "question": "Choose the most accurate statement about \"async/await\" in Dart?",
+      "options": [
+        "Parameters identified by name when calling functions.",
+        "A value representing a result available later.",
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "A way to reuse class code in multiple class hierarchies."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 175,
+      "question": "Which option correctly explains \"async/await\" for Dart developers?",
+      "options": [
+        "A way to reuse class code in multiple class hierarchies.",
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "Parameters identified by name when calling functions.",
+        "A value representing a result available later."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 176,
+      "question": "In practical Dart code, when would you use \"async/await\"?",
+      "options": [
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "A value representing a result available later.",
+        "A way to reuse class code in multiple class hierarchies.",
+        "Parameters identified by name when calling functions."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 177,
+      "question": "What does \"async/await\" represent?",
+      "options": [
+        "A way to reuse class code in multiple class hierarchies.",
+        "Parameters identified by name when calling functions.",
+        "A value representing a result available later.",
+        "Keywords used to write asynchronous Dart code more clearly."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 178,
+      "question": "Identify the correct meaning of \"async/await\" in Dart?",
+      "options": [
+        "A value representing a result available later.",
+        "A way to reuse class code in multiple class hierarchies.",
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "Parameters identified by name when calling functions."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 179,
+      "question": "Which definition of \"async/await\" is correct in Dart?",
+      "options": [
+        "Parameters identified by name when calling functions.",
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "A value representing a result available later.",
+        "A way to reuse class code in multiple class hierarchies."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 180,
+      "question": "For Dart, \"async/await\" is best described as:?",
+      "options": [
+        "Keywords used to write asynchronous Dart code more clearly.",
+        "A way to reuse class code in multiple class hierarchies.",
+        "Parameters identified by name when calling functions.",
+        "A value representing a result available later."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 181,
+      "question": "Which description best matches \"Mixin\" in Dart?",
+      "options": [
+        "Parameters identified by name when calling functions.",
+        "A value representing a result available later.",
+        "An asynchronous sequence of multiple events over time.",
+        "A way to reuse class code in multiple class hierarchies."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 182,
+      "question": "In Dart, \"Mixin\" is mainly used for what?",
+      "options": [
+        "An asynchronous sequence of multiple events over time.",
+        "Parameters identified by name when calling functions.",
+        "A way to reuse class code in multiple class hierarchies.",
+        "A value representing a result available later."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 183,
+      "question": "What is the primary purpose of \"Mixin\" in Dart?",
+      "options": [
+        "A value representing a result available later.",
+        "A way to reuse class code in multiple class hierarchies.",
+        "An asynchronous sequence of multiple events over time.",
+        "Parameters identified by name when calling functions."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 184,
+      "question": "Choose the most accurate statement about \"Mixin\" in Dart?",
+      "options": [
+        "A way to reuse class code in multiple class hierarchies.",
+        "Parameters identified by name when calling functions.",
+        "A value representing a result available later.",
+        "An asynchronous sequence of multiple events over time."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 185,
+      "question": "Which option correctly explains \"Mixin\" for Dart developers?",
+      "options": [
+        "A value representing a result available later.",
+        "An asynchronous sequence of multiple events over time.",
+        "Parameters identified by name when calling functions.",
+        "A way to reuse class code in multiple class hierarchies."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 186,
+      "question": "In practical Dart code, when would you use \"Mixin\"?",
+      "options": [
+        "Parameters identified by name when calling functions.",
+        "A value representing a result available later.",
+        "A way to reuse class code in multiple class hierarchies.",
+        "An asynchronous sequence of multiple events over time."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 187,
+      "question": "What does \"Mixin\" represent?",
+      "options": [
+        "An asynchronous sequence of multiple events over time.",
+        "A way to reuse class code in multiple class hierarchies.",
+        "Parameters identified by name when calling functions.",
+        "A value representing a result available later."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 188,
+      "question": "Identify the correct meaning of \"Mixin\" in Dart?",
+      "options": [
+        "A way to reuse class code in multiple class hierarchies.",
+        "A value representing a result available later.",
+        "An asynchronous sequence of multiple events over time.",
+        "Parameters identified by name when calling functions."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 189,
+      "question": "Which definition of \"Mixin\" is correct in Dart?",
+      "options": [
+        "An asynchronous sequence of multiple events over time.",
+        "Parameters identified by name when calling functions.",
+        "A value representing a result available later.",
+        "A way to reuse class code in multiple class hierarchies."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 190,
+      "question": "For Dart, \"Mixin\" is best described as:?",
+      "options": [
+        "A value representing a result available later.",
+        "An asynchronous sequence of multiple events over time.",
+        "A way to reuse class code in multiple class hierarchies.",
+        "Parameters identified by name when calling functions."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 191,
+      "question": "Which description best matches \"Named parameters\" in Dart?",
+      "options": [
+        "A type system feature reducing null reference errors.",
+        "Parameters identified by name when calling functions.",
+        "A value representing a result available later.",
+        "An asynchronous sequence of multiple events over time."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 192,
+      "question": "In Dart, \"Named parameters\" is mainly used for what?",
+      "options": [
+        "Parameters identified by name when calling functions.",
+        "An asynchronous sequence of multiple events over time.",
+        "A type system feature reducing null reference errors.",
+        "A value representing a result available later."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 193,
+      "question": "What is the primary purpose of \"Named parameters\" in Dart?",
+      "options": [
+        "A type system feature reducing null reference errors.",
+        "A value representing a result available later.",
+        "An asynchronous sequence of multiple events over time.",
+        "Parameters identified by name when calling functions."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 194,
+      "question": "Choose the most accurate statement about \"Named parameters\" in Dart?",
+      "options": [
+        "An asynchronous sequence of multiple events over time.",
+        "A type system feature reducing null reference errors.",
+        "Parameters identified by name when calling functions.",
+        "A value representing a result available later."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 195,
+      "question": "Which option correctly explains \"Named parameters\" for Dart developers?",
+      "options": [
+        "A value representing a result available later.",
+        "Parameters identified by name when calling functions.",
+        "An asynchronous sequence of multiple events over time.",
+        "A type system feature reducing null reference errors."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 196,
+      "question": "In practical Dart code, when would you use \"Named parameters\"?",
+      "options": [
+        "Parameters identified by name when calling functions.",
+        "A type system feature reducing null reference errors.",
+        "A value representing a result available later.",
+        "An asynchronous sequence of multiple events over time."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 197,
+      "question": "What does \"Named parameters\" represent?",
+      "options": [
+        "A value representing a result available later.",
+        "An asynchronous sequence of multiple events over time.",
+        "A type system feature reducing null reference errors.",
+        "Parameters identified by name when calling functions."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 198,
+      "question": "Identify the correct meaning of \"Named parameters\" in Dart?",
+      "options": [
+        "A type system feature reducing null reference errors.",
+        "A value representing a result available later.",
+        "Parameters identified by name when calling functions.",
+        "An asynchronous sequence of multiple events over time."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 199,
+      "question": "Which definition of \"Named parameters\" is correct in Dart?",
+      "options": [
+        "An asynchronous sequence of multiple events over time.",
+        "Parameters identified by name when calling functions.",
+        "A type system feature reducing null reference errors.",
+        "A value representing a result available later."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 200,
+      "question": "For Dart, \"Named parameters\" is best described as:?",
+      "options": [
+        "Parameters identified by name when calling functions.",
+        "A value representing a result available later.",
+        "An asynchronous sequence of multiple events over time.",
+        "A type system feature reducing null reference errors."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 201,
+      "question": "What is printed?\n```dart\nvoid main() {\n  var x = 3 + 4;\n  print(x);\n}\n```",
+      "options": [
+        "34",
+        "7",
+        "3",
+        "4"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 202,
+      "question": "Output?\n```dart\nvar list = [1,2,3];\nprint(list.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 203,
+      "question": "What is printed?\n```dart\nconst name = 'Dart';\nprint(name.toLowerCase());\n```",
+      "options": [
+        "Dart",
+        "dart",
+        "DART",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 204,
+      "question": "What is result of integer division?\n```dart\nint a = 9 ~/ 2;\nprint(a);\n```",
+      "options": [
+        "4",
+        "4.5",
+        "5",
+        "2"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 205,
+      "question": "What is output?\n```dart\nMap<String,int> m = {'a': 1};\nprint(m['a']);\n```",
+      "options": [
+        "a",
+        "1",
+        "null",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 206,
+      "question": "In Dart, what is printed?\n```dart\nvoid main() { var x = 3 + 4; print(x);\n}\n```",
+      "options": [
+        "34",
+        "7",
+        "3",
+        "4"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 207,
+      "question": "In Dart, output?\n```dart\nvar list = [1,2,3];\nprint(list.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 208,
+      "question": "In Dart, what is printed?\n```dart\nconst name = 'Dart';\nprint(name.toLowerCase());\n```",
+      "options": [
+        "Dart",
+        "dart",
+        "DART",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 209,
+      "question": "In Dart, what is result of integer division?\n```dart\nint a = 9 ~/ 2;\nprint(a);\n```",
+      "options": [
+        "4",
+        "4.5",
+        "5",
+        "2"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 210,
+      "question": "In Dart, what is output?\n```dart\nMap<String,int> m = {'a': 1};\nprint(m['a']);\n```",
+      "options": [
+        "a",
+        "1",
+        "null",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 211,
+      "question": "In Dart, in Dart, what is printed?\n```dart\nvoid main() { var x = 3 + 4; print(x);\n}\n```",
+      "options": [
+        "34",
+        "7",
+        "3",
+        "4"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 212,
+      "question": "For Dart, output?\n```dart\nvar list = [1,2,3];\nprint(list.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 213,
+      "question": "For Dart, what is printed?\n```dart\nconst name = 'Dart';\nprint(name.toLowerCase());\n```",
+      "options": [
+        "Dart",
+        "dart",
+        "DART",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 214,
+      "question": "For Dart, what is result of integer division?\n```dart\nint a = 9 ~/ 2;\nprint(a);\n```",
+      "options": [
+        "4",
+        "4.5",
+        "5",
+        "2"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 215,
+      "question": "For Dart, what is output?\n```dart\nMap<String,int> m = {'a': 1};\nprint(m['a']);\n```",
+      "options": [
+        "a",
+        "1",
+        "null",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 216,
+      "question": "For Dart, in Dart, what is printed?\n```dart\nvoid main() { var x = 3 + 4; print(x);\n}\n```",
+      "options": [
+        "34",
+        "7",
+        "3",
+        "4"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 217,
+      "question": "When using Dart, output?\n```dart\nvar list = [1,2,3];\nprint(list.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 218,
+      "question": "When using Dart, what is printed?\n```dart\nconst name = 'Dart';\nprint(name.toLowerCase());\n```",
+      "options": [
+        "Dart",
+        "dart",
+        "DART",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 219,
+      "question": "When using Dart, what is result of integer division?\n```dart\nint a = 9 ~/ 2;\nprint(a);\n```",
+      "options": [
+        "4",
+        "4.5",
+        "5",
+        "2"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 220,
+      "question": "When using Dart, what is output?\n```dart\nMap<String,int> m = {'a': 1};\nprint(m['a']);\n```",
+      "options": [
+        "a",
+        "1",
+        "null",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 221,
+      "question": "When using Dart, in Dart, what is printed?\n```dart\nvoid main() { var x = 3 + 4; print(x);\n}\n```",
+      "options": [
+        "34",
+        "7",
+        "3",
+        "4"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 222,
+      "question": "In a Dart query, output?\n```dart\nvar list = [1,2,3];\nprint(list.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 223,
+      "question": "In a Dart query, what is printed?\n```dart\nconst name = 'Dart';\nprint(name.toLowerCase());\n```",
+      "options": [
+        "Dart",
+        "dart",
+        "DART",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 224,
+      "question": "In a Dart query, what is result of integer division?\n```dart\nint a = 9 ~/ 2;\nprint(a);\n```",
+      "options": [
+        "4",
+        "4.5",
+        "5",
+        "2"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 225,
+      "question": "In a Dart query, what is output?\n```dart\nMap<String,int> m = {'a': 1};\nprint(m['a']);\n```",
+      "options": [
+        "a",
+        "1",
+        "null",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 226,
+      "question": "Within Dart, in Dart, what is printed?\n```dart\nvoid main() { var x = 3 + 4; print(x);\n}\n```",
+      "options": [
+        "34",
+        "7",
+        "3",
+        "4"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 227,
+      "question": "From a Dart perspective, output?\n```dart\nvar list = [1,2,3];\nprint(list.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 228,
+      "question": "From a Dart perspective, what is printed?\n```dart\nconst name = 'Dart';\nprint(name.toLowerCase());\n```",
+      "options": [
+        "Dart",
+        "dart",
+        "DART",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 229,
+      "question": "From a Dart perspective, what is result of integer division?\n```dart\nint a = 9 ~/ 2;\nprint(a);\n```",
+      "options": [
+        "4",
+        "4.5",
+        "5",
+        "2"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 230,
+      "question": "From a Dart perspective, what is output?\n```dart\nMap<String,int> m = {'a': 1};\nprint(m['a']);\n```",
+      "options": [
+        "a",
+        "1",
+        "null",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 231,
+      "question": "In practical Dart usage, in Dart, what is printed?\n```dart\nvoid main() { var x = 3 + 4; print(x);\n}\n```",
+      "options": [
+        "34",
+        "7",
+        "3",
+        "4"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 232,
+      "question": "In practical Dart usage, output?\n```dart\nvar list = [1,2,3];\nprint(list.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 233,
+      "question": "In practical Dart usage, what is printed?\n```dart\nconst name = 'Dart';\nprint(name.toLowerCase());\n```",
+      "options": [
+        "Dart",
+        "dart",
+        "DART",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 234,
+      "question": "In practical Dart usage, what is result of integer division?\n```dart\nint a = 9 ~/ 2;\nprint(a);\n```",
+      "options": [
+        "4",
+        "4.5",
+        "5",
+        "2"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 235,
+      "question": "In practical Dart usage, what is output?\n```dart\nMap<String,int> m = {'a': 1};\nprint(m['a']);\n```",
+      "options": [
+        "a",
+        "1",
+        "null",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 236,
+      "question": "For Dart developers, in Dart, what is printed?\n```dart\nvoid main() { var x = 3 + 4; print(x);\n}\n```",
+      "options": [
+        "34",
+        "7",
+        "3",
+        "4"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 237,
+      "question": "Within Dart, output?\n```dart\nvar list = [1,2,3];\nprint(list.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 238,
+      "question": "Within Dart, what is printed?\n```dart\nconst name = 'Dart';\nprint(name.toLowerCase());\n```",
+      "options": [
+        "Dart",
+        "dart",
+        "DART",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 239,
+      "question": "Within Dart, what is result of integer division?\n```dart\nint a = 9 ~/ 2;\nprint(a);\n```",
+      "options": [
+        "4",
+        "4.5",
+        "5",
+        "2"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 240,
+      "question": "Within Dart, what is output?\n```dart\nMap<String,int> m = {'a': 1};\nprint(m['a']);\n```",
+      "options": [
+        "a",
+        "1",
+        "null",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 241,
+      "question": "In Dart practice, in Dart, what is printed?\n```dart\nvoid main() { var x = 3 + 4; print(x);\n}\n```",
+      "options": [
+        "34",
+        "7",
+        "3",
+        "4"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 242,
+      "question": "For Dart developers, output?\n```dart\nvar list = [1,2,3];\nprint(list.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 243,
+      "question": "For Dart developers, what is printed?\n```dart\nconst name = 'Dart';\nprint(name.toLowerCase());\n```",
+      "options": [
+        "Dart",
+        "dart",
+        "DART",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 244,
+      "question": "For Dart developers, what is result of integer division?\n```dart\nint a = 9 ~/ 2;\nprint(a);\n```",
+      "options": [
+        "4",
+        "4.5",
+        "5",
+        "2"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 245,
+      "question": "For Dart developers, what is output?\n```dart\nMap<String,int> m = {'a': 1};\nprint(m['a']);\n```",
+      "options": [
+        "a",
+        "1",
+        "null",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 246,
+      "question": "With Dart, in Dart, what is printed?\n```dart\nvoid main() { var x = 3 + 4; print(x);\n}\n```",
+      "options": [
+        "34",
+        "7",
+        "3",
+        "4"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 247,
+      "question": "In day-to-day Dart work, output?\n```dart\nvar list = [1,2,3];\nprint(list.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 248,
+      "question": "In day-to-day Dart work, what is printed?\n```dart\nconst name = 'Dart';\nprint(name.toLowerCase());\n```",
+      "options": [
+        "Dart",
+        "dart",
+        "DART",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 249,
+      "question": "In day-to-day Dart work, what is result of integer division?\n```dart\nint a = 9 ~/ 2;\nprint(a);\n```",
+      "options": [
+        "4",
+        "4.5",
+        "5",
+        "2"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 250,
+      "question": "In day-to-day Dart work, what is output?\n```dart\nMap<String,int> m = {'a': 1};\nprint(m['a']);\n```",
+      "options": [
+        "a",
+        "1",
+        "null",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 251,
+      "question": "What is printed?\n```dart\nvar a = 9;\nvar b = 2;\nprint(a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "4"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 252,
+      "question": "Output?\n```dart\nvar s = 'dart';\nprint(s.length);\n```",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 253,
+      "question": "Printed value?\n```dart\nvar list = [6,7];\nprint(list[1]);\n```",
+      "options": [
+        "6",
+        "7",
+        "1",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 254,
+      "question": "What prints?\n```dart\nbool ok = false;\nprint(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 255,
+      "question": "Final x?\n```dart\nvar x = 2;\nx *= 5;\nprint(x);\n```",
+      "options": [
+        "2",
+        "5",
+        "10",
+        "25"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 256,
+      "question": "In Dart, what is printed?\n```dart\nvar a = 9;\nvar b = 2;\nprint(a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "4"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 257,
+      "question": "In Dart, output?\n```dart\nvar s = 'dart';\nprint(s.length);\n```",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 258,
+      "question": "In Dart, printed value?\n```dart\nvar list = [6,7];\nprint(list[1]);\n```",
+      "options": [
+        "6",
+        "7",
+        "1",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 259,
+      "question": "In Dart, what prints?\n```dart\nbool ok = false;\nprint(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 260,
+      "question": "In Dart, final x?\n```dart\nvar x = 2;\nx *= 5;\nprint(x);\n```",
+      "options": [
+        "2",
+        "5",
+        "10",
+        "25"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 261,
+      "question": "For Dart, what is printed?\n```dart\nvar a = 9;\nvar b = 2;\nprint(a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "4"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 262,
+      "question": "For Dart, output?\n```dart\nvar s = 'dart';\nprint(s.length);\n```",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 263,
+      "question": "For Dart, printed value?\n```dart\nvar list = [6,7];\nprint(list[1]);\n```",
+      "options": [
+        "6",
+        "7",
+        "1",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 264,
+      "question": "For Dart, what prints?\n```dart\nbool ok = false;\nprint(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 265,
+      "question": "For Dart, final x?\n```dart\nvar x = 2;\nx *= 5;\nprint(x);\n```",
+      "options": [
+        "2",
+        "5",
+        "10",
+        "25"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 266,
+      "question": "When using Dart, what is printed?\n```dart\nvar a = 9;\nvar b = 2;\nprint(a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "4"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 267,
+      "question": "When using Dart, output?\n```dart\nvar s = 'dart';\nprint(s.length);\n```",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 268,
+      "question": "When using Dart, printed value?\n```dart\nvar list = [6,7];\nprint(list[1]);\n```",
+      "options": [
+        "6",
+        "7",
+        "1",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 269,
+      "question": "When using Dart, what prints?\n```dart\nbool ok = false;\nprint(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 270,
+      "question": "When using Dart, final x?\n```dart\nvar x = 2;\nx *= 5;\nprint(x);\n```",
+      "options": [
+        "2",
+        "5",
+        "10",
+        "25"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 271,
+      "question": "In a Dart query, what is printed?\n```dart\nvar a = 9;\nvar b = 2;\nprint(a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "4"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 272,
+      "question": "In a Dart query, output?\n```dart\nvar s = 'dart';\nprint(s.length);\n```",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 273,
+      "question": "In a Dart query, printed value?\n```dart\nvar list = [6,7];\nprint(list[1]);\n```",
+      "options": [
+        "6",
+        "7",
+        "1",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 274,
+      "question": "In a Dart query, what prints?\n```dart\nbool ok = false;\nprint(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 275,
+      "question": "In a Dart query, final x?\n```dart\nvar x = 2;\nx *= 5;\nprint(x);\n```",
+      "options": [
+        "2",
+        "5",
+        "10",
+        "25"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 276,
+      "question": "From a Dart perspective, what is printed?\n```dart\nvar a = 9;\nvar b = 2;\nprint(a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "4"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 277,
+      "question": "From a Dart perspective, output?\n```dart\nvar s = 'dart';\nprint(s.length);\n```",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 278,
+      "question": "From a Dart perspective, printed value?\n```dart\nvar list = [6,7];\nprint(list[1]);\n```",
+      "options": [
+        "6",
+        "7",
+        "1",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 279,
+      "question": "From a Dart perspective, what prints?\n```dart\nbool ok = false;\nprint(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 280,
+      "question": "From a Dart perspective, final x?\n```dart\nvar x = 2;\nx *= 5;\nprint(x);\n```",
+      "options": [
+        "2",
+        "5",
+        "10",
+        "25"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 281,
+      "question": "In practical Dart usage, what is printed?\n```dart\nvar a = 9;\nvar b = 2;\nprint(a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "4"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 282,
+      "question": "In practical Dart usage, output?\n```dart\nvar s = 'dart';\nprint(s.length);\n```",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 283,
+      "question": "In practical Dart usage, printed value?\n```dart\nvar list = [6,7];\nprint(list[1]);\n```",
+      "options": [
+        "6",
+        "7",
+        "1",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 284,
+      "question": "In practical Dart usage, what prints?\n```dart\nbool ok = false;\nprint(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 285,
+      "question": "In practical Dart usage, final x?\n```dart\nvar x = 2;\nx *= 5;\nprint(x);\n```",
+      "options": [
+        "2",
+        "5",
+        "10",
+        "25"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 286,
+      "question": "Within Dart, what is printed?\n```dart\nvar a = 9;\nvar b = 2;\nprint(a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "4"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 287,
+      "question": "Within Dart, output?\n```dart\nvar s = 'dart';\nprint(s.length);\n```",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 288,
+      "question": "Within Dart, printed value?\n```dart\nvar list = [6,7];\nprint(list[1]);\n```",
+      "options": [
+        "6",
+        "7",
+        "1",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 289,
+      "question": "Within Dart, what prints?\n```dart\nbool ok = false;\nprint(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 290,
+      "question": "Within Dart, final x?\n```dart\nvar x = 2;\nx *= 5;\nprint(x);\n```",
+      "options": [
+        "2",
+        "5",
+        "10",
+        "25"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 291,
+      "question": "For Dart developers, what is printed?\n```dart\nvar a = 9;\nvar b = 2;\nprint(a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "4"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 292,
+      "question": "For Dart developers, output?\n```dart\nvar s = 'dart';\nprint(s.length);\n```",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 293,
+      "question": "For Dart developers, printed value?\n```dart\nvar list = [6,7];\nprint(list[1]);\n```",
+      "options": [
+        "6",
+        "7",
+        "1",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 294,
+      "question": "For Dart developers, what prints?\n```dart\nbool ok = false;\nprint(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 295,
+      "question": "For Dart developers, final x?\n```dart\nvar x = 2;\nx *= 5;\nprint(x);\n```",
+      "options": [
+        "2",
+        "5",
+        "10",
+        "25"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 296,
+      "question": "In day-to-day Dart work, what is printed?\n```dart\nvar a = 9;\nvar b = 2;\nprint(a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "4"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 297,
+      "question": "In day-to-day Dart work, output?\n```dart\nvar s = 'dart';\nprint(s.length);\n```",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 298,
+      "question": "In day-to-day Dart work, printed value?\n```dart\nvar list = [6,7];\nprint(list[1]);\n```",
+      "options": [
+        "6",
+        "7",
+        "1",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 299,
+      "question": "In day-to-day Dart work, what prints?\n```dart\nbool ok = false;\nprint(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 300,
+      "question": "In day-to-day Dart work, final x?\n```dart\nvar x = 2;\nx *= 5;\nprint(x);\n```",
+      "options": [
+        "2",
+        "5",
+        "10",
+        "25"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 301,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value302 = 15;\nprint(value302);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 302,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value304 = 17;\nprint(value304);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 303,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value306 = 19;\nprint(value306);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 304,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value308 = 21;\nprint(value308);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 305,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value310 = 23;\nprint(value310);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 306,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value312 = 25;\nprint(value312);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 307,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value314 = 27;\nprint(value314);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 308,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value316 = 29;\nprint(value316);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 309,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value318 = 31;\nprint(value318);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 310,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value320 = 33;\nprint(value320);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 311,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value322 = 35;\nprint(value322);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 312,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value324 = 37;\nprint(value324);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 313,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value326 = 39;\nprint(value326);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 314,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value328 = 0;\nprint(value328);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 315,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value330 = 2;\nprint(value330);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 316,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value332 = 4;\nprint(value332);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 317,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value334 = 6;\nprint(value334);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 318,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value336 = 8;\nprint(value336);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 319,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value338 = 10;\nprint(value338);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 320,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value340 = 12;\nprint(value340);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 321,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value342 = 14;\nprint(value342);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 322,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value344 = 16;\nprint(value344);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 323,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value346 = 18;\nprint(value346);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 324,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value348 = 20;\nprint(value348);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 325,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value350 = 22;\nprint(value350);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 326,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value352 = 24;\nprint(value352);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 327,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value354 = 26;\nprint(value354);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 328,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value356 = 28;\nprint(value356);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 329,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value358 = 30;\nprint(value358);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 330,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value360 = 32;\nprint(value360);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 331,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value362 = 34;\nprint(value362);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 332,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value364 = 36;\nprint(value364);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 333,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value366 = 38;\nprint(value366);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 334,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value368 = 40;\nprint(value368);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 335,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value370 = 1;\nprint(value370);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 336,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value372 = 3;\nprint(value372);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 337,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value374 = 5;\nprint(value374);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 338,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value376 = 7;\nprint(value376);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 339,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value378 = 9;\nprint(value378);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 340,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value380 = 11;\nprint(value380);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 341,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value382 = 13;\nprint(value382);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 342,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value384 = 15;\nprint(value384);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 343,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value386 = 17;\nprint(value386);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 344,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value388 = 19;\nprint(value388);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 345,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value390 = 21;\nprint(value390);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 346,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value392 = 23;\nprint(value392);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 347,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value394 = 25;\nprint(value394);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 348,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value396 = 27;\nprint(value396);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 349,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value398 = 29;\nprint(value398);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 350,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value400 = 31;\nprint(value400);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 351,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value402 = 33;\nprint(value402);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 352,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value404 = 35;\nprint(value404);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 353,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value406 = 37;\nprint(value406);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 354,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value408 = 39;\nprint(value408);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 355,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value410 = 0;\nprint(value410);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 356,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value412 = 2;\nprint(value412);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 357,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value414 = 4;\nprint(value414);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 358,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value416 = 6;\nprint(value416);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 359,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value418 = 8;\nprint(value418);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 360,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value420 = 10;\nprint(value420);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 361,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value422 = 12;\nprint(value422);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 362,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value424 = 14;\nprint(value424);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 363,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value426 = 16;\nprint(value426);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 364,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value428 = 18;\nprint(value428);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 365,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value430 = 20;\nprint(value430);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 366,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value432 = 22;\nprint(value432);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 367,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value434 = 24;\nprint(value434);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 368,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value436 = 26;\nprint(value436);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 369,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value438 = 28;\nprint(value438);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 370,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value440 = 30;\nprint(value440);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 371,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value442 = 32;\nprint(value442);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 372,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value444 = 34;\nprint(value444);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 373,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value446 = 36;\nprint(value446);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 374,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value448 = 38;\nprint(value448);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 375,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value450 = 40;\nprint(value450);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 376,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value452 = 1;\nprint(value452);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 377,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value454 = 3;\nprint(value454);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 378,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value456 = 5;\nprint(value456);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 379,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value458 = 7;\nprint(value458);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 380,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value460 = 9;\nprint(value460);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 381,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value462 = 11;\nprint(value462);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 382,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value464 = 13;\nprint(value464);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 383,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value466 = 15;\nprint(value466);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 384,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value468 = 17;\nprint(value468);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 385,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value470 = 19;\nprint(value470);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 386,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value472 = 21;\nprint(value472);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 387,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value474 = 23;\nprint(value474);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 388,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value476 = 25;\nprint(value476);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 389,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value478 = 27;\nprint(value478);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 390,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value480 = 29;\nprint(value480);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 391,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value482 = 31;\nprint(value482);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 392,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value484 = 33;\nprint(value484);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 393,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value486 = 35;\nprint(value486);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 394,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value488 = 37;\nprint(value488);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 395,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value490 = 39;\nprint(value490);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 396,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value492 = 0;\nprint(value492);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 397,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value494 = 2;\nprint(value494);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 398,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value496 = 4;\nprint(value496);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 399,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value498 = 6;\nprint(value498);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 400,
+      "question": "What is the key outcome of this snippet?\n```dart\nvar value500 = 8;\nprint(value500);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    }
+  ]
+}

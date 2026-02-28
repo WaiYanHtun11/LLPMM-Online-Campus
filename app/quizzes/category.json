@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "c",
+    "title": "C Programming",
+    "description": "Practice C fundamentals, pointers, memory, and syntax."
+  },
+  {
+    "slug": "computer-science",
+    "title": "Computer Science",
+    "description": "Practice data structures, algorithms, and core CS concepts."
+  },
+  {
+    "slug": "cpp",
+    "title": "C++",
+    "description": "Practice C++ syntax, OOP, STL, and memory management basics."
+  },
+  {
+    "slug": "csharp",
+    "title": "C#",
+    "description": "Practice C# fundamentals, OOP, collections, and .NET basics."
+  },
+  {
+    "slug": "css",
+    "title": "CSS",
+    "description": "Practice CSS selectors, layout, flexbox, grid, and responsive styling."
+  },
+  {
+    "slug": "dart",
+    "title": "Dart",
+    "description": "Practice Dart language basics, OOP, async, and Flutter-related syntax."
+  },
+  {
+    "slug": "html",
+    "title": "HTML",
+    "description": "Practice HTML elements, semantic tags, and document structure."
+  },
+  {
+    "slug": "java",
+    "title": "Java",
+    "description": "Practice Java OOP, collections, and core language basics."
+  },
+  {
+    "slug": "javascript",
+    "title": "JavaScript",
+    "description": "Practice JavaScript fundamentals, ES6+, DOM, and async concepts."
+  },
+  {
+    "slug": "mysql",
+    "title": "MySQL",
+    "description": "Practice MySQL queries, joins, constraints, and indexing fundamentals."
+  },
+  {
+    "slug": "python",
+    "title": "Python",
+    "description": "Practice Python syntax, data structures, OOP, and standard library basics."
+  }
+]

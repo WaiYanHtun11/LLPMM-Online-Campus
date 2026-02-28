@@ -1,0 +1,4407 @@
+{
+  "slug": "c",
+  "title": "C Programming Quiz",
+  "description": "100 C programming practice questions",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which header commonly provides input/output functions in C?",
+      "options": [
+        "stdlib.h",
+        "stdio.h",
+        "string.h",
+        "math.h"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "Which symbol is used to get the address of a variable?",
+      "options": [
+        "*",
+        "&",
+        "%",
+        "#"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "Which loop checks the condition before executing the body?",
+      "options": [
+        "do-while",
+        "for",
+        "goto",
+        "switch"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 4,
+      "question": "Which storage class keeps variable value between function calls?",
+      "options": [
+        "auto",
+        "register",
+        "volatile",
+        "static"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "What is the default first index of a C array?",
+      "options": [
+        "1",
+        "-1",
+        "0",
+        "Depends on OS"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "Which function is used to compare two strings?",
+      "options": [
+        "strcpy",
+        "strlen",
+        "strcmp",
+        "strcat"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 7,
+      "question": "Which keyword is used to define a custom data type?",
+      "options": [
+        "enum",
+        "typedef",
+        "struct",
+        "union"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 8,
+      "question": "Which operator dereferences a pointer?",
+      "options": [
+        "&",
+        "->",
+        "*",
+        "."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "In C Programming, which header commonly provides input/output functions in C?",
+      "options": [
+        "stdlib.h",
+        "stdio.h",
+        "string.h",
+        "math.h"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "In C Programming, which symbol is used to get the address of a variable?",
+      "options": [
+        "*",
+        "&",
+        "%",
+        "#"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 11,
+      "question": "In C Programming, which loop checks the condition before executing the body?",
+      "options": [
+        "do-while",
+        "for",
+        "goto",
+        "switch"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 12,
+      "question": "In C Programming, which storage class keeps variable value between function calls?",
+      "options": [
+        "auto",
+        "register",
+        "volatile",
+        "static"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 13,
+      "question": "In C Programming, what is the default first index of a C array?",
+      "options": [
+        "1",
+        "-1",
+        "0",
+        "Depends on OS"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 14,
+      "question": "In C Programming, which function is used to compare two strings?",
+      "options": [
+        "strcpy",
+        "strlen",
+        "strcmp",
+        "strcat"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 15,
+      "question": "In C Programming, which keyword is used to define a custom data type?",
+      "options": [
+        "enum",
+        "typedef",
+        "struct",
+        "union"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 16,
+      "question": "In C Programming, which operator dereferences a pointer?",
+      "options": [
+        "&",
+        "->",
+        "*",
+        "."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 17,
+      "question": "For C Programming, which header commonly provides input/output functions in C?",
+      "options": [
+        "stdlib.h",
+        "stdio.h",
+        "string.h",
+        "math.h"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 18,
+      "question": "For C Programming, which symbol is used to get the address of a variable?",
+      "options": [
+        "*",
+        "&",
+        "%",
+        "#"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 19,
+      "question": "For C Programming, which loop checks the condition before executing the body?",
+      "options": [
+        "do-while",
+        "for",
+        "goto",
+        "switch"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 20,
+      "question": "For C Programming, which storage class keeps variable value between function calls?",
+      "options": [
+        "auto",
+        "register",
+        "volatile",
+        "static"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 21,
+      "question": "For C Programming, what is the default first index of a C array?",
+      "options": [
+        "1",
+        "-1",
+        "0",
+        "Depends on OS"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 22,
+      "question": "For C Programming, which function is used to compare two strings?",
+      "options": [
+        "strcpy",
+        "strlen",
+        "strcmp",
+        "strcat"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 23,
+      "question": "For C Programming, which keyword is used to define a custom data type?",
+      "options": [
+        "enum",
+        "typedef",
+        "struct",
+        "union"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 24,
+      "question": "For C Programming, which operator dereferences a pointer?",
+      "options": [
+        "&",
+        "->",
+        "*",
+        "."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 25,
+      "question": "When using C Programming, which header commonly provides input/output functions in C?",
+      "options": [
+        "stdlib.h",
+        "stdio.h",
+        "string.h",
+        "math.h"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 26,
+      "question": "When using C Programming, which symbol is used to get the address of a variable?",
+      "options": [
+        "*",
+        "&",
+        "%",
+        "#"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 27,
+      "question": "When using C Programming, which loop checks the condition before executing the body?",
+      "options": [
+        "do-while",
+        "for",
+        "goto",
+        "switch"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 28,
+      "question": "When using C Programming, which storage class keeps variable value between function calls?",
+      "options": [
+        "auto",
+        "register",
+        "volatile",
+        "static"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 29,
+      "question": "When using C Programming, what is the default first index of a C array?",
+      "options": [
+        "1",
+        "-1",
+        "0",
+        "Depends on OS"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 30,
+      "question": "When using C Programming, which function is used to compare two strings?",
+      "options": [
+        "strcpy",
+        "strlen",
+        "strcmp",
+        "strcat"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 31,
+      "question": "When using C Programming, which keyword is used to define a custom data type?",
+      "options": [
+        "enum",
+        "typedef",
+        "struct",
+        "union"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 32,
+      "question": "When using C Programming, which operator dereferences a pointer?",
+      "options": [
+        "&",
+        "->",
+        "*",
+        "."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 33,
+      "question": "In a C Programming query, which header commonly provides input/output functions in C?",
+      "options": [
+        "stdlib.h",
+        "stdio.h",
+        "string.h",
+        "math.h"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 34,
+      "question": "In a C Programming query, which symbol is used to get the address of a variable?",
+      "options": [
+        "*",
+        "&",
+        "%",
+        "#"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 35,
+      "question": "In a C Programming query, which loop checks the condition before executing the body?",
+      "options": [
+        "do-while",
+        "for",
+        "goto",
+        "switch"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 36,
+      "question": "In a C Programming query, which storage class keeps variable value between function calls?",
+      "options": [
+        "auto",
+        "register",
+        "volatile",
+        "static"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 37,
+      "question": "In a C Programming query, what is the default first index of a C array?",
+      "options": [
+        "1",
+        "-1",
+        "0",
+        "Depends on OS"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 38,
+      "question": "In a C Programming query, which function is used to compare two strings?",
+      "options": [
+        "strcpy",
+        "strlen",
+        "strcmp",
+        "strcat"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 39,
+      "question": "In a C Programming query, which keyword is used to define a custom data type?",
+      "options": [
+        "enum",
+        "typedef",
+        "struct",
+        "union"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 40,
+      "question": "In a C Programming query, which operator dereferences a pointer?",
+      "options": [
+        "&",
+        "->",
+        "*",
+        "."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 41,
+      "question": "From a C Programming perspective, which header commonly provides input/output functions in C?",
+      "options": [
+        "stdlib.h",
+        "stdio.h",
+        "string.h",
+        "math.h"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 42,
+      "question": "From a C Programming perspective, which symbol is used to get the address of a variable?",
+      "options": [
+        "*",
+        "&",
+        "%",
+        "#"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 43,
+      "question": "From a C Programming perspective, which loop checks the condition before executing the body?",
+      "options": [
+        "do-while",
+        "for",
+        "goto",
+        "switch"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 44,
+      "question": "From a C Programming perspective, which storage class keeps variable value between function calls?",
+      "options": [
+        "auto",
+        "register",
+        "volatile",
+        "static"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 45,
+      "question": "From a C Programming perspective, what is the default first index of a C array?",
+      "options": [
+        "1",
+        "-1",
+        "0",
+        "Depends on OS"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 46,
+      "question": "From a C Programming perspective, which function is used to compare two strings?",
+      "options": [
+        "strcpy",
+        "strlen",
+        "strcmp",
+        "strcat"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 47,
+      "question": "From a C Programming perspective, which keyword is used to define a custom data type?",
+      "options": [
+        "enum",
+        "typedef",
+        "struct",
+        "union"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 48,
+      "question": "From a C Programming perspective, which operator dereferences a pointer?",
+      "options": [
+        "&",
+        "->",
+        "*",
+        "."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 49,
+      "question": "In practical C Programming usage, which header commonly provides input/output functions in C?",
+      "options": [
+        "stdlib.h",
+        "stdio.h",
+        "string.h",
+        "math.h"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 50,
+      "question": "In practical C Programming usage, which symbol is used to get the address of a variable?",
+      "options": [
+        "*",
+        "&",
+        "%",
+        "#"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 51,
+      "question": "In practical C Programming usage, which loop checks the condition before executing the body?",
+      "options": [
+        "do-while",
+        "for",
+        "goto",
+        "switch"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 52,
+      "question": "In practical C Programming usage, which storage class keeps variable value between function calls?",
+      "options": [
+        "auto",
+        "register",
+        "volatile",
+        "static"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 53,
+      "question": "In practical C Programming usage, what is the default first index of a C array?",
+      "options": [
+        "1",
+        "-1",
+        "0",
+        "Depends on OS"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 54,
+      "question": "In practical C Programming usage, which function is used to compare two strings?",
+      "options": [
+        "strcpy",
+        "strlen",
+        "strcmp",
+        "strcat"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 55,
+      "question": "In practical C Programming usage, which keyword is used to define a custom data type?",
+      "options": [
+        "enum",
+        "typedef",
+        "struct",
+        "union"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 56,
+      "question": "In practical C Programming usage, which operator dereferences a pointer?",
+      "options": [
+        "&",
+        "->",
+        "*",
+        "."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 57,
+      "question": "Within C Programming, which header commonly provides input/output functions in C?",
+      "options": [
+        "stdlib.h",
+        "stdio.h",
+        "string.h",
+        "math.h"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 58,
+      "question": "Within C Programming, which symbol is used to get the address of a variable?",
+      "options": [
+        "*",
+        "&",
+        "%",
+        "#"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 59,
+      "question": "Within C Programming, which loop checks the condition before executing the body?",
+      "options": [
+        "do-while",
+        "for",
+        "goto",
+        "switch"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 60,
+      "question": "Within C Programming, which storage class keeps variable value between function calls?",
+      "options": [
+        "auto",
+        "register",
+        "volatile",
+        "static"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 61,
+      "question": "Within C Programming, what is the default first index of a C array?",
+      "options": [
+        "1",
+        "-1",
+        "0",
+        "Depends on OS"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 62,
+      "question": "Within C Programming, which function is used to compare two strings?",
+      "options": [
+        "strcpy",
+        "strlen",
+        "strcmp",
+        "strcat"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 63,
+      "question": "Within C Programming, which keyword is used to define a custom data type?",
+      "options": [
+        "enum",
+        "typedef",
+        "struct",
+        "union"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 64,
+      "question": "Within C Programming, which operator dereferences a pointer?",
+      "options": [
+        "&",
+        "->",
+        "*",
+        "."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 65,
+      "question": "For C Programming developers, which header commonly provides input/output functions in C?",
+      "options": [
+        "stdlib.h",
+        "stdio.h",
+        "string.h",
+        "math.h"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 66,
+      "question": "For C Programming developers, which symbol is used to get the address of a variable?",
+      "options": [
+        "*",
+        "&",
+        "%",
+        "#"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 67,
+      "question": "For C Programming developers, which loop checks the condition before executing the body?",
+      "options": [
+        "do-while",
+        "for",
+        "goto",
+        "switch"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 68,
+      "question": "For C Programming developers, which storage class keeps variable value between function calls?",
+      "options": [
+        "auto",
+        "register",
+        "volatile",
+        "static"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 69,
+      "question": "For C Programming developers, what is the default first index of a C array?",
+      "options": [
+        "1",
+        "-1",
+        "0",
+        "Depends on OS"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 70,
+      "question": "For C Programming developers, which function is used to compare two strings?",
+      "options": [
+        "strcpy",
+        "strlen",
+        "strcmp",
+        "strcat"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 71,
+      "question": "For C Programming developers, which keyword is used to define a custom data type?",
+      "options": [
+        "enum",
+        "typedef",
+        "struct",
+        "union"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 72,
+      "question": "For C Programming developers, which operator dereferences a pointer?",
+      "options": [
+        "&",
+        "->",
+        "*",
+        "."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 73,
+      "question": "In day-to-day C Programming work, which header commonly provides input/output functions in C?",
+      "options": [
+        "stdlib.h",
+        "stdio.h",
+        "string.h",
+        "math.h"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 74,
+      "question": "In day-to-day C Programming work, which symbol is used to get the address of a variable?",
+      "options": [
+        "*",
+        "&",
+        "%",
+        "#"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 75,
+      "question": "In day-to-day C Programming work, which loop checks the condition before executing the body?",
+      "options": [
+        "do-while",
+        "for",
+        "goto",
+        "switch"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 76,
+      "question": "In day-to-day C Programming work, which storage class keeps variable value between function calls?",
+      "options": [
+        "auto",
+        "register",
+        "volatile",
+        "static"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 77,
+      "question": "In day-to-day C Programming work, what is the default first index of a C array?",
+      "options": [
+        "1",
+        "-1",
+        "0",
+        "Depends on OS"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 78,
+      "question": "In day-to-day C Programming work, which function is used to compare two strings?",
+      "options": [
+        "strcpy",
+        "strlen",
+        "strcmp",
+        "strcat"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 79,
+      "question": "In day-to-day C Programming work, which keyword is used to define a custom data type?",
+      "options": [
+        "enum",
+        "typedef",
+        "struct",
+        "union"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 80,
+      "question": "In day-to-day C Programming work, which operator dereferences a pointer?",
+      "options": [
+        "&",
+        "->",
+        "*",
+        "."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 81,
+      "question": "Using C Programming, which header commonly provides input/output functions in C?",
+      "options": [
+        "stdlib.h",
+        "stdio.h",
+        "string.h",
+        "math.h"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 82,
+      "question": "Using C Programming, which symbol is used to get the address of a variable?",
+      "options": [
+        "*",
+        "&",
+        "%",
+        "#"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 83,
+      "question": "Using C Programming, which loop checks the condition before executing the body?",
+      "options": [
+        "do-while",
+        "for",
+        "goto",
+        "switch"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 84,
+      "question": "Using C Programming, which storage class keeps variable value between function calls?",
+      "options": [
+        "auto",
+        "register",
+        "volatile",
+        "static"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 85,
+      "question": "Using C Programming, what is the default first index of a C array?",
+      "options": [
+        "1",
+        "-1",
+        "0",
+        "Depends on OS"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 86,
+      "question": "Using C Programming, which function is used to compare two strings?",
+      "options": [
+        "strcpy",
+        "strlen",
+        "strcmp",
+        "strcat"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 87,
+      "question": "Using C Programming, which keyword is used to define a custom data type?",
+      "options": [
+        "enum",
+        "typedef",
+        "struct",
+        "union"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 88,
+      "question": "Using C Programming, which operator dereferences a pointer?",
+      "options": [
+        "&",
+        "->",
+        "*",
+        "."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 89,
+      "question": "In C Programming practice, which header commonly provides input/output functions in C?",
+      "options": [
+        "stdlib.h",
+        "stdio.h",
+        "string.h",
+        "math.h"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 90,
+      "question": "In C Programming practice, which symbol is used to get the address of a variable?",
+      "options": [
+        "*",
+        "&",
+        "%",
+        "#"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 91,
+      "question": "In C Programming practice, which loop checks the condition before executing the body?",
+      "options": [
+        "do-while",
+        "for",
+        "goto",
+        "switch"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 92,
+      "question": "In C Programming practice, which storage class keeps variable value between function calls?",
+      "options": [
+        "auto",
+        "register",
+        "volatile",
+        "static"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 93,
+      "question": "In C Programming practice, what is the default first index of a C array?",
+      "options": [
+        "1",
+        "-1",
+        "0",
+        "Depends on OS"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 94,
+      "question": "In C Programming practice, which function is used to compare two strings?",
+      "options": [
+        "strcpy",
+        "strlen",
+        "strcmp",
+        "strcat"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 95,
+      "question": "In C Programming practice, which keyword is used to define a custom data type?",
+      "options": [
+        "enum",
+        "typedef",
+        "struct",
+        "union"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 96,
+      "question": "In C Programming practice, which operator dereferences a pointer?",
+      "options": [
+        "&",
+        "->",
+        "*",
+        "."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 97,
+      "question": "With C Programming, which header commonly provides input/output functions in C?",
+      "options": [
+        "stdlib.h",
+        "stdio.h",
+        "string.h",
+        "math.h"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 98,
+      "question": "With C Programming, which symbol is used to get the address of a variable?",
+      "options": [
+        "*",
+        "&",
+        "%",
+        "#"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 99,
+      "question": "With C Programming, which loop checks the condition before executing the body?",
+      "options": [
+        "do-while",
+        "for",
+        "goto",
+        "switch"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 100,
+      "question": "With C Programming, which storage class keeps variable value between function calls?",
+      "options": [
+        "auto",
+        "register",
+        "volatile",
+        "static"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 101,
+      "question": "Which description best matches \"Pointer\" in C?",
+      "options": [
+        "A user-defined data type that groups related fields.",
+        "A function that allocates memory dynamically from the heap.",
+        "A function that releases dynamically allocated heap memory.",
+        "A variable that stores a memory address."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 102,
+      "question": "In C, \"Pointer\" is mainly used for what?",
+      "options": [
+        "A function that releases dynamically allocated heap memory.",
+        "A user-defined data type that groups related fields.",
+        "A variable that stores a memory address.",
+        "A function that allocates memory dynamically from the heap."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 103,
+      "question": "What is the primary purpose of \"Pointer\" in C?",
+      "options": [
+        "A function that allocates memory dynamically from the heap.",
+        "A variable that stores a memory address.",
+        "A function that releases dynamically allocated heap memory.",
+        "A user-defined data type that groups related fields."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 104,
+      "question": "Choose the most accurate statement about \"Pointer\" in C?",
+      "options": [
+        "A variable that stores a memory address.",
+        "A user-defined data type that groups related fields.",
+        "A function that allocates memory dynamically from the heap.",
+        "A function that releases dynamically allocated heap memory."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 105,
+      "question": "Which option correctly explains \"Pointer\" for C developers?",
+      "options": [
+        "A function that allocates memory dynamically from the heap.",
+        "A function that releases dynamically allocated heap memory.",
+        "A user-defined data type that groups related fields.",
+        "A variable that stores a memory address."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 106,
+      "question": "In practical C code, when would you use \"Pointer\"?",
+      "options": [
+        "A user-defined data type that groups related fields.",
+        "A function that allocates memory dynamically from the heap.",
+        "A variable that stores a memory address.",
+        "A function that releases dynamically allocated heap memory."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 107,
+      "question": "What does \"Pointer\" represent?",
+      "options": [
+        "A function that releases dynamically allocated heap memory.",
+        "A variable that stores a memory address.",
+        "A user-defined data type that groups related fields.",
+        "A function that allocates memory dynamically from the heap."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 108,
+      "question": "Identify the correct meaning of \"Pointer\" in C?",
+      "options": [
+        "A variable that stores a memory address.",
+        "A function that allocates memory dynamically from the heap.",
+        "A function that releases dynamically allocated heap memory.",
+        "A user-defined data type that groups related fields."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 109,
+      "question": "Which definition of \"Pointer\" is correct in C?",
+      "options": [
+        "A function that releases dynamically allocated heap memory.",
+        "A user-defined data type that groups related fields.",
+        "A function that allocates memory dynamically from the heap.",
+        "A variable that stores a memory address."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 110,
+      "question": "For C, \"Pointer\" is best described as:?",
+      "options": [
+        "A function that allocates memory dynamically from the heap.",
+        "A function that releases dynamically allocated heap memory.",
+        "A variable that stores a memory address.",
+        "A user-defined data type that groups related fields."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 111,
+      "question": "Which description best matches \"Struct\" in C?",
+      "options": [
+        "A file that contains declarations and macros for reuse.",
+        "A user-defined data type that groups related fields.",
+        "A function that allocates memory dynamically from the heap.",
+        "A function that releases dynamically allocated heap memory."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 112,
+      "question": "In C, \"Struct\" is mainly used for what?",
+      "options": [
+        "A user-defined data type that groups related fields.",
+        "A function that releases dynamically allocated heap memory.",
+        "A file that contains declarations and macros for reuse.",
+        "A function that allocates memory dynamically from the heap."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 113,
+      "question": "What is the primary purpose of \"Struct\" in C?",
+      "options": [
+        "A file that contains declarations and macros for reuse.",
+        "A function that allocates memory dynamically from the heap.",
+        "A function that releases dynamically allocated heap memory.",
+        "A user-defined data type that groups related fields."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 114,
+      "question": "Choose the most accurate statement about \"Struct\" in C?",
+      "options": [
+        "A function that releases dynamically allocated heap memory.",
+        "A file that contains declarations and macros for reuse.",
+        "A user-defined data type that groups related fields.",
+        "A function that allocates memory dynamically from the heap."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 115,
+      "question": "Which option correctly explains \"Struct\" for C developers?",
+      "options": [
+        "A function that allocates memory dynamically from the heap.",
+        "A user-defined data type that groups related fields.",
+        "A function that releases dynamically allocated heap memory.",
+        "A file that contains declarations and macros for reuse."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 116,
+      "question": "In practical C code, when would you use \"Struct\"?",
+      "options": [
+        "A user-defined data type that groups related fields.",
+        "A file that contains declarations and macros for reuse.",
+        "A function that allocates memory dynamically from the heap.",
+        "A function that releases dynamically allocated heap memory."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 117,
+      "question": "What does \"Struct\" represent?",
+      "options": [
+        "A function that allocates memory dynamically from the heap.",
+        "A function that releases dynamically allocated heap memory.",
+        "A file that contains declarations and macros for reuse.",
+        "A user-defined data type that groups related fields."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 118,
+      "question": "Identify the correct meaning of \"Struct\" in C?",
+      "options": [
+        "A file that contains declarations and macros for reuse.",
+        "A function that allocates memory dynamically from the heap.",
+        "A user-defined data type that groups related fields.",
+        "A function that releases dynamically allocated heap memory."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 119,
+      "question": "Which definition of \"Struct\" is correct in C?",
+      "options": [
+        "A function that releases dynamically allocated heap memory.",
+        "A user-defined data type that groups related fields.",
+        "A file that contains declarations and macros for reuse.",
+        "A function that allocates memory dynamically from the heap."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 120,
+      "question": "For C, \"Struct\" is best described as:?",
+      "options": [
+        "A user-defined data type that groups related fields.",
+        "A function that allocates memory dynamically from the heap.",
+        "A function that releases dynamically allocated heap memory.",
+        "A file that contains declarations and macros for reuse."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 121,
+      "question": "Which description best matches \"malloc\" in C?",
+      "options": [
+        "A function that releases dynamically allocated heap memory.",
+        "A file that contains declarations and macros for reuse.",
+        "A compile-time instruction such as #include or #define.",
+        "A function that allocates memory dynamically from the heap."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 122,
+      "question": "In C, \"malloc\" is mainly used for what?",
+      "options": [
+        "A compile-time instruction such as #include or #define.",
+        "A function that releases dynamically allocated heap memory.",
+        "A function that allocates memory dynamically from the heap.",
+        "A file that contains declarations and macros for reuse."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 123,
+      "question": "What is the primary purpose of \"malloc\" in C?",
+      "options": [
+        "A file that contains declarations and macros for reuse.",
+        "A function that allocates memory dynamically from the heap.",
+        "A compile-time instruction such as #include or #define.",
+        "A function that releases dynamically allocated heap memory."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 124,
+      "question": "Choose the most accurate statement about \"malloc\" in C?",
+      "options": [
+        "A function that allocates memory dynamically from the heap.",
+        "A function that releases dynamically allocated heap memory.",
+        "A file that contains declarations and macros for reuse.",
+        "A compile-time instruction such as #include or #define."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 125,
+      "question": "Which option correctly explains \"malloc\" for C developers?",
+      "options": [
+        "A file that contains declarations and macros for reuse.",
+        "A compile-time instruction such as #include or #define.",
+        "A function that releases dynamically allocated heap memory.",
+        "A function that allocates memory dynamically from the heap."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 126,
+      "question": "In practical C code, when would you use \"malloc\"?",
+      "options": [
+        "A function that releases dynamically allocated heap memory.",
+        "A file that contains declarations and macros for reuse.",
+        "A function that allocates memory dynamically from the heap.",
+        "A compile-time instruction such as #include or #define."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 127,
+      "question": "What does \"malloc\" represent?",
+      "options": [
+        "A compile-time instruction such as #include or #define.",
+        "A function that allocates memory dynamically from the heap.",
+        "A function that releases dynamically allocated heap memory.",
+        "A file that contains declarations and macros for reuse."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 128,
+      "question": "Identify the correct meaning of \"malloc\" in C?",
+      "options": [
+        "A function that allocates memory dynamically from the heap.",
+        "A file that contains declarations and macros for reuse.",
+        "A compile-time instruction such as #include or #define.",
+        "A function that releases dynamically allocated heap memory."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 129,
+      "question": "Which definition of \"malloc\" is correct in C?",
+      "options": [
+        "A compile-time instruction such as #include or #define.",
+        "A function that releases dynamically allocated heap memory.",
+        "A file that contains declarations and macros for reuse.",
+        "A function that allocates memory dynamically from the heap."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 130,
+      "question": "For C, \"malloc\" is best described as:?",
+      "options": [
+        "A file that contains declarations and macros for reuse.",
+        "A compile-time instruction such as #include or #define.",
+        "A function that allocates memory dynamically from the heap.",
+        "A function that releases dynamically allocated heap memory."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 131,
+      "question": "Which description best matches \"free\" in C?",
+      "options": [
+        "Lifetime that lasts for the entire program execution.",
+        "A function that releases dynamically allocated heap memory.",
+        "A file that contains declarations and macros for reuse.",
+        "A compile-time instruction such as #include or #define."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 132,
+      "question": "In C, \"free\" is mainly used for what?",
+      "options": [
+        "A function that releases dynamically allocated heap memory.",
+        "A compile-time instruction such as #include or #define.",
+        "Lifetime that lasts for the entire program execution.",
+        "A file that contains declarations and macros for reuse."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 133,
+      "question": "What is the primary purpose of \"free\" in C?",
+      "options": [
+        "Lifetime that lasts for the entire program execution.",
+        "A file that contains declarations and macros for reuse.",
+        "A compile-time instruction such as #include or #define.",
+        "A function that releases dynamically allocated heap memory."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 134,
+      "question": "Choose the most accurate statement about \"free\" in C?",
+      "options": [
+        "A compile-time instruction such as #include or #define.",
+        "Lifetime that lasts for the entire program execution.",
+        "A function that releases dynamically allocated heap memory.",
+        "A file that contains declarations and macros for reuse."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 135,
+      "question": "Which option correctly explains \"free\" for C developers?",
+      "options": [
+        "A file that contains declarations and macros for reuse.",
+        "A function that releases dynamically allocated heap memory.",
+        "A compile-time instruction such as #include or #define.",
+        "Lifetime that lasts for the entire program execution."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 136,
+      "question": "In practical C code, when would you use \"free\"?",
+      "options": [
+        "A function that releases dynamically allocated heap memory.",
+        "Lifetime that lasts for the entire program execution.",
+        "A file that contains declarations and macros for reuse.",
+        "A compile-time instruction such as #include or #define."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 137,
+      "question": "What does \"free\" represent?",
+      "options": [
+        "A file that contains declarations and macros for reuse.",
+        "A compile-time instruction such as #include or #define.",
+        "Lifetime that lasts for the entire program execution.",
+        "A function that releases dynamically allocated heap memory."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 138,
+      "question": "Identify the correct meaning of \"free\" in C?",
+      "options": [
+        "Lifetime that lasts for the entire program execution.",
+        "A file that contains declarations and macros for reuse.",
+        "A function that releases dynamically allocated heap memory.",
+        "A compile-time instruction such as #include or #define."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 139,
+      "question": "Which definition of \"free\" is correct in C?",
+      "options": [
+        "A compile-time instruction such as #include or #define.",
+        "A function that releases dynamically allocated heap memory.",
+        "Lifetime that lasts for the entire program execution.",
+        "A file that contains declarations and macros for reuse."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 140,
+      "question": "For C, \"free\" is best described as:?",
+      "options": [
+        "A function that releases dynamically allocated heap memory.",
+        "A file that contains declarations and macros for reuse.",
+        "A compile-time instruction such as #include or #define.",
+        "Lifetime that lasts for the entire program execution."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 141,
+      "question": "Which description best matches \"Header file\" in C?",
+      "options": [
+        "A compile-time instruction such as #include or #define.",
+        "Lifetime that lasts for the entire program execution.",
+        "A qualifier that prevents modification through that identifier.",
+        "A file that contains declarations and macros for reuse."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 142,
+      "question": "In C, \"Header file\" is mainly used for what?",
+      "options": [
+        "A qualifier that prevents modification through that identifier.",
+        "A compile-time instruction such as #include or #define.",
+        "A file that contains declarations and macros for reuse.",
+        "Lifetime that lasts for the entire program execution."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 143,
+      "question": "What is the primary purpose of \"Header file\" in C?",
+      "options": [
+        "Lifetime that lasts for the entire program execution.",
+        "A file that contains declarations and macros for reuse.",
+        "A qualifier that prevents modification through that identifier.",
+        "A compile-time instruction such as #include or #define."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 144,
+      "question": "Choose the most accurate statement about \"Header file\" in C?",
+      "options": [
+        "A file that contains declarations and macros for reuse.",
+        "A compile-time instruction such as #include or #define.",
+        "Lifetime that lasts for the entire program execution.",
+        "A qualifier that prevents modification through that identifier."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 145,
+      "question": "Which option correctly explains \"Header file\" for C developers?",
+      "options": [
+        "Lifetime that lasts for the entire program execution.",
+        "A qualifier that prevents modification through that identifier.",
+        "A compile-time instruction such as #include or #define.",
+        "A file that contains declarations and macros for reuse."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 146,
+      "question": "In practical C code, when would you use \"Header file\"?",
+      "options": [
+        "A compile-time instruction such as #include or #define.",
+        "Lifetime that lasts for the entire program execution.",
+        "A file that contains declarations and macros for reuse.",
+        "A qualifier that prevents modification through that identifier."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 147,
+      "question": "What does \"Header file\" represent?",
+      "options": [
+        "A qualifier that prevents modification through that identifier.",
+        "A file that contains declarations and macros for reuse.",
+        "A compile-time instruction such as #include or #define.",
+        "Lifetime that lasts for the entire program execution."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 148,
+      "question": "Identify the correct meaning of \"Header file\" in C?",
+      "options": [
+        "A file that contains declarations and macros for reuse.",
+        "Lifetime that lasts for the entire program execution.",
+        "A qualifier that prevents modification through that identifier.",
+        "A compile-time instruction such as #include or #define."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 149,
+      "question": "Which definition of \"Header file\" is correct in C?",
+      "options": [
+        "A qualifier that prevents modification through that identifier.",
+        "A compile-time instruction such as #include or #define.",
+        "Lifetime that lasts for the entire program execution.",
+        "A file that contains declarations and macros for reuse."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 150,
+      "question": "For C, \"Header file\" is best described as:?",
+      "options": [
+        "Lifetime that lasts for the entire program execution.",
+        "A qualifier that prevents modification through that identifier.",
+        "A file that contains declarations and macros for reuse.",
+        "A compile-time instruction such as #include or #define."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 151,
+      "question": "Which description best matches \"Preprocessor directive\" in C?",
+      "options": [
+        "A pointer that stores the address of a function.",
+        "A compile-time instruction such as #include or #define.",
+        "Lifetime that lasts for the entire program execution.",
+        "A qualifier that prevents modification through that identifier."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 152,
+      "question": "In C, \"Preprocessor directive\" is mainly used for what?",
+      "options": [
+        "A compile-time instruction such as #include or #define.",
+        "A qualifier that prevents modification through that identifier.",
+        "A pointer that stores the address of a function.",
+        "Lifetime that lasts for the entire program execution."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 153,
+      "question": "What is the primary purpose of \"Preprocessor directive\" in C?",
+      "options": [
+        "A pointer that stores the address of a function.",
+        "Lifetime that lasts for the entire program execution.",
+        "A qualifier that prevents modification through that identifier.",
+        "A compile-time instruction such as #include or #define."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 154,
+      "question": "Choose the most accurate statement about \"Preprocessor directive\" in C?",
+      "options": [
+        "A qualifier that prevents modification through that identifier.",
+        "A pointer that stores the address of a function.",
+        "A compile-time instruction such as #include or #define.",
+        "Lifetime that lasts for the entire program execution."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 155,
+      "question": "Which option correctly explains \"Preprocessor directive\" for C developers?",
+      "options": [
+        "Lifetime that lasts for the entire program execution.",
+        "A compile-time instruction such as #include or #define.",
+        "A qualifier that prevents modification through that identifier.",
+        "A pointer that stores the address of a function."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 156,
+      "question": "In practical C code, when would you use \"Preprocessor directive\"?",
+      "options": [
+        "A compile-time instruction such as #include or #define.",
+        "A pointer that stores the address of a function.",
+        "Lifetime that lasts for the entire program execution.",
+        "A qualifier that prevents modification through that identifier."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 157,
+      "question": "What does \"Preprocessor directive\" represent?",
+      "options": [
+        "Lifetime that lasts for the entire program execution.",
+        "A qualifier that prevents modification through that identifier.",
+        "A pointer that stores the address of a function.",
+        "A compile-time instruction such as #include or #define."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 158,
+      "question": "Identify the correct meaning of \"Preprocessor directive\" in C?",
+      "options": [
+        "A pointer that stores the address of a function.",
+        "Lifetime that lasts for the entire program execution.",
+        "A compile-time instruction such as #include or #define.",
+        "A qualifier that prevents modification through that identifier."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 159,
+      "question": "Which definition of \"Preprocessor directive\" is correct in C?",
+      "options": [
+        "A qualifier that prevents modification through that identifier.",
+        "A compile-time instruction such as #include or #define.",
+        "A pointer that stores the address of a function.",
+        "Lifetime that lasts for the entire program execution."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 160,
+      "question": "For C, \"Preprocessor directive\" is best described as:?",
+      "options": [
+        "A compile-time instruction such as #include or #define.",
+        "Lifetime that lasts for the entire program execution.",
+        "A qualifier that prevents modification through that identifier.",
+        "A pointer that stores the address of a function."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 161,
+      "question": "Which description best matches \"static storage duration\" in C?",
+      "options": [
+        "A qualifier that prevents modification through that identifier.",
+        "A pointer that stores the address of a function.",
+        "The \u0000 character that marks the end of a C string.",
+        "Lifetime that lasts for the entire program execution."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 162,
+      "question": "In C, \"static storage duration\" is mainly used for what?",
+      "options": [
+        "The \u0000 character that marks the end of a C string.",
+        "A qualifier that prevents modification through that identifier.",
+        "Lifetime that lasts for the entire program execution.",
+        "A pointer that stores the address of a function."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 163,
+      "question": "What is the primary purpose of \"static storage duration\" in C?",
+      "options": [
+        "A pointer that stores the address of a function.",
+        "Lifetime that lasts for the entire program execution.",
+        "The \u0000 character that marks the end of a C string.",
+        "A qualifier that prevents modification through that identifier."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 164,
+      "question": "Choose the most accurate statement about \"static storage duration\" in C?",
+      "options": [
+        "Lifetime that lasts for the entire program execution.",
+        "A qualifier that prevents modification through that identifier.",
+        "A pointer that stores the address of a function.",
+        "The \u0000 character that marks the end of a C string."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 165,
+      "question": "Which option correctly explains \"static storage duration\" for C developers?",
+      "options": [
+        "A pointer that stores the address of a function.",
+        "The \u0000 character that marks the end of a C string.",
+        "A qualifier that prevents modification through that identifier.",
+        "Lifetime that lasts for the entire program execution."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 166,
+      "question": "In practical C code, when would you use \"static storage duration\"?",
+      "options": [
+        "A qualifier that prevents modification through that identifier.",
+        "A pointer that stores the address of a function.",
+        "Lifetime that lasts for the entire program execution.",
+        "The \u0000 character that marks the end of a C string."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 167,
+      "question": "What does \"static storage duration\" represent?",
+      "options": [
+        "The \u0000 character that marks the end of a C string.",
+        "Lifetime that lasts for the entire program execution.",
+        "A qualifier that prevents modification through that identifier.",
+        "A pointer that stores the address of a function."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 168,
+      "question": "Identify the correct meaning of \"static storage duration\" in C?",
+      "options": [
+        "Lifetime that lasts for the entire program execution.",
+        "A pointer that stores the address of a function.",
+        "The \u0000 character that marks the end of a C string.",
+        "A qualifier that prevents modification through that identifier."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 169,
+      "question": "Which definition of \"static storage duration\" is correct in C?",
+      "options": [
+        "The \u0000 character that marks the end of a C string.",
+        "A qualifier that prevents modification through that identifier.",
+        "A pointer that stores the address of a function.",
+        "Lifetime that lasts for the entire program execution."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 170,
+      "question": "For C, \"static storage duration\" is best described as:?",
+      "options": [
+        "A pointer that stores the address of a function.",
+        "The \u0000 character that marks the end of a C string.",
+        "Lifetime that lasts for the entire program execution.",
+        "A qualifier that prevents modification through that identifier."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 171,
+      "question": "Which description best matches \"const qualifier\" in C?",
+      "options": [
+        "A variable that stores a memory address.",
+        "A qualifier that prevents modification through that identifier.",
+        "A pointer that stores the address of a function.",
+        "The \u0000 character that marks the end of a C string."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 172,
+      "question": "In C, \"const qualifier\" is mainly used for what?",
+      "options": [
+        "A qualifier that prevents modification through that identifier.",
+        "The \u0000 character that marks the end of a C string.",
+        "A variable that stores a memory address.",
+        "A pointer that stores the address of a function."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 173,
+      "question": "What is the primary purpose of \"const qualifier\" in C?",
+      "options": [
+        "A variable that stores a memory address.",
+        "A pointer that stores the address of a function.",
+        "The \u0000 character that marks the end of a C string.",
+        "A qualifier that prevents modification through that identifier."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 174,
+      "question": "Choose the most accurate statement about \"const qualifier\" in C?",
+      "options": [
+        "The \u0000 character that marks the end of a C string.",
+        "A variable that stores a memory address.",
+        "A qualifier that prevents modification through that identifier.",
+        "A pointer that stores the address of a function."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 175,
+      "question": "Which option correctly explains \"const qualifier\" for C developers?",
+      "options": [
+        "A pointer that stores the address of a function.",
+        "A qualifier that prevents modification through that identifier.",
+        "The \u0000 character that marks the end of a C string.",
+        "A variable that stores a memory address."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 176,
+      "question": "In practical C code, when would you use \"const qualifier\"?",
+      "options": [
+        "A qualifier that prevents modification through that identifier.",
+        "A variable that stores a memory address.",
+        "A pointer that stores the address of a function.",
+        "The \u0000 character that marks the end of a C string."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 177,
+      "question": "What does \"const qualifier\" represent?",
+      "options": [
+        "A pointer that stores the address of a function.",
+        "The \u0000 character that marks the end of a C string.",
+        "A variable that stores a memory address.",
+        "A qualifier that prevents modification through that identifier."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 178,
+      "question": "Identify the correct meaning of \"const qualifier\" in C?",
+      "options": [
+        "A variable that stores a memory address.",
+        "A pointer that stores the address of a function.",
+        "A qualifier that prevents modification through that identifier.",
+        "The \u0000 character that marks the end of a C string."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 179,
+      "question": "Which definition of \"const qualifier\" is correct in C?",
+      "options": [
+        "The \u0000 character that marks the end of a C string.",
+        "A qualifier that prevents modification through that identifier.",
+        "A variable that stores a memory address.",
+        "A pointer that stores the address of a function."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 180,
+      "question": "For C, \"const qualifier\" is best described as:?",
+      "options": [
+        "A qualifier that prevents modification through that identifier.",
+        "A pointer that stores the address of a function.",
+        "The \u0000 character that marks the end of a C string.",
+        "A variable that stores a memory address."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 181,
+      "question": "Which description best matches \"Function pointer\" in C?",
+      "options": [
+        "The \u0000 character that marks the end of a C string.",
+        "A variable that stores a memory address.",
+        "A user-defined data type that groups related fields.",
+        "A pointer that stores the address of a function."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 182,
+      "question": "In C, \"Function pointer\" is mainly used for what?",
+      "options": [
+        "A user-defined data type that groups related fields.",
+        "The \u0000 character that marks the end of a C string.",
+        "A pointer that stores the address of a function.",
+        "A variable that stores a memory address."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 183,
+      "question": "What is the primary purpose of \"Function pointer\" in C?",
+      "options": [
+        "A variable that stores a memory address.",
+        "A pointer that stores the address of a function.",
+        "A user-defined data type that groups related fields.",
+        "The \u0000 character that marks the end of a C string."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 184,
+      "question": "Choose the most accurate statement about \"Function pointer\" in C?",
+      "options": [
+        "A pointer that stores the address of a function.",
+        "The \u0000 character that marks the end of a C string.",
+        "A variable that stores a memory address.",
+        "A user-defined data type that groups related fields."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 185,
+      "question": "Which option correctly explains \"Function pointer\" for C developers?",
+      "options": [
+        "A variable that stores a memory address.",
+        "A user-defined data type that groups related fields.",
+        "The \u0000 character that marks the end of a C string.",
+        "A pointer that stores the address of a function."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 186,
+      "question": "In practical C code, when would you use \"Function pointer\"?",
+      "options": [
+        "The \u0000 character that marks the end of a C string.",
+        "A variable that stores a memory address.",
+        "A pointer that stores the address of a function.",
+        "A user-defined data type that groups related fields."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 187,
+      "question": "What does \"Function pointer\" represent?",
+      "options": [
+        "A user-defined data type that groups related fields.",
+        "A pointer that stores the address of a function.",
+        "The \u0000 character that marks the end of a C string.",
+        "A variable that stores a memory address."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 188,
+      "question": "Identify the correct meaning of \"Function pointer\" in C?",
+      "options": [
+        "A pointer that stores the address of a function.",
+        "A variable that stores a memory address.",
+        "A user-defined data type that groups related fields.",
+        "The \u0000 character that marks the end of a C string."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 189,
+      "question": "Which definition of \"Function pointer\" is correct in C?",
+      "options": [
+        "A user-defined data type that groups related fields.",
+        "The \u0000 character that marks the end of a C string.",
+        "A variable that stores a memory address.",
+        "A pointer that stores the address of a function."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 190,
+      "question": "For C, \"Function pointer\" is best described as:?",
+      "options": [
+        "A variable that stores a memory address.",
+        "A user-defined data type that groups related fields.",
+        "A pointer that stores the address of a function.",
+        "The \u0000 character that marks the end of a C string."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 191,
+      "question": "Which description best matches \"Null terminator\" in C?",
+      "options": [
+        "A function that allocates memory dynamically from the heap.",
+        "The \u0000 character that marks the end of a C string.",
+        "A variable that stores a memory address.",
+        "A user-defined data type that groups related fields."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 192,
+      "question": "In C, \"Null terminator\" is mainly used for what?",
+      "options": [
+        "The \u0000 character that marks the end of a C string.",
+        "A user-defined data type that groups related fields.",
+        "A function that allocates memory dynamically from the heap.",
+        "A variable that stores a memory address."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 193,
+      "question": "What is the primary purpose of \"Null terminator\" in C?",
+      "options": [
+        "A function that allocates memory dynamically from the heap.",
+        "A variable that stores a memory address.",
+        "A user-defined data type that groups related fields.",
+        "The \u0000 character that marks the end of a C string."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 194,
+      "question": "Choose the most accurate statement about \"Null terminator\" in C?",
+      "options": [
+        "A user-defined data type that groups related fields.",
+        "A function that allocates memory dynamically from the heap.",
+        "The \u0000 character that marks the end of a C string.",
+        "A variable that stores a memory address."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 195,
+      "question": "Which option correctly explains \"Null terminator\" for C developers?",
+      "options": [
+        "A variable that stores a memory address.",
+        "The \u0000 character that marks the end of a C string.",
+        "A user-defined data type that groups related fields.",
+        "A function that allocates memory dynamically from the heap."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 196,
+      "question": "In practical C code, when would you use \"Null terminator\"?",
+      "options": [
+        "The \u0000 character that marks the end of a C string.",
+        "A function that allocates memory dynamically from the heap.",
+        "A variable that stores a memory address.",
+        "A user-defined data type that groups related fields."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 197,
+      "question": "What does \"Null terminator\" represent?",
+      "options": [
+        "A variable that stores a memory address.",
+        "A user-defined data type that groups related fields.",
+        "A function that allocates memory dynamically from the heap.",
+        "The \u0000 character that marks the end of a C string."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 198,
+      "question": "Identify the correct meaning of \"Null terminator\" in C?",
+      "options": [
+        "A function that allocates memory dynamically from the heap.",
+        "A variable that stores a memory address.",
+        "The \u0000 character that marks the end of a C string.",
+        "A user-defined data type that groups related fields."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 199,
+      "question": "Which definition of \"Null terminator\" is correct in C?",
+      "options": [
+        "A user-defined data type that groups related fields.",
+        "The \u0000 character that marks the end of a C string.",
+        "A function that allocates memory dynamically from the heap.",
+        "A variable that stores a memory address."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 200,
+      "question": "For C, \"Null terminator\" is best described as:?",
+      "options": [
+        "The \u0000 character that marks the end of a C string.",
+        "A variable that stores a memory address.",
+        "A user-defined data type that groups related fields.",
+        "A function that allocates memory dynamically from the heap."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 201,
+      "question": "What is printed by this program?\n```c\n#include <stdio.h>\nint main(){\n  int a = 5;\n  printf(\"%d\", a + 2);\n  return 0;\n}\n```",
+      "options": [
+        "5",
+        "7",
+        "2",
+        "Compilation error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 202,
+      "question": "What does `*p` evaluate to?\n```c\n#include <stdio.h>\nint main(){\n  int x = 3;\n  int *p = &x;\n  printf(\"%d\", *p);\n  return 0;\n}\n```",
+      "options": [
+        "Address of x",
+        "3",
+        "Pointer size",
+        "Undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 203,
+      "question": "Which value is printed?\n```c\n#include <stdio.h>\nint main(){\n  int arr[] = {1,2,3};\n  printf(\"%d\", arr[0]);\n}\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 204,
+      "question": "What does `sizeof(s)` return?\n```c\n#include <stdio.h>\nint main(){\n  char s[] = \"abc\";\n  printf(\"%zu\", sizeof(s));\n}\n```",
+      "options": [
+        "3",
+        "4",
+        "Depends on platform",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 205,
+      "question": "What is the output?\n```c\n#include <stdio.h>\nint main(){\n  int x = 10;\n  if (x > 5) printf(\"yes\");\n}\n```",
+      "options": [
+        "no output",
+        "yes",
+        "true",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 206,
+      "question": "In C Programming, what is printed by this program?\n```c\n#include <stdio.h>\nint main(){ int a = 5; printf(\"%d\", a + 2); return 0;\n}\n```",
+      "options": [
+        "5",
+        "7",
+        "2",
+        "Compilation error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 207,
+      "question": "In C Programming, what does `*p` evaluate to?\n```c\n#include <stdio.h>\nint main(){ int x = 3; int *p = &x; printf(\"%d\", *p); return 0;\n}\n```",
+      "options": [
+        "Address of x",
+        "3",
+        "Pointer size",
+        "Undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 208,
+      "question": "In C Programming, which value is printed?\n```c\n#include <stdio.h>\nint main(){ int arr[] = {1,2,3}; printf(\"%d\", arr[0]);\n}\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 209,
+      "question": "In C Programming, what does `sizeof(s)` return?\n```c\n#include <stdio.h>\nint main(){ char s[] = \"abc\"; printf(\"%zu\", sizeof(s));\n}\n```",
+      "options": [
+        "3",
+        "4",
+        "Depends on platform",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 210,
+      "question": "In C Programming, what is the output?\n```c\n#include <stdio.h>\nint main(){ int x = 10; if (x > 5) printf(\"yes\");\n}\n```",
+      "options": [
+        "no output",
+        "yes",
+        "true",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 211,
+      "question": "In C Programming, in C Programming, what is printed by this program?\n```c\n#include <stdio.h>\nint main(){ int a = 5; printf(\"%d\", a + 2); return 0;\n}\n```",
+      "options": [
+        "5",
+        "7",
+        "2",
+        "Compilation error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 212,
+      "question": "In C Programming, in C Programming, what does `*p` evaluate to?\n```c\n#include <stdio.h>\nint main(){ int x = 3; int *p = &x; printf(\"%d\", *p); return 0;\n}\n```",
+      "options": [
+        "Address of x",
+        "3",
+        "Pointer size",
+        "Undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 213,
+      "question": "In C Programming, in C Programming, which value is printed?\n```c\n#include <stdio.h>\nint main(){ int arr[] = {1,2,3}; printf(\"%d\", arr[0]);\n}\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 214,
+      "question": "In C Programming, in C Programming, what does `sizeof(s)` return?\n```c\n#include <stdio.h>\nint main(){ char s[] = \"abc\"; printf(\"%zu\", sizeof(s));\n}\n```",
+      "options": [
+        "3",
+        "4",
+        "Depends on platform",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 215,
+      "question": "In C Programming, in C Programming, what is the output?\n```c\n#include <stdio.h>\nint main(){ int x = 10; if (x > 5) printf(\"yes\");\n}\n```",
+      "options": [
+        "no output",
+        "yes",
+        "true",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 216,
+      "question": "For C Programming, in C Programming, what is printed by this program?\n```c\n#include <stdio.h>\nint main(){ int a = 5; printf(\"%d\", a + 2); return 0;\n}\n```",
+      "options": [
+        "5",
+        "7",
+        "2",
+        "Compilation error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 217,
+      "question": "For C Programming, in C Programming, what does `*p` evaluate to?\n```c\n#include <stdio.h>\nint main(){ int x = 3; int *p = &x; printf(\"%d\", *p); return 0;\n}\n```",
+      "options": [
+        "Address of x",
+        "3",
+        "Pointer size",
+        "Undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 218,
+      "question": "For C Programming, in C Programming, which value is printed?\n```c\n#include <stdio.h>\nint main(){ int arr[] = {1,2,3}; printf(\"%d\", arr[0]);\n}\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 219,
+      "question": "For C Programming, in C Programming, what does `sizeof(s)` return?\n```c\n#include <stdio.h>\nint main(){ char s[] = \"abc\"; printf(\"%zu\", sizeof(s));\n}\n```",
+      "options": [
+        "3",
+        "4",
+        "Depends on platform",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 220,
+      "question": "For C Programming, in C Programming, what is the output?\n```c\n#include <stdio.h>\nint main(){ int x = 10; if (x > 5) printf(\"yes\");\n}\n```",
+      "options": [
+        "no output",
+        "yes",
+        "true",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 221,
+      "question": "When using C Programming, in C Programming, what is printed by this program?\n```c\n#include <stdio.h>\nint main(){ int a = 5; printf(\"%d\", a + 2); return 0;\n}\n```",
+      "options": [
+        "5",
+        "7",
+        "2",
+        "Compilation error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 222,
+      "question": "When using C Programming, in C Programming, what does `*p` evaluate to?\n```c\n#include <stdio.h>\nint main(){ int x = 3; int *p = &x; printf(\"%d\", *p); return 0;\n}\n```",
+      "options": [
+        "Address of x",
+        "3",
+        "Pointer size",
+        "Undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 223,
+      "question": "When using C Programming, in C Programming, which value is printed?\n```c\n#include <stdio.h>\nint main(){ int arr[] = {1,2,3}; printf(\"%d\", arr[0]);\n}\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 224,
+      "question": "When using C Programming, in C Programming, what does `sizeof(s)` return?\n```c\n#include <stdio.h>\nint main(){ char s[] = \"abc\"; printf(\"%zu\", sizeof(s));\n}\n```",
+      "options": [
+        "3",
+        "4",
+        "Depends on platform",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 225,
+      "question": "When using C Programming, in C Programming, what is the output?\n```c\n#include <stdio.h>\nint main(){ int x = 10; if (x > 5) printf(\"yes\");\n}\n```",
+      "options": [
+        "no output",
+        "yes",
+        "true",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 226,
+      "question": "Within C Programming, in C Programming, what is printed by this program?\n```c\n#include <stdio.h>\nint main(){ int a = 5; printf(\"%d\", a + 2); return 0;\n}\n```",
+      "options": [
+        "5",
+        "7",
+        "2",
+        "Compilation error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 227,
+      "question": "Within C Programming, in C Programming, what does `*p` evaluate to?\n```c\n#include <stdio.h>\nint main(){ int x = 3; int *p = &x; printf(\"%d\", *p); return 0;\n}\n```",
+      "options": [
+        "Address of x",
+        "3",
+        "Pointer size",
+        "Undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 228,
+      "question": "Within C Programming, in C Programming, which value is printed?\n```c\n#include <stdio.h>\nint main(){ int arr[] = {1,2,3}; printf(\"%d\", arr[0]);\n}\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 229,
+      "question": "Within C Programming, in C Programming, what does `sizeof(s)` return?\n```c\n#include <stdio.h>\nint main(){ char s[] = \"abc\"; printf(\"%zu\", sizeof(s));\n}\n```",
+      "options": [
+        "3",
+        "4",
+        "Depends on platform",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 230,
+      "question": "Within C Programming, in C Programming, what is the output?\n```c\n#include <stdio.h>\nint main(){ int x = 10; if (x > 5) printf(\"yes\");\n}\n```",
+      "options": [
+        "no output",
+        "yes",
+        "true",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 231,
+      "question": "In practical C Programming usage, in C Programming, what is printed by this program?\n```c\n#include <stdio.h>\nint main(){ int a = 5; printf(\"%d\", a + 2); return 0;\n}\n```",
+      "options": [
+        "5",
+        "7",
+        "2",
+        "Compilation error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 232,
+      "question": "In practical C Programming usage, in C Programming, what does `*p` evaluate to?\n```c\n#include <stdio.h>\nint main(){ int x = 3; int *p = &x; printf(\"%d\", *p); return 0;\n}\n```",
+      "options": [
+        "Address of x",
+        "3",
+        "Pointer size",
+        "Undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 233,
+      "question": "In practical C Programming usage, in C Programming, which value is printed?\n```c\n#include <stdio.h>\nint main(){ int arr[] = {1,2,3}; printf(\"%d\", arr[0]);\n}\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 234,
+      "question": "In practical C Programming usage, in C Programming, what does `sizeof(s)` return?\n```c\n#include <stdio.h>\nint main(){ char s[] = \"abc\"; printf(\"%zu\", sizeof(s));\n}\n```",
+      "options": [
+        "3",
+        "4",
+        "Depends on platform",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 235,
+      "question": "In practical C Programming usage, in C Programming, what is the output?\n```c\n#include <stdio.h>\nint main(){ int x = 10; if (x > 5) printf(\"yes\");\n}\n```",
+      "options": [
+        "no output",
+        "yes",
+        "true",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 236,
+      "question": "For C Programming developers, in C Programming, what is printed by this program?\n```c\n#include <stdio.h>\nint main(){ int a = 5; printf(\"%d\", a + 2); return 0;\n}\n```",
+      "options": [
+        "5",
+        "7",
+        "2",
+        "Compilation error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 237,
+      "question": "For C Programming developers, in C Programming, what does `*p` evaluate to?\n```c\n#include <stdio.h>\nint main(){ int x = 3; int *p = &x; printf(\"%d\", *p); return 0;\n}\n```",
+      "options": [
+        "Address of x",
+        "3",
+        "Pointer size",
+        "Undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 238,
+      "question": "For C Programming developers, in C Programming, which value is printed?\n```c\n#include <stdio.h>\nint main(){ int arr[] = {1,2,3}; printf(\"%d\", arr[0]);\n}\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 239,
+      "question": "For C Programming developers, in C Programming, what does `sizeof(s)` return?\n```c\n#include <stdio.h>\nint main(){ char s[] = \"abc\"; printf(\"%zu\", sizeof(s));\n}\n```",
+      "options": [
+        "3",
+        "4",
+        "Depends on platform",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 240,
+      "question": "For C Programming developers, in C Programming, what is the output?\n```c\n#include <stdio.h>\nint main(){ int x = 10; if (x > 5) printf(\"yes\");\n}\n```",
+      "options": [
+        "no output",
+        "yes",
+        "true",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 241,
+      "question": "In C Programming practice, in C Programming, what is printed by this program?\n```c\n#include <stdio.h>\nint main(){ int a = 5; printf(\"%d\", a + 2); return 0;\n}\n```",
+      "options": [
+        "5",
+        "7",
+        "2",
+        "Compilation error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 242,
+      "question": "In C Programming practice, in C Programming, what does `*p` evaluate to?\n```c\n#include <stdio.h>\nint main(){ int x = 3; int *p = &x; printf(\"%d\", *p); return 0;\n}\n```",
+      "options": [
+        "Address of x",
+        "3",
+        "Pointer size",
+        "Undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 243,
+      "question": "In C Programming practice, in C Programming, which value is printed?\n```c\n#include <stdio.h>\nint main(){ int arr[] = {1,2,3}; printf(\"%d\", arr[0]);\n}\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 244,
+      "question": "In C Programming practice, in C Programming, what does `sizeof(s)` return?\n```c\n#include <stdio.h>\nint main(){ char s[] = \"abc\"; printf(\"%zu\", sizeof(s));\n}\n```",
+      "options": [
+        "3",
+        "4",
+        "Depends on platform",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 245,
+      "question": "In C Programming practice, in C Programming, what is the output?\n```c\n#include <stdio.h>\nint main(){ int x = 10; if (x > 5) printf(\"yes\");\n}\n```",
+      "options": [
+        "no output",
+        "yes",
+        "true",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 246,
+      "question": "With C Programming, in C Programming, what is printed by this program?\n```c\n#include <stdio.h>\nint main(){ int a = 5; printf(\"%d\", a + 2); return 0;\n}\n```",
+      "options": [
+        "5",
+        "7",
+        "2",
+        "Compilation error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 247,
+      "question": "With C Programming, in C Programming, what does `*p` evaluate to?\n```c\n#include <stdio.h>\nint main(){ int x = 3; int *p = &x; printf(\"%d\", *p); return 0;\n}\n```",
+      "options": [
+        "Address of x",
+        "3",
+        "Pointer size",
+        "Undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 248,
+      "question": "With C Programming, in C Programming, which value is printed?\n```c\n#include <stdio.h>\nint main(){ int arr[] = {1,2,3}; printf(\"%d\", arr[0]);\n}\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 249,
+      "question": "With C Programming, in C Programming, what does `sizeof(s)` return?\n```c\n#include <stdio.h>\nint main(){ char s[] = \"abc\"; printf(\"%zu\", sizeof(s));\n}\n```",
+      "options": [
+        "3",
+        "4",
+        "Depends on platform",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 250,
+      "question": "With C Programming, in C Programming, what is the output?\n```c\n#include <stdio.h>\nint main(){ int x = 10; if (x > 5) printf(\"yes\");\n}\n```",
+      "options": [
+        "no output",
+        "yes",
+        "true",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 251,
+      "question": "What is printed by modulo operation?\n```c\nint a = 10;\nint b = 3;\nprintf(\"%d\", a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 252,
+      "question": "What is printed first?\n```c\nint x = 4;\nprintf(\"%d\", x++);\n```",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 253,
+      "question": "Which character is printed?\n```c\nchar s[] = \"cat\";\nprintf(\"%c\", s[1]);\n```",
+      "options": [
+        "c",
+        "a",
+        "t",
+        "\\0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 254,
+      "question": "What is output?\n```c\nint n = 2;\nif(n == 2) printf(\"ok\");\n```",
+      "options": [
+        "ok",
+        "2",
+        "true",
+        "none"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 255,
+      "question": "What is value of i after loop?\n```c\nint i;\nfor(i=0;i<3;i++){}\nprintf(\"%d\", i);\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 256,
+      "question": "In C Programming, what is printed by modulo operation?\n```c\nint a = 10;\nint b = 3;\nprintf(\"%d\", a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 257,
+      "question": "In C Programming, what is printed first?\n```c\nint x = 4;\nprintf(\"%d\", x++);\n```",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 258,
+      "question": "In C Programming, which character is printed?\n```c\nchar s[] = \"cat\";\nprintf(\"%c\", s[1]);\n```",
+      "options": [
+        "c",
+        "a",
+        "t",
+        "\\0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 259,
+      "question": "In C Programming, what is output?\n```c\nint n = 2;\nif(n == 2) printf(\"ok\");\n```",
+      "options": [
+        "ok",
+        "2",
+        "true",
+        "none"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 260,
+      "question": "In C Programming, what is value of i after loop?\n```c\nint i;\nfor(i=0;i<3;i++){}\nprintf(\"%d\", i);\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 261,
+      "question": "For C Programming, what is printed by modulo operation?\n```c\nint a = 10;\nint b = 3;\nprintf(\"%d\", a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 262,
+      "question": "For C Programming, what is printed first?\n```c\nint x = 4;\nprintf(\"%d\", x++);\n```",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 263,
+      "question": "For C Programming, which character is printed?\n```c\nchar s[] = \"cat\";\nprintf(\"%c\", s[1]);\n```",
+      "options": [
+        "c",
+        "a",
+        "t",
+        "\\0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 264,
+      "question": "For C Programming, what is output?\n```c\nint n = 2;\nif(n == 2) printf(\"ok\");\n```",
+      "options": [
+        "ok",
+        "2",
+        "true",
+        "none"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 265,
+      "question": "For C Programming, what is value of i after loop?\n```c\nint i;\nfor(i=0;i<3;i++){}\nprintf(\"%d\", i);\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 266,
+      "question": "When using C Programming, what is printed by modulo operation?\n```c\nint a = 10;\nint b = 3;\nprintf(\"%d\", a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 267,
+      "question": "When using C Programming, what is printed first?\n```c\nint x = 4;\nprintf(\"%d\", x++);\n```",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 268,
+      "question": "When using C Programming, which character is printed?\n```c\nchar s[] = \"cat\";\nprintf(\"%c\", s[1]);\n```",
+      "options": [
+        "c",
+        "a",
+        "t",
+        "\\0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 269,
+      "question": "When using C Programming, what is output?\n```c\nint n = 2;\nif(n == 2) printf(\"ok\");\n```",
+      "options": [
+        "ok",
+        "2",
+        "true",
+        "none"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 270,
+      "question": "When using C Programming, what is value of i after loop?\n```c\nint i;\nfor(i=0;i<3;i++){}\nprintf(\"%d\", i);\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 271,
+      "question": "In a C Programming query, what is printed by modulo operation?\n```c\nint a = 10;\nint b = 3;\nprintf(\"%d\", a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 272,
+      "question": "In a C Programming query, what is printed first?\n```c\nint x = 4;\nprintf(\"%d\", x++);\n```",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 273,
+      "question": "In a C Programming query, which character is printed?\n```c\nchar s[] = \"cat\";\nprintf(\"%c\", s[1]);\n```",
+      "options": [
+        "c",
+        "a",
+        "t",
+        "\\0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 274,
+      "question": "In a C Programming query, what is output?\n```c\nint n = 2;\nif(n == 2) printf(\"ok\");\n```",
+      "options": [
+        "ok",
+        "2",
+        "true",
+        "none"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 275,
+      "question": "In a C Programming query, what is value of i after loop?\n```c\nint i;\nfor(i=0;i<3;i++){}\nprintf(\"%d\", i);\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 276,
+      "question": "From a C Programming perspective, what is printed by modulo operation?\n```c\nint a = 10;\nint b = 3;\nprintf(\"%d\", a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 277,
+      "question": "From a C Programming perspective, what is printed first?\n```c\nint x = 4;\nprintf(\"%d\", x++);\n```",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 278,
+      "question": "From a C Programming perspective, which character is printed?\n```c\nchar s[] = \"cat\";\nprintf(\"%c\", s[1]);\n```",
+      "options": [
+        "c",
+        "a",
+        "t",
+        "\\0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 279,
+      "question": "From a C Programming perspective, what is output?\n```c\nint n = 2;\nif(n == 2) printf(\"ok\");\n```",
+      "options": [
+        "ok",
+        "2",
+        "true",
+        "none"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 280,
+      "question": "From a C Programming perspective, what is value of i after loop?\n```c\nint i;\nfor(i=0;i<3;i++){}\nprintf(\"%d\", i);\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 281,
+      "question": "In practical C Programming usage, what is printed by modulo operation?\n```c\nint a = 10;\nint b = 3;\nprintf(\"%d\", a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 282,
+      "question": "In practical C Programming usage, what is printed first?\n```c\nint x = 4;\nprintf(\"%d\", x++);\n```",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 283,
+      "question": "In practical C Programming usage, which character is printed?\n```c\nchar s[] = \"cat\";\nprintf(\"%c\", s[1]);\n```",
+      "options": [
+        "c",
+        "a",
+        "t",
+        "\\0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 284,
+      "question": "In practical C Programming usage, what is output?\n```c\nint n = 2;\nif(n == 2) printf(\"ok\");\n```",
+      "options": [
+        "ok",
+        "2",
+        "true",
+        "none"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 285,
+      "question": "In practical C Programming usage, what is value of i after loop?\n```c\nint i;\nfor(i=0;i<3;i++){}\nprintf(\"%d\", i);\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 286,
+      "question": "Within C Programming, what is printed by modulo operation?\n```c\nint a = 10;\nint b = 3;\nprintf(\"%d\", a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 287,
+      "question": "Within C Programming, what is printed first?\n```c\nint x = 4;\nprintf(\"%d\", x++);\n```",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 288,
+      "question": "Within C Programming, which character is printed?\n```c\nchar s[] = \"cat\";\nprintf(\"%c\", s[1]);\n```",
+      "options": [
+        "c",
+        "a",
+        "t",
+        "\\0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 289,
+      "question": "Within C Programming, what is output?\n```c\nint n = 2;\nif(n == 2) printf(\"ok\");\n```",
+      "options": [
+        "ok",
+        "2",
+        "true",
+        "none"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 290,
+      "question": "Within C Programming, what is value of i after loop?\n```c\nint i;\nfor(i=0;i<3;i++){}\nprintf(\"%d\", i);\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 291,
+      "question": "For C Programming developers, what is printed by modulo operation?\n```c\nint a = 10;\nint b = 3;\nprintf(\"%d\", a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 292,
+      "question": "For C Programming developers, what is printed first?\n```c\nint x = 4;\nprintf(\"%d\", x++);\n```",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 293,
+      "question": "For C Programming developers, which character is printed?\n```c\nchar s[] = \"cat\";\nprintf(\"%c\", s[1]);\n```",
+      "options": [
+        "c",
+        "a",
+        "t",
+        "\\0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 294,
+      "question": "For C Programming developers, what is output?\n```c\nint n = 2;\nif(n == 2) printf(\"ok\");\n```",
+      "options": [
+        "ok",
+        "2",
+        "true",
+        "none"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 295,
+      "question": "For C Programming developers, what is value of i after loop?\n```c\nint i;\nfor(i=0;i<3;i++){}\nprintf(\"%d\", i);\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 296,
+      "question": "In day-to-day C Programming work, what is printed by modulo operation?\n```c\nint a = 10;\nint b = 3;\nprintf(\"%d\", a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 297,
+      "question": "In day-to-day C Programming work, what is printed first?\n```c\nint x = 4;\nprintf(\"%d\", x++);\n```",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 298,
+      "question": "In day-to-day C Programming work, which character is printed?\n```c\nchar s[] = \"cat\";\nprintf(\"%c\", s[1]);\n```",
+      "options": [
+        "c",
+        "a",
+        "t",
+        "\\0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 299,
+      "question": "In day-to-day C Programming work, what is output?\n```c\nint n = 2;\nif(n == 2) printf(\"ok\");\n```",
+      "options": [
+        "ok",
+        "2",
+        "true",
+        "none"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 300,
+      "question": "In day-to-day C Programming work, what is value of i after loop?\n```c\nint i;\nfor(i=0;i<3;i++){}\nprintf(\"%d\", i);\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 301,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_302 = 13;\nprintf(\"%d\", value_302);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 302,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_304 = 15;\nprintf(\"%d\", value_304);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 303,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_306 = 0;\nprintf(\"%d\", value_306);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 304,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_308 = 2;\nprintf(\"%d\", value_308);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 305,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_310 = 4;\nprintf(\"%d\", value_310);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 306,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_312 = 6;\nprintf(\"%d\", value_312);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 307,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_314 = 8;\nprintf(\"%d\", value_314);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 308,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_316 = 10;\nprintf(\"%d\", value_316);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 309,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_318 = 12;\nprintf(\"%d\", value_318);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 310,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_320 = 14;\nprintf(\"%d\", value_320);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 311,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_322 = 16;\nprintf(\"%d\", value_322);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 312,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_324 = 1;\nprintf(\"%d\", value_324);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 313,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_326 = 3;\nprintf(\"%d\", value_326);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 314,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_328 = 5;\nprintf(\"%d\", value_328);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 315,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_330 = 7;\nprintf(\"%d\", value_330);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 316,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_332 = 9;\nprintf(\"%d\", value_332);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 317,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_334 = 11;\nprintf(\"%d\", value_334);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 318,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_336 = 13;\nprintf(\"%d\", value_336);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 319,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_338 = 15;\nprintf(\"%d\", value_338);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 320,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_340 = 0;\nprintf(\"%d\", value_340);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 321,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_342 = 2;\nprintf(\"%d\", value_342);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 322,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_344 = 4;\nprintf(\"%d\", value_344);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 323,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_346 = 6;\nprintf(\"%d\", value_346);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 324,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_348 = 8;\nprintf(\"%d\", value_348);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 325,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_350 = 10;\nprintf(\"%d\", value_350);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 326,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_352 = 12;\nprintf(\"%d\", value_352);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 327,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_354 = 14;\nprintf(\"%d\", value_354);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 328,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_356 = 16;\nprintf(\"%d\", value_356);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 329,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_358 = 1;\nprintf(\"%d\", value_358);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 330,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_360 = 3;\nprintf(\"%d\", value_360);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 331,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_362 = 5;\nprintf(\"%d\", value_362);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 332,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_364 = 7;\nprintf(\"%d\", value_364);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 333,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_366 = 9;\nprintf(\"%d\", value_366);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 334,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_368 = 11;\nprintf(\"%d\", value_368);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 335,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_370 = 13;\nprintf(\"%d\", value_370);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 336,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_372 = 15;\nprintf(\"%d\", value_372);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 337,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_374 = 0;\nprintf(\"%d\", value_374);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 338,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_376 = 2;\nprintf(\"%d\", value_376);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 339,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_378 = 4;\nprintf(\"%d\", value_378);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 340,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_380 = 6;\nprintf(\"%d\", value_380);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 341,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_382 = 8;\nprintf(\"%d\", value_382);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 342,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_384 = 10;\nprintf(\"%d\", value_384);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 343,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_386 = 12;\nprintf(\"%d\", value_386);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 344,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_388 = 14;\nprintf(\"%d\", value_388);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 345,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_390 = 16;\nprintf(\"%d\", value_390);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 346,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_392 = 1;\nprintf(\"%d\", value_392);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 347,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_394 = 3;\nprintf(\"%d\", value_394);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 348,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_396 = 5;\nprintf(\"%d\", value_396);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 349,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_398 = 7;\nprintf(\"%d\", value_398);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 350,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_400 = 9;\nprintf(\"%d\", value_400);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 351,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_402 = 11;\nprintf(\"%d\", value_402);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 352,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_404 = 13;\nprintf(\"%d\", value_404);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 353,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_406 = 15;\nprintf(\"%d\", value_406);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 354,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_408 = 0;\nprintf(\"%d\", value_408);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 355,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_410 = 2;\nprintf(\"%d\", value_410);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 356,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_412 = 4;\nprintf(\"%d\", value_412);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 357,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_414 = 6;\nprintf(\"%d\", value_414);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 358,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_416 = 8;\nprintf(\"%d\", value_416);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 359,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_418 = 10;\nprintf(\"%d\", value_418);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 360,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_420 = 12;\nprintf(\"%d\", value_420);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 361,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_422 = 14;\nprintf(\"%d\", value_422);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 362,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_424 = 16;\nprintf(\"%d\", value_424);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 363,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_426 = 1;\nprintf(\"%d\", value_426);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 364,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_428 = 3;\nprintf(\"%d\", value_428);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 365,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_430 = 5;\nprintf(\"%d\", value_430);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 366,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_432 = 7;\nprintf(\"%d\", value_432);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 367,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_434 = 9;\nprintf(\"%d\", value_434);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 368,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_436 = 11;\nprintf(\"%d\", value_436);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 369,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_438 = 13;\nprintf(\"%d\", value_438);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 370,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_440 = 15;\nprintf(\"%d\", value_440);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 371,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_442 = 0;\nprintf(\"%d\", value_442);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 372,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_444 = 2;\nprintf(\"%d\", value_444);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 373,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_446 = 4;\nprintf(\"%d\", value_446);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 374,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_448 = 6;\nprintf(\"%d\", value_448);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 375,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_450 = 8;\nprintf(\"%d\", value_450);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 376,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_452 = 10;\nprintf(\"%d\", value_452);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 377,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_454 = 12;\nprintf(\"%d\", value_454);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 378,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_456 = 14;\nprintf(\"%d\", value_456);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 379,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_458 = 16;\nprintf(\"%d\", value_458);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 380,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_460 = 1;\nprintf(\"%d\", value_460);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 381,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_462 = 3;\nprintf(\"%d\", value_462);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 382,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_464 = 5;\nprintf(\"%d\", value_464);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 383,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_466 = 7;\nprintf(\"%d\", value_466);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 384,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_468 = 9;\nprintf(\"%d\", value_468);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 385,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_470 = 11;\nprintf(\"%d\", value_470);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 386,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_472 = 13;\nprintf(\"%d\", value_472);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 387,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_474 = 15;\nprintf(\"%d\", value_474);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 388,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_476 = 0;\nprintf(\"%d\", value_476);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 389,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_478 = 2;\nprintf(\"%d\", value_478);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 390,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_480 = 4;\nprintf(\"%d\", value_480);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 391,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_482 = 6;\nprintf(\"%d\", value_482);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 392,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_484 = 8;\nprintf(\"%d\", value_484);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 393,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_486 = 10;\nprintf(\"%d\", value_486);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 394,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_488 = 12;\nprintf(\"%d\", value_488);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 395,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_490 = 14;\nprintf(\"%d\", value_490);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 396,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_492 = 16;\nprintf(\"%d\", value_492);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 397,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_494 = 1;\nprintf(\"%d\", value_494);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 398,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_496 = 3;\nprintf(\"%d\", value_496);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 399,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_498 = 5;\nprintf(\"%d\", value_498);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 400,
+      "question": "What is the key outcome of this snippet?\n```c\nint value_500 = 7;\nprintf(\"%d\", value_500);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    }
+  ]
+}

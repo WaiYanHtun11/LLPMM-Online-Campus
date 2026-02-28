@@ -1,0 +1,4407 @@
+{
+  "slug": "java",
+  "title": "Java Quiz",
+  "description": "100 Java programming practice questions",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which keyword is used to inherit a class in Java?",
+      "options": [
+        "implements",
+        "extends",
+        "import",
+        "super"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "Which method is the entry point of a Java application?",
+      "options": [
+        "run()",
+        "start()",
+        "main()",
+        "init()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "Which collection does not allow duplicate elements?",
+      "options": [
+        "List",
+        "Map",
+        "Set",
+        "Queue"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 4,
+      "question": "Which keyword prevents method overriding?",
+      "options": [
+        "const",
+        "static",
+        "final",
+        "sealed"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Which access modifier is most restrictive?",
+      "options": [
+        "protected",
+        "public",
+        "private",
+        "default"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "Which exception type must be handled or declared?",
+      "options": [
+        "RuntimeException",
+        "Error",
+        "Checked Exception",
+        "NullPointerException"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 7,
+      "question": "Which interface enables lambda expressions in Java?",
+      "options": [
+        "Serializable",
+        "Comparable",
+        "Functional Interface",
+        "Cloneable"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 8,
+      "question": "Which keyword refers to current object instance?",
+      "options": [
+        "self",
+        "this",
+        "current",
+        "super"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "Choose the correct option based on Java fundamentals?",
+      "options": [
+        "implements",
+        "extends",
+        "import",
+        "super"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "In Java, which method is the entry point of a Java application?",
+      "options": [
+        "run()",
+        "start()",
+        "main()",
+        "init()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 11,
+      "question": "In Java, which collection does not allow duplicate elements?",
+      "options": [
+        "List",
+        "Map",
+        "Set",
+        "Queue"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 12,
+      "question": "In Java, which keyword prevents method overriding?",
+      "options": [
+        "const",
+        "static",
+        "final",
+        "sealed"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 13,
+      "question": "In Java, which access modifier is most restrictive?",
+      "options": [
+        "protected",
+        "public",
+        "private",
+        "default"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 14,
+      "question": "In Java, which exception type must be handled or declared?",
+      "options": [
+        "RuntimeException",
+        "Error",
+        "Checked Exception",
+        "NullPointerException"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 15,
+      "question": "In Java, which interface enables lambda expressions in Java?",
+      "options": [
+        "Serializable",
+        "Comparable",
+        "Functional Interface",
+        "Cloneable"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 16,
+      "question": "Which keyword refers to the current object instance?",
+      "options": [
+        "self",
+        "this",
+        "current",
+        "super"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 17,
+      "question": "In Java, choose the correct option based on Java fundamentals?",
+      "options": [
+        "implements",
+        "extends",
+        "import",
+        "super"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 18,
+      "question": "For Java, which method is the entry point of a Java application?",
+      "options": [
+        "run()",
+        "start()",
+        "main()",
+        "init()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 19,
+      "question": "For Java, which collection does not allow duplicate elements?",
+      "options": [
+        "List",
+        "Map",
+        "Set",
+        "Queue"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 20,
+      "question": "For Java, which keyword prevents method overriding?",
+      "options": [
+        "const",
+        "static",
+        "final",
+        "sealed"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 21,
+      "question": "For Java, which access modifier is most restrictive?",
+      "options": [
+        "protected",
+        "public",
+        "private",
+        "default"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 22,
+      "question": "For Java, which exception type must be handled or declared?",
+      "options": [
+        "RuntimeException",
+        "Error",
+        "Checked Exception",
+        "NullPointerException"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 23,
+      "question": "For Java, which interface enables lambda expressions in Java?",
+      "options": [
+        "Serializable",
+        "Comparable",
+        "Functional Interface",
+        "Cloneable"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 24,
+      "question": "In Java, which keyword refers to the current object instance?",
+      "options": [
+        "self",
+        "this",
+        "current",
+        "super"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 25,
+      "question": "For Java, choose the correct option based on Java fundamentals?",
+      "options": [
+        "implements",
+        "extends",
+        "import",
+        "super"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 26,
+      "question": "When using Java, which method is the entry point of a Java application?",
+      "options": [
+        "run()",
+        "start()",
+        "main()",
+        "init()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 27,
+      "question": "When using Java, which collection does not allow duplicate elements?",
+      "options": [
+        "List",
+        "Map",
+        "Set",
+        "Queue"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 28,
+      "question": "When using Java, which keyword prevents method overriding?",
+      "options": [
+        "const",
+        "static",
+        "final",
+        "sealed"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 29,
+      "question": "When using Java, which access modifier is most restrictive?",
+      "options": [
+        "protected",
+        "public",
+        "private",
+        "default"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 30,
+      "question": "When using Java, which exception type must be handled or declared?",
+      "options": [
+        "RuntimeException",
+        "Error",
+        "Checked Exception",
+        "NullPointerException"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 31,
+      "question": "When using Java, which interface enables lambda expressions in Java?",
+      "options": [
+        "Serializable",
+        "Comparable",
+        "Functional Interface",
+        "Cloneable"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 32,
+      "question": "For Java, which keyword refers to the current object instance?",
+      "options": [
+        "self",
+        "this",
+        "current",
+        "super"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 33,
+      "question": "When using Java, choose the correct option based on Java fundamentals?",
+      "options": [
+        "implements",
+        "extends",
+        "import",
+        "super"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 34,
+      "question": "In a Java query, which method is the entry point of a Java application?",
+      "options": [
+        "run()",
+        "start()",
+        "main()",
+        "init()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 35,
+      "question": "In a Java query, which collection does not allow duplicate elements?",
+      "options": [
+        "List",
+        "Map",
+        "Set",
+        "Queue"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 36,
+      "question": "In a Java query, which keyword prevents method overriding?",
+      "options": [
+        "const",
+        "static",
+        "final",
+        "sealed"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 37,
+      "question": "In a Java query, which access modifier is most restrictive?",
+      "options": [
+        "protected",
+        "public",
+        "private",
+        "default"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 38,
+      "question": "In a Java query, which exception type must be handled or declared?",
+      "options": [
+        "RuntimeException",
+        "Error",
+        "Checked Exception",
+        "NullPointerException"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 39,
+      "question": "In a Java query, which interface enables lambda expressions in Java?",
+      "options": [
+        "Serializable",
+        "Comparable",
+        "Functional Interface",
+        "Cloneable"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 40,
+      "question": "When using Java, which keyword refers to the current object instance?",
+      "options": [
+        "self",
+        "this",
+        "current",
+        "super"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 41,
+      "question": "In a Java query, choose the correct option based on Java fundamentals?",
+      "options": [
+        "implements",
+        "extends",
+        "import",
+        "super"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 42,
+      "question": "From a Java perspective, which method is the entry point of a Java application?",
+      "options": [
+        "run()",
+        "start()",
+        "main()",
+        "init()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 43,
+      "question": "From a Java perspective, which collection does not allow duplicate elements?",
+      "options": [
+        "List",
+        "Map",
+        "Set",
+        "Queue"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 44,
+      "question": "From a Java perspective, which keyword prevents method overriding?",
+      "options": [
+        "const",
+        "static",
+        "final",
+        "sealed"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 45,
+      "question": "From a Java perspective, which access modifier is most restrictive?",
+      "options": [
+        "protected",
+        "public",
+        "private",
+        "default"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 46,
+      "question": "From a Java perspective, which exception type must be handled or declared?",
+      "options": [
+        "RuntimeException",
+        "Error",
+        "Checked Exception",
+        "NullPointerException"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 47,
+      "question": "From a Java perspective, which interface enables lambda expressions in Java?",
+      "options": [
+        "Serializable",
+        "Comparable",
+        "Functional Interface",
+        "Cloneable"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 48,
+      "question": "In a Java query, which keyword refers to the current object instance?",
+      "options": [
+        "self",
+        "this",
+        "current",
+        "super"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 49,
+      "question": "From a Java perspective, choose the correct option based on Java fundamentals?",
+      "options": [
+        "implements",
+        "extends",
+        "import",
+        "super"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 50,
+      "question": "In practical Java usage, which method is the entry point of a Java application?",
+      "options": [
+        "run()",
+        "start()",
+        "main()",
+        "init()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 51,
+      "question": "In practical Java usage, which collection does not allow duplicate elements?",
+      "options": [
+        "List",
+        "Map",
+        "Set",
+        "Queue"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 52,
+      "question": "In practical Java usage, which keyword prevents method overriding?",
+      "options": [
+        "const",
+        "static",
+        "final",
+        "sealed"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 53,
+      "question": "In practical Java usage, which access modifier is most restrictive?",
+      "options": [
+        "protected",
+        "public",
+        "private",
+        "default"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 54,
+      "question": "In practical Java usage, which exception type must be handled or declared?",
+      "options": [
+        "RuntimeException",
+        "Error",
+        "Checked Exception",
+        "NullPointerException"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 55,
+      "question": "In practical Java usage, which interface enables lambda expressions in Java?",
+      "options": [
+        "Serializable",
+        "Comparable",
+        "Functional Interface",
+        "Cloneable"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 56,
+      "question": "From a Java perspective, which keyword refers to the current object instance?",
+      "options": [
+        "self",
+        "this",
+        "current",
+        "super"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 57,
+      "question": "In practical Java usage, choose the correct option based on Java fundamentals?",
+      "options": [
+        "implements",
+        "extends",
+        "import",
+        "super"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 58,
+      "question": "Within Java, which method is the entry point of a Java application?",
+      "options": [
+        "run()",
+        "start()",
+        "main()",
+        "init()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 59,
+      "question": "Within Java, which collection does not allow duplicate elements?",
+      "options": [
+        "List",
+        "Map",
+        "Set",
+        "Queue"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 60,
+      "question": "Within Java, which keyword prevents method overriding?",
+      "options": [
+        "const",
+        "static",
+        "final",
+        "sealed"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 61,
+      "question": "Within Java, which access modifier is most restrictive?",
+      "options": [
+        "protected",
+        "public",
+        "private",
+        "default"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 62,
+      "question": "Within Java, which exception type must be handled or declared?",
+      "options": [
+        "RuntimeException",
+        "Error",
+        "Checked Exception",
+        "NullPointerException"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 63,
+      "question": "Within Java, which interface enables lambda expressions in Java?",
+      "options": [
+        "Serializable",
+        "Comparable",
+        "Functional Interface",
+        "Cloneable"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 64,
+      "question": "In practical Java usage, which keyword refers to the current object instance?",
+      "options": [
+        "self",
+        "this",
+        "current",
+        "super"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 65,
+      "question": "Within Java, choose the correct option based on Java fundamentals?",
+      "options": [
+        "implements",
+        "extends",
+        "import",
+        "super"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 66,
+      "question": "For Java developers, which method is the entry point of a Java application?",
+      "options": [
+        "run()",
+        "start()",
+        "main()",
+        "init()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 67,
+      "question": "For Java developers, which collection does not allow duplicate elements?",
+      "options": [
+        "List",
+        "Map",
+        "Set",
+        "Queue"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 68,
+      "question": "For Java developers, which keyword prevents method overriding?",
+      "options": [
+        "const",
+        "static",
+        "final",
+        "sealed"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 69,
+      "question": "For Java developers, which access modifier is most restrictive?",
+      "options": [
+        "protected",
+        "public",
+        "private",
+        "default"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 70,
+      "question": "For Java developers, which exception type must be handled or declared?",
+      "options": [
+        "RuntimeException",
+        "Error",
+        "Checked Exception",
+        "NullPointerException"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 71,
+      "question": "For Java developers, which interface enables lambda expressions in Java?",
+      "options": [
+        "Serializable",
+        "Comparable",
+        "Functional Interface",
+        "Cloneable"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 72,
+      "question": "Within Java, which keyword refers to the current object instance?",
+      "options": [
+        "self",
+        "this",
+        "current",
+        "super"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 73,
+      "question": "For Java developers, choose the correct option based on Java fundamentals?",
+      "options": [
+        "implements",
+        "extends",
+        "import",
+        "super"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 74,
+      "question": "In day-to-day Java work, which method is the entry point of a Java application?",
+      "options": [
+        "run()",
+        "start()",
+        "main()",
+        "init()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 75,
+      "question": "In day-to-day Java work, which collection does not allow duplicate elements?",
+      "options": [
+        "List",
+        "Map",
+        "Set",
+        "Queue"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 76,
+      "question": "In day-to-day Java work, which keyword prevents method overriding?",
+      "options": [
+        "const",
+        "static",
+        "final",
+        "sealed"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 77,
+      "question": "In day-to-day Java work, which access modifier is most restrictive?",
+      "options": [
+        "protected",
+        "public",
+        "private",
+        "default"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 78,
+      "question": "In day-to-day Java work, which exception type must be handled or declared?",
+      "options": [
+        "RuntimeException",
+        "Error",
+        "Checked Exception",
+        "NullPointerException"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 79,
+      "question": "In day-to-day Java work, which interface enables lambda expressions in Java?",
+      "options": [
+        "Serializable",
+        "Comparable",
+        "Functional Interface",
+        "Cloneable"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 80,
+      "question": "For Java developers, which keyword refers to the current object instance?",
+      "options": [
+        "self",
+        "this",
+        "current",
+        "super"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 81,
+      "question": "In day-to-day Java work, choose the correct option based on Java fundamentals?",
+      "options": [
+        "implements",
+        "extends",
+        "import",
+        "super"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 82,
+      "question": "Using Java, which method is the entry point of a Java application?",
+      "options": [
+        "run()",
+        "start()",
+        "main()",
+        "init()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 83,
+      "question": "Using Java, which collection does not allow duplicate elements?",
+      "options": [
+        "List",
+        "Map",
+        "Set",
+        "Queue"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 84,
+      "question": "Using Java, which keyword prevents method overriding?",
+      "options": [
+        "const",
+        "static",
+        "final",
+        "sealed"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 85,
+      "question": "Using Java, which access modifier is most restrictive?",
+      "options": [
+        "protected",
+        "public",
+        "private",
+        "default"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 86,
+      "question": "Using Java, which exception type must be handled or declared?",
+      "options": [
+        "RuntimeException",
+        "Error",
+        "Checked Exception",
+        "NullPointerException"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 87,
+      "question": "Using Java, which interface enables lambda expressions in Java?",
+      "options": [
+        "Serializable",
+        "Comparable",
+        "Functional Interface",
+        "Cloneable"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 88,
+      "question": "In day-to-day Java work, which keyword refers to the current object instance?",
+      "options": [
+        "self",
+        "this",
+        "current",
+        "super"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 89,
+      "question": "Using Java, choose the correct option based on Java fundamentals?",
+      "options": [
+        "implements",
+        "extends",
+        "import",
+        "super"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 90,
+      "question": "In Java practice, which method is the entry point of a Java application?",
+      "options": [
+        "run()",
+        "start()",
+        "main()",
+        "init()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 91,
+      "question": "In Java practice, which collection does not allow duplicate elements?",
+      "options": [
+        "List",
+        "Map",
+        "Set",
+        "Queue"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 92,
+      "question": "In Java practice, which keyword prevents method overriding?",
+      "options": [
+        "const",
+        "static",
+        "final",
+        "sealed"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 93,
+      "question": "In Java practice, which access modifier is most restrictive?",
+      "options": [
+        "protected",
+        "public",
+        "private",
+        "default"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 94,
+      "question": "In Java practice, which exception type must be handled or declared?",
+      "options": [
+        "RuntimeException",
+        "Error",
+        "Checked Exception",
+        "NullPointerException"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 95,
+      "question": "In Java practice, which interface enables lambda expressions in Java?",
+      "options": [
+        "Serializable",
+        "Comparable",
+        "Functional Interface",
+        "Cloneable"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 96,
+      "question": "Using Java, which keyword refers to the current object instance?",
+      "options": [
+        "self",
+        "this",
+        "current",
+        "super"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 97,
+      "question": "In Java practice, choose the correct option based on Java fundamentals?",
+      "options": [
+        "implements",
+        "extends",
+        "import",
+        "super"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 98,
+      "question": "With Java, which method is the entry point of a Java application?",
+      "options": [
+        "run()",
+        "start()",
+        "main()",
+        "init()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 99,
+      "question": "With Java, which collection does not allow duplicate elements?",
+      "options": [
+        "List",
+        "Map",
+        "Set",
+        "Queue"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 100,
+      "question": "With Java, which keyword prevents method overriding?",
+      "options": [
+        "const",
+        "static",
+        "final",
+        "sealed"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 101,
+      "question": "Which description best matches \"JVM\" in Java?",
+      "options": [
+        "The development kit containing compiler and developer tools.",
+        "The runtime environment required to run Java applications.",
+        "A contract that defines methods a class must implement.",
+        "The runtime engine that executes Java bytecode."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 102,
+      "question": "In Java, \"JVM\" is mainly used for what?",
+      "options": [
+        "A contract that defines methods a class must implement.",
+        "The development kit containing compiler and developer tools.",
+        "The runtime engine that executes Java bytecode.",
+        "The runtime environment required to run Java applications."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 103,
+      "question": "What is the primary purpose of \"JVM\" in Java?",
+      "options": [
+        "The runtime environment required to run Java applications.",
+        "The runtime engine that executes Java bytecode.",
+        "A contract that defines methods a class must implement.",
+        "The development kit containing compiler and developer tools."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 104,
+      "question": "Choose the most accurate statement about \"JVM\" in Java?",
+      "options": [
+        "The runtime engine that executes Java bytecode.",
+        "The development kit containing compiler and developer tools.",
+        "The runtime environment required to run Java applications.",
+        "A contract that defines methods a class must implement."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 105,
+      "question": "Which option correctly explains \"JVM\" for Java developers?",
+      "options": [
+        "The runtime environment required to run Java applications.",
+        "A contract that defines methods a class must implement.",
+        "The development kit containing compiler and developer tools.",
+        "The runtime engine that executes Java bytecode."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 106,
+      "question": "In practical Java code, when would you use \"JVM\"?",
+      "options": [
+        "The development kit containing compiler and developer tools.",
+        "The runtime environment required to run Java applications.",
+        "The runtime engine that executes Java bytecode.",
+        "A contract that defines methods a class must implement."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 107,
+      "question": "What does \"JVM\" represent?",
+      "options": [
+        "A contract that defines methods a class must implement.",
+        "The runtime engine that executes Java bytecode.",
+        "The development kit containing compiler and developer tools.",
+        "The runtime environment required to run Java applications."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 108,
+      "question": "Identify the correct meaning of \"JVM\" in Java?",
+      "options": [
+        "The runtime engine that executes Java bytecode.",
+        "The runtime environment required to run Java applications.",
+        "A contract that defines methods a class must implement.",
+        "The development kit containing compiler and developer tools."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 109,
+      "question": "Which definition of \"JVM\" is correct in Java?",
+      "options": [
+        "A contract that defines methods a class must implement.",
+        "The development kit containing compiler and developer tools.",
+        "The runtime environment required to run Java applications.",
+        "The runtime engine that executes Java bytecode."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 110,
+      "question": "For Java, \"JVM\" is best described as:?",
+      "options": [
+        "The runtime environment required to run Java applications.",
+        "A contract that defines methods a class must implement.",
+        "The runtime engine that executes Java bytecode.",
+        "The development kit containing compiler and developer tools."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 111,
+      "question": "Which description best matches \"JDK\" in Java?",
+      "options": [
+        "A base class that can contain abstract and concrete methods.",
+        "The development kit containing compiler and developer tools.",
+        "The runtime environment required to run Java applications.",
+        "A contract that defines methods a class must implement."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 112,
+      "question": "In Java, \"JDK\" is mainly used for what?",
+      "options": [
+        "The development kit containing compiler and developer tools.",
+        "A contract that defines methods a class must implement.",
+        "A base class that can contain abstract and concrete methods.",
+        "The runtime environment required to run Java applications."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 113,
+      "question": "What is the primary purpose of \"JDK\" in Java?",
+      "options": [
+        "A base class that can contain abstract and concrete methods.",
+        "The runtime environment required to run Java applications.",
+        "A contract that defines methods a class must implement.",
+        "The development kit containing compiler and developer tools."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 114,
+      "question": "Choose the most accurate statement about \"JDK\" in Java?",
+      "options": [
+        "A contract that defines methods a class must implement.",
+        "A base class that can contain abstract and concrete methods.",
+        "The development kit containing compiler and developer tools.",
+        "The runtime environment required to run Java applications."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 115,
+      "question": "Which option correctly explains \"JDK\" for Java developers?",
+      "options": [
+        "The runtime environment required to run Java applications.",
+        "The development kit containing compiler and developer tools.",
+        "A contract that defines methods a class must implement.",
+        "A base class that can contain abstract and concrete methods."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 116,
+      "question": "In practical Java code, when would you use \"JDK\"?",
+      "options": [
+        "The development kit containing compiler and developer tools.",
+        "A base class that can contain abstract and concrete methods.",
+        "The runtime environment required to run Java applications.",
+        "A contract that defines methods a class must implement."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 117,
+      "question": "What does \"JDK\" represent?",
+      "options": [
+        "The runtime environment required to run Java applications.",
+        "A contract that defines methods a class must implement.",
+        "A base class that can contain abstract and concrete methods.",
+        "The development kit containing compiler and developer tools."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 118,
+      "question": "Identify the correct meaning of \"JDK\" in Java?",
+      "options": [
+        "A base class that can contain abstract and concrete methods.",
+        "The runtime environment required to run Java applications.",
+        "The development kit containing compiler and developer tools.",
+        "A contract that defines methods a class must implement."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 119,
+      "question": "Which definition of \"JDK\" is correct in Java?",
+      "options": [
+        "A contract that defines methods a class must implement.",
+        "The development kit containing compiler and developer tools.",
+        "A base class that can contain abstract and concrete methods.",
+        "The runtime environment required to run Java applications."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 120,
+      "question": "For Java, \"JDK\" is best described as:?",
+      "options": [
+        "The development kit containing compiler and developer tools.",
+        "The runtime environment required to run Java applications.",
+        "A contract that defines methods a class must implement.",
+        "A base class that can contain abstract and concrete methods."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 121,
+      "question": "Which description best matches \"JRE\" in Java?",
+      "options": [
+        "A contract that defines methods a class must implement.",
+        "A base class that can contain abstract and concrete methods.",
+        "A mechanism where a subclass extends a superclass.",
+        "The runtime environment required to run Java applications."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 122,
+      "question": "In Java, \"JRE\" is mainly used for what?",
+      "options": [
+        "A mechanism where a subclass extends a superclass.",
+        "A contract that defines methods a class must implement.",
+        "The runtime environment required to run Java applications.",
+        "A base class that can contain abstract and concrete methods."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 123,
+      "question": "What is the primary purpose of \"JRE\" in Java?",
+      "options": [
+        "A base class that can contain abstract and concrete methods.",
+        "The runtime environment required to run Java applications.",
+        "A mechanism where a subclass extends a superclass.",
+        "A contract that defines methods a class must implement."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 124,
+      "question": "Choose the most accurate statement about \"JRE\" in Java?",
+      "options": [
+        "The runtime environment required to run Java applications.",
+        "A contract that defines methods a class must implement.",
+        "A base class that can contain abstract and concrete methods.",
+        "A mechanism where a subclass extends a superclass."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 125,
+      "question": "Which option correctly explains \"JRE\" for Java developers?",
+      "options": [
+        "A base class that can contain abstract and concrete methods.",
+        "A mechanism where a subclass extends a superclass.",
+        "A contract that defines methods a class must implement.",
+        "The runtime environment required to run Java applications."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 126,
+      "question": "In practical Java code, when would you use \"JRE\"?",
+      "options": [
+        "A contract that defines methods a class must implement.",
+        "A base class that can contain abstract and concrete methods.",
+        "The runtime environment required to run Java applications.",
+        "A mechanism where a subclass extends a superclass."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 127,
+      "question": "What does \"JRE\" represent?",
+      "options": [
+        "A mechanism where a subclass extends a superclass.",
+        "The runtime environment required to run Java applications.",
+        "A contract that defines methods a class must implement.",
+        "A base class that can contain abstract and concrete methods."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 128,
+      "question": "Identify the correct meaning of \"JRE\" in Java?",
+      "options": [
+        "The runtime environment required to run Java applications.",
+        "A base class that can contain abstract and concrete methods.",
+        "A mechanism where a subclass extends a superclass.",
+        "A contract that defines methods a class must implement."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 129,
+      "question": "Which definition of \"JRE\" is correct in Java?",
+      "options": [
+        "A mechanism where a subclass extends a superclass.",
+        "A contract that defines methods a class must implement.",
+        "A base class that can contain abstract and concrete methods.",
+        "The runtime environment required to run Java applications."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 130,
+      "question": "For Java, \"JRE\" is best described as:?",
+      "options": [
+        "A base class that can contain abstract and concrete methods.",
+        "A mechanism where a subclass extends a superclass.",
+        "The runtime environment required to run Java applications.",
+        "A contract that defines methods a class must implement."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 131,
+      "question": "Which description best matches \"Interface\" in Java?",
+      "options": [
+        "A construct used to handle exceptions at runtime.",
+        "A contract that defines methods a class must implement.",
+        "A base class that can contain abstract and concrete methods.",
+        "A mechanism where a subclass extends a superclass."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 132,
+      "question": "In Java, \"Interface\" is mainly used for what?",
+      "options": [
+        "A contract that defines methods a class must implement.",
+        "A mechanism where a subclass extends a superclass.",
+        "A construct used to handle exceptions at runtime.",
+        "A base class that can contain abstract and concrete methods."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 133,
+      "question": "What is the primary purpose of \"Interface\" in Java?",
+      "options": [
+        "A construct used to handle exceptions at runtime.",
+        "A base class that can contain abstract and concrete methods.",
+        "A mechanism where a subclass extends a superclass.",
+        "A contract that defines methods a class must implement."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 134,
+      "question": "Choose the most accurate statement about \"Interface\" in Java?",
+      "options": [
+        "A mechanism where a subclass extends a superclass.",
+        "A construct used to handle exceptions at runtime.",
+        "A contract that defines methods a class must implement.",
+        "A base class that can contain abstract and concrete methods."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 135,
+      "question": "Which option correctly explains \"Interface\" for Java developers?",
+      "options": [
+        "A base class that can contain abstract and concrete methods.",
+        "A contract that defines methods a class must implement.",
+        "A mechanism where a subclass extends a superclass.",
+        "A construct used to handle exceptions at runtime."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 136,
+      "question": "In practical Java code, when would you use \"Interface\"?",
+      "options": [
+        "A contract that defines methods a class must implement.",
+        "A construct used to handle exceptions at runtime.",
+        "A base class that can contain abstract and concrete methods.",
+        "A mechanism where a subclass extends a superclass."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 137,
+      "question": "What does \"Interface\" represent?",
+      "options": [
+        "A base class that can contain abstract and concrete methods.",
+        "A mechanism where a subclass extends a superclass.",
+        "A construct used to handle exceptions at runtime.",
+        "A contract that defines methods a class must implement."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 138,
+      "question": "Identify the correct meaning of \"Interface\" in Java?",
+      "options": [
+        "A construct used to handle exceptions at runtime.",
+        "A base class that can contain abstract and concrete methods.",
+        "A contract that defines methods a class must implement.",
+        "A mechanism where a subclass extends a superclass."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 139,
+      "question": "Which definition of \"Interface\" is correct in Java?",
+      "options": [
+        "A mechanism where a subclass extends a superclass.",
+        "A contract that defines methods a class must implement.",
+        "A construct used to handle exceptions at runtime.",
+        "A base class that can contain abstract and concrete methods."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 140,
+      "question": "For Java, \"Interface\" is best described as:?",
+      "options": [
+        "A contract that defines methods a class must implement.",
+        "A base class that can contain abstract and concrete methods.",
+        "A mechanism where a subclass extends a superclass.",
+        "A construct used to handle exceptions at runtime."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 141,
+      "question": "Which description best matches \"Abstract class\" in Java?",
+      "options": [
+        "A mechanism where a subclass extends a superclass.",
+        "A construct used to handle exceptions at runtime.",
+        "Automatic memory management that reclaims unreachable objects.",
+        "A base class that can contain abstract and concrete methods."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 142,
+      "question": "In Java, \"Abstract class\" is mainly used for what?",
+      "options": [
+        "Automatic memory management that reclaims unreachable objects.",
+        "A mechanism where a subclass extends a superclass.",
+        "A base class that can contain abstract and concrete methods.",
+        "A construct used to handle exceptions at runtime."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 143,
+      "question": "What is the primary purpose of \"Abstract class\" in Java?",
+      "options": [
+        "A construct used to handle exceptions at runtime.",
+        "A base class that can contain abstract and concrete methods.",
+        "Automatic memory management that reclaims unreachable objects.",
+        "A mechanism where a subclass extends a superclass."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 144,
+      "question": "Choose the most accurate statement about \"Abstract class\" in Java?",
+      "options": [
+        "A base class that can contain abstract and concrete methods.",
+        "A mechanism where a subclass extends a superclass.",
+        "A construct used to handle exceptions at runtime.",
+        "Automatic memory management that reclaims unreachable objects."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 145,
+      "question": "Which option correctly explains \"Abstract class\" for Java developers?",
+      "options": [
+        "A construct used to handle exceptions at runtime.",
+        "Automatic memory management that reclaims unreachable objects.",
+        "A mechanism where a subclass extends a superclass.",
+        "A base class that can contain abstract and concrete methods."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 146,
+      "question": "In practical Java code, when would you use \"Abstract class\"?",
+      "options": [
+        "A mechanism where a subclass extends a superclass.",
+        "A construct used to handle exceptions at runtime.",
+        "A base class that can contain abstract and concrete methods.",
+        "Automatic memory management that reclaims unreachable objects."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 147,
+      "question": "What does \"Abstract class\" represent?",
+      "options": [
+        "Automatic memory management that reclaims unreachable objects.",
+        "A base class that can contain abstract and concrete methods.",
+        "A mechanism where a subclass extends a superclass.",
+        "A construct used to handle exceptions at runtime."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 148,
+      "question": "Identify the correct meaning of \"Abstract class\" in Java?",
+      "options": [
+        "A base class that can contain abstract and concrete methods.",
+        "A construct used to handle exceptions at runtime.",
+        "Automatic memory management that reclaims unreachable objects.",
+        "A mechanism where a subclass extends a superclass."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 149,
+      "question": "Which definition of \"Abstract class\" is correct in Java?",
+      "options": [
+        "Automatic memory management that reclaims unreachable objects.",
+        "A mechanism where a subclass extends a superclass.",
+        "A construct used to handle exceptions at runtime.",
+        "A base class that can contain abstract and concrete methods."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 150,
+      "question": "For Java, \"Abstract class\" is best described as:?",
+      "options": [
+        "A construct used to handle exceptions at runtime.",
+        "Automatic memory management that reclaims unreachable objects.",
+        "A base class that can contain abstract and concrete methods.",
+        "A mechanism where a subclass extends a superclass."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 151,
+      "question": "Which description best matches \"Inheritance\" in Java?",
+      "options": [
+        "A functional-style API for processing data collections.",
+        "A mechanism where a subclass extends a superclass.",
+        "A construct used to handle exceptions at runtime.",
+        "Automatic memory management that reclaims unreachable objects."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 152,
+      "question": "In Java, \"Inheritance\" is mainly used for what?",
+      "options": [
+        "A mechanism where a subclass extends a superclass.",
+        "Automatic memory management that reclaims unreachable objects.",
+        "A functional-style API for processing data collections.",
+        "A construct used to handle exceptions at runtime."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 153,
+      "question": "What is the primary purpose of \"Inheritance\" in Java?",
+      "options": [
+        "A functional-style API for processing data collections.",
+        "A construct used to handle exceptions at runtime.",
+        "Automatic memory management that reclaims unreachable objects.",
+        "A mechanism where a subclass extends a superclass."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 154,
+      "question": "Choose the most accurate statement about \"Inheritance\" in Java?",
+      "options": [
+        "Automatic memory management that reclaims unreachable objects.",
+        "A functional-style API for processing data collections.",
+        "A mechanism where a subclass extends a superclass.",
+        "A construct used to handle exceptions at runtime."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 155,
+      "question": "Which option correctly explains \"Inheritance\" for Java developers?",
+      "options": [
+        "A construct used to handle exceptions at runtime.",
+        "A mechanism where a subclass extends a superclass.",
+        "Automatic memory management that reclaims unreachable objects.",
+        "A functional-style API for processing data collections."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 156,
+      "question": "In practical Java code, when would you use \"Inheritance\"?",
+      "options": [
+        "A mechanism where a subclass extends a superclass.",
+        "A functional-style API for processing data collections.",
+        "A construct used to handle exceptions at runtime.",
+        "Automatic memory management that reclaims unreachable objects."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 157,
+      "question": "What does \"Inheritance\" represent?",
+      "options": [
+        "A construct used to handle exceptions at runtime.",
+        "Automatic memory management that reclaims unreachable objects.",
+        "A functional-style API for processing data collections.",
+        "A mechanism where a subclass extends a superclass."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 158,
+      "question": "Identify the correct meaning of \"Inheritance\" in Java?",
+      "options": [
+        "A functional-style API for processing data collections.",
+        "A construct used to handle exceptions at runtime.",
+        "A mechanism where a subclass extends a superclass.",
+        "Automatic memory management that reclaims unreachable objects."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 159,
+      "question": "Which definition of \"Inheritance\" is correct in Java?",
+      "options": [
+        "Automatic memory management that reclaims unreachable objects.",
+        "A mechanism where a subclass extends a superclass.",
+        "A functional-style API for processing data collections.",
+        "A construct used to handle exceptions at runtime."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 160,
+      "question": "For Java, \"Inheritance\" is best described as:?",
+      "options": [
+        "A mechanism where a subclass extends a superclass.",
+        "A construct used to handle exceptions at runtime.",
+        "Automatic memory management that reclaims unreachable objects.",
+        "A functional-style API for processing data collections."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 161,
+      "question": "Which description best matches \"try-catch\" in Java?",
+      "options": [
+        "Automatic memory management that reclaims unreachable objects.",
+        "A functional-style API for processing data collections.",
+        "A feature providing type-safe classes and methods with type parameters.",
+        "A construct used to handle exceptions at runtime."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 162,
+      "question": "In Java, \"try-catch\" is mainly used for what?",
+      "options": [
+        "A feature providing type-safe classes and methods with type parameters.",
+        "Automatic memory management that reclaims unreachable objects.",
+        "A construct used to handle exceptions at runtime.",
+        "A functional-style API for processing data collections."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 163,
+      "question": "What is the primary purpose of \"try-catch\" in Java?",
+      "options": [
+        "A functional-style API for processing data collections.",
+        "A construct used to handle exceptions at runtime.",
+        "A feature providing type-safe classes and methods with type parameters.",
+        "Automatic memory management that reclaims unreachable objects."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 164,
+      "question": "Choose the most accurate statement about \"try-catch\" in Java?",
+      "options": [
+        "A construct used to handle exceptions at runtime.",
+        "Automatic memory management that reclaims unreachable objects.",
+        "A functional-style API for processing data collections.",
+        "A feature providing type-safe classes and methods with type parameters."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 165,
+      "question": "Which option correctly explains \"try-catch\" for Java developers?",
+      "options": [
+        "A functional-style API for processing data collections.",
+        "A feature providing type-safe classes and methods with type parameters.",
+        "Automatic memory management that reclaims unreachable objects.",
+        "A construct used to handle exceptions at runtime."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 166,
+      "question": "In practical Java code, when would you use \"try-catch\"?",
+      "options": [
+        "Automatic memory management that reclaims unreachable objects.",
+        "A functional-style API for processing data collections.",
+        "A construct used to handle exceptions at runtime.",
+        "A feature providing type-safe classes and methods with type parameters."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 167,
+      "question": "What does \"try-catch\" represent?",
+      "options": [
+        "A feature providing type-safe classes and methods with type parameters.",
+        "A construct used to handle exceptions at runtime.",
+        "Automatic memory management that reclaims unreachable objects.",
+        "A functional-style API for processing data collections."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 168,
+      "question": "Identify the correct meaning of \"try-catch\" in Java?",
+      "options": [
+        "A construct used to handle exceptions at runtime.",
+        "A functional-style API for processing data collections.",
+        "A feature providing type-safe classes and methods with type parameters.",
+        "Automatic memory management that reclaims unreachable objects."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 169,
+      "question": "Which definition of \"try-catch\" is correct in Java?",
+      "options": [
+        "A feature providing type-safe classes and methods with type parameters.",
+        "Automatic memory management that reclaims unreachable objects.",
+        "A functional-style API for processing data collections.",
+        "A construct used to handle exceptions at runtime."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 170,
+      "question": "For Java, \"try-catch\" is best described as:?",
+      "options": [
+        "A functional-style API for processing data collections.",
+        "A feature providing type-safe classes and methods with type parameters.",
+        "A construct used to handle exceptions at runtime.",
+        "Automatic memory management that reclaims unreachable objects."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 171,
+      "question": "Which description best matches \"Garbage collection\" in Java?",
+      "options": [
+        "The runtime engine that executes Java bytecode.",
+        "Automatic memory management that reclaims unreachable objects.",
+        "A functional-style API for processing data collections.",
+        "A feature providing type-safe classes and methods with type parameters."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 172,
+      "question": "In Java, \"Garbage collection\" is mainly used for what?",
+      "options": [
+        "Automatic memory management that reclaims unreachable objects.",
+        "A feature providing type-safe classes and methods with type parameters.",
+        "The runtime engine that executes Java bytecode.",
+        "A functional-style API for processing data collections."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 173,
+      "question": "What is the primary purpose of \"Garbage collection\" in Java?",
+      "options": [
+        "The runtime engine that executes Java bytecode.",
+        "A functional-style API for processing data collections.",
+        "A feature providing type-safe classes and methods with type parameters.",
+        "Automatic memory management that reclaims unreachable objects."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 174,
+      "question": "Choose the most accurate statement about \"Garbage collection\" in Java?",
+      "options": [
+        "A feature providing type-safe classes and methods with type parameters.",
+        "The runtime engine that executes Java bytecode.",
+        "Automatic memory management that reclaims unreachable objects.",
+        "A functional-style API for processing data collections."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 175,
+      "question": "Which option correctly explains \"Garbage collection\" for Java developers?",
+      "options": [
+        "A functional-style API for processing data collections.",
+        "Automatic memory management that reclaims unreachable objects.",
+        "A feature providing type-safe classes and methods with type parameters.",
+        "The runtime engine that executes Java bytecode."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 176,
+      "question": "In practical Java code, when would you use \"Garbage collection\"?",
+      "options": [
+        "Automatic memory management that reclaims unreachable objects.",
+        "The runtime engine that executes Java bytecode.",
+        "A functional-style API for processing data collections.",
+        "A feature providing type-safe classes and methods with type parameters."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 177,
+      "question": "What does \"Garbage collection\" represent?",
+      "options": [
+        "A functional-style API for processing data collections.",
+        "A feature providing type-safe classes and methods with type parameters.",
+        "The runtime engine that executes Java bytecode.",
+        "Automatic memory management that reclaims unreachable objects."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 178,
+      "question": "Identify the correct meaning of \"Garbage collection\" in Java?",
+      "options": [
+        "The runtime engine that executes Java bytecode.",
+        "A functional-style API for processing data collections.",
+        "Automatic memory management that reclaims unreachable objects.",
+        "A feature providing type-safe classes and methods with type parameters."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 179,
+      "question": "Which definition of \"Garbage collection\" is correct in Java?",
+      "options": [
+        "A feature providing type-safe classes and methods with type parameters.",
+        "Automatic memory management that reclaims unreachable objects.",
+        "The runtime engine that executes Java bytecode.",
+        "A functional-style API for processing data collections."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 180,
+      "question": "For Java, \"Garbage collection\" is best described as:?",
+      "options": [
+        "Automatic memory management that reclaims unreachable objects.",
+        "A functional-style API for processing data collections.",
+        "A feature providing type-safe classes and methods with type parameters.",
+        "The runtime engine that executes Java bytecode."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 181,
+      "question": "Which description best matches \"Stream API\" in Java?",
+      "options": [
+        "A feature providing type-safe classes and methods with type parameters.",
+        "The runtime engine that executes Java bytecode.",
+        "The development kit containing compiler and developer tools.",
+        "A functional-style API for processing data collections."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 182,
+      "question": "In Java, \"Stream API\" is mainly used for what?",
+      "options": [
+        "The development kit containing compiler and developer tools.",
+        "A feature providing type-safe classes and methods with type parameters.",
+        "A functional-style API for processing data collections.",
+        "The runtime engine that executes Java bytecode."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 183,
+      "question": "What is the primary purpose of \"Stream API\" in Java?",
+      "options": [
+        "The runtime engine that executes Java bytecode.",
+        "A functional-style API for processing data collections.",
+        "The development kit containing compiler and developer tools.",
+        "A feature providing type-safe classes and methods with type parameters."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 184,
+      "question": "Choose the most accurate statement about \"Stream API\" in Java?",
+      "options": [
+        "A functional-style API for processing data collections.",
+        "A feature providing type-safe classes and methods with type parameters.",
+        "The runtime engine that executes Java bytecode.",
+        "The development kit containing compiler and developer tools."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 185,
+      "question": "Which option correctly explains \"Stream API\" for Java developers?",
+      "options": [
+        "The runtime engine that executes Java bytecode.",
+        "The development kit containing compiler and developer tools.",
+        "A feature providing type-safe classes and methods with type parameters.",
+        "A functional-style API for processing data collections."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 186,
+      "question": "In practical Java code, when would you use \"Stream API\"?",
+      "options": [
+        "A feature providing type-safe classes and methods with type parameters.",
+        "The runtime engine that executes Java bytecode.",
+        "A functional-style API for processing data collections.",
+        "The development kit containing compiler and developer tools."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 187,
+      "question": "What does \"Stream API\" represent?",
+      "options": [
+        "The development kit containing compiler and developer tools.",
+        "A functional-style API for processing data collections.",
+        "A feature providing type-safe classes and methods with type parameters.",
+        "The runtime engine that executes Java bytecode."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 188,
+      "question": "Identify the correct meaning of \"Stream API\" in Java?",
+      "options": [
+        "A functional-style API for processing data collections.",
+        "The runtime engine that executes Java bytecode.",
+        "The development kit containing compiler and developer tools.",
+        "A feature providing type-safe classes and methods with type parameters."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 189,
+      "question": "Which definition of \"Stream API\" is correct in Java?",
+      "options": [
+        "The development kit containing compiler and developer tools.",
+        "A feature providing type-safe classes and methods with type parameters.",
+        "The runtime engine that executes Java bytecode.",
+        "A functional-style API for processing data collections."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 190,
+      "question": "For Java, \"Stream API\" is best described as:?",
+      "options": [
+        "The runtime engine that executes Java bytecode.",
+        "The development kit containing compiler and developer tools.",
+        "A functional-style API for processing data collections.",
+        "A feature providing type-safe classes and methods with type parameters."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 191,
+      "question": "Which description best matches \"Generics\" in Java?",
+      "options": [
+        "The runtime environment required to run Java applications.",
+        "A feature providing type-safe classes and methods with type parameters.",
+        "The runtime engine that executes Java bytecode.",
+        "The development kit containing compiler and developer tools."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 192,
+      "question": "In Java, \"Generics\" is mainly used for what?",
+      "options": [
+        "A feature providing type-safe classes and methods with type parameters.",
+        "The development kit containing compiler and developer tools.",
+        "The runtime environment required to run Java applications.",
+        "The runtime engine that executes Java bytecode."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 193,
+      "question": "What is the primary purpose of \"Generics\" in Java?",
+      "options": [
+        "The runtime environment required to run Java applications.",
+        "The runtime engine that executes Java bytecode.",
+        "The development kit containing compiler and developer tools.",
+        "A feature providing type-safe classes and methods with type parameters."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 194,
+      "question": "Choose the most accurate statement about \"Generics\" in Java?",
+      "options": [
+        "The development kit containing compiler and developer tools.",
+        "The runtime environment required to run Java applications.",
+        "A feature providing type-safe classes and methods with type parameters.",
+        "The runtime engine that executes Java bytecode."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 195,
+      "question": "Which option correctly explains \"Generics\" for Java developers?",
+      "options": [
+        "The runtime engine that executes Java bytecode.",
+        "A feature providing type-safe classes and methods with type parameters.",
+        "The development kit containing compiler and developer tools.",
+        "The runtime environment required to run Java applications."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 196,
+      "question": "In practical Java code, when would you use \"Generics\"?",
+      "options": [
+        "A feature providing type-safe classes and methods with type parameters.",
+        "The runtime environment required to run Java applications.",
+        "The runtime engine that executes Java bytecode.",
+        "The development kit containing compiler and developer tools."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 197,
+      "question": "What does \"Generics\" represent?",
+      "options": [
+        "The runtime engine that executes Java bytecode.",
+        "The development kit containing compiler and developer tools.",
+        "The runtime environment required to run Java applications.",
+        "A feature providing type-safe classes and methods with type parameters."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 198,
+      "question": "Identify the correct meaning of \"Generics\" in Java?",
+      "options": [
+        "The runtime environment required to run Java applications.",
+        "The runtime engine that executes Java bytecode.",
+        "A feature providing type-safe classes and methods with type parameters.",
+        "The development kit containing compiler and developer tools."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 199,
+      "question": "Which definition of \"Generics\" is correct in Java?",
+      "options": [
+        "The development kit containing compiler and developer tools.",
+        "A feature providing type-safe classes and methods with type parameters.",
+        "The runtime environment required to run Java applications.",
+        "The runtime engine that executes Java bytecode."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 200,
+      "question": "For Java, \"Generics\" is best described as:?",
+      "options": [
+        "A feature providing type-safe classes and methods with type parameters.",
+        "The runtime engine that executes Java bytecode.",
+        "The development kit containing compiler and developer tools.",
+        "The runtime environment required to run Java applications."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 201,
+      "question": "What is the output?\n```java\npublic class Main {\n  public static void main(String[] args) {\n    int a = 2 + 3;\n    System.out.print(a);\n  }\n}\n```",
+      "options": [
+        "23",
+        "5",
+        "2",
+        "Compilation error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 202,
+      "question": "What gets printed?\n```java\nString s = \"Hello\";\nSystem.out.print(s.length());\n```",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 203,
+      "question": "What is printed?\n```java\nint x = 7;\nif (x % 2 == 1) {\n  System.out.print(\"odd\");\n}\n```",
+      "options": [
+        "even",
+        "odd",
+        "1",
+        "Nothing"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 204,
+      "question": "What is the printed value?\n```java\nList<Integer> nums = Arrays.asList(1,2,3);\nSystem.out.print(nums.get(0));\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 205,
+      "question": "What is the result of integer division?\n```java\nint a = 10;\nint b = 3;\nSystem.out.print(a / b);\n```",
+      "options": [
+        "3",
+        "3.33",
+        "4",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 206,
+      "question": "In Java, what is the output?\n```java\npublic class Main { public static void main(String[] args) { int a = 2 + 3; System.out.print(a); }\n}\n```",
+      "options": [
+        "23",
+        "5",
+        "2",
+        "Compilation error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 207,
+      "question": "In Java, what gets printed?\n```java\nString s = \"Hello\";\nSystem.out.print(s.length());\n```",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 208,
+      "question": "In Java, what is printed?\n```java\nint x = 7;\nif (x % 2 == 1) { System.out.print(\"odd\");\n}\n```",
+      "options": [
+        "even",
+        "odd",
+        "1",
+        "Nothing"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 209,
+      "question": "In Java, what is the printed value?\n```java\nList<Integer> nums = Arrays.asList(1,2,3);\nSystem.out.print(nums.get(0));\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 210,
+      "question": "In Java, what is the result of integer division?\n```java\nint a = 10;\nint b = 3;\nSystem.out.print(a / b);\n```",
+      "options": [
+        "3",
+        "3.33",
+        "4",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 211,
+      "question": "In Java, in Java, what is the output?\n```java\npublic class Main { public static void main(String[] args) { int a = 2 + 3; System.out.print(a); }\n}\n```",
+      "options": [
+        "23",
+        "5",
+        "2",
+        "Compilation error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 212,
+      "question": "For Java, what gets printed?\n```java\nString s = \"Hello\";\nSystem.out.print(s.length());\n```",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 213,
+      "question": "In Java, in Java, what is printed?\n```java\nint x = 7;\nif (x % 2 == 1) { System.out.print(\"odd\");\n}\n```",
+      "options": [
+        "even",
+        "odd",
+        "1",
+        "Nothing"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 214,
+      "question": "For Java, what is the printed value?\n```java\nList<Integer> nums = Arrays.asList(1,2,3);\nSystem.out.print(nums.get(0));\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 215,
+      "question": "For Java, what is the result of integer division?\n```java\nint a = 10;\nint b = 3;\nSystem.out.print(a / b);\n```",
+      "options": [
+        "3",
+        "3.33",
+        "4",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 216,
+      "question": "For Java, in Java, what is the output?\n```java\npublic class Main { public static void main(String[] args) { int a = 2 + 3; System.out.print(a); }\n}\n```",
+      "options": [
+        "23",
+        "5",
+        "2",
+        "Compilation error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 217,
+      "question": "When using Java, what gets printed?\n```java\nString s = \"Hello\";\nSystem.out.print(s.length());\n```",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 218,
+      "question": "For Java, in Java, what is printed?\n```java\nint x = 7;\nif (x % 2 == 1) { System.out.print(\"odd\");\n}\n```",
+      "options": [
+        "even",
+        "odd",
+        "1",
+        "Nothing"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 219,
+      "question": "When using Java, what is the printed value?\n```java\nList<Integer> nums = Arrays.asList(1,2,3);\nSystem.out.print(nums.get(0));\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 220,
+      "question": "When using Java, what is the result of integer division?\n```java\nint a = 10;\nint b = 3;\nSystem.out.print(a / b);\n```",
+      "options": [
+        "3",
+        "3.33",
+        "4",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 221,
+      "question": "When using Java, in Java, what is the output?\n```java\npublic class Main { public static void main(String[] args) { int a = 2 + 3; System.out.print(a); }\n}\n```",
+      "options": [
+        "23",
+        "5",
+        "2",
+        "Compilation error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 222,
+      "question": "In a Java query, what gets printed?\n```java\nString s = \"Hello\";\nSystem.out.print(s.length());\n```",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 223,
+      "question": "When using Java, in Java, what is printed?\n```java\nint x = 7;\nif (x % 2 == 1) { System.out.print(\"odd\");\n}\n```",
+      "options": [
+        "even",
+        "odd",
+        "1",
+        "Nothing"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 224,
+      "question": "In a Java query, what is the printed value?\n```java\nList<Integer> nums = Arrays.asList(1,2,3);\nSystem.out.print(nums.get(0));\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 225,
+      "question": "In a Java query, what is the result of integer division?\n```java\nint a = 10;\nint b = 3;\nSystem.out.print(a / b);\n```",
+      "options": [
+        "3",
+        "3.33",
+        "4",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 226,
+      "question": "Within Java, in Java, what is the output?\n```java\npublic class Main { public static void main(String[] args) { int a = 2 + 3; System.out.print(a); }\n}\n```",
+      "options": [
+        "23",
+        "5",
+        "2",
+        "Compilation error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 227,
+      "question": "From a Java perspective, what gets printed?\n```java\nString s = \"Hello\";\nSystem.out.print(s.length());\n```",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 228,
+      "question": "Within Java, in Java, what is printed?\n```java\nint x = 7;\nif (x % 2 == 1) { System.out.print(\"odd\");\n}\n```",
+      "options": [
+        "even",
+        "odd",
+        "1",
+        "Nothing"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 229,
+      "question": "From a Java perspective, what is the printed value?\n```java\nList<Integer> nums = Arrays.asList(1,2,3);\nSystem.out.print(nums.get(0));\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 230,
+      "question": "From a Java perspective, what is the result of integer division?\n```java\nint a = 10;\nint b = 3;\nSystem.out.print(a / b);\n```",
+      "options": [
+        "3",
+        "3.33",
+        "4",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 231,
+      "question": "In practical Java usage, in Java, what is the output?\n```java\npublic class Main { public static void main(String[] args) { int a = 2 + 3; System.out.print(a); }\n}\n```",
+      "options": [
+        "23",
+        "5",
+        "2",
+        "Compilation error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 232,
+      "question": "In practical Java usage, what gets printed?\n```java\nString s = \"Hello\";\nSystem.out.print(s.length());\n```",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 233,
+      "question": "In practical Java usage, in Java, what is printed?\n```java\nint x = 7;\nif (x % 2 == 1) { System.out.print(\"odd\");\n}\n```",
+      "options": [
+        "even",
+        "odd",
+        "1",
+        "Nothing"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 234,
+      "question": "In practical Java usage, what is the printed value?\n```java\nList<Integer> nums = Arrays.asList(1,2,3);\nSystem.out.print(nums.get(0));\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 235,
+      "question": "In practical Java usage, what is the result of integer division?\n```java\nint a = 10;\nint b = 3;\nSystem.out.print(a / b);\n```",
+      "options": [
+        "3",
+        "3.33",
+        "4",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 236,
+      "question": "For Java developers, in Java, what is the output?\n```java\npublic class Main { public static void main(String[] args) { int a = 2 + 3; System.out.print(a); }\n}\n```",
+      "options": [
+        "23",
+        "5",
+        "2",
+        "Compilation error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 237,
+      "question": "Within Java, what gets printed?\n```java\nString s = \"Hello\";\nSystem.out.print(s.length());\n```",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 238,
+      "question": "For Java developers, in Java, what is printed?\n```java\nint x = 7;\nif (x % 2 == 1) { System.out.print(\"odd\");\n}\n```",
+      "options": [
+        "even",
+        "odd",
+        "1",
+        "Nothing"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 239,
+      "question": "Within Java, what is the printed value?\n```java\nList<Integer> nums = Arrays.asList(1,2,3);\nSystem.out.print(nums.get(0));\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 240,
+      "question": "Within Java, what is the result of integer division?\n```java\nint a = 10;\nint b = 3;\nSystem.out.print(a / b);\n```",
+      "options": [
+        "3",
+        "3.33",
+        "4",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 241,
+      "question": "In Java practice, in Java, what is the output?\n```java\npublic class Main { public static void main(String[] args) { int a = 2 + 3; System.out.print(a); }\n}\n```",
+      "options": [
+        "23",
+        "5",
+        "2",
+        "Compilation error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 242,
+      "question": "For Java developers, what gets printed?\n```java\nString s = \"Hello\";\nSystem.out.print(s.length());\n```",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 243,
+      "question": "In Java practice, in Java, what is printed?\n```java\nint x = 7;\nif (x % 2 == 1) { System.out.print(\"odd\");\n}\n```",
+      "options": [
+        "even",
+        "odd",
+        "1",
+        "Nothing"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 244,
+      "question": "For Java developers, what is the printed value?\n```java\nList<Integer> nums = Arrays.asList(1,2,3);\nSystem.out.print(nums.get(0));\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 245,
+      "question": "For Java developers, what is the result of integer division?\n```java\nint a = 10;\nint b = 3;\nSystem.out.print(a / b);\n```",
+      "options": [
+        "3",
+        "3.33",
+        "4",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 246,
+      "question": "With Java, in Java, what is the output?\n```java\npublic class Main { public static void main(String[] args) { int a = 2 + 3; System.out.print(a); }\n}\n```",
+      "options": [
+        "23",
+        "5",
+        "2",
+        "Compilation error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 247,
+      "question": "In day-to-day Java work, what gets printed?\n```java\nString s = \"Hello\";\nSystem.out.print(s.length());\n```",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 248,
+      "question": "With Java, in Java, what is printed?\n```java\nint x = 7;\nif (x % 2 == 1) { System.out.print(\"odd\");\n}\n```",
+      "options": [
+        "even",
+        "odd",
+        "1",
+        "Nothing"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 249,
+      "question": "In day-to-day Java work, what is the printed value?\n```java\nList<Integer> nums = Arrays.asList(1,2,3);\nSystem.out.print(nums.get(0));\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 250,
+      "question": "In day-to-day Java work, what is the result of integer division?\n```java\nint a = 10;\nint b = 3;\nSystem.out.print(a / b);\n```",
+      "options": [
+        "3",
+        "3.33",
+        "4",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 251,
+      "question": "What is printed?\n```java\nint a = 8;\nint b = 2;\nSystem.out.print(a / b);\n```",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 252,
+      "question": "Which character is printed?\n```java\nString s = \"code\";\nSystem.out.print(s.charAt(0));\n```",
+      "options": [
+        "c",
+        "o",
+        "d",
+        "e"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 253,
+      "question": "What is output?\n```java\nint[] arr = {5,6,7};\nSystem.out.print(arr.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "7"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 254,
+      "question": "What is printed?\n```java\nboolean ok = false;\nSystem.out.print(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 255,
+      "question": "Final value of i?\n```java\nint i = 1;\ni += 2;\nSystem.out.print(i);\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 256,
+      "question": "In Java, what is printed?\n```java\nint a = 8;\nint b = 2;\nSystem.out.print(a / b);\n```",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 257,
+      "question": "In Java, which character is printed?\n```java\nString s = \"code\";\nSystem.out.print(s.charAt(0));\n```",
+      "options": [
+        "c",
+        "o",
+        "d",
+        "e"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 258,
+      "question": "In Java, what is output?\n```java\nint[] arr = {5,6,7};\nSystem.out.print(arr.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "7"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 259,
+      "question": "In Java, what is printed?\n```java\nboolean ok = false;\nSystem.out.print(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 260,
+      "question": "In Java, final value of i?\n```java\nint i = 1;\ni += 2;\nSystem.out.print(i);\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 261,
+      "question": "For Java, what is printed?\n```java\nint a = 8;\nint b = 2;\nSystem.out.print(a / b);\n```",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 262,
+      "question": "For Java, which character is printed?\n```java\nString s = \"code\";\nSystem.out.print(s.charAt(0));\n```",
+      "options": [
+        "c",
+        "o",
+        "d",
+        "e"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 263,
+      "question": "For Java, what is output?\n```java\nint[] arr = {5,6,7};\nSystem.out.print(arr.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "7"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 264,
+      "question": "For Java, what is printed?\n```java\nboolean ok = false;\nSystem.out.print(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 265,
+      "question": "For Java, final value of i?\n```java\nint i = 1;\ni += 2;\nSystem.out.print(i);\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 266,
+      "question": "When using Java, what is printed?\n```java\nint a = 8;\nint b = 2;\nSystem.out.print(a / b);\n```",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 267,
+      "question": "When using Java, which character is printed?\n```java\nString s = \"code\";\nSystem.out.print(s.charAt(0));\n```",
+      "options": [
+        "c",
+        "o",
+        "d",
+        "e"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 268,
+      "question": "When using Java, what is output?\n```java\nint[] arr = {5,6,7};\nSystem.out.print(arr.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "7"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 269,
+      "question": "When using Java, what is printed?\n```java\nboolean ok = false;\nSystem.out.print(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 270,
+      "question": "When using Java, final value of i?\n```java\nint i = 1;\ni += 2;\nSystem.out.print(i);\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 271,
+      "question": "In a Java query, what is printed?\n```java\nint a = 8;\nint b = 2;\nSystem.out.print(a / b);\n```",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 272,
+      "question": "In a Java query, which character is printed?\n```java\nString s = \"code\";\nSystem.out.print(s.charAt(0));\n```",
+      "options": [
+        "c",
+        "o",
+        "d",
+        "e"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 273,
+      "question": "In a Java query, what is output?\n```java\nint[] arr = {5,6,7};\nSystem.out.print(arr.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "7"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 274,
+      "question": "In a Java query, what is printed?\n```java\nboolean ok = false;\nSystem.out.print(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 275,
+      "question": "In a Java query, final value of i?\n```java\nint i = 1;\ni += 2;\nSystem.out.print(i);\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 276,
+      "question": "From a Java perspective, what is printed?\n```java\nint a = 8;\nint b = 2;\nSystem.out.print(a / b);\n```",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 277,
+      "question": "From a Java perspective, which character is printed?\n```java\nString s = \"code\";\nSystem.out.print(s.charAt(0));\n```",
+      "options": [
+        "c",
+        "o",
+        "d",
+        "e"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 278,
+      "question": "From a Java perspective, what is output?\n```java\nint[] arr = {5,6,7};\nSystem.out.print(arr.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "7"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 279,
+      "question": "From a Java perspective, what is printed?\n```java\nboolean ok = false;\nSystem.out.print(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 280,
+      "question": "From a Java perspective, final value of i?\n```java\nint i = 1;\ni += 2;\nSystem.out.print(i);\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 281,
+      "question": "In practical Java usage, what is printed?\n```java\nint a = 8;\nint b = 2;\nSystem.out.print(a / b);\n```",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 282,
+      "question": "In practical Java usage, which character is printed?\n```java\nString s = \"code\";\nSystem.out.print(s.charAt(0));\n```",
+      "options": [
+        "c",
+        "o",
+        "d",
+        "e"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 283,
+      "question": "In practical Java usage, what is output?\n```java\nint[] arr = {5,6,7};\nSystem.out.print(arr.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "7"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 284,
+      "question": "In practical Java usage, what is printed?\n```java\nboolean ok = false;\nSystem.out.print(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 285,
+      "question": "In practical Java usage, final value of i?\n```java\nint i = 1;\ni += 2;\nSystem.out.print(i);\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 286,
+      "question": "Within Java, what is printed?\n```java\nint a = 8;\nint b = 2;\nSystem.out.print(a / b);\n```",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 287,
+      "question": "Within Java, which character is printed?\n```java\nString s = \"code\";\nSystem.out.print(s.charAt(0));\n```",
+      "options": [
+        "c",
+        "o",
+        "d",
+        "e"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 288,
+      "question": "Within Java, what is output?\n```java\nint[] arr = {5,6,7};\nSystem.out.print(arr.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "7"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 289,
+      "question": "Within Java, what is printed?\n```java\nboolean ok = false;\nSystem.out.print(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 290,
+      "question": "Within Java, final value of i?\n```java\nint i = 1;\ni += 2;\nSystem.out.print(i);\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 291,
+      "question": "For Java developers, what is printed?\n```java\nint a = 8;\nint b = 2;\nSystem.out.print(a / b);\n```",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 292,
+      "question": "For Java developers, which character is printed?\n```java\nString s = \"code\";\nSystem.out.print(s.charAt(0));\n```",
+      "options": [
+        "c",
+        "o",
+        "d",
+        "e"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 293,
+      "question": "For Java developers, what is output?\n```java\nint[] arr = {5,6,7};\nSystem.out.print(arr.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "7"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 294,
+      "question": "For Java developers, what is printed?\n```java\nboolean ok = false;\nSystem.out.print(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 295,
+      "question": "For Java developers, final value of i?\n```java\nint i = 1;\ni += 2;\nSystem.out.print(i);\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 296,
+      "question": "In day-to-day Java work, what is printed?\n```java\nint a = 8;\nint b = 2;\nSystem.out.print(a / b);\n```",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 297,
+      "question": "In day-to-day Java work, which character is printed?\n```java\nString s = \"code\";\nSystem.out.print(s.charAt(0));\n```",
+      "options": [
+        "c",
+        "o",
+        "d",
+        "e"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 298,
+      "question": "In day-to-day Java work, what is output?\n```java\nint[] arr = {5,6,7};\nSystem.out.print(arr.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "7"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 299,
+      "question": "In day-to-day Java work, what is printed?\n```java\nboolean ok = false;\nSystem.out.print(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 300,
+      "question": "In day-to-day Java work, final value of i?\n```java\nint i = 1;\ni += 2;\nSystem.out.print(i);\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 301,
+      "question": "What is the key outcome of this snippet?\n```java\nint value302 = 17;\nSystem.out.print(value302);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 302,
+      "question": "What is the key outcome of this snippet?\n```java\nint value304 = 0;\nSystem.out.print(value304);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 303,
+      "question": "What is the key outcome of this snippet?\n```java\nint value306 = 2;\nSystem.out.print(value306);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 304,
+      "question": "What is the key outcome of this snippet?\n```java\nint value308 = 4;\nSystem.out.print(value308);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 305,
+      "question": "What is the key outcome of this snippet?\n```java\nint value310 = 6;\nSystem.out.print(value310);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 306,
+      "question": "What is the key outcome of this snippet?\n```java\nint value312 = 8;\nSystem.out.print(value312);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 307,
+      "question": "What is the key outcome of this snippet?\n```java\nint value314 = 10;\nSystem.out.print(value314);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 308,
+      "question": "What is the key outcome of this snippet?\n```java\nint value316 = 12;\nSystem.out.print(value316);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 309,
+      "question": "What is the key outcome of this snippet?\n```java\nint value318 = 14;\nSystem.out.print(value318);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 310,
+      "question": "What is the key outcome of this snippet?\n```java\nint value320 = 16;\nSystem.out.print(value320);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 311,
+      "question": "What is the key outcome of this snippet?\n```java\nint value322 = 18;\nSystem.out.print(value322);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 312,
+      "question": "What is the key outcome of this snippet?\n```java\nint value324 = 1;\nSystem.out.print(value324);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 313,
+      "question": "What is the key outcome of this snippet?\n```java\nint value326 = 3;\nSystem.out.print(value326);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 314,
+      "question": "What is the key outcome of this snippet?\n```java\nint value328 = 5;\nSystem.out.print(value328);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 315,
+      "question": "What is the key outcome of this snippet?\n```java\nint value330 = 7;\nSystem.out.print(value330);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 316,
+      "question": "What is the key outcome of this snippet?\n```java\nint value332 = 9;\nSystem.out.print(value332);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 317,
+      "question": "What is the key outcome of this snippet?\n```java\nint value334 = 11;\nSystem.out.print(value334);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 318,
+      "question": "What is the key outcome of this snippet?\n```java\nint value336 = 13;\nSystem.out.print(value336);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 319,
+      "question": "What is the key outcome of this snippet?\n```java\nint value338 = 15;\nSystem.out.print(value338);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 320,
+      "question": "What is the key outcome of this snippet?\n```java\nint value340 = 17;\nSystem.out.print(value340);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 321,
+      "question": "What is the key outcome of this snippet?\n```java\nint value342 = 0;\nSystem.out.print(value342);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 322,
+      "question": "What is the key outcome of this snippet?\n```java\nint value344 = 2;\nSystem.out.print(value344);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 323,
+      "question": "What is the key outcome of this snippet?\n```java\nint value346 = 4;\nSystem.out.print(value346);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 324,
+      "question": "What is the key outcome of this snippet?\n```java\nint value348 = 6;\nSystem.out.print(value348);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 325,
+      "question": "What is the key outcome of this snippet?\n```java\nint value350 = 8;\nSystem.out.print(value350);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 326,
+      "question": "What is the key outcome of this snippet?\n```java\nint value352 = 10;\nSystem.out.print(value352);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 327,
+      "question": "What is the key outcome of this snippet?\n```java\nint value354 = 12;\nSystem.out.print(value354);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 328,
+      "question": "What is the key outcome of this snippet?\n```java\nint value356 = 14;\nSystem.out.print(value356);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 329,
+      "question": "What is the key outcome of this snippet?\n```java\nint value358 = 16;\nSystem.out.print(value358);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 330,
+      "question": "What is the key outcome of this snippet?\n```java\nint value360 = 18;\nSystem.out.print(value360);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 331,
+      "question": "What is the key outcome of this snippet?\n```java\nint value362 = 1;\nSystem.out.print(value362);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 332,
+      "question": "What is the key outcome of this snippet?\n```java\nint value364 = 3;\nSystem.out.print(value364);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 333,
+      "question": "What is the key outcome of this snippet?\n```java\nint value366 = 5;\nSystem.out.print(value366);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 334,
+      "question": "What is the key outcome of this snippet?\n```java\nint value368 = 7;\nSystem.out.print(value368);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 335,
+      "question": "What is the key outcome of this snippet?\n```java\nint value370 = 9;\nSystem.out.print(value370);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 336,
+      "question": "What is the key outcome of this snippet?\n```java\nint value372 = 11;\nSystem.out.print(value372);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 337,
+      "question": "What is the key outcome of this snippet?\n```java\nint value374 = 13;\nSystem.out.print(value374);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 338,
+      "question": "What is the key outcome of this snippet?\n```java\nint value376 = 15;\nSystem.out.print(value376);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 339,
+      "question": "What is the key outcome of this snippet?\n```java\nint value378 = 17;\nSystem.out.print(value378);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 340,
+      "question": "What is the key outcome of this snippet?\n```java\nint value380 = 0;\nSystem.out.print(value380);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 341,
+      "question": "What is the key outcome of this snippet?\n```java\nint value382 = 2;\nSystem.out.print(value382);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 342,
+      "question": "What is the key outcome of this snippet?\n```java\nint value384 = 4;\nSystem.out.print(value384);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 343,
+      "question": "What is the key outcome of this snippet?\n```java\nint value386 = 6;\nSystem.out.print(value386);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 344,
+      "question": "What is the key outcome of this snippet?\n```java\nint value388 = 8;\nSystem.out.print(value388);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 345,
+      "question": "What is the key outcome of this snippet?\n```java\nint value390 = 10;\nSystem.out.print(value390);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 346,
+      "question": "What is the key outcome of this snippet?\n```java\nint value392 = 12;\nSystem.out.print(value392);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 347,
+      "question": "What is the key outcome of this snippet?\n```java\nint value394 = 14;\nSystem.out.print(value394);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 348,
+      "question": "What is the key outcome of this snippet?\n```java\nint value396 = 16;\nSystem.out.print(value396);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 349,
+      "question": "What is the key outcome of this snippet?\n```java\nint value398 = 18;\nSystem.out.print(value398);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 350,
+      "question": "What is the key outcome of this snippet?\n```java\nint value400 = 1;\nSystem.out.print(value400);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 351,
+      "question": "What is the key outcome of this snippet?\n```java\nint value402 = 3;\nSystem.out.print(value402);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 352,
+      "question": "What is the key outcome of this snippet?\n```java\nint value404 = 5;\nSystem.out.print(value404);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 353,
+      "question": "What is the key outcome of this snippet?\n```java\nint value406 = 7;\nSystem.out.print(value406);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 354,
+      "question": "What is the key outcome of this snippet?\n```java\nint value408 = 9;\nSystem.out.print(value408);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 355,
+      "question": "What is the key outcome of this snippet?\n```java\nint value410 = 11;\nSystem.out.print(value410);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 356,
+      "question": "What is the key outcome of this snippet?\n```java\nint value412 = 13;\nSystem.out.print(value412);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 357,
+      "question": "What is the key outcome of this snippet?\n```java\nint value414 = 15;\nSystem.out.print(value414);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 358,
+      "question": "What is the key outcome of this snippet?\n```java\nint value416 = 17;\nSystem.out.print(value416);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 359,
+      "question": "What is the key outcome of this snippet?\n```java\nint value418 = 0;\nSystem.out.print(value418);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 360,
+      "question": "What is the key outcome of this snippet?\n```java\nint value420 = 2;\nSystem.out.print(value420);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 361,
+      "question": "What is the key outcome of this snippet?\n```java\nint value422 = 4;\nSystem.out.print(value422);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 362,
+      "question": "What is the key outcome of this snippet?\n```java\nint value424 = 6;\nSystem.out.print(value424);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 363,
+      "question": "What is the key outcome of this snippet?\n```java\nint value426 = 8;\nSystem.out.print(value426);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 364,
+      "question": "What is the key outcome of this snippet?\n```java\nint value428 = 10;\nSystem.out.print(value428);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 365,
+      "question": "What is the key outcome of this snippet?\n```java\nint value430 = 12;\nSystem.out.print(value430);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 366,
+      "question": "What is the key outcome of this snippet?\n```java\nint value432 = 14;\nSystem.out.print(value432);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 367,
+      "question": "What is the key outcome of this snippet?\n```java\nint value434 = 16;\nSystem.out.print(value434);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 368,
+      "question": "What is the key outcome of this snippet?\n```java\nint value436 = 18;\nSystem.out.print(value436);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 369,
+      "question": "What is the key outcome of this snippet?\n```java\nint value438 = 1;\nSystem.out.print(value438);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 370,
+      "question": "What is the key outcome of this snippet?\n```java\nint value440 = 3;\nSystem.out.print(value440);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 371,
+      "question": "What is the key outcome of this snippet?\n```java\nint value442 = 5;\nSystem.out.print(value442);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 372,
+      "question": "What is the key outcome of this snippet?\n```java\nint value444 = 7;\nSystem.out.print(value444);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 373,
+      "question": "What is the key outcome of this snippet?\n```java\nint value446 = 9;\nSystem.out.print(value446);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 374,
+      "question": "What is the key outcome of this snippet?\n```java\nint value448 = 11;\nSystem.out.print(value448);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 375,
+      "question": "What is the key outcome of this snippet?\n```java\nint value450 = 13;\nSystem.out.print(value450);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 376,
+      "question": "What is the key outcome of this snippet?\n```java\nint value452 = 15;\nSystem.out.print(value452);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 377,
+      "question": "What is the key outcome of this snippet?\n```java\nint value454 = 17;\nSystem.out.print(value454);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 378,
+      "question": "What is the key outcome of this snippet?\n```java\nint value456 = 0;\nSystem.out.print(value456);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 379,
+      "question": "What is the key outcome of this snippet?\n```java\nint value458 = 2;\nSystem.out.print(value458);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 380,
+      "question": "What is the key outcome of this snippet?\n```java\nint value460 = 4;\nSystem.out.print(value460);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 381,
+      "question": "What is the key outcome of this snippet?\n```java\nint value462 = 6;\nSystem.out.print(value462);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 382,
+      "question": "What is the key outcome of this snippet?\n```java\nint value464 = 8;\nSystem.out.print(value464);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 383,
+      "question": "What is the key outcome of this snippet?\n```java\nint value466 = 10;\nSystem.out.print(value466);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 384,
+      "question": "What is the key outcome of this snippet?\n```java\nint value468 = 12;\nSystem.out.print(value468);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 385,
+      "question": "What is the key outcome of this snippet?\n```java\nint value470 = 14;\nSystem.out.print(value470);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 386,
+      "question": "What is the key outcome of this snippet?\n```java\nint value472 = 16;\nSystem.out.print(value472);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 387,
+      "question": "What is the key outcome of this snippet?\n```java\nint value474 = 18;\nSystem.out.print(value474);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 388,
+      "question": "What is the key outcome of this snippet?\n```java\nint value476 = 1;\nSystem.out.print(value476);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 389,
+      "question": "What is the key outcome of this snippet?\n```java\nint value478 = 3;\nSystem.out.print(value478);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 390,
+      "question": "What is the key outcome of this snippet?\n```java\nint value480 = 5;\nSystem.out.print(value480);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 391,
+      "question": "What is the key outcome of this snippet?\n```java\nint value482 = 7;\nSystem.out.print(value482);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 392,
+      "question": "What is the key outcome of this snippet?\n```java\nint value484 = 9;\nSystem.out.print(value484);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 393,
+      "question": "What is the key outcome of this snippet?\n```java\nint value486 = 11;\nSystem.out.print(value486);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 394,
+      "question": "What is the key outcome of this snippet?\n```java\nint value488 = 13;\nSystem.out.print(value488);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 395,
+      "question": "What is the key outcome of this snippet?\n```java\nint value490 = 15;\nSystem.out.print(value490);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 396,
+      "question": "What is the key outcome of this snippet?\n```java\nint value492 = 17;\nSystem.out.print(value492);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 397,
+      "question": "What is the key outcome of this snippet?\n```java\nint value494 = 0;\nSystem.out.print(value494);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 398,
+      "question": "What is the key outcome of this snippet?\n```java\nint value496 = 2;\nSystem.out.print(value496);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 399,
+      "question": "What is the key outcome of this snippet?\n```java\nint value498 = 4;\nSystem.out.print(value498);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 400,
+      "question": "What is the key outcome of this snippet?\n```java\nint value500 = 6;\nSystem.out.print(value500);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    }
+  ]
+}

@@ -25,6 +25,7 @@ export default function PublicNavbar({
     { href: '/', label: 'Home' },
     { href: '/courses', label: 'Courses' },
     { href: '/batches', label: 'Batches' },
+    { href: '/quizzes', label: 'Quizzes' },
     { href: '/roadmaps', label: 'Roadmaps' },
     ...(includeTestimonials ? [{ href: '/testimonials', label: 'Testimonials' }] : []),
     { href: '/about', label: 'About' },

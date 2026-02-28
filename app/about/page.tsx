@@ -21,7 +21,7 @@ export default function AboutPage() {
   ]
 
   const stats = [
-    { number: '8,870+', label: 'Students Taught', icon: '👨‍🎓' },
+    { number: '3,500+', label: 'Students Taught', icon: '👨‍🎓' },
     { number: '152+', label: 'Video Lessons', icon: '🎥' },
     { number: '6+', label: 'Active Courses', icon: '📚' },
     { number: '4.8★', label: 'Average Rating', icon: '⭐' },
@@ -43,7 +43,7 @@ export default function AboutPage() {
     {
       icon: '🤝',
       title: 'Community Support',
-      description: 'Join a thriving community of 8,870+ students. Network, collaborate, and grow together.',
+      description: 'Join a thriving community of 3,500+ students. Network, collaborate, and grow together.',
       color: 'from-blue-500 to-indigo-500'
     },
     {
@@ -85,7 +85,7 @@ export default function AboutPage() {
 
             <div className="flex flex-wrap justify-center gap-3 mb-8">
               <CodeBadge>{'since(2021)'}</CodeBadge>
-              <CodeBadge>{'students > 8870'}</CodeBadge>
+              <CodeBadge>{'students > 3,500'}</CodeBadge>
               <CodeBadge>{'rating === 4.8'}</CodeBadge>
             </div>
           </div>
@@ -124,7 +124,7 @@ export default function AboutPage() {
               
               <p>
                 What began as a YouTube channel has grown into Myanmar's most trusted online programming academy, 
-                serving over <span className="font-bold text-blue-600">8,870+ students</span> across the country.
+                serving over <span className="font-bold text-blue-600">3,500+ students</span> across the country.
               </p>
 
               <p>
@@ -451,7 +451,7 @@ export default function AboutPage() {
                         💼 5+ Years Experience
                       </span>
                       <span className="px-3 py-1 bg-white/20 backdrop-blur-sm text-white rounded-full text-xs font-semibold">
-                        👨‍🎓 8,870+ Students
+                        👨‍🎓 3,500+ Students
                       </span>
                       <span className="px-3 py-1 bg-white/20 backdrop-blur-sm text-white rounded-full text-xs font-semibold">
                         ⭐ 4.8 Rating
@@ -583,7 +583,7 @@ export default function AboutPage() {
               Start Your Coding Journey Today
             </h2>
             <p className="text-xl md:text-2xl mb-10 text-white/90">
-              Join 8,870+ students building their future in tech
+              Join 3,500+ students building their future in tech
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 

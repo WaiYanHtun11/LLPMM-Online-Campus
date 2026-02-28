@@ -1,0 +1,4407 @@
+{
+  "slug": "html",
+  "title": "HTML Quiz",
+  "description": "100 HTML practice questions",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which tag defines the largest heading by default?",
+      "options": [
+        "<h6>",
+        "<h1>",
+        "<head>",
+        "<title>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "Which attribute provides alternative text for images?",
+      "options": [
+        "title",
+        "src",
+        "alt",
+        "href"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "Which tag is used to create a hyperlink?",
+      "options": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<url>"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 4,
+      "question": "Which HTML5 tag is semantic for navigation links?",
+      "options": [
+        "<menu>",
+        "<section>",
+        "<nav>",
+        "<aside>"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Which tag is used to create a table row?",
+      "options": [
+        "<td>",
+        "<tr>",
+        "<th>",
+        "<table-row>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "Which input type hides typed characters?",
+      "options": [
+        "text",
+        "secret",
+        "password",
+        "hidden"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 7,
+      "question": "Which tag defines metadata container?",
+      "options": [
+        "<meta>",
+        "<head>",
+        "<data>",
+        "<info>"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 8,
+      "question": "Which tag is used for ordered lists?",
+      "options": [
+        "<ul>",
+        "<ol>",
+        "<li>",
+        "<dl>"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "In HTML, which tag defines the largest heading by default?",
+      "options": [
+        "<h6>",
+        "<h1>",
+        "<head>",
+        "<title>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "In HTML, which attribute provides alternative text for images?",
+      "options": [
+        "title",
+        "src",
+        "alt",
+        "href"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 11,
+      "question": "In HTML, which tag is used to create a hyperlink?",
+      "options": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<url>"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 12,
+      "question": "In HTML, which HTML5 tag is semantic for navigation links?",
+      "options": [
+        "<menu>",
+        "<section>",
+        "<nav>",
+        "<aside>"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 13,
+      "question": "In HTML, which tag is used to create a table row?",
+      "options": [
+        "<td>",
+        "<tr>",
+        "<th>",
+        "<table-row>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 14,
+      "question": "In HTML, which input type hides typed characters?",
+      "options": [
+        "text",
+        "secret",
+        "password",
+        "hidden"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 15,
+      "question": "In HTML, which tag defines metadata container?",
+      "options": [
+        "<meta>",
+        "<head>",
+        "<data>",
+        "<info>"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 16,
+      "question": "In HTML, which tag is used for ordered lists?",
+      "options": [
+        "<ul>",
+        "<ol>",
+        "<li>",
+        "<dl>"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 17,
+      "question": "For HTML, which tag defines the largest heading by default?",
+      "options": [
+        "<h6>",
+        "<h1>",
+        "<head>",
+        "<title>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 18,
+      "question": "For HTML, which attribute provides alternative text for images?",
+      "options": [
+        "title",
+        "src",
+        "alt",
+        "href"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 19,
+      "question": "For HTML, which tag is used to create a hyperlink?",
+      "options": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<url>"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 20,
+      "question": "For HTML, which HTML5 tag is semantic for navigation links?",
+      "options": [
+        "<menu>",
+        "<section>",
+        "<nav>",
+        "<aside>"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 21,
+      "question": "For HTML, which tag is used to create a table row?",
+      "options": [
+        "<td>",
+        "<tr>",
+        "<th>",
+        "<table-row>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 22,
+      "question": "For HTML, which input type hides typed characters?",
+      "options": [
+        "text",
+        "secret",
+        "password",
+        "hidden"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 23,
+      "question": "For HTML, which tag defines metadata container?",
+      "options": [
+        "<meta>",
+        "<head>",
+        "<data>",
+        "<info>"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 24,
+      "question": "For HTML, which tag is used for ordered lists?",
+      "options": [
+        "<ul>",
+        "<ol>",
+        "<li>",
+        "<dl>"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 25,
+      "question": "When using HTML, which tag defines the largest heading by default?",
+      "options": [
+        "<h6>",
+        "<h1>",
+        "<head>",
+        "<title>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 26,
+      "question": "When using HTML, which attribute provides alternative text for images?",
+      "options": [
+        "title",
+        "src",
+        "alt",
+        "href"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 27,
+      "question": "When using HTML, which tag is used to create a hyperlink?",
+      "options": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<url>"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 28,
+      "question": "When using HTML, which HTML5 tag is semantic for navigation links?",
+      "options": [
+        "<menu>",
+        "<section>",
+        "<nav>",
+        "<aside>"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 29,
+      "question": "When using HTML, which tag is used to create a table row?",
+      "options": [
+        "<td>",
+        "<tr>",
+        "<th>",
+        "<table-row>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 30,
+      "question": "When using HTML, which input type hides typed characters?",
+      "options": [
+        "text",
+        "secret",
+        "password",
+        "hidden"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 31,
+      "question": "When using HTML, which tag defines metadata container?",
+      "options": [
+        "<meta>",
+        "<head>",
+        "<data>",
+        "<info>"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 32,
+      "question": "When using HTML, which tag is used for ordered lists?",
+      "options": [
+        "<ul>",
+        "<ol>",
+        "<li>",
+        "<dl>"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 33,
+      "question": "In a HTML query, which tag defines the largest heading by default?",
+      "options": [
+        "<h6>",
+        "<h1>",
+        "<head>",
+        "<title>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 34,
+      "question": "In a HTML query, which attribute provides alternative text for images?",
+      "options": [
+        "title",
+        "src",
+        "alt",
+        "href"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 35,
+      "question": "In a HTML query, which tag is used to create a hyperlink?",
+      "options": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<url>"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 36,
+      "question": "In a HTML query, which HTML5 tag is semantic for navigation links?",
+      "options": [
+        "<menu>",
+        "<section>",
+        "<nav>",
+        "<aside>"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 37,
+      "question": "In a HTML query, which tag is used to create a table row?",
+      "options": [
+        "<td>",
+        "<tr>",
+        "<th>",
+        "<table-row>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 38,
+      "question": "In a HTML query, which input type hides typed characters?",
+      "options": [
+        "text",
+        "secret",
+        "password",
+        "hidden"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 39,
+      "question": "In a HTML query, which tag defines metadata container?",
+      "options": [
+        "<meta>",
+        "<head>",
+        "<data>",
+        "<info>"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 40,
+      "question": "In a HTML query, which tag is used for ordered lists?",
+      "options": [
+        "<ul>",
+        "<ol>",
+        "<li>",
+        "<dl>"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 41,
+      "question": "From a HTML perspective, which tag defines the largest heading by default?",
+      "options": [
+        "<h6>",
+        "<h1>",
+        "<head>",
+        "<title>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 42,
+      "question": "From a HTML perspective, which attribute provides alternative text for images?",
+      "options": [
+        "title",
+        "src",
+        "alt",
+        "href"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 43,
+      "question": "From a HTML perspective, which tag is used to create a hyperlink?",
+      "options": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<url>"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 44,
+      "question": "From a HTML perspective, which HTML5 tag is semantic for navigation links?",
+      "options": [
+        "<menu>",
+        "<section>",
+        "<nav>",
+        "<aside>"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 45,
+      "question": "From a HTML perspective, which tag is used to create a table row?",
+      "options": [
+        "<td>",
+        "<tr>",
+        "<th>",
+        "<table-row>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 46,
+      "question": "From a HTML perspective, which input type hides typed characters?",
+      "options": [
+        "text",
+        "secret",
+        "password",
+        "hidden"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 47,
+      "question": "From a HTML perspective, which tag defines metadata container?",
+      "options": [
+        "<meta>",
+        "<head>",
+        "<data>",
+        "<info>"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 48,
+      "question": "From a HTML perspective, which tag is used for ordered lists?",
+      "options": [
+        "<ul>",
+        "<ol>",
+        "<li>",
+        "<dl>"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 49,
+      "question": "In practical HTML usage, which tag defines the largest heading by default?",
+      "options": [
+        "<h6>",
+        "<h1>",
+        "<head>",
+        "<title>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 50,
+      "question": "In practical HTML usage, which attribute provides alternative text for images?",
+      "options": [
+        "title",
+        "src",
+        "alt",
+        "href"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 51,
+      "question": "In practical HTML usage, which tag is used to create a hyperlink?",
+      "options": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<url>"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 52,
+      "question": "In practical HTML usage, which HTML5 tag is semantic for navigation links?",
+      "options": [
+        "<menu>",
+        "<section>",
+        "<nav>",
+        "<aside>"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 53,
+      "question": "In practical HTML usage, which tag is used to create a table row?",
+      "options": [
+        "<td>",
+        "<tr>",
+        "<th>",
+        "<table-row>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 54,
+      "question": "In practical HTML usage, which input type hides typed characters?",
+      "options": [
+        "text",
+        "secret",
+        "password",
+        "hidden"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 55,
+      "question": "In practical HTML usage, which tag defines metadata container?",
+      "options": [
+        "<meta>",
+        "<head>",
+        "<data>",
+        "<info>"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 56,
+      "question": "In practical HTML usage, which tag is used for ordered lists?",
+      "options": [
+        "<ul>",
+        "<ol>",
+        "<li>",
+        "<dl>"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 57,
+      "question": "Within HTML, which tag defines the largest heading by default?",
+      "options": [
+        "<h6>",
+        "<h1>",
+        "<head>",
+        "<title>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 58,
+      "question": "Within HTML, which attribute provides alternative text for images?",
+      "options": [
+        "title",
+        "src",
+        "alt",
+        "href"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 59,
+      "question": "Within HTML, which tag is used to create a hyperlink?",
+      "options": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<url>"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 60,
+      "question": "Within HTML, which HTML5 tag is semantic for navigation links?",
+      "options": [
+        "<menu>",
+        "<section>",
+        "<nav>",
+        "<aside>"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 61,
+      "question": "Within HTML, which tag is used to create a table row?",
+      "options": [
+        "<td>",
+        "<tr>",
+        "<th>",
+        "<table-row>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 62,
+      "question": "Within HTML, which input type hides typed characters?",
+      "options": [
+        "text",
+        "secret",
+        "password",
+        "hidden"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 63,
+      "question": "Within HTML, which tag defines metadata container?",
+      "options": [
+        "<meta>",
+        "<head>",
+        "<data>",
+        "<info>"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 64,
+      "question": "Within HTML, which tag is used for ordered lists?",
+      "options": [
+        "<ul>",
+        "<ol>",
+        "<li>",
+        "<dl>"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 65,
+      "question": "For HTML developers, which tag defines the largest heading by default?",
+      "options": [
+        "<h6>",
+        "<h1>",
+        "<head>",
+        "<title>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 66,
+      "question": "For HTML developers, which attribute provides alternative text for images?",
+      "options": [
+        "title",
+        "src",
+        "alt",
+        "href"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 67,
+      "question": "For HTML developers, which tag is used to create a hyperlink?",
+      "options": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<url>"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 68,
+      "question": "For HTML developers, which HTML5 tag is semantic for navigation links?",
+      "options": [
+        "<menu>",
+        "<section>",
+        "<nav>",
+        "<aside>"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 69,
+      "question": "For HTML developers, which tag is used to create a table row?",
+      "options": [
+        "<td>",
+        "<tr>",
+        "<th>",
+        "<table-row>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 70,
+      "question": "For HTML developers, which input type hides typed characters?",
+      "options": [
+        "text",
+        "secret",
+        "password",
+        "hidden"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 71,
+      "question": "For HTML developers, which tag defines metadata container?",
+      "options": [
+        "<meta>",
+        "<head>",
+        "<data>",
+        "<info>"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 72,
+      "question": "For HTML developers, which tag is used for ordered lists?",
+      "options": [
+        "<ul>",
+        "<ol>",
+        "<li>",
+        "<dl>"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 73,
+      "question": "In day-to-day HTML work, which tag defines the largest heading by default?",
+      "options": [
+        "<h6>",
+        "<h1>",
+        "<head>",
+        "<title>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 74,
+      "question": "In day-to-day HTML work, which attribute provides alternative text for images?",
+      "options": [
+        "title",
+        "src",
+        "alt",
+        "href"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 75,
+      "question": "In day-to-day HTML work, which tag is used to create a hyperlink?",
+      "options": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<url>"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 76,
+      "question": "In day-to-day HTML work, which HTML5 tag is semantic for navigation links?",
+      "options": [
+        "<menu>",
+        "<section>",
+        "<nav>",
+        "<aside>"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 77,
+      "question": "In day-to-day HTML work, which tag is used to create a table row?",
+      "options": [
+        "<td>",
+        "<tr>",
+        "<th>",
+        "<table-row>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 78,
+      "question": "In day-to-day HTML work, which input type hides typed characters?",
+      "options": [
+        "text",
+        "secret",
+        "password",
+        "hidden"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 79,
+      "question": "In day-to-day HTML work, which tag defines metadata container?",
+      "options": [
+        "<meta>",
+        "<head>",
+        "<data>",
+        "<info>"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 80,
+      "question": "In day-to-day HTML work, which tag is used for ordered lists?",
+      "options": [
+        "<ul>",
+        "<ol>",
+        "<li>",
+        "<dl>"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 81,
+      "question": "Using HTML, which tag defines the largest heading by default?",
+      "options": [
+        "<h6>",
+        "<h1>",
+        "<head>",
+        "<title>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 82,
+      "question": "Using HTML, which attribute provides alternative text for images?",
+      "options": [
+        "title",
+        "src",
+        "alt",
+        "href"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 83,
+      "question": "Using HTML, which tag is used to create a hyperlink?",
+      "options": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<url>"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 84,
+      "question": "Using HTML, which HTML5 tag is semantic for navigation links?",
+      "options": [
+        "<menu>",
+        "<section>",
+        "<nav>",
+        "<aside>"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 85,
+      "question": "Using HTML, which tag is used to create a table row?",
+      "options": [
+        "<td>",
+        "<tr>",
+        "<th>",
+        "<table-row>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 86,
+      "question": "Using HTML, which input type hides typed characters?",
+      "options": [
+        "text",
+        "secret",
+        "password",
+        "hidden"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 87,
+      "question": "Using HTML, which tag defines metadata container?",
+      "options": [
+        "<meta>",
+        "<head>",
+        "<data>",
+        "<info>"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 88,
+      "question": "Using HTML, which tag is used for ordered lists?",
+      "options": [
+        "<ul>",
+        "<ol>",
+        "<li>",
+        "<dl>"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 89,
+      "question": "In HTML practice, which tag defines the largest heading by default?",
+      "options": [
+        "<h6>",
+        "<h1>",
+        "<head>",
+        "<title>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 90,
+      "question": "In HTML practice, which attribute provides alternative text for images?",
+      "options": [
+        "title",
+        "src",
+        "alt",
+        "href"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 91,
+      "question": "In HTML practice, which tag is used to create a hyperlink?",
+      "options": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<url>"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 92,
+      "question": "In HTML practice, which HTML5 tag is semantic for navigation links?",
+      "options": [
+        "<menu>",
+        "<section>",
+        "<nav>",
+        "<aside>"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 93,
+      "question": "In HTML practice, which tag is used to create a table row?",
+      "options": [
+        "<td>",
+        "<tr>",
+        "<th>",
+        "<table-row>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 94,
+      "question": "In HTML practice, which input type hides typed characters?",
+      "options": [
+        "text",
+        "secret",
+        "password",
+        "hidden"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 95,
+      "question": "In HTML practice, which tag defines metadata container?",
+      "options": [
+        "<meta>",
+        "<head>",
+        "<data>",
+        "<info>"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 96,
+      "question": "In HTML practice, which tag is used for ordered lists?",
+      "options": [
+        "<ul>",
+        "<ol>",
+        "<li>",
+        "<dl>"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 97,
+      "question": "With HTML, which tag defines the largest heading by default?",
+      "options": [
+        "<h6>",
+        "<h1>",
+        "<head>",
+        "<title>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 98,
+      "question": "With HTML, which attribute provides alternative text for images?",
+      "options": [
+        "title",
+        "src",
+        "alt",
+        "href"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 99,
+      "question": "With HTML, which tag is used to create a hyperlink?",
+      "options": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<url>"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 100,
+      "question": "With HTML, which HTML5 tag is semantic for navigation links?",
+      "options": [
+        "<menu>",
+        "<section>",
+        "<nav>",
+        "<aside>"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 101,
+      "question": "Which description best matches \"<!DOCTYPE html>\" in HTML?",
+      "options": [
+        "An element conveying meaning, such as <article> or <nav>.",
+        "Text alternative used when an image cannot be displayed.",
+        "A tag controlling layout behavior on mobile devices.",
+        "A declaration that tells browsers to use HTML5 standards mode."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 102,
+      "question": "In HTML, \"<!DOCTYPE html>\" is mainly used for what?",
+      "options": [
+        "A tag controlling layout behavior on mobile devices.",
+        "An element conveying meaning, such as <article> or <nav>.",
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "Text alternative used when an image cannot be displayed."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 103,
+      "question": "What is the primary purpose of \"<!DOCTYPE html>\" in HTML?",
+      "options": [
+        "Text alternative used when an image cannot be displayed.",
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "A tag controlling layout behavior on mobile devices.",
+        "An element conveying meaning, such as <article> or <nav>."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 104,
+      "question": "Choose the most accurate statement about \"<!DOCTYPE html>\" in HTML?",
+      "options": [
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "An element conveying meaning, such as <article> or <nav>.",
+        "Text alternative used when an image cannot be displayed.",
+        "A tag controlling layout behavior on mobile devices."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 105,
+      "question": "Which option correctly explains \"<!DOCTYPE html>\" for HTML developers?",
+      "options": [
+        "Text alternative used when an image cannot be displayed.",
+        "A tag controlling layout behavior on mobile devices.",
+        "An element conveying meaning, such as <article> or <nav>.",
+        "A declaration that tells browsers to use HTML5 standards mode."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 106,
+      "question": "In practical HTML code, when would you use \"<!DOCTYPE html>\"?",
+      "options": [
+        "An element conveying meaning, such as <article> or <nav>.",
+        "Text alternative used when an image cannot be displayed.",
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "A tag controlling layout behavior on mobile devices."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 107,
+      "question": "What does \"<!DOCTYPE html>\" represent?",
+      "options": [
+        "A tag controlling layout behavior on mobile devices.",
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "An element conveying meaning, such as <article> or <nav>.",
+        "Text alternative used when an image cannot be displayed."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 108,
+      "question": "Identify the correct meaning of \"<!DOCTYPE html>\" in HTML?",
+      "options": [
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "Text alternative used when an image cannot be displayed.",
+        "A tag controlling layout behavior on mobile devices.",
+        "An element conveying meaning, such as <article> or <nav>."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 109,
+      "question": "Which definition of \"<!DOCTYPE html>\" is correct in HTML?",
+      "options": [
+        "A tag controlling layout behavior on mobile devices.",
+        "An element conveying meaning, such as <article> or <nav>.",
+        "Text alternative used when an image cannot be displayed.",
+        "A declaration that tells browsers to use HTML5 standards mode."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 110,
+      "question": "For HTML, \"<!DOCTYPE html>\" is best described as:?",
+      "options": [
+        "Text alternative used when an image cannot be displayed.",
+        "A tag controlling layout behavior on mobile devices.",
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "An element conveying meaning, such as <article> or <nav>."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 111,
+      "question": "Which description best matches \"Semantic element\" in HTML?",
+      "options": [
+        "The <a> element used for hyperlinks.",
+        "An element conveying meaning, such as <article> or <nav>.",
+        "Text alternative used when an image cannot be displayed.",
+        "A tag controlling layout behavior on mobile devices."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 112,
+      "question": "In HTML, \"Semantic element\" is mainly used for what?",
+      "options": [
+        "An element conveying meaning, such as <article> or <nav>.",
+        "A tag controlling layout behavior on mobile devices.",
+        "The <a> element used for hyperlinks.",
+        "Text alternative used when an image cannot be displayed."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 113,
+      "question": "What is the primary purpose of \"Semantic element\" in HTML?",
+      "options": [
+        "The <a> element used for hyperlinks.",
+        "Text alternative used when an image cannot be displayed.",
+        "A tag controlling layout behavior on mobile devices.",
+        "An element conveying meaning, such as <article> or <nav>."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 114,
+      "question": "Choose the most accurate statement about \"Semantic element\" in HTML?",
+      "options": [
+        "A tag controlling layout behavior on mobile devices.",
+        "The <a> element used for hyperlinks.",
+        "An element conveying meaning, such as <article> or <nav>.",
+        "Text alternative used when an image cannot be displayed."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 115,
+      "question": "Which option correctly explains \"Semantic element\" for HTML developers?",
+      "options": [
+        "Text alternative used when an image cannot be displayed.",
+        "An element conveying meaning, such as <article> or <nav>.",
+        "A tag controlling layout behavior on mobile devices.",
+        "The <a> element used for hyperlinks."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 116,
+      "question": "In practical HTML code, when would you use \"Semantic element\"?",
+      "options": [
+        "An element conveying meaning, such as <article> or <nav>.",
+        "The <a> element used for hyperlinks.",
+        "Text alternative used when an image cannot be displayed.",
+        "A tag controlling layout behavior on mobile devices."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 117,
+      "question": "What does \"Semantic element\" represent?",
+      "options": [
+        "Text alternative used when an image cannot be displayed.",
+        "A tag controlling layout behavior on mobile devices.",
+        "The <a> element used for hyperlinks.",
+        "An element conveying meaning, such as <article> or <nav>."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 118,
+      "question": "Identify the correct meaning of \"Semantic element\" in HTML?",
+      "options": [
+        "The <a> element used for hyperlinks.",
+        "Text alternative used when an image cannot be displayed.",
+        "An element conveying meaning, such as <article> or <nav>.",
+        "A tag controlling layout behavior on mobile devices."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 119,
+      "question": "Which definition of \"Semantic element\" is correct in HTML?",
+      "options": [
+        "A tag controlling layout behavior on mobile devices.",
+        "An element conveying meaning, such as <article> or <nav>.",
+        "The <a> element used for hyperlinks.",
+        "Text alternative used when an image cannot be displayed."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 120,
+      "question": "For HTML, \"Semantic element\" is best described as:?",
+      "options": [
+        "An element conveying meaning, such as <article> or <nav>.",
+        "Text alternative used when an image cannot be displayed.",
+        "A tag controlling layout behavior on mobile devices.",
+        "The <a> element used for hyperlinks."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 121,
+      "question": "Which description best matches \"alt attribute\" in HTML?",
+      "options": [
+        "A tag controlling layout behavior on mobile devices.",
+        "The <a> element used for hyperlinks.",
+        "The URL where form data is submitted.",
+        "Text alternative used when an image cannot be displayed."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 122,
+      "question": "In HTML, \"alt attribute\" is mainly used for what?",
+      "options": [
+        "The URL where form data is submitted.",
+        "A tag controlling layout behavior on mobile devices.",
+        "Text alternative used when an image cannot be displayed.",
+        "The <a> element used for hyperlinks."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 123,
+      "question": "What is the primary purpose of \"alt attribute\" in HTML?",
+      "options": [
+        "The <a> element used for hyperlinks.",
+        "Text alternative used when an image cannot be displayed.",
+        "The URL where form data is submitted.",
+        "A tag controlling layout behavior on mobile devices."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 124,
+      "question": "Choose the most accurate statement about \"alt attribute\" in HTML?",
+      "options": [
+        "Text alternative used when an image cannot be displayed.",
+        "A tag controlling layout behavior on mobile devices.",
+        "The <a> element used for hyperlinks.",
+        "The URL where form data is submitted."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 125,
+      "question": "Which option correctly explains \"alt attribute\" for HTML developers?",
+      "options": [
+        "The <a> element used for hyperlinks.",
+        "The URL where form data is submitted.",
+        "A tag controlling layout behavior on mobile devices.",
+        "Text alternative used when an image cannot be displayed."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 126,
+      "question": "In practical HTML code, when would you use \"alt attribute\"?",
+      "options": [
+        "A tag controlling layout behavior on mobile devices.",
+        "The <a> element used for hyperlinks.",
+        "Text alternative used when an image cannot be displayed.",
+        "The URL where form data is submitted."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 127,
+      "question": "What does \"alt attribute\" represent?",
+      "options": [
+        "The URL where form data is submitted.",
+        "Text alternative used when an image cannot be displayed.",
+        "A tag controlling layout behavior on mobile devices.",
+        "The <a> element used for hyperlinks."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 128,
+      "question": "Identify the correct meaning of \"alt attribute\" in HTML?",
+      "options": [
+        "Text alternative used when an image cannot be displayed.",
+        "The <a> element used for hyperlinks.",
+        "The URL where form data is submitted.",
+        "A tag controlling layout behavior on mobile devices."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 129,
+      "question": "Which definition of \"alt attribute\" is correct in HTML?",
+      "options": [
+        "The URL where form data is submitted.",
+        "A tag controlling layout behavior on mobile devices.",
+        "The <a> element used for hyperlinks.",
+        "Text alternative used when an image cannot be displayed."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 130,
+      "question": "For HTML, \"alt attribute\" is best described as:?",
+      "options": [
+        "The <a> element used for hyperlinks.",
+        "The URL where form data is submitted.",
+        "Text alternative used when an image cannot be displayed.",
+        "A tag controlling layout behavior on mobile devices."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 131,
+      "question": "Which description best matches \"meta viewport\" in HTML?",
+      "options": [
+        "The HTTP method used for submitting form data.",
+        "A tag controlling layout behavior on mobile devices.",
+        "The <a> element used for hyperlinks.",
+        "The URL where form data is submitted."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 132,
+      "question": "In HTML, \"meta viewport\" is mainly used for what?",
+      "options": [
+        "A tag controlling layout behavior on mobile devices.",
+        "The URL where form data is submitted.",
+        "The HTTP method used for submitting form data.",
+        "The <a> element used for hyperlinks."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 133,
+      "question": "What is the primary purpose of \"meta viewport\" in HTML?",
+      "options": [
+        "The HTTP method used for submitting form data.",
+        "The <a> element used for hyperlinks.",
+        "The URL where form data is submitted.",
+        "A tag controlling layout behavior on mobile devices."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 134,
+      "question": "Choose the most accurate statement about \"meta viewport\" in HTML?",
+      "options": [
+        "The URL where form data is submitted.",
+        "The HTTP method used for submitting form data.",
+        "A tag controlling layout behavior on mobile devices.",
+        "The <a> element used for hyperlinks."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 135,
+      "question": "Which option correctly explains \"meta viewport\" for HTML developers?",
+      "options": [
+        "The <a> element used for hyperlinks.",
+        "A tag controlling layout behavior on mobile devices.",
+        "The URL where form data is submitted.",
+        "The HTTP method used for submitting form data."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 136,
+      "question": "In practical HTML code, when would you use \"meta viewport\"?",
+      "options": [
+        "A tag controlling layout behavior on mobile devices.",
+        "The HTTP method used for submitting form data.",
+        "The <a> element used for hyperlinks.",
+        "The URL where form data is submitted."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 137,
+      "question": "What does \"meta viewport\" represent?",
+      "options": [
+        "The <a> element used for hyperlinks.",
+        "The URL where form data is submitted.",
+        "The HTTP method used for submitting form data.",
+        "A tag controlling layout behavior on mobile devices."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 138,
+      "question": "Identify the correct meaning of \"meta viewport\" in HTML?",
+      "options": [
+        "The HTTP method used for submitting form data.",
+        "The <a> element used for hyperlinks.",
+        "A tag controlling layout behavior on mobile devices.",
+        "The URL where form data is submitted."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 139,
+      "question": "Which definition of \"meta viewport\" is correct in HTML?",
+      "options": [
+        "The URL where form data is submitted.",
+        "A tag controlling layout behavior on mobile devices.",
+        "The HTTP method used for submitting form data.",
+        "The <a> element used for hyperlinks."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 140,
+      "question": "For HTML, \"meta viewport\" is best described as:?",
+      "options": [
+        "A tag controlling layout behavior on mobile devices.",
+        "The <a> element used for hyperlinks.",
+        "The URL where form data is submitted.",
+        "The HTTP method used for submitting form data."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 141,
+      "question": "Which description best matches \"Anchor tag\" in HTML?",
+      "options": [
+        "The URL where form data is submitted.",
+        "The HTTP method used for submitting form data.",
+        "The <tr> element grouping cells in a table row.",
+        "The <a> element used for hyperlinks."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 142,
+      "question": "In HTML, \"Anchor tag\" is mainly used for what?",
+      "options": [
+        "The <tr> element grouping cells in a table row.",
+        "The URL where form data is submitted.",
+        "The <a> element used for hyperlinks.",
+        "The HTTP method used for submitting form data."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 143,
+      "question": "What is the primary purpose of \"Anchor tag\" in HTML?",
+      "options": [
+        "The HTTP method used for submitting form data.",
+        "The <a> element used for hyperlinks.",
+        "The <tr> element grouping cells in a table row.",
+        "The URL where form data is submitted."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 144,
+      "question": "Choose the most accurate statement about \"Anchor tag\" in HTML?",
+      "options": [
+        "The <a> element used for hyperlinks.",
+        "The URL where form data is submitted.",
+        "The HTTP method used for submitting form data.",
+        "The <tr> element grouping cells in a table row."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 145,
+      "question": "Which option correctly explains \"Anchor tag\" for HTML developers?",
+      "options": [
+        "The HTTP method used for submitting form data.",
+        "The <tr> element grouping cells in a table row.",
+        "The URL where form data is submitted.",
+        "The <a> element used for hyperlinks."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 146,
+      "question": "In practical HTML code, when would you use \"Anchor tag\"?",
+      "options": [
+        "The URL where form data is submitted.",
+        "The HTTP method used for submitting form data.",
+        "The <a> element used for hyperlinks.",
+        "The <tr> element grouping cells in a table row."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 147,
+      "question": "What does \"Anchor tag\" represent?",
+      "options": [
+        "The <tr> element grouping cells in a table row.",
+        "The <a> element used for hyperlinks.",
+        "The URL where form data is submitted.",
+        "The HTTP method used for submitting form data."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 148,
+      "question": "Identify the correct meaning of \"Anchor tag\" in HTML?",
+      "options": [
+        "The <a> element used for hyperlinks.",
+        "The HTTP method used for submitting form data.",
+        "The <tr> element grouping cells in a table row.",
+        "The URL where form data is submitted."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 149,
+      "question": "Which definition of \"Anchor tag\" is correct in HTML?",
+      "options": [
+        "The <tr> element grouping cells in a table row.",
+        "The URL where form data is submitted.",
+        "The HTTP method used for submitting form data.",
+        "The <a> element used for hyperlinks."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 150,
+      "question": "For HTML, \"Anchor tag\" is best described as:?",
+      "options": [
+        "The HTTP method used for submitting form data.",
+        "The <tr> element grouping cells in a table row.",
+        "The <a> element used for hyperlinks.",
+        "The URL where form data is submitted."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 151,
+      "question": "Which description best matches \"Form action\" in HTML?",
+      "options": [
+        "A unique identifier for a single element in a document.",
+        "The URL where form data is submitted.",
+        "The HTTP method used for submitting form data.",
+        "The <tr> element grouping cells in a table row."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 152,
+      "question": "In HTML, \"Form action\" is mainly used for what?",
+      "options": [
+        "The URL where form data is submitted.",
+        "The <tr> element grouping cells in a table row.",
+        "A unique identifier for a single element in a document.",
+        "The HTTP method used for submitting form data."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 153,
+      "question": "What is the primary purpose of \"Form action\" in HTML?",
+      "options": [
+        "A unique identifier for a single element in a document.",
+        "The HTTP method used for submitting form data.",
+        "The <tr> element grouping cells in a table row.",
+        "The URL where form data is submitted."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 154,
+      "question": "Choose the most accurate statement about \"Form action\" in HTML?",
+      "options": [
+        "The <tr> element grouping cells in a table row.",
+        "A unique identifier for a single element in a document.",
+        "The URL where form data is submitted.",
+        "The HTTP method used for submitting form data."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 155,
+      "question": "Which option correctly explains \"Form action\" for HTML developers?",
+      "options": [
+        "The HTTP method used for submitting form data.",
+        "The URL where form data is submitted.",
+        "The <tr> element grouping cells in a table row.",
+        "A unique identifier for a single element in a document."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 156,
+      "question": "In practical HTML code, when would you use \"Form action\"?",
+      "options": [
+        "The URL where form data is submitted.",
+        "A unique identifier for a single element in a document.",
+        "The HTTP method used for submitting form data.",
+        "The <tr> element grouping cells in a table row."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 157,
+      "question": "What does \"Form action\" represent?",
+      "options": [
+        "The HTTP method used for submitting form data.",
+        "The <tr> element grouping cells in a table row.",
+        "A unique identifier for a single element in a document.",
+        "The URL where form data is submitted."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 158,
+      "question": "Identify the correct meaning of \"Form action\" in HTML?",
+      "options": [
+        "A unique identifier for a single element in a document.",
+        "The HTTP method used for submitting form data.",
+        "The URL where form data is submitted.",
+        "The <tr> element grouping cells in a table row."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 159,
+      "question": "Which definition of \"Form action\" is correct in HTML?",
+      "options": [
+        "The <tr> element grouping cells in a table row.",
+        "The URL where form data is submitted.",
+        "A unique identifier for a single element in a document.",
+        "The HTTP method used for submitting form data."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 160,
+      "question": "For HTML, \"Form action\" is best described as:?",
+      "options": [
+        "The URL where form data is submitted.",
+        "The HTTP method used for submitting form data.",
+        "The <tr> element grouping cells in a table row.",
+        "A unique identifier for a single element in a document."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 161,
+      "question": "Which description best matches \"Form method\" in HTML?",
+      "options": [
+        "The <tr> element grouping cells in a table row.",
+        "A unique identifier for a single element in a document.",
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "The HTTP method used for submitting form data."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 162,
+      "question": "In HTML, \"Form method\" is mainly used for what?",
+      "options": [
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "The <tr> element grouping cells in a table row.",
+        "The HTTP method used for submitting form data.",
+        "A unique identifier for a single element in a document."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 163,
+      "question": "What is the primary purpose of \"Form method\" in HTML?",
+      "options": [
+        "A unique identifier for a single element in a document.",
+        "The HTTP method used for submitting form data.",
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "The <tr> element grouping cells in a table row."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 164,
+      "question": "Choose the most accurate statement about \"Form method\" in HTML?",
+      "options": [
+        "The HTTP method used for submitting form data.",
+        "The <tr> element grouping cells in a table row.",
+        "A unique identifier for a single element in a document.",
+        "A reusable selector hook for styling or scripting multiple elements."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 165,
+      "question": "Which option correctly explains \"Form method\" for HTML developers?",
+      "options": [
+        "A unique identifier for a single element in a document.",
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "The <tr> element grouping cells in a table row.",
+        "The HTTP method used for submitting form data."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 166,
+      "question": "In practical HTML code, when would you use \"Form method\"?",
+      "options": [
+        "The <tr> element grouping cells in a table row.",
+        "A unique identifier for a single element in a document.",
+        "The HTTP method used for submitting form data.",
+        "A reusable selector hook for styling or scripting multiple elements."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 167,
+      "question": "What does \"Form method\" represent?",
+      "options": [
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "The HTTP method used for submitting form data.",
+        "The <tr> element grouping cells in a table row.",
+        "A unique identifier for a single element in a document."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 168,
+      "question": "Identify the correct meaning of \"Form method\" in HTML?",
+      "options": [
+        "The HTTP method used for submitting form data.",
+        "A unique identifier for a single element in a document.",
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "The <tr> element grouping cells in a table row."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 169,
+      "question": "Which definition of \"Form method\" is correct in HTML?",
+      "options": [
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "The <tr> element grouping cells in a table row.",
+        "A unique identifier for a single element in a document.",
+        "The HTTP method used for submitting form data."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 170,
+      "question": "For HTML, \"Form method\" is best described as:?",
+      "options": [
+        "A unique identifier for a single element in a document.",
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "The HTTP method used for submitting form data.",
+        "The <tr> element grouping cells in a table row."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 171,
+      "question": "Which description best matches \"Table row\" in HTML?",
+      "options": [
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "The <tr> element grouping cells in a table row.",
+        "A unique identifier for a single element in a document.",
+        "A reusable selector hook for styling or scripting multiple elements."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 172,
+      "question": "In HTML, \"Table row\" is mainly used for what?",
+      "options": [
+        "The <tr> element grouping cells in a table row.",
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "A unique identifier for a single element in a document."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 173,
+      "question": "What is the primary purpose of \"Table row\" in HTML?",
+      "options": [
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "A unique identifier for a single element in a document.",
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "The <tr> element grouping cells in a table row."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 174,
+      "question": "Choose the most accurate statement about \"Table row\" in HTML?",
+      "options": [
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "The <tr> element grouping cells in a table row.",
+        "A unique identifier for a single element in a document."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 175,
+      "question": "Which option correctly explains \"Table row\" for HTML developers?",
+      "options": [
+        "A unique identifier for a single element in a document.",
+        "The <tr> element grouping cells in a table row.",
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "A declaration that tells browsers to use HTML5 standards mode."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 176,
+      "question": "In practical HTML code, when would you use \"Table row\"?",
+      "options": [
+        "The <tr> element grouping cells in a table row.",
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "A unique identifier for a single element in a document.",
+        "A reusable selector hook for styling or scripting multiple elements."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 177,
+      "question": "What does \"Table row\" represent?",
+      "options": [
+        "A unique identifier for a single element in a document.",
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "The <tr> element grouping cells in a table row."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 178,
+      "question": "Identify the correct meaning of \"Table row\" in HTML?",
+      "options": [
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "A unique identifier for a single element in a document.",
+        "The <tr> element grouping cells in a table row.",
+        "A reusable selector hook for styling or scripting multiple elements."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 179,
+      "question": "Which definition of \"Table row\" is correct in HTML?",
+      "options": [
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "The <tr> element grouping cells in a table row.",
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "A unique identifier for a single element in a document."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 180,
+      "question": "For HTML, \"Table row\" is best described as:?",
+      "options": [
+        "The <tr> element grouping cells in a table row.",
+        "A unique identifier for a single element in a document.",
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "A declaration that tells browsers to use HTML5 standards mode."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 181,
+      "question": "Which description best matches \"id attribute\" in HTML?",
+      "options": [
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "An element conveying meaning, such as <article> or <nav>.",
+        "A unique identifier for a single element in a document."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 182,
+      "question": "In HTML, \"id attribute\" is mainly used for what?",
+      "options": [
+        "An element conveying meaning, such as <article> or <nav>.",
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "A unique identifier for a single element in a document.",
+        "A declaration that tells browsers to use HTML5 standards mode."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 183,
+      "question": "What is the primary purpose of \"id attribute\" in HTML?",
+      "options": [
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "A unique identifier for a single element in a document.",
+        "An element conveying meaning, such as <article> or <nav>.",
+        "A reusable selector hook for styling or scripting multiple elements."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 184,
+      "question": "Choose the most accurate statement about \"id attribute\" in HTML?",
+      "options": [
+        "A unique identifier for a single element in a document.",
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "An element conveying meaning, such as <article> or <nav>."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 185,
+      "question": "Which option correctly explains \"id attribute\" for HTML developers?",
+      "options": [
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "An element conveying meaning, such as <article> or <nav>.",
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "A unique identifier for a single element in a document."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 186,
+      "question": "In practical HTML code, when would you use \"id attribute\"?",
+      "options": [
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "A unique identifier for a single element in a document.",
+        "An element conveying meaning, such as <article> or <nav>."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 187,
+      "question": "What does \"id attribute\" represent?",
+      "options": [
+        "An element conveying meaning, such as <article> or <nav>.",
+        "A unique identifier for a single element in a document.",
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "A declaration that tells browsers to use HTML5 standards mode."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 188,
+      "question": "Identify the correct meaning of \"id attribute\" in HTML?",
+      "options": [
+        "A unique identifier for a single element in a document.",
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "An element conveying meaning, such as <article> or <nav>.",
+        "A reusable selector hook for styling or scripting multiple elements."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 189,
+      "question": "Which definition of \"id attribute\" is correct in HTML?",
+      "options": [
+        "An element conveying meaning, such as <article> or <nav>.",
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "A unique identifier for a single element in a document."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 190,
+      "question": "For HTML, \"id attribute\" is best described as:?",
+      "options": [
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "An element conveying meaning, such as <article> or <nav>.",
+        "A unique identifier for a single element in a document.",
+        "A reusable selector hook for styling or scripting multiple elements."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 191,
+      "question": "Which description best matches \"class attribute\" in HTML?",
+      "options": [
+        "Text alternative used when an image cannot be displayed.",
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "An element conveying meaning, such as <article> or <nav>."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 192,
+      "question": "In HTML, \"class attribute\" is mainly used for what?",
+      "options": [
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "An element conveying meaning, such as <article> or <nav>.",
+        "Text alternative used when an image cannot be displayed.",
+        "A declaration that tells browsers to use HTML5 standards mode."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 193,
+      "question": "What is the primary purpose of \"class attribute\" in HTML?",
+      "options": [
+        "Text alternative used when an image cannot be displayed.",
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "An element conveying meaning, such as <article> or <nav>.",
+        "A reusable selector hook for styling or scripting multiple elements."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 194,
+      "question": "Choose the most accurate statement about \"class attribute\" in HTML?",
+      "options": [
+        "An element conveying meaning, such as <article> or <nav>.",
+        "Text alternative used when an image cannot be displayed.",
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "A declaration that tells browsers to use HTML5 standards mode."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 195,
+      "question": "Which option correctly explains \"class attribute\" for HTML developers?",
+      "options": [
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "An element conveying meaning, such as <article> or <nav>.",
+        "Text alternative used when an image cannot be displayed."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 196,
+      "question": "In practical HTML code, when would you use \"class attribute\"?",
+      "options": [
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "Text alternative used when an image cannot be displayed.",
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "An element conveying meaning, such as <article> or <nav>."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 197,
+      "question": "What does \"class attribute\" represent?",
+      "options": [
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "An element conveying meaning, such as <article> or <nav>.",
+        "Text alternative used when an image cannot be displayed.",
+        "A reusable selector hook for styling or scripting multiple elements."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 198,
+      "question": "Identify the correct meaning of \"class attribute\" in HTML?",
+      "options": [
+        "Text alternative used when an image cannot be displayed.",
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "An element conveying meaning, such as <article> or <nav>."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 199,
+      "question": "Which definition of \"class attribute\" is correct in HTML?",
+      "options": [
+        "An element conveying meaning, such as <article> or <nav>.",
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "Text alternative used when an image cannot be displayed.",
+        "A declaration that tells browsers to use HTML5 standards mode."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 200,
+      "question": "For HTML, \"class attribute\" is best described as:?",
+      "options": [
+        "A reusable selector hook for styling or scripting multiple elements.",
+        "A declaration that tells browsers to use HTML5 standards mode.",
+        "An element conveying meaning, such as <article> or <nav>.",
+        "Text alternative used when an image cannot be displayed."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 201,
+      "question": "Which element is rendered?\n```html\n<h1>Hello</h1>\n```",
+      "options": [
+        "Paragraph",
+        "Heading level 1",
+        "Link",
+        "List"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 202,
+      "question": "Which attribute provides fallback text?\n```html\n<img src=\"logo.png\" alt=\"Site Logo\">\n```",
+      "options": [
+        "src",
+        "href",
+        "alt",
+        "title"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 203,
+      "question": "This snippet creates what?\n```html\n<a href=\"/courses\">Courses</a>\n```",
+      "options": [
+        "Image",
+        "Hyperlink",
+        "Button",
+        "Table"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 204,
+      "question": "What list type is this?\n```html\n<ul><li>One</li><li>Two</li></ul>\n```",
+      "options": [
+        "Ordered list",
+        "Description list",
+        "Unordered list",
+        "Table list"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 205,
+      "question": "How does input text appear?\n```html\n<input type=\"password\">\n```",
+      "options": [
+        "Plain text",
+        "Masked characters",
+        "Uppercase only",
+        "Disabled"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 206,
+      "question": "In HTML, which element is rendered?\n```html\n<h1>Hello</h1>\n```",
+      "options": [
+        "Paragraph",
+        "Heading level 1",
+        "Link",
+        "List"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 207,
+      "question": "In HTML, which attribute provides fallback text?\n```html\n<img src=\"logo.png\" alt=\"Site Logo\">\n```",
+      "options": [
+        "src",
+        "href",
+        "alt",
+        "title"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 208,
+      "question": "In HTML, this snippet creates what?\n```html\n<a href=\"/courses\">Courses</a>\n```",
+      "options": [
+        "Image",
+        "Hyperlink",
+        "Button",
+        "Table"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 209,
+      "question": "In HTML, what list type is this?\n```html\n<ul><li>One</li><li>Two</li></ul>\n```",
+      "options": [
+        "Ordered list",
+        "Description list",
+        "Unordered list",
+        "Table list"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 210,
+      "question": "In HTML, how does input text appear?\n```html\n<input type=\"password\">\n```",
+      "options": [
+        "Plain text",
+        "Masked characters",
+        "Uppercase only",
+        "Disabled"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 211,
+      "question": "For HTML, which element is rendered?\n```html\n<h1>Hello</h1>\n```",
+      "options": [
+        "Paragraph",
+        "Heading level 1",
+        "Link",
+        "List"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 212,
+      "question": "For HTML, which attribute provides fallback text?\n```html\n<img src=\"logo.png\" alt=\"Site Logo\">\n```",
+      "options": [
+        "src",
+        "href",
+        "alt",
+        "title"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 213,
+      "question": "For HTML, this snippet creates what?\n```html\n<a href=\"/courses\">Courses</a>\n```",
+      "options": [
+        "Image",
+        "Hyperlink",
+        "Button",
+        "Table"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 214,
+      "question": "For HTML, what list type is this?\n```html\n<ul><li>One</li><li>Two</li></ul>\n```",
+      "options": [
+        "Ordered list",
+        "Description list",
+        "Unordered list",
+        "Table list"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 215,
+      "question": "For HTML, how does input text appear?\n```html\n<input type=\"password\">\n```",
+      "options": [
+        "Plain text",
+        "Masked characters",
+        "Uppercase only",
+        "Disabled"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 216,
+      "question": "When using HTML, which element is rendered?\n```html\n<h1>Hello</h1>\n```",
+      "options": [
+        "Paragraph",
+        "Heading level 1",
+        "Link",
+        "List"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 217,
+      "question": "When using HTML, which attribute provides fallback text?\n```html\n<img src=\"logo.png\" alt=\"Site Logo\">\n```",
+      "options": [
+        "src",
+        "href",
+        "alt",
+        "title"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 218,
+      "question": "When using HTML, this snippet creates what?\n```html\n<a href=\"/courses\">Courses</a>\n```",
+      "options": [
+        "Image",
+        "Hyperlink",
+        "Button",
+        "Table"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 219,
+      "question": "When using HTML, what list type is this?\n```html\n<ul><li>One</li><li>Two</li></ul>\n```",
+      "options": [
+        "Ordered list",
+        "Description list",
+        "Unordered list",
+        "Table list"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 220,
+      "question": "When using HTML, how does input text appear?\n```html\n<input type=\"password\">\n```",
+      "options": [
+        "Plain text",
+        "Masked characters",
+        "Uppercase only",
+        "Disabled"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 221,
+      "question": "In a HTML query, which element is rendered?\n```html\n<h1>Hello</h1>\n```",
+      "options": [
+        "Paragraph",
+        "Heading level 1",
+        "Link",
+        "List"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 222,
+      "question": "In a HTML query, which attribute provides fallback text?\n```html\n<img src=\"logo.png\" alt=\"Site Logo\">\n```",
+      "options": [
+        "src",
+        "href",
+        "alt",
+        "title"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 223,
+      "question": "In a HTML query, this snippet creates what?\n```html\n<a href=\"/courses\">Courses</a>\n```",
+      "options": [
+        "Image",
+        "Hyperlink",
+        "Button",
+        "Table"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 224,
+      "question": "In a HTML query, what list type is this?\n```html\n<ul><li>One</li><li>Two</li></ul>\n```",
+      "options": [
+        "Ordered list",
+        "Description list",
+        "Unordered list",
+        "Table list"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 225,
+      "question": "In a HTML query, how does input text appear?\n```html\n<input type=\"password\">\n```",
+      "options": [
+        "Plain text",
+        "Masked characters",
+        "Uppercase only",
+        "Disabled"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 226,
+      "question": "From a HTML perspective, which element is rendered?\n```html\n<h1>Hello</h1>\n```",
+      "options": [
+        "Paragraph",
+        "Heading level 1",
+        "Link",
+        "List"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 227,
+      "question": "From a HTML perspective, which attribute provides fallback text?\n```html\n<img src=\"logo.png\" alt=\"Site Logo\">\n```",
+      "options": [
+        "src",
+        "href",
+        "alt",
+        "title"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 228,
+      "question": "From a HTML perspective, this snippet creates what?\n```html\n<a href=\"/courses\">Courses</a>\n```",
+      "options": [
+        "Image",
+        "Hyperlink",
+        "Button",
+        "Table"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 229,
+      "question": "From a HTML perspective, what list type is this?\n```html\n<ul><li>One</li><li>Two</li></ul>\n```",
+      "options": [
+        "Ordered list",
+        "Description list",
+        "Unordered list",
+        "Table list"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 230,
+      "question": "From a HTML perspective, how does input text appear?\n```html\n<input type=\"password\">\n```",
+      "options": [
+        "Plain text",
+        "Masked characters",
+        "Uppercase only",
+        "Disabled"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 231,
+      "question": "In practical HTML usage, which element is rendered?\n```html\n<h1>Hello</h1>\n```",
+      "options": [
+        "Paragraph",
+        "Heading level 1",
+        "Link",
+        "List"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 232,
+      "question": "In practical HTML usage, which attribute provides fallback text?\n```html\n<img src=\"logo.png\" alt=\"Site Logo\">\n```",
+      "options": [
+        "src",
+        "href",
+        "alt",
+        "title"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 233,
+      "question": "In practical HTML usage, this snippet creates what?\n```html\n<a href=\"/courses\">Courses</a>\n```",
+      "options": [
+        "Image",
+        "Hyperlink",
+        "Button",
+        "Table"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 234,
+      "question": "In practical HTML usage, what list type is this?\n```html\n<ul><li>One</li><li>Two</li></ul>\n```",
+      "options": [
+        "Ordered list",
+        "Description list",
+        "Unordered list",
+        "Table list"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 235,
+      "question": "In practical HTML usage, how does input text appear?\n```html\n<input type=\"password\">\n```",
+      "options": [
+        "Plain text",
+        "Masked characters",
+        "Uppercase only",
+        "Disabled"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 236,
+      "question": "Within HTML, which element is rendered?\n```html\n<h1>Hello</h1>\n```",
+      "options": [
+        "Paragraph",
+        "Heading level 1",
+        "Link",
+        "List"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 237,
+      "question": "Within HTML, which attribute provides fallback text?\n```html\n<img src=\"logo.png\" alt=\"Site Logo\">\n```",
+      "options": [
+        "src",
+        "href",
+        "alt",
+        "title"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 238,
+      "question": "Within HTML, this snippet creates what?\n```html\n<a href=\"/courses\">Courses</a>\n```",
+      "options": [
+        "Image",
+        "Hyperlink",
+        "Button",
+        "Table"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 239,
+      "question": "Within HTML, what list type is this?\n```html\n<ul><li>One</li><li>Two</li></ul>\n```",
+      "options": [
+        "Ordered list",
+        "Description list",
+        "Unordered list",
+        "Table list"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 240,
+      "question": "Within HTML, how does input text appear?\n```html\n<input type=\"password\">\n```",
+      "options": [
+        "Plain text",
+        "Masked characters",
+        "Uppercase only",
+        "Disabled"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 241,
+      "question": "For HTML developers, which element is rendered?\n```html\n<h1>Hello</h1>\n```",
+      "options": [
+        "Paragraph",
+        "Heading level 1",
+        "Link",
+        "List"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 242,
+      "question": "For HTML developers, which attribute provides fallback text?\n```html\n<img src=\"logo.png\" alt=\"Site Logo\">\n```",
+      "options": [
+        "src",
+        "href",
+        "alt",
+        "title"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 243,
+      "question": "For HTML developers, this snippet creates what?\n```html\n<a href=\"/courses\">Courses</a>\n```",
+      "options": [
+        "Image",
+        "Hyperlink",
+        "Button",
+        "Table"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 244,
+      "question": "For HTML developers, what list type is this?\n```html\n<ul><li>One</li><li>Two</li></ul>\n```",
+      "options": [
+        "Ordered list",
+        "Description list",
+        "Unordered list",
+        "Table list"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 245,
+      "question": "For HTML developers, how does input text appear?\n```html\n<input type=\"password\">\n```",
+      "options": [
+        "Plain text",
+        "Masked characters",
+        "Uppercase only",
+        "Disabled"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 246,
+      "question": "In day-to-day HTML work, which element is rendered?\n```html\n<h1>Hello</h1>\n```",
+      "options": [
+        "Paragraph",
+        "Heading level 1",
+        "Link",
+        "List"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 247,
+      "question": "In day-to-day HTML work, which attribute provides fallback text?\n```html\n<img src=\"logo.png\" alt=\"Site Logo\">\n```",
+      "options": [
+        "src",
+        "href",
+        "alt",
+        "title"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 248,
+      "question": "In day-to-day HTML work, this snippet creates what?\n```html\n<a href=\"/courses\">Courses</a>\n```",
+      "options": [
+        "Image",
+        "Hyperlink",
+        "Button",
+        "Table"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 249,
+      "question": "In day-to-day HTML work, what list type is this?\n```html\n<ul><li>One</li><li>Two</li></ul>\n```",
+      "options": [
+        "Ordered list",
+        "Description list",
+        "Unordered list",
+        "Table list"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 250,
+      "question": "In day-to-day HTML work, how does input text appear?\n```html\n<input type=\"password\">\n```",
+      "options": [
+        "Plain text",
+        "Masked characters",
+        "Uppercase only",
+        "Disabled"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 251,
+      "question": "This renders as which element?\n```html\n<p>Hello</p>\n```",
+      "options": [
+        "Heading",
+        "Paragraph",
+        "Link",
+        "List"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 252,
+      "question": "What does this create?\n```html\n<a href=\"/quizzes\">Go</a>\n```",
+      "options": [
+        "Image",
+        "Hyperlink",
+        "Form",
+        "Table"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 253,
+      "question": "Which list type is this?\n```html\n<ol><li>One</li></ol>\n```",
+      "options": [
+        "Unordered",
+        "Ordered",
+        "Description",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 254,
+      "question": "What input kind is this?\n```html\n<input type=\"email\">\n```",
+      "options": [
+        "Password",
+        "Email",
+        "Number",
+        "Hidden"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 255,
+      "question": "Which attr is fallback text?\n```html\n<img src=\"a.png\" alt=\"A\">\n```",
+      "options": [
+        "src",
+        "href",
+        "alt",
+        "title"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 256,
+      "question": "In HTML, this renders as which element?\n```html\n<p>Hello</p>\n```",
+      "options": [
+        "Heading",
+        "Paragraph",
+        "Link",
+        "List"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 257,
+      "question": "In HTML, what does this create?\n```html\n<a href=\"/quizzes\">Go</a>\n```",
+      "options": [
+        "Image",
+        "Hyperlink",
+        "Form",
+        "Table"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 258,
+      "question": "In HTML, which list type is this?\n```html\n<ol><li>One</li></ol>\n```",
+      "options": [
+        "Unordered",
+        "Ordered",
+        "Description",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 259,
+      "question": "In HTML, what input kind is this?\n```html\n<input type=\"email\">\n```",
+      "options": [
+        "Password",
+        "Email",
+        "Number",
+        "Hidden"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 260,
+      "question": "In HTML, which attr is fallback text?\n```html\n<img src=\"a.png\" alt=\"A\">\n```",
+      "options": [
+        "src",
+        "href",
+        "alt",
+        "title"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 261,
+      "question": "For HTML, this renders as which element?\n```html\n<p>Hello</p>\n```",
+      "options": [
+        "Heading",
+        "Paragraph",
+        "Link",
+        "List"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 262,
+      "question": "For HTML, what does this create?\n```html\n<a href=\"/quizzes\">Go</a>\n```",
+      "options": [
+        "Image",
+        "Hyperlink",
+        "Form",
+        "Table"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 263,
+      "question": "For HTML, which list type is this?\n```html\n<ol><li>One</li></ol>\n```",
+      "options": [
+        "Unordered",
+        "Ordered",
+        "Description",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 264,
+      "question": "For HTML, what input kind is this?\n```html\n<input type=\"email\">\n```",
+      "options": [
+        "Password",
+        "Email",
+        "Number",
+        "Hidden"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 265,
+      "question": "For HTML, which attr is fallback text?\n```html\n<img src=\"a.png\" alt=\"A\">\n```",
+      "options": [
+        "src",
+        "href",
+        "alt",
+        "title"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 266,
+      "question": "When using HTML, this renders as which element?\n```html\n<p>Hello</p>\n```",
+      "options": [
+        "Heading",
+        "Paragraph",
+        "Link",
+        "List"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 267,
+      "question": "When using HTML, what does this create?\n```html\n<a href=\"/quizzes\">Go</a>\n```",
+      "options": [
+        "Image",
+        "Hyperlink",
+        "Form",
+        "Table"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 268,
+      "question": "When using HTML, which list type is this?\n```html\n<ol><li>One</li></ol>\n```",
+      "options": [
+        "Unordered",
+        "Ordered",
+        "Description",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 269,
+      "question": "When using HTML, what input kind is this?\n```html\n<input type=\"email\">\n```",
+      "options": [
+        "Password",
+        "Email",
+        "Number",
+        "Hidden"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 270,
+      "question": "When using HTML, which attr is fallback text?\n```html\n<img src=\"a.png\" alt=\"A\">\n```",
+      "options": [
+        "src",
+        "href",
+        "alt",
+        "title"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 271,
+      "question": "In a HTML query, this renders as which element?\n```html\n<p>Hello</p>\n```",
+      "options": [
+        "Heading",
+        "Paragraph",
+        "Link",
+        "List"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 272,
+      "question": "In a HTML query, what does this create?\n```html\n<a href=\"/quizzes\">Go</a>\n```",
+      "options": [
+        "Image",
+        "Hyperlink",
+        "Form",
+        "Table"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 273,
+      "question": "In a HTML query, which list type is this?\n```html\n<ol><li>One</li></ol>\n```",
+      "options": [
+        "Unordered",
+        "Ordered",
+        "Description",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 274,
+      "question": "In a HTML query, what input kind is this?\n```html\n<input type=\"email\">\n```",
+      "options": [
+        "Password",
+        "Email",
+        "Number",
+        "Hidden"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 275,
+      "question": "In a HTML query, which attr is fallback text?\n```html\n<img src=\"a.png\" alt=\"A\">\n```",
+      "options": [
+        "src",
+        "href",
+        "alt",
+        "title"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 276,
+      "question": "From a HTML perspective, this renders as which element?\n```html\n<p>Hello</p>\n```",
+      "options": [
+        "Heading",
+        "Paragraph",
+        "Link",
+        "List"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 277,
+      "question": "From a HTML perspective, what does this create?\n```html\n<a href=\"/quizzes\">Go</a>\n```",
+      "options": [
+        "Image",
+        "Hyperlink",
+        "Form",
+        "Table"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 278,
+      "question": "From a HTML perspective, which list type is this?\n```html\n<ol><li>One</li></ol>\n```",
+      "options": [
+        "Unordered",
+        "Ordered",
+        "Description",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 279,
+      "question": "From a HTML perspective, what input kind is this?\n```html\n<input type=\"email\">\n```",
+      "options": [
+        "Password",
+        "Email",
+        "Number",
+        "Hidden"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 280,
+      "question": "From a HTML perspective, which attr is fallback text?\n```html\n<img src=\"a.png\" alt=\"A\">\n```",
+      "options": [
+        "src",
+        "href",
+        "alt",
+        "title"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 281,
+      "question": "In practical HTML usage, this renders as which element?\n```html\n<p>Hello</p>\n```",
+      "options": [
+        "Heading",
+        "Paragraph",
+        "Link",
+        "List"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 282,
+      "question": "In practical HTML usage, what does this create?\n```html\n<a href=\"/quizzes\">Go</a>\n```",
+      "options": [
+        "Image",
+        "Hyperlink",
+        "Form",
+        "Table"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 283,
+      "question": "In practical HTML usage, which list type is this?\n```html\n<ol><li>One</li></ol>\n```",
+      "options": [
+        "Unordered",
+        "Ordered",
+        "Description",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 284,
+      "question": "In practical HTML usage, what input kind is this?\n```html\n<input type=\"email\">\n```",
+      "options": [
+        "Password",
+        "Email",
+        "Number",
+        "Hidden"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 285,
+      "question": "In practical HTML usage, which attr is fallback text?\n```html\n<img src=\"a.png\" alt=\"A\">\n```",
+      "options": [
+        "src",
+        "href",
+        "alt",
+        "title"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 286,
+      "question": "Within HTML, this renders as which element?\n```html\n<p>Hello</p>\n```",
+      "options": [
+        "Heading",
+        "Paragraph",
+        "Link",
+        "List"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 287,
+      "question": "Within HTML, what does this create?\n```html\n<a href=\"/quizzes\">Go</a>\n```",
+      "options": [
+        "Image",
+        "Hyperlink",
+        "Form",
+        "Table"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 288,
+      "question": "Within HTML, which list type is this?\n```html\n<ol><li>One</li></ol>\n```",
+      "options": [
+        "Unordered",
+        "Ordered",
+        "Description",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 289,
+      "question": "Within HTML, what input kind is this?\n```html\n<input type=\"email\">\n```",
+      "options": [
+        "Password",
+        "Email",
+        "Number",
+        "Hidden"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 290,
+      "question": "Within HTML, which attr is fallback text?\n```html\n<img src=\"a.png\" alt=\"A\">\n```",
+      "options": [
+        "src",
+        "href",
+        "alt",
+        "title"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 291,
+      "question": "For HTML developers, this renders as which element?\n```html\n<p>Hello</p>\n```",
+      "options": [
+        "Heading",
+        "Paragraph",
+        "Link",
+        "List"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 292,
+      "question": "For HTML developers, what does this create?\n```html\n<a href=\"/quizzes\">Go</a>\n```",
+      "options": [
+        "Image",
+        "Hyperlink",
+        "Form",
+        "Table"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 293,
+      "question": "For HTML developers, which list type is this?\n```html\n<ol><li>One</li></ol>\n```",
+      "options": [
+        "Unordered",
+        "Ordered",
+        "Description",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 294,
+      "question": "For HTML developers, what input kind is this?\n```html\n<input type=\"email\">\n```",
+      "options": [
+        "Password",
+        "Email",
+        "Number",
+        "Hidden"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 295,
+      "question": "For HTML developers, which attr is fallback text?\n```html\n<img src=\"a.png\" alt=\"A\">\n```",
+      "options": [
+        "src",
+        "href",
+        "alt",
+        "title"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 296,
+      "question": "In day-to-day HTML work, this renders as which element?\n```html\n<p>Hello</p>\n```",
+      "options": [
+        "Heading",
+        "Paragraph",
+        "Link",
+        "List"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 297,
+      "question": "In day-to-day HTML work, what does this create?\n```html\n<a href=\"/quizzes\">Go</a>\n```",
+      "options": [
+        "Image",
+        "Hyperlink",
+        "Form",
+        "Table"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 298,
+      "question": "In day-to-day HTML work, which list type is this?\n```html\n<ol><li>One</li></ol>\n```",
+      "options": [
+        "Unordered",
+        "Ordered",
+        "Description",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 299,
+      "question": "In day-to-day HTML work, what input kind is this?\n```html\n<input type=\"email\">\n```",
+      "options": [
+        "Password",
+        "Email",
+        "Number",
+        "Hidden"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 300,
+      "question": "In day-to-day HTML work, which attr is fallback text?\n```html\n<img src=\"a.png\" alt=\"A\">\n```",
+      "options": [
+        "src",
+        "href",
+        "alt",
+        "title"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 301,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-302\">Case 302</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 302,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-304\">Case 304</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 303,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-306\">Case 306</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 304,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-308\">Case 308</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 305,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-310\">Case 310</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 306,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-312\">Case 312</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 307,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-314\">Case 314</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 308,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-316\">Case 316</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 309,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-318\">Case 318</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 310,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-320\">Case 320</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 311,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-322\">Case 322</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 312,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-324\">Case 324</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 313,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-326\">Case 326</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 314,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-328\">Case 328</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 315,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-330\">Case 330</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 316,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-332\">Case 332</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 317,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-334\">Case 334</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 318,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-336\">Case 336</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 319,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-338\">Case 338</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 320,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-340\">Case 340</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 321,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-342\">Case 342</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 322,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-344\">Case 344</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 323,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-346\">Case 346</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 324,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-348\">Case 348</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 325,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-350\">Case 350</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 326,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-352\">Case 352</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 327,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-354\">Case 354</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 328,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-356\">Case 356</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 329,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-358\">Case 358</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 330,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-360\">Case 360</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 331,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-362\">Case 362</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 332,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-364\">Case 364</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 333,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-366\">Case 366</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 334,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-368\">Case 368</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 335,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-370\">Case 370</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 336,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-372\">Case 372</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 337,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-374\">Case 374</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 338,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-376\">Case 376</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 339,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-378\">Case 378</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 340,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-380\">Case 380</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 341,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-382\">Case 382</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 342,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-384\">Case 384</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 343,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-386\">Case 386</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 344,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-388\">Case 388</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 345,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-390\">Case 390</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 346,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-392\">Case 392</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 347,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-394\">Case 394</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 348,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-396\">Case 396</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 349,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-398\">Case 398</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 350,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-400\">Case 400</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 351,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-402\">Case 402</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 352,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-404\">Case 404</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 353,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-406\">Case 406</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 354,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-408\">Case 408</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 355,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-410\">Case 410</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 356,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-412\">Case 412</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 357,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-414\">Case 414</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 358,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-416\">Case 416</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 359,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-418\">Case 418</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 360,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-420\">Case 420</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 361,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-422\">Case 422</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 362,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-424\">Case 424</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 363,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-426\">Case 426</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 364,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-428\">Case 428</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 365,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-430\">Case 430</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 366,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-432\">Case 432</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 367,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-434\">Case 434</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 368,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-436\">Case 436</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 369,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-438\">Case 438</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 370,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-440\">Case 440</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 371,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-442\">Case 442</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 372,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-444\">Case 444</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 373,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-446\">Case 446</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 374,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-448\">Case 448</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 375,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-450\">Case 450</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 376,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-452\">Case 452</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 377,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-454\">Case 454</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 378,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-456\">Case 456</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 379,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-458\">Case 458</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 380,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-460\">Case 460</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 381,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-462\">Case 462</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 382,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-464\">Case 464</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 383,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-466\">Case 466</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 384,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-468\">Case 468</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 385,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-470\">Case 470</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 386,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-472\">Case 472</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 387,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-474\">Case 474</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 388,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-476\">Case 476</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 389,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-478\">Case 478</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 390,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-480\">Case 480</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 391,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-482\">Case 482</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 392,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-484\">Case 484</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 393,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-486\">Case 486</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 394,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-488\">Case 488</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 395,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-490\">Case 490</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 396,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-492\">Case 492</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 397,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-494\">Case 494</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 398,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-496\">Case 496</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 399,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-498\">Case 498</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 400,
+      "question": "What is the key outcome of this snippet?\n```html\n<div class=\"snippet-500\">Case 500</div>\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    }
+  ]
+}

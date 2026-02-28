@@ -1,0 +1,4407 @@
+{
+  "slug": "javascript",
+  "title": "JavaScript Quiz",
+  "description": "100 JavaScript programming practice questions",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which keyword declares a block-scoped variable?",
+      "options": [
+        "var",
+        "let",
+        "const",
+        "both let and const"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "Which method converts JSON string to object?",
+      "options": [
+        "JSON.object()",
+        "JSON.parse()",
+        "JSON.stringify()",
+        "JSON.decode()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "Which value is strictly equal to itself?",
+      "options": [
+        "NaN",
+        "undefined",
+        "null",
+        "42"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 4,
+      "question": "Which function schedules code to run later?",
+      "options": [
+        "setTimeout()",
+        "delay()",
+        "wait()",
+        "sleep()"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Which operator checks both value and type equality?",
+      "options": [
+        "==",
+        "===",
+        "!=",
+        "="
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "Which array method creates a new array with transformed items?",
+      "options": [
+        "forEach",
+        "filter",
+        "map",
+        "reduce"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 7,
+      "question": "What does DOM stand for?",
+      "options": [
+        "Document Object Model",
+        "Data Object Mode",
+        "Display Object Management",
+        "Dynamic Output Model"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 8,
+      "question": "Which keyword is used with promises to wait for resolution?",
+      "options": [
+        "async",
+        "await",
+        "defer",
+        "yield"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "In JavaScript, which keyword declares a block-scoped variable?",
+      "options": [
+        "var",
+        "let",
+        "const",
+        "both let and const"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "In JavaScript, which method converts JSON string to object?",
+      "options": [
+        "JSON.object()",
+        "JSON.parse()",
+        "JSON.stringify()",
+        "JSON.decode()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 11,
+      "question": "In JavaScript, which value is strictly equal to itself?",
+      "options": [
+        "NaN",
+        "undefined",
+        "null",
+        "42"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 12,
+      "question": "In JavaScript, which function schedules code to run later?",
+      "options": [
+        "setTimeout()",
+        "delay()",
+        "wait()",
+        "sleep()"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 13,
+      "question": "In JavaScript, which operator checks both value and type equality?",
+      "options": [
+        "==",
+        "===",
+        "!=",
+        "="
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 14,
+      "question": "In JavaScript, which array method creates a new array with transformed items?",
+      "options": [
+        "forEach",
+        "filter",
+        "map",
+        "reduce"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 15,
+      "question": "In JavaScript, what does DOM stand for?",
+      "options": [
+        "Document Object Model",
+        "Data Object Mode",
+        "Display Object Management",
+        "Dynamic Output Model"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 16,
+      "question": "In JavaScript, which keyword is used with promises to wait for resolution?",
+      "options": [
+        "async",
+        "await",
+        "defer",
+        "yield"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 17,
+      "question": "For JavaScript, which keyword declares a block-scoped variable?",
+      "options": [
+        "var",
+        "let",
+        "const",
+        "both let and const"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 18,
+      "question": "For JavaScript, which method converts JSON string to object?",
+      "options": [
+        "JSON.object()",
+        "JSON.parse()",
+        "JSON.stringify()",
+        "JSON.decode()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 19,
+      "question": "For JavaScript, which value is strictly equal to itself?",
+      "options": [
+        "NaN",
+        "undefined",
+        "null",
+        "42"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 20,
+      "question": "For JavaScript, which function schedules code to run later?",
+      "options": [
+        "setTimeout()",
+        "delay()",
+        "wait()",
+        "sleep()"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 21,
+      "question": "For JavaScript, which operator checks both value and type equality?",
+      "options": [
+        "==",
+        "===",
+        "!=",
+        "="
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 22,
+      "question": "For JavaScript, which array method creates a new array with transformed items?",
+      "options": [
+        "forEach",
+        "filter",
+        "map",
+        "reduce"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 23,
+      "question": "For JavaScript, what does DOM stand for?",
+      "options": [
+        "Document Object Model",
+        "Data Object Mode",
+        "Display Object Management",
+        "Dynamic Output Model"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 24,
+      "question": "For JavaScript, which keyword is used with promises to wait for resolution?",
+      "options": [
+        "async",
+        "await",
+        "defer",
+        "yield"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 25,
+      "question": "When using JavaScript, which keyword declares a block-scoped variable?",
+      "options": [
+        "var",
+        "let",
+        "const",
+        "both let and const"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 26,
+      "question": "When using JavaScript, which method converts JSON string to object?",
+      "options": [
+        "JSON.object()",
+        "JSON.parse()",
+        "JSON.stringify()",
+        "JSON.decode()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 27,
+      "question": "When using JavaScript, which value is strictly equal to itself?",
+      "options": [
+        "NaN",
+        "undefined",
+        "null",
+        "42"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 28,
+      "question": "When using JavaScript, which function schedules code to run later?",
+      "options": [
+        "setTimeout()",
+        "delay()",
+        "wait()",
+        "sleep()"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 29,
+      "question": "When using JavaScript, which operator checks both value and type equality?",
+      "options": [
+        "==",
+        "===",
+        "!=",
+        "="
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 30,
+      "question": "When using JavaScript, which array method creates a new array with transformed items?",
+      "options": [
+        "forEach",
+        "filter",
+        "map",
+        "reduce"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 31,
+      "question": "When using JavaScript, what does DOM stand for?",
+      "options": [
+        "Document Object Model",
+        "Data Object Mode",
+        "Display Object Management",
+        "Dynamic Output Model"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 32,
+      "question": "When using JavaScript, which keyword is used with promises to wait for resolution?",
+      "options": [
+        "async",
+        "await",
+        "defer",
+        "yield"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 33,
+      "question": "In a JavaScript query, which keyword declares a block-scoped variable?",
+      "options": [
+        "var",
+        "let",
+        "const",
+        "both let and const"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 34,
+      "question": "In a JavaScript query, which method converts JSON string to object?",
+      "options": [
+        "JSON.object()",
+        "JSON.parse()",
+        "JSON.stringify()",
+        "JSON.decode()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 35,
+      "question": "In a JavaScript query, which value is strictly equal to itself?",
+      "options": [
+        "NaN",
+        "undefined",
+        "null",
+        "42"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 36,
+      "question": "In a JavaScript query, which function schedules code to run later?",
+      "options": [
+        "setTimeout()",
+        "delay()",
+        "wait()",
+        "sleep()"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 37,
+      "question": "In a JavaScript query, which operator checks both value and type equality?",
+      "options": [
+        "==",
+        "===",
+        "!=",
+        "="
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 38,
+      "question": "In a JavaScript query, which array method creates a new array with transformed items?",
+      "options": [
+        "forEach",
+        "filter",
+        "map",
+        "reduce"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 39,
+      "question": "In a JavaScript query, what does DOM stand for?",
+      "options": [
+        "Document Object Model",
+        "Data Object Mode",
+        "Display Object Management",
+        "Dynamic Output Model"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 40,
+      "question": "In a JavaScript query, which keyword is used with promises to wait for resolution?",
+      "options": [
+        "async",
+        "await",
+        "defer",
+        "yield"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 41,
+      "question": "From a JavaScript perspective, which keyword declares a block-scoped variable?",
+      "options": [
+        "var",
+        "let",
+        "const",
+        "both let and const"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 42,
+      "question": "From a JavaScript perspective, which method converts JSON string to object?",
+      "options": [
+        "JSON.object()",
+        "JSON.parse()",
+        "JSON.stringify()",
+        "JSON.decode()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 43,
+      "question": "From a JavaScript perspective, which value is strictly equal to itself?",
+      "options": [
+        "NaN",
+        "undefined",
+        "null",
+        "42"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 44,
+      "question": "From a JavaScript perspective, which function schedules code to run later?",
+      "options": [
+        "setTimeout()",
+        "delay()",
+        "wait()",
+        "sleep()"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 45,
+      "question": "From a JavaScript perspective, which operator checks both value and type equality?",
+      "options": [
+        "==",
+        "===",
+        "!=",
+        "="
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 46,
+      "question": "From a JavaScript perspective, which array method creates a new array with transformed items?",
+      "options": [
+        "forEach",
+        "filter",
+        "map",
+        "reduce"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 47,
+      "question": "From a JavaScript perspective, what does DOM stand for?",
+      "options": [
+        "Document Object Model",
+        "Data Object Mode",
+        "Display Object Management",
+        "Dynamic Output Model"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 48,
+      "question": "From a JavaScript perspective, which keyword is used with promises to wait for resolution?",
+      "options": [
+        "async",
+        "await",
+        "defer",
+        "yield"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 49,
+      "question": "In practical JavaScript usage, which keyword declares a block-scoped variable?",
+      "options": [
+        "var",
+        "let",
+        "const",
+        "both let and const"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 50,
+      "question": "In practical JavaScript usage, which method converts JSON string to object?",
+      "options": [
+        "JSON.object()",
+        "JSON.parse()",
+        "JSON.stringify()",
+        "JSON.decode()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 51,
+      "question": "In practical JavaScript usage, which value is strictly equal to itself?",
+      "options": [
+        "NaN",
+        "undefined",
+        "null",
+        "42"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 52,
+      "question": "In practical JavaScript usage, which function schedules code to run later?",
+      "options": [
+        "setTimeout()",
+        "delay()",
+        "wait()",
+        "sleep()"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 53,
+      "question": "In practical JavaScript usage, which operator checks both value and type equality?",
+      "options": [
+        "==",
+        "===",
+        "!=",
+        "="
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 54,
+      "question": "In practical JavaScript usage, which array method creates a new array with transformed items?",
+      "options": [
+        "forEach",
+        "filter",
+        "map",
+        "reduce"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 55,
+      "question": "In practical JavaScript usage, what does DOM stand for?",
+      "options": [
+        "Document Object Model",
+        "Data Object Mode",
+        "Display Object Management",
+        "Dynamic Output Model"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 56,
+      "question": "In practical JavaScript usage, which keyword is used with promises to wait for resolution?",
+      "options": [
+        "async",
+        "await",
+        "defer",
+        "yield"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 57,
+      "question": "Within JavaScript, which keyword declares a block-scoped variable?",
+      "options": [
+        "var",
+        "let",
+        "const",
+        "both let and const"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 58,
+      "question": "Within JavaScript, which method converts JSON string to object?",
+      "options": [
+        "JSON.object()",
+        "JSON.parse()",
+        "JSON.stringify()",
+        "JSON.decode()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 59,
+      "question": "Within JavaScript, which value is strictly equal to itself?",
+      "options": [
+        "NaN",
+        "undefined",
+        "null",
+        "42"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 60,
+      "question": "Within JavaScript, which function schedules code to run later?",
+      "options": [
+        "setTimeout()",
+        "delay()",
+        "wait()",
+        "sleep()"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 61,
+      "question": "Within JavaScript, which operator checks both value and type equality?",
+      "options": [
+        "==",
+        "===",
+        "!=",
+        "="
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 62,
+      "question": "Within JavaScript, which array method creates a new array with transformed items?",
+      "options": [
+        "forEach",
+        "filter",
+        "map",
+        "reduce"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 63,
+      "question": "Within JavaScript, what does DOM stand for?",
+      "options": [
+        "Document Object Model",
+        "Data Object Mode",
+        "Display Object Management",
+        "Dynamic Output Model"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 64,
+      "question": "Within JavaScript, which keyword is used with promises to wait for resolution?",
+      "options": [
+        "async",
+        "await",
+        "defer",
+        "yield"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 65,
+      "question": "For JavaScript developers, which keyword declares a block-scoped variable?",
+      "options": [
+        "var",
+        "let",
+        "const",
+        "both let and const"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 66,
+      "question": "For JavaScript developers, which method converts JSON string to object?",
+      "options": [
+        "JSON.object()",
+        "JSON.parse()",
+        "JSON.stringify()",
+        "JSON.decode()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 67,
+      "question": "For JavaScript developers, which value is strictly equal to itself?",
+      "options": [
+        "NaN",
+        "undefined",
+        "null",
+        "42"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 68,
+      "question": "For JavaScript developers, which function schedules code to run later?",
+      "options": [
+        "setTimeout()",
+        "delay()",
+        "wait()",
+        "sleep()"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 69,
+      "question": "For JavaScript developers, which operator checks both value and type equality?",
+      "options": [
+        "==",
+        "===",
+        "!=",
+        "="
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 70,
+      "question": "For JavaScript developers, which array method creates a new array with transformed items?",
+      "options": [
+        "forEach",
+        "filter",
+        "map",
+        "reduce"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 71,
+      "question": "For JavaScript developers, what does DOM stand for?",
+      "options": [
+        "Document Object Model",
+        "Data Object Mode",
+        "Display Object Management",
+        "Dynamic Output Model"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 72,
+      "question": "For JavaScript developers, which keyword is used with promises to wait for resolution?",
+      "options": [
+        "async",
+        "await",
+        "defer",
+        "yield"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 73,
+      "question": "In day-to-day JavaScript work, which keyword declares a block-scoped variable?",
+      "options": [
+        "var",
+        "let",
+        "const",
+        "both let and const"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 74,
+      "question": "In day-to-day JavaScript work, which method converts JSON string to object?",
+      "options": [
+        "JSON.object()",
+        "JSON.parse()",
+        "JSON.stringify()",
+        "JSON.decode()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 75,
+      "question": "In day-to-day JavaScript work, which value is strictly equal to itself?",
+      "options": [
+        "NaN",
+        "undefined",
+        "null",
+        "42"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 76,
+      "question": "In day-to-day JavaScript work, which function schedules code to run later?",
+      "options": [
+        "setTimeout()",
+        "delay()",
+        "wait()",
+        "sleep()"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 77,
+      "question": "In day-to-day JavaScript work, which operator checks both value and type equality?",
+      "options": [
+        "==",
+        "===",
+        "!=",
+        "="
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 78,
+      "question": "In day-to-day JavaScript work, which array method creates a new array with transformed items?",
+      "options": [
+        "forEach",
+        "filter",
+        "map",
+        "reduce"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 79,
+      "question": "In day-to-day JavaScript work, what does DOM stand for?",
+      "options": [
+        "Document Object Model",
+        "Data Object Mode",
+        "Display Object Management",
+        "Dynamic Output Model"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 80,
+      "question": "In day-to-day JavaScript work, which keyword is used with promises to wait for resolution?",
+      "options": [
+        "async",
+        "await",
+        "defer",
+        "yield"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 81,
+      "question": "Using JavaScript, which keyword declares a block-scoped variable?",
+      "options": [
+        "var",
+        "let",
+        "const",
+        "both let and const"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 82,
+      "question": "Using JavaScript, which method converts JSON string to object?",
+      "options": [
+        "JSON.object()",
+        "JSON.parse()",
+        "JSON.stringify()",
+        "JSON.decode()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 83,
+      "question": "Using JavaScript, which value is strictly equal to itself?",
+      "options": [
+        "NaN",
+        "undefined",
+        "null",
+        "42"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 84,
+      "question": "Using JavaScript, which function schedules code to run later?",
+      "options": [
+        "setTimeout()",
+        "delay()",
+        "wait()",
+        "sleep()"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 85,
+      "question": "Using JavaScript, which operator checks both value and type equality?",
+      "options": [
+        "==",
+        "===",
+        "!=",
+        "="
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 86,
+      "question": "Using JavaScript, which array method creates a new array with transformed items?",
+      "options": [
+        "forEach",
+        "filter",
+        "map",
+        "reduce"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 87,
+      "question": "Using JavaScript, what does DOM stand for?",
+      "options": [
+        "Document Object Model",
+        "Data Object Mode",
+        "Display Object Management",
+        "Dynamic Output Model"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 88,
+      "question": "Using JavaScript, which keyword is used with promises to wait for resolution?",
+      "options": [
+        "async",
+        "await",
+        "defer",
+        "yield"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 89,
+      "question": "In JavaScript practice, which keyword declares a block-scoped variable?",
+      "options": [
+        "var",
+        "let",
+        "const",
+        "both let and const"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 90,
+      "question": "In JavaScript practice, which method converts JSON string to object?",
+      "options": [
+        "JSON.object()",
+        "JSON.parse()",
+        "JSON.stringify()",
+        "JSON.decode()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 91,
+      "question": "In JavaScript practice, which value is strictly equal to itself?",
+      "options": [
+        "NaN",
+        "undefined",
+        "null",
+        "42"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 92,
+      "question": "In JavaScript practice, which function schedules code to run later?",
+      "options": [
+        "setTimeout()",
+        "delay()",
+        "wait()",
+        "sleep()"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 93,
+      "question": "In JavaScript practice, which operator checks both value and type equality?",
+      "options": [
+        "==",
+        "===",
+        "!=",
+        "="
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 94,
+      "question": "In JavaScript practice, which array method creates a new array with transformed items?",
+      "options": [
+        "forEach",
+        "filter",
+        "map",
+        "reduce"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 95,
+      "question": "In JavaScript practice, what does DOM stand for?",
+      "options": [
+        "Document Object Model",
+        "Data Object Mode",
+        "Display Object Management",
+        "Dynamic Output Model"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 96,
+      "question": "In JavaScript practice, which keyword is used with promises to wait for resolution?",
+      "options": [
+        "async",
+        "await",
+        "defer",
+        "yield"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 97,
+      "question": "With JavaScript, which keyword declares a block-scoped variable?",
+      "options": [
+        "var",
+        "let",
+        "const",
+        "both let and const"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 98,
+      "question": "With JavaScript, which method converts JSON string to object?",
+      "options": [
+        "JSON.object()",
+        "JSON.parse()",
+        "JSON.stringify()",
+        "JSON.decode()"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 99,
+      "question": "With JavaScript, which value is strictly equal to itself?",
+      "options": [
+        "NaN",
+        "undefined",
+        "null",
+        "42"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 100,
+      "question": "With JavaScript, which function schedules code to run later?",
+      "options": [
+        "setTimeout()",
+        "delay()",
+        "wait()",
+        "sleep()"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 101,
+      "question": "Which description best matches \"Closure\" in JavaScript?",
+      "options": [
+        "An object representing eventual completion or failure of async work.",
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "Behavior where declarations are processed before execution.",
+        "A function retaining access to lexical scope after outer execution."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 102,
+      "question": "In JavaScript, \"Closure\" is mainly used for what?",
+      "options": [
+        "Behavior where declarations are processed before execution.",
+        "An object representing eventual completion or failure of async work.",
+        "A function retaining access to lexical scope after outer execution.",
+        "Syntax for writing asynchronous code in a synchronous style."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 103,
+      "question": "What is the primary purpose of \"Closure\" in JavaScript?",
+      "options": [
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "A function retaining access to lexical scope after outer execution.",
+        "Behavior where declarations are processed before execution.",
+        "An object representing eventual completion or failure of async work."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 104,
+      "question": "Choose the most accurate statement about \"Closure\" in JavaScript?",
+      "options": [
+        "A function retaining access to lexical scope after outer execution.",
+        "An object representing eventual completion or failure of async work.",
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "Behavior where declarations are processed before execution."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 105,
+      "question": "Which option correctly explains \"Closure\" for JavaScript developers?",
+      "options": [
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "Behavior where declarations are processed before execution.",
+        "An object representing eventual completion or failure of async work.",
+        "A function retaining access to lexical scope after outer execution."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 106,
+      "question": "In practical JavaScript code, when would you use \"Closure\"?",
+      "options": [
+        "An object representing eventual completion or failure of async work.",
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "A function retaining access to lexical scope after outer execution.",
+        "Behavior where declarations are processed before execution."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 107,
+      "question": "What does \"Closure\" represent?",
+      "options": [
+        "Behavior where declarations are processed before execution.",
+        "A function retaining access to lexical scope after outer execution.",
+        "An object representing eventual completion or failure of async work.",
+        "Syntax for writing asynchronous code in a synchronous style."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 108,
+      "question": "Identify the correct meaning of \"Closure\" in JavaScript?",
+      "options": [
+        "A function retaining access to lexical scope after outer execution.",
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "Behavior where declarations are processed before execution.",
+        "An object representing eventual completion or failure of async work."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 109,
+      "question": "Which definition of \"Closure\" is correct in JavaScript?",
+      "options": [
+        "Behavior where declarations are processed before execution.",
+        "An object representing eventual completion or failure of async work.",
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "A function retaining access to lexical scope after outer execution."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 110,
+      "question": "For JavaScript, \"Closure\" is best described as:?",
+      "options": [
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "Behavior where declarations are processed before execution.",
+        "A function retaining access to lexical scope after outer execution.",
+        "An object representing eventual completion or failure of async work."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 111,
+      "question": "Which description best matches \"Promise\" in JavaScript?",
+      "options": [
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "An object representing eventual completion or failure of async work.",
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "Behavior where declarations are processed before execution."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 112,
+      "question": "In JavaScript, \"Promise\" is mainly used for what?",
+      "options": [
+        "An object representing eventual completion or failure of async work.",
+        "Behavior where declarations are processed before execution.",
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "Syntax for writing asynchronous code in a synchronous style."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 113,
+      "question": "What is the primary purpose of \"Promise\" in JavaScript?",
+      "options": [
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "Behavior where declarations are processed before execution.",
+        "An object representing eventual completion or failure of async work."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 114,
+      "question": "Choose the most accurate statement about \"Promise\" in JavaScript?",
+      "options": [
+        "Behavior where declarations are processed before execution.",
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "An object representing eventual completion or failure of async work.",
+        "Syntax for writing asynchronous code in a synchronous style."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 115,
+      "question": "Which option correctly explains \"Promise\" for JavaScript developers?",
+      "options": [
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "An object representing eventual completion or failure of async work.",
+        "Behavior where declarations are processed before execution.",
+        "Mechanism coordinating call stack, queues, and async callbacks."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 116,
+      "question": "In practical JavaScript code, when would you use \"Promise\"?",
+      "options": [
+        "An object representing eventual completion or failure of async work.",
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "Behavior where declarations are processed before execution."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 117,
+      "question": "What does \"Promise\" represent?",
+      "options": [
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "Behavior where declarations are processed before execution.",
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "An object representing eventual completion or failure of async work."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 118,
+      "question": "Identify the correct meaning of \"Promise\" in JavaScript?",
+      "options": [
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "An object representing eventual completion or failure of async work.",
+        "Behavior where declarations are processed before execution."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 119,
+      "question": "Which definition of \"Promise\" is correct in JavaScript?",
+      "options": [
+        "Behavior where declarations are processed before execution.",
+        "An object representing eventual completion or failure of async work.",
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "Syntax for writing asynchronous code in a synchronous style."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 120,
+      "question": "For JavaScript, \"Promise\" is best described as:?",
+      "options": [
+        "An object representing eventual completion or failure of async work.",
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "Behavior where declarations are processed before execution.",
+        "Mechanism coordinating call stack, queues, and async callbacks."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 121,
+      "question": "Which description best matches \"async/await\" in JavaScript?",
+      "options": [
+        "Behavior where declarations are processed before execution.",
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "An object used for property and method inheritance lookup.",
+        "Syntax for writing asynchronous code in a synchronous style."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 122,
+      "question": "In JavaScript, \"async/await\" is mainly used for what?",
+      "options": [
+        "An object used for property and method inheritance lookup.",
+        "Behavior where declarations are processed before execution.",
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "Mechanism coordinating call stack, queues, and async callbacks."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 123,
+      "question": "What is the primary purpose of \"async/await\" in JavaScript?",
+      "options": [
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "An object used for property and method inheritance lookup.",
+        "Behavior where declarations are processed before execution."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 124,
+      "question": "Choose the most accurate statement about \"async/await\" in JavaScript?",
+      "options": [
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "Behavior where declarations are processed before execution.",
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "An object used for property and method inheritance lookup."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 125,
+      "question": "Which option correctly explains \"async/await\" for JavaScript developers?",
+      "options": [
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "An object used for property and method inheritance lookup.",
+        "Behavior where declarations are processed before execution.",
+        "Syntax for writing asynchronous code in a synchronous style."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 126,
+      "question": "In practical JavaScript code, when would you use \"async/await\"?",
+      "options": [
+        "Behavior where declarations are processed before execution.",
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "An object used for property and method inheritance lookup."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 127,
+      "question": "What does \"async/await\" represent?",
+      "options": [
+        "An object used for property and method inheritance lookup.",
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "Behavior where declarations are processed before execution.",
+        "Mechanism coordinating call stack, queues, and async callbacks."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 128,
+      "question": "Identify the correct meaning of \"async/await\" in JavaScript?",
+      "options": [
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "An object used for property and method inheritance lookup.",
+        "Behavior where declarations are processed before execution."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 129,
+      "question": "Which definition of \"async/await\" is correct in JavaScript?",
+      "options": [
+        "An object used for property and method inheritance lookup.",
+        "Behavior where declarations are processed before execution.",
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "Syntax for writing asynchronous code in a synchronous style."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 130,
+      "question": "For JavaScript, \"async/await\" is best described as:?",
+      "options": [
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "An object used for property and method inheritance lookup.",
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "Behavior where declarations are processed before execution."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 131,
+      "question": "Which description best matches \"Hoisting\" in JavaScript?",
+      "options": [
+        "Comparison using === that checks value and type.",
+        "Behavior where declarations are processed before execution.",
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "An object used for property and method inheritance lookup."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 132,
+      "question": "In JavaScript, \"Hoisting\" is mainly used for what?",
+      "options": [
+        "Behavior where declarations are processed before execution.",
+        "An object used for property and method inheritance lookup.",
+        "Comparison using === that checks value and type.",
+        "Mechanism coordinating call stack, queues, and async callbacks."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 133,
+      "question": "What is the primary purpose of \"Hoisting\" in JavaScript?",
+      "options": [
+        "Comparison using === that checks value and type.",
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "An object used for property and method inheritance lookup.",
+        "Behavior where declarations are processed before execution."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 134,
+      "question": "Choose the most accurate statement about \"Hoisting\" in JavaScript?",
+      "options": [
+        "An object used for property and method inheritance lookup.",
+        "Comparison using === that checks value and type.",
+        "Behavior where declarations are processed before execution.",
+        "Mechanism coordinating call stack, queues, and async callbacks."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 135,
+      "question": "Which option correctly explains \"Hoisting\" for JavaScript developers?",
+      "options": [
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "Behavior where declarations are processed before execution.",
+        "An object used for property and method inheritance lookup.",
+        "Comparison using === that checks value and type."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 136,
+      "question": "In practical JavaScript code, when would you use \"Hoisting\"?",
+      "options": [
+        "Behavior where declarations are processed before execution.",
+        "Comparison using === that checks value and type.",
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "An object used for property and method inheritance lookup."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 137,
+      "question": "What does \"Hoisting\" represent?",
+      "options": [
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "An object used for property and method inheritance lookup.",
+        "Comparison using === that checks value and type.",
+        "Behavior where declarations are processed before execution."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 138,
+      "question": "Identify the correct meaning of \"Hoisting\" in JavaScript?",
+      "options": [
+        "Comparison using === that checks value and type.",
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "Behavior where declarations are processed before execution.",
+        "An object used for property and method inheritance lookup."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 139,
+      "question": "Which definition of \"Hoisting\" is correct in JavaScript?",
+      "options": [
+        "An object used for property and method inheritance lookup.",
+        "Behavior where declarations are processed before execution.",
+        "Comparison using === that checks value and type.",
+        "Mechanism coordinating call stack, queues, and async callbacks."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 140,
+      "question": "For JavaScript, \"Hoisting\" is best described as:?",
+      "options": [
+        "Behavior where declarations are processed before execution.",
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "An object used for property and method inheritance lookup.",
+        "Comparison using === that checks value and type."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 141,
+      "question": "Which description best matches \"Event loop\" in JavaScript?",
+      "options": [
+        "An object used for property and method inheritance lookup.",
+        "Comparison using === that checks value and type.",
+        "The in-memory document representation manipulated by scripts.",
+        "Mechanism coordinating call stack, queues, and async callbacks."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 142,
+      "question": "In JavaScript, \"Event loop\" is mainly used for what?",
+      "options": [
+        "The in-memory document representation manipulated by scripts.",
+        "An object used for property and method inheritance lookup.",
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "Comparison using === that checks value and type."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 143,
+      "question": "What is the primary purpose of \"Event loop\" in JavaScript?",
+      "options": [
+        "Comparison using === that checks value and type.",
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "The in-memory document representation manipulated by scripts.",
+        "An object used for property and method inheritance lookup."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 144,
+      "question": "Choose the most accurate statement about \"Event loop\" in JavaScript?",
+      "options": [
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "An object used for property and method inheritance lookup.",
+        "Comparison using === that checks value and type.",
+        "The in-memory document representation manipulated by scripts."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 145,
+      "question": "Which option correctly explains \"Event loop\" for JavaScript developers?",
+      "options": [
+        "Comparison using === that checks value and type.",
+        "The in-memory document representation manipulated by scripts.",
+        "An object used for property and method inheritance lookup.",
+        "Mechanism coordinating call stack, queues, and async callbacks."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 146,
+      "question": "In practical JavaScript code, when would you use \"Event loop\"?",
+      "options": [
+        "An object used for property and method inheritance lookup.",
+        "Comparison using === that checks value and type.",
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "The in-memory document representation manipulated by scripts."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 147,
+      "question": "What does \"Event loop\" represent?",
+      "options": [
+        "The in-memory document representation manipulated by scripts.",
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "An object used for property and method inheritance lookup.",
+        "Comparison using === that checks value and type."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 148,
+      "question": "Identify the correct meaning of \"Event loop\" in JavaScript?",
+      "options": [
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "Comparison using === that checks value and type.",
+        "The in-memory document representation manipulated by scripts.",
+        "An object used for property and method inheritance lookup."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 149,
+      "question": "Which definition of \"Event loop\" is correct in JavaScript?",
+      "options": [
+        "The in-memory document representation manipulated by scripts.",
+        "An object used for property and method inheritance lookup.",
+        "Comparison using === that checks value and type.",
+        "Mechanism coordinating call stack, queues, and async callbacks."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 150,
+      "question": "For JavaScript, \"Event loop\" is best described as:?",
+      "options": [
+        "Comparison using === that checks value and type.",
+        "The in-memory document representation manipulated by scripts.",
+        "Mechanism coordinating call stack, queues, and async callbacks.",
+        "An object used for property and method inheritance lookup."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 151,
+      "question": "Which description best matches \"Prototype\" in JavaScript?",
+      "options": [
+        "A browser API used to make HTTP network requests.",
+        "An object used for property and method inheritance lookup.",
+        "Comparison using === that checks value and type.",
+        "The in-memory document representation manipulated by scripts."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 152,
+      "question": "In JavaScript, \"Prototype\" is mainly used for what?",
+      "options": [
+        "An object used for property and method inheritance lookup.",
+        "The in-memory document representation manipulated by scripts.",
+        "A browser API used to make HTTP network requests.",
+        "Comparison using === that checks value and type."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 153,
+      "question": "What is the primary purpose of \"Prototype\" in JavaScript?",
+      "options": [
+        "A browser API used to make HTTP network requests.",
+        "Comparison using === that checks value and type.",
+        "The in-memory document representation manipulated by scripts.",
+        "An object used for property and method inheritance lookup."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 154,
+      "question": "Choose the most accurate statement about \"Prototype\" in JavaScript?",
+      "options": [
+        "The in-memory document representation manipulated by scripts.",
+        "A browser API used to make HTTP network requests.",
+        "An object used for property and method inheritance lookup.",
+        "Comparison using === that checks value and type."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 155,
+      "question": "Which option correctly explains \"Prototype\" for JavaScript developers?",
+      "options": [
+        "Comparison using === that checks value and type.",
+        "An object used for property and method inheritance lookup.",
+        "The in-memory document representation manipulated by scripts.",
+        "A browser API used to make HTTP network requests."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 156,
+      "question": "In practical JavaScript code, when would you use \"Prototype\"?",
+      "options": [
+        "An object used for property and method inheritance lookup.",
+        "A browser API used to make HTTP network requests.",
+        "Comparison using === that checks value and type.",
+        "The in-memory document representation manipulated by scripts."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 157,
+      "question": "What does \"Prototype\" represent?",
+      "options": [
+        "Comparison using === that checks value and type.",
+        "The in-memory document representation manipulated by scripts.",
+        "A browser API used to make HTTP network requests.",
+        "An object used for property and method inheritance lookup."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 158,
+      "question": "Identify the correct meaning of \"Prototype\" in JavaScript?",
+      "options": [
+        "A browser API used to make HTTP network requests.",
+        "Comparison using === that checks value and type.",
+        "An object used for property and method inheritance lookup.",
+        "The in-memory document representation manipulated by scripts."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 159,
+      "question": "Which definition of \"Prototype\" is correct in JavaScript?",
+      "options": [
+        "The in-memory document representation manipulated by scripts.",
+        "An object used for property and method inheritance lookup.",
+        "A browser API used to make HTTP network requests.",
+        "Comparison using === that checks value and type."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 160,
+      "question": "For JavaScript, \"Prototype\" is best described as:?",
+      "options": [
+        "An object used for property and method inheritance lookup.",
+        "Comparison using === that checks value and type.",
+        "The in-memory document representation manipulated by scripts.",
+        "A browser API used to make HTTP network requests."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 161,
+      "question": "Which description best matches \"Strict equality\" in JavaScript?",
+      "options": [
+        "The in-memory document representation manipulated by scripts.",
+        "A browser API used to make HTTP network requests.",
+        "Persistent key-value storage in the browser.",
+        "Comparison using === that checks value and type."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 162,
+      "question": "In JavaScript, \"Strict equality\" is mainly used for what?",
+      "options": [
+        "Persistent key-value storage in the browser.",
+        "The in-memory document representation manipulated by scripts.",
+        "Comparison using === that checks value and type.",
+        "A browser API used to make HTTP network requests."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 163,
+      "question": "What is the primary purpose of \"Strict equality\" in JavaScript?",
+      "options": [
+        "A browser API used to make HTTP network requests.",
+        "Comparison using === that checks value and type.",
+        "Persistent key-value storage in the browser.",
+        "The in-memory document representation manipulated by scripts."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 164,
+      "question": "Choose the most accurate statement about \"Strict equality\" in JavaScript?",
+      "options": [
+        "Comparison using === that checks value and type.",
+        "The in-memory document representation manipulated by scripts.",
+        "A browser API used to make HTTP network requests.",
+        "Persistent key-value storage in the browser."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 165,
+      "question": "Which option correctly explains \"Strict equality\" for JavaScript developers?",
+      "options": [
+        "A browser API used to make HTTP network requests.",
+        "Persistent key-value storage in the browser.",
+        "The in-memory document representation manipulated by scripts.",
+        "Comparison using === that checks value and type."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 166,
+      "question": "In practical JavaScript code, when would you use \"Strict equality\"?",
+      "options": [
+        "The in-memory document representation manipulated by scripts.",
+        "A browser API used to make HTTP network requests.",
+        "Comparison using === that checks value and type.",
+        "Persistent key-value storage in the browser."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 167,
+      "question": "What does \"Strict equality\" represent?",
+      "options": [
+        "Persistent key-value storage in the browser.",
+        "Comparison using === that checks value and type.",
+        "The in-memory document representation manipulated by scripts.",
+        "A browser API used to make HTTP network requests."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 168,
+      "question": "Identify the correct meaning of \"Strict equality\" in JavaScript?",
+      "options": [
+        "Comparison using === that checks value and type.",
+        "A browser API used to make HTTP network requests.",
+        "Persistent key-value storage in the browser.",
+        "The in-memory document representation manipulated by scripts."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 169,
+      "question": "Which definition of \"Strict equality\" is correct in JavaScript?",
+      "options": [
+        "Persistent key-value storage in the browser.",
+        "The in-memory document representation manipulated by scripts.",
+        "A browser API used to make HTTP network requests.",
+        "Comparison using === that checks value and type."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 170,
+      "question": "For JavaScript, \"Strict equality\" is best described as:?",
+      "options": [
+        "A browser API used to make HTTP network requests.",
+        "Persistent key-value storage in the browser.",
+        "Comparison using === that checks value and type.",
+        "The in-memory document representation manipulated by scripts."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 171,
+      "question": "Which description best matches \"DOM\" in JavaScript?",
+      "options": [
+        "A function retaining access to lexical scope after outer execution.",
+        "The in-memory document representation manipulated by scripts.",
+        "A browser API used to make HTTP network requests.",
+        "Persistent key-value storage in the browser."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 172,
+      "question": "In JavaScript, \"DOM\" is mainly used for what?",
+      "options": [
+        "The in-memory document representation manipulated by scripts.",
+        "Persistent key-value storage in the browser.",
+        "A function retaining access to lexical scope after outer execution.",
+        "A browser API used to make HTTP network requests."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 173,
+      "question": "What is the primary purpose of \"DOM\" in JavaScript?",
+      "options": [
+        "A function retaining access to lexical scope after outer execution.",
+        "A browser API used to make HTTP network requests.",
+        "Persistent key-value storage in the browser.",
+        "The in-memory document representation manipulated by scripts."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 174,
+      "question": "Choose the most accurate statement about \"DOM\" in JavaScript?",
+      "options": [
+        "Persistent key-value storage in the browser.",
+        "A function retaining access to lexical scope after outer execution.",
+        "The in-memory document representation manipulated by scripts.",
+        "A browser API used to make HTTP network requests."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 175,
+      "question": "Which option correctly explains \"DOM\" for JavaScript developers?",
+      "options": [
+        "A browser API used to make HTTP network requests.",
+        "The in-memory document representation manipulated by scripts.",
+        "Persistent key-value storage in the browser.",
+        "A function retaining access to lexical scope after outer execution."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 176,
+      "question": "In practical JavaScript code, when would you use \"DOM\"?",
+      "options": [
+        "The in-memory document representation manipulated by scripts.",
+        "A function retaining access to lexical scope after outer execution.",
+        "A browser API used to make HTTP network requests.",
+        "Persistent key-value storage in the browser."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 177,
+      "question": "What does \"DOM\" represent?",
+      "options": [
+        "A browser API used to make HTTP network requests.",
+        "Persistent key-value storage in the browser.",
+        "A function retaining access to lexical scope after outer execution.",
+        "The in-memory document representation manipulated by scripts."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 178,
+      "question": "Identify the correct meaning of \"DOM\" in JavaScript?",
+      "options": [
+        "A function retaining access to lexical scope after outer execution.",
+        "A browser API used to make HTTP network requests.",
+        "The in-memory document representation manipulated by scripts.",
+        "Persistent key-value storage in the browser."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 179,
+      "question": "Which definition of \"DOM\" is correct in JavaScript?",
+      "options": [
+        "Persistent key-value storage in the browser.",
+        "The in-memory document representation manipulated by scripts.",
+        "A function retaining access to lexical scope after outer execution.",
+        "A browser API used to make HTTP network requests."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 180,
+      "question": "For JavaScript, \"DOM\" is best described as:?",
+      "options": [
+        "The in-memory document representation manipulated by scripts.",
+        "A browser API used to make HTTP network requests.",
+        "Persistent key-value storage in the browser.",
+        "A function retaining access to lexical scope after outer execution."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 181,
+      "question": "Which description best matches \"fetch API\" in JavaScript?",
+      "options": [
+        "Persistent key-value storage in the browser.",
+        "A function retaining access to lexical scope after outer execution.",
+        "An object representing eventual completion or failure of async work.",
+        "A browser API used to make HTTP network requests."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 182,
+      "question": "In JavaScript, \"fetch API\" is mainly used for what?",
+      "options": [
+        "An object representing eventual completion or failure of async work.",
+        "Persistent key-value storage in the browser.",
+        "A browser API used to make HTTP network requests.",
+        "A function retaining access to lexical scope after outer execution."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 183,
+      "question": "What is the primary purpose of \"fetch API\" in JavaScript?",
+      "options": [
+        "A function retaining access to lexical scope after outer execution.",
+        "A browser API used to make HTTP network requests.",
+        "An object representing eventual completion or failure of async work.",
+        "Persistent key-value storage in the browser."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 184,
+      "question": "Choose the most accurate statement about \"fetch API\" in JavaScript?",
+      "options": [
+        "A browser API used to make HTTP network requests.",
+        "Persistent key-value storage in the browser.",
+        "A function retaining access to lexical scope after outer execution.",
+        "An object representing eventual completion or failure of async work."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 185,
+      "question": "Which option correctly explains \"fetch API\" for JavaScript developers?",
+      "options": [
+        "A function retaining access to lexical scope after outer execution.",
+        "An object representing eventual completion or failure of async work.",
+        "Persistent key-value storage in the browser.",
+        "A browser API used to make HTTP network requests."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 186,
+      "question": "In practical JavaScript code, when would you use \"fetch API\"?",
+      "options": [
+        "Persistent key-value storage in the browser.",
+        "A function retaining access to lexical scope after outer execution.",
+        "A browser API used to make HTTP network requests.",
+        "An object representing eventual completion or failure of async work."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 187,
+      "question": "What does \"fetch API\" represent?",
+      "options": [
+        "An object representing eventual completion or failure of async work.",
+        "A browser API used to make HTTP network requests.",
+        "Persistent key-value storage in the browser.",
+        "A function retaining access to lexical scope after outer execution."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 188,
+      "question": "Identify the correct meaning of \"fetch API\" in JavaScript?",
+      "options": [
+        "A browser API used to make HTTP network requests.",
+        "A function retaining access to lexical scope after outer execution.",
+        "An object representing eventual completion or failure of async work.",
+        "Persistent key-value storage in the browser."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 189,
+      "question": "Which definition of \"fetch API\" is correct in JavaScript?",
+      "options": [
+        "An object representing eventual completion or failure of async work.",
+        "Persistent key-value storage in the browser.",
+        "A function retaining access to lexical scope after outer execution.",
+        "A browser API used to make HTTP network requests."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 190,
+      "question": "For JavaScript, \"fetch API\" is best described as:?",
+      "options": [
+        "A function retaining access to lexical scope after outer execution.",
+        "An object representing eventual completion or failure of async work.",
+        "A browser API used to make HTTP network requests.",
+        "Persistent key-value storage in the browser."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 191,
+      "question": "Which description best matches \"localStorage\" in JavaScript?",
+      "options": [
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "Persistent key-value storage in the browser.",
+        "A function retaining access to lexical scope after outer execution.",
+        "An object representing eventual completion or failure of async work."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 192,
+      "question": "In JavaScript, \"localStorage\" is mainly used for what?",
+      "options": [
+        "Persistent key-value storage in the browser.",
+        "An object representing eventual completion or failure of async work.",
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "A function retaining access to lexical scope after outer execution."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 193,
+      "question": "What is the primary purpose of \"localStorage\" in JavaScript?",
+      "options": [
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "A function retaining access to lexical scope after outer execution.",
+        "An object representing eventual completion or failure of async work.",
+        "Persistent key-value storage in the browser."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 194,
+      "question": "Choose the most accurate statement about \"localStorage\" in JavaScript?",
+      "options": [
+        "An object representing eventual completion or failure of async work.",
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "Persistent key-value storage in the browser.",
+        "A function retaining access to lexical scope after outer execution."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 195,
+      "question": "Which option correctly explains \"localStorage\" for JavaScript developers?",
+      "options": [
+        "A function retaining access to lexical scope after outer execution.",
+        "Persistent key-value storage in the browser.",
+        "An object representing eventual completion or failure of async work.",
+        "Syntax for writing asynchronous code in a synchronous style."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 196,
+      "question": "In practical JavaScript code, when would you use \"localStorage\"?",
+      "options": [
+        "Persistent key-value storage in the browser.",
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "A function retaining access to lexical scope after outer execution.",
+        "An object representing eventual completion or failure of async work."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 197,
+      "question": "What does \"localStorage\" represent?",
+      "options": [
+        "A function retaining access to lexical scope after outer execution.",
+        "An object representing eventual completion or failure of async work.",
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "Persistent key-value storage in the browser."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 198,
+      "question": "Identify the correct meaning of \"localStorage\" in JavaScript?",
+      "options": [
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "A function retaining access to lexical scope after outer execution.",
+        "Persistent key-value storage in the browser.",
+        "An object representing eventual completion or failure of async work."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 199,
+      "question": "Which definition of \"localStorage\" is correct in JavaScript?",
+      "options": [
+        "An object representing eventual completion or failure of async work.",
+        "Persistent key-value storage in the browser.",
+        "Syntax for writing asynchronous code in a synchronous style.",
+        "A function retaining access to lexical scope after outer execution."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 200,
+      "question": "For JavaScript, \"localStorage\" is best described as:?",
+      "options": [
+        "Persistent key-value storage in the browser.",
+        "A function retaining access to lexical scope after outer execution.",
+        "An object representing eventual completion or failure of async work.",
+        "Syntax for writing asynchronous code in a synchronous style."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 201,
+      "question": "What is logged?\n```javascript\nconst x = 2 + 3;\nconsole.log(x);\n```",
+      "options": [
+        "23",
+        "5",
+        "2",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 202,
+      "question": "What is output?\n```javascript\nconst arr = [10, 20, 30];\nconsole.log(arr[1]);\n```",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 203,
+      "question": "What is logged?\n```javascript\nconsole.log(typeof null);\n```",
+      "options": [
+        "null",
+        "object",
+        "undefined",
+        "boolean"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 204,
+      "question": "What is printed?\n```javascript\nlet n = 5;\nif (n > 3) console.log('ok');\n```",
+      "options": [
+        "ok",
+        "5",
+        "true",
+        "Nothing"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 205,
+      "question": "What is the output?\n```javascript\nconst name = 'abc';\nconsole.log(name.toUpperCase());\n```",
+      "options": [
+        "abc",
+        "ABC",
+        "Abc",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 206,
+      "question": "In JavaScript, what is logged?\n```javascript\nconst x = 2 + 3;\nconsole.log(x);\n```",
+      "options": [
+        "23",
+        "5",
+        "2",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 207,
+      "question": "In JavaScript, what is output?\n```javascript\nconst arr = [10, 20, 30];\nconsole.log(arr[1]);\n```",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 208,
+      "question": "In JavaScript, what is logged?\n```javascript\nconsole.log(typeof null);\n```",
+      "options": [
+        "null",
+        "object",
+        "undefined",
+        "boolean"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 209,
+      "question": "In JavaScript, what is printed?\n```javascript\nlet n = 5;\nif (n > 3) console.log('ok');\n```",
+      "options": [
+        "ok",
+        "5",
+        "true",
+        "Nothing"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 210,
+      "question": "In JavaScript, what is the output?\n```javascript\nconst name = 'abc';\nconsole.log(name.toUpperCase());\n```",
+      "options": [
+        "abc",
+        "ABC",
+        "Abc",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 211,
+      "question": "For JavaScript, what is logged?\n```javascript\nconst x = 2 + 3;\nconsole.log(x);\n```",
+      "options": [
+        "23",
+        "5",
+        "2",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 212,
+      "question": "For JavaScript, what is output?\n```javascript\nconst arr = [10, 20, 30];\nconsole.log(arr[1]);\n```",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 213,
+      "question": "For JavaScript, what is logged?\n```javascript\nconsole.log(typeof null);\n```",
+      "options": [
+        "null",
+        "object",
+        "undefined",
+        "boolean"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 214,
+      "question": "For JavaScript, what is printed?\n```javascript\nlet n = 5;\nif (n > 3) console.log('ok');\n```",
+      "options": [
+        "ok",
+        "5",
+        "true",
+        "Nothing"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 215,
+      "question": "For JavaScript, what is the output?\n```javascript\nconst name = 'abc';\nconsole.log(name.toUpperCase());\n```",
+      "options": [
+        "abc",
+        "ABC",
+        "Abc",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 216,
+      "question": "When using JavaScript, what is logged?\n```javascript\nconst x = 2 + 3;\nconsole.log(x);\n```",
+      "options": [
+        "23",
+        "5",
+        "2",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 217,
+      "question": "When using JavaScript, what is output?\n```javascript\nconst arr = [10, 20, 30];\nconsole.log(arr[1]);\n```",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 218,
+      "question": "When using JavaScript, what is logged?\n```javascript\nconsole.log(typeof null);\n```",
+      "options": [
+        "null",
+        "object",
+        "undefined",
+        "boolean"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 219,
+      "question": "When using JavaScript, what is printed?\n```javascript\nlet n = 5;\nif (n > 3) console.log('ok');\n```",
+      "options": [
+        "ok",
+        "5",
+        "true",
+        "Nothing"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 220,
+      "question": "When using JavaScript, what is the output?\n```javascript\nconst name = 'abc';\nconsole.log(name.toUpperCase());\n```",
+      "options": [
+        "abc",
+        "ABC",
+        "Abc",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 221,
+      "question": "In a JavaScript query, what is logged?\n```javascript\nconst x = 2 + 3;\nconsole.log(x);\n```",
+      "options": [
+        "23",
+        "5",
+        "2",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 222,
+      "question": "In a JavaScript query, what is output?\n```javascript\nconst arr = [10, 20, 30];\nconsole.log(arr[1]);\n```",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 223,
+      "question": "In a JavaScript query, what is logged?\n```javascript\nconsole.log(typeof null);\n```",
+      "options": [
+        "null",
+        "object",
+        "undefined",
+        "boolean"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 224,
+      "question": "In a JavaScript query, what is printed?\n```javascript\nlet n = 5;\nif (n > 3) console.log('ok');\n```",
+      "options": [
+        "ok",
+        "5",
+        "true",
+        "Nothing"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 225,
+      "question": "In a JavaScript query, what is the output?\n```javascript\nconst name = 'abc';\nconsole.log(name.toUpperCase());\n```",
+      "options": [
+        "abc",
+        "ABC",
+        "Abc",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 226,
+      "question": "From a JavaScript perspective, what is logged?\n```javascript\nconst x = 2 + 3;\nconsole.log(x);\n```",
+      "options": [
+        "23",
+        "5",
+        "2",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 227,
+      "question": "From a JavaScript perspective, what is output?\n```javascript\nconst arr = [10, 20, 30];\nconsole.log(arr[1]);\n```",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 228,
+      "question": "From a JavaScript perspective, what is logged?\n```javascript\nconsole.log(typeof null);\n```",
+      "options": [
+        "null",
+        "object",
+        "undefined",
+        "boolean"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 229,
+      "question": "From a JavaScript perspective, what is printed?\n```javascript\nlet n = 5;\nif (n > 3) console.log('ok');\n```",
+      "options": [
+        "ok",
+        "5",
+        "true",
+        "Nothing"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 230,
+      "question": "From a JavaScript perspective, what is the output?\n```javascript\nconst name = 'abc';\nconsole.log(name.toUpperCase());\n```",
+      "options": [
+        "abc",
+        "ABC",
+        "Abc",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 231,
+      "question": "In practical JavaScript usage, what is logged?\n```javascript\nconst x = 2 + 3;\nconsole.log(x);\n```",
+      "options": [
+        "23",
+        "5",
+        "2",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 232,
+      "question": "In practical JavaScript usage, what is output?\n```javascript\nconst arr = [10, 20, 30];\nconsole.log(arr[1]);\n```",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 233,
+      "question": "In practical JavaScript usage, what is logged?\n```javascript\nconsole.log(typeof null);\n```",
+      "options": [
+        "null",
+        "object",
+        "undefined",
+        "boolean"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 234,
+      "question": "In practical JavaScript usage, what is printed?\n```javascript\nlet n = 5;\nif (n > 3) console.log('ok');\n```",
+      "options": [
+        "ok",
+        "5",
+        "true",
+        "Nothing"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 235,
+      "question": "In practical JavaScript usage, what is the output?\n```javascript\nconst name = 'abc';\nconsole.log(name.toUpperCase());\n```",
+      "options": [
+        "abc",
+        "ABC",
+        "Abc",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 236,
+      "question": "Within JavaScript, what is logged?\n```javascript\nconst x = 2 + 3;\nconsole.log(x);\n```",
+      "options": [
+        "23",
+        "5",
+        "2",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 237,
+      "question": "Within JavaScript, what is output?\n```javascript\nconst arr = [10, 20, 30];\nconsole.log(arr[1]);\n```",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 238,
+      "question": "Within JavaScript, what is logged?\n```javascript\nconsole.log(typeof null);\n```",
+      "options": [
+        "null",
+        "object",
+        "undefined",
+        "boolean"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 239,
+      "question": "Within JavaScript, what is printed?\n```javascript\nlet n = 5;\nif (n > 3) console.log('ok');\n```",
+      "options": [
+        "ok",
+        "5",
+        "true",
+        "Nothing"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 240,
+      "question": "Within JavaScript, what is the output?\n```javascript\nconst name = 'abc';\nconsole.log(name.toUpperCase());\n```",
+      "options": [
+        "abc",
+        "ABC",
+        "Abc",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 241,
+      "question": "For JavaScript developers, what is logged?\n```javascript\nconst x = 2 + 3;\nconsole.log(x);\n```",
+      "options": [
+        "23",
+        "5",
+        "2",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 242,
+      "question": "For JavaScript developers, what is output?\n```javascript\nconst arr = [10, 20, 30];\nconsole.log(arr[1]);\n```",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 243,
+      "question": "For JavaScript developers, what is logged?\n```javascript\nconsole.log(typeof null);\n```",
+      "options": [
+        "null",
+        "object",
+        "undefined",
+        "boolean"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 244,
+      "question": "For JavaScript developers, what is printed?\n```javascript\nlet n = 5;\nif (n > 3) console.log('ok');\n```",
+      "options": [
+        "ok",
+        "5",
+        "true",
+        "Nothing"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 245,
+      "question": "For JavaScript developers, what is the output?\n```javascript\nconst name = 'abc';\nconsole.log(name.toUpperCase());\n```",
+      "options": [
+        "abc",
+        "ABC",
+        "Abc",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 246,
+      "question": "In day-to-day JavaScript work, what is logged?\n```javascript\nconst x = 2 + 3;\nconsole.log(x);\n```",
+      "options": [
+        "23",
+        "5",
+        "2",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 247,
+      "question": "In day-to-day JavaScript work, what is output?\n```javascript\nconst arr = [10, 20, 30];\nconsole.log(arr[1]);\n```",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 248,
+      "question": "In day-to-day JavaScript work, what is logged?\n```javascript\nconsole.log(typeof null);\n```",
+      "options": [
+        "null",
+        "object",
+        "undefined",
+        "boolean"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 249,
+      "question": "In day-to-day JavaScript work, what is printed?\n```javascript\nlet n = 5;\nif (n > 3) console.log('ok');\n```",
+      "options": [
+        "ok",
+        "5",
+        "true",
+        "Nothing"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 250,
+      "question": "In day-to-day JavaScript work, what is the output?\n```javascript\nconst name = 'abc';\nconsole.log(name.toUpperCase());\n```",
+      "options": [
+        "abc",
+        "ABC",
+        "Abc",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 251,
+      "question": "What is logged?\n```javascript\nlet a = 5;\nlet b = 2;\nconsole.log(a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "2.5"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 252,
+      "question": "Output?\n```javascript\nconst s = 'js';\nconsole.log(s.repeat(2));\n```",
+      "options": [
+        "jsjs",
+        "js2",
+        "j s",
+        "error"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 253,
+      "question": "What is printed?\n```javascript\nconst arr = [9,8,7];\nconsole.log(arr.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "7",
+        "9"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 254,
+      "question": "What is output?\n```javascript\nlet ok = false;\nconsole.log(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 255,
+      "question": "Final value?\n```javascript\nlet x = 1;\nx += 3;\nconsole.log(x);\n```",
+      "options": [
+        "1",
+        "3",
+        "4",
+        "13"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 256,
+      "question": "In JavaScript, what is logged?\n```javascript\nlet a = 5;\nlet b = 2;\nconsole.log(a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "2.5"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 257,
+      "question": "In JavaScript, output?\n```javascript\nconst s = 'js';\nconsole.log(s.repeat(2));\n```",
+      "options": [
+        "jsjs",
+        "js2",
+        "j s",
+        "error"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 258,
+      "question": "In JavaScript, what is printed?\n```javascript\nconst arr = [9,8,7];\nconsole.log(arr.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "7",
+        "9"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 259,
+      "question": "In JavaScript, what is output?\n```javascript\nlet ok = false;\nconsole.log(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 260,
+      "question": "In JavaScript, final value?\n```javascript\nlet x = 1;\nx += 3;\nconsole.log(x);\n```",
+      "options": [
+        "1",
+        "3",
+        "4",
+        "13"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 261,
+      "question": "For JavaScript, what is logged?\n```javascript\nlet a = 5;\nlet b = 2;\nconsole.log(a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "2.5"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 262,
+      "question": "For JavaScript, output?\n```javascript\nconst s = 'js';\nconsole.log(s.repeat(2));\n```",
+      "options": [
+        "jsjs",
+        "js2",
+        "j s",
+        "error"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 263,
+      "question": "For JavaScript, what is printed?\n```javascript\nconst arr = [9,8,7];\nconsole.log(arr.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "7",
+        "9"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 264,
+      "question": "For JavaScript, what is output?\n```javascript\nlet ok = false;\nconsole.log(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 265,
+      "question": "For JavaScript, final value?\n```javascript\nlet x = 1;\nx += 3;\nconsole.log(x);\n```",
+      "options": [
+        "1",
+        "3",
+        "4",
+        "13"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 266,
+      "question": "When using JavaScript, what is logged?\n```javascript\nlet a = 5;\nlet b = 2;\nconsole.log(a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "2.5"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 267,
+      "question": "When using JavaScript, output?\n```javascript\nconst s = 'js';\nconsole.log(s.repeat(2));\n```",
+      "options": [
+        "jsjs",
+        "js2",
+        "j s",
+        "error"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 268,
+      "question": "When using JavaScript, what is printed?\n```javascript\nconst arr = [9,8,7];\nconsole.log(arr.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "7",
+        "9"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 269,
+      "question": "When using JavaScript, what is output?\n```javascript\nlet ok = false;\nconsole.log(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 270,
+      "question": "When using JavaScript, final value?\n```javascript\nlet x = 1;\nx += 3;\nconsole.log(x);\n```",
+      "options": [
+        "1",
+        "3",
+        "4",
+        "13"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 271,
+      "question": "In a JavaScript query, what is logged?\n```javascript\nlet a = 5;\nlet b = 2;\nconsole.log(a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "2.5"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 272,
+      "question": "In a JavaScript query, output?\n```javascript\nconst s = 'js';\nconsole.log(s.repeat(2));\n```",
+      "options": [
+        "jsjs",
+        "js2",
+        "j s",
+        "error"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 273,
+      "question": "In a JavaScript query, what is printed?\n```javascript\nconst arr = [9,8,7];\nconsole.log(arr.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "7",
+        "9"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 274,
+      "question": "In a JavaScript query, what is output?\n```javascript\nlet ok = false;\nconsole.log(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 275,
+      "question": "In a JavaScript query, final value?\n```javascript\nlet x = 1;\nx += 3;\nconsole.log(x);\n```",
+      "options": [
+        "1",
+        "3",
+        "4",
+        "13"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 276,
+      "question": "From a JavaScript perspective, what is logged?\n```javascript\nlet a = 5;\nlet b = 2;\nconsole.log(a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "2.5"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 277,
+      "question": "From a JavaScript perspective, output?\n```javascript\nconst s = 'js';\nconsole.log(s.repeat(2));\n```",
+      "options": [
+        "jsjs",
+        "js2",
+        "j s",
+        "error"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 278,
+      "question": "From a JavaScript perspective, what is printed?\n```javascript\nconst arr = [9,8,7];\nconsole.log(arr.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "7",
+        "9"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 279,
+      "question": "From a JavaScript perspective, what is output?\n```javascript\nlet ok = false;\nconsole.log(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 280,
+      "question": "From a JavaScript perspective, final value?\n```javascript\nlet x = 1;\nx += 3;\nconsole.log(x);\n```",
+      "options": [
+        "1",
+        "3",
+        "4",
+        "13"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 281,
+      "question": "In practical JavaScript usage, what is logged?\n```javascript\nlet a = 5;\nlet b = 2;\nconsole.log(a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "2.5"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 282,
+      "question": "In practical JavaScript usage, output?\n```javascript\nconst s = 'js';\nconsole.log(s.repeat(2));\n```",
+      "options": [
+        "jsjs",
+        "js2",
+        "j s",
+        "error"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 283,
+      "question": "In practical JavaScript usage, what is printed?\n```javascript\nconst arr = [9,8,7];\nconsole.log(arr.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "7",
+        "9"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 284,
+      "question": "In practical JavaScript usage, what is output?\n```javascript\nlet ok = false;\nconsole.log(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 285,
+      "question": "In practical JavaScript usage, final value?\n```javascript\nlet x = 1;\nx += 3;\nconsole.log(x);\n```",
+      "options": [
+        "1",
+        "3",
+        "4",
+        "13"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 286,
+      "question": "Within JavaScript, what is logged?\n```javascript\nlet a = 5;\nlet b = 2;\nconsole.log(a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "2.5"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 287,
+      "question": "Within JavaScript, output?\n```javascript\nconst s = 'js';\nconsole.log(s.repeat(2));\n```",
+      "options": [
+        "jsjs",
+        "js2",
+        "j s",
+        "error"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 288,
+      "question": "Within JavaScript, what is printed?\n```javascript\nconst arr = [9,8,7];\nconsole.log(arr.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "7",
+        "9"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 289,
+      "question": "Within JavaScript, what is output?\n```javascript\nlet ok = false;\nconsole.log(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 290,
+      "question": "Within JavaScript, final value?\n```javascript\nlet x = 1;\nx += 3;\nconsole.log(x);\n```",
+      "options": [
+        "1",
+        "3",
+        "4",
+        "13"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 291,
+      "question": "For JavaScript developers, what is logged?\n```javascript\nlet a = 5;\nlet b = 2;\nconsole.log(a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "2.5"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 292,
+      "question": "For JavaScript developers, output?\n```javascript\nconst s = 'js';\nconsole.log(s.repeat(2));\n```",
+      "options": [
+        "jsjs",
+        "js2",
+        "j s",
+        "error"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 293,
+      "question": "For JavaScript developers, what is printed?\n```javascript\nconst arr = [9,8,7];\nconsole.log(arr.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "7",
+        "9"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 294,
+      "question": "For JavaScript developers, what is output?\n```javascript\nlet ok = false;\nconsole.log(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 295,
+      "question": "For JavaScript developers, final value?\n```javascript\nlet x = 1;\nx += 3;\nconsole.log(x);\n```",
+      "options": [
+        "1",
+        "3",
+        "4",
+        "13"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 296,
+      "question": "In day-to-day JavaScript work, what is logged?\n```javascript\nlet a = 5;\nlet b = 2;\nconsole.log(a % b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "2.5"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 297,
+      "question": "In day-to-day JavaScript work, output?\n```javascript\nconst s = 'js';\nconsole.log(s.repeat(2));\n```",
+      "options": [
+        "jsjs",
+        "js2",
+        "j s",
+        "error"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 298,
+      "question": "In day-to-day JavaScript work, what is printed?\n```javascript\nconst arr = [9,8,7];\nconsole.log(arr.length);\n```",
+      "options": [
+        "2",
+        "3",
+        "7",
+        "9"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 299,
+      "question": "In day-to-day JavaScript work, what is output?\n```javascript\nlet ok = false;\nconsole.log(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 300,
+      "question": "In day-to-day JavaScript work, final value?\n```javascript\nlet x = 1;\nx += 3;\nconsole.log(x);\n```",
+      "options": [
+        "1",
+        "3",
+        "4",
+        "13"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 301,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value302 = 12;\nconsole.log(value302);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 302,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value304 = 14;\nconsole.log(value304);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 303,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value306 = 16;\nconsole.log(value306);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 304,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value308 = 18;\nconsole.log(value308);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 305,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value310 = 20;\nconsole.log(value310);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 306,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value312 = 22;\nconsole.log(value312);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 307,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value314 = 24;\nconsole.log(value314);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 308,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value316 = 26;\nconsole.log(value316);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 309,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value318 = 28;\nconsole.log(value318);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 310,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value320 = 1;\nconsole.log(value320);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 311,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value322 = 3;\nconsole.log(value322);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 312,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value324 = 5;\nconsole.log(value324);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 313,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value326 = 7;\nconsole.log(value326);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 314,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value328 = 9;\nconsole.log(value328);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 315,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value330 = 11;\nconsole.log(value330);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 316,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value332 = 13;\nconsole.log(value332);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 317,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value334 = 15;\nconsole.log(value334);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 318,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value336 = 17;\nconsole.log(value336);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 319,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value338 = 19;\nconsole.log(value338);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 320,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value340 = 21;\nconsole.log(value340);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 321,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value342 = 23;\nconsole.log(value342);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 322,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value344 = 25;\nconsole.log(value344);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 323,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value346 = 27;\nconsole.log(value346);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 324,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value348 = 0;\nconsole.log(value348);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 325,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value350 = 2;\nconsole.log(value350);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 326,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value352 = 4;\nconsole.log(value352);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 327,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value354 = 6;\nconsole.log(value354);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 328,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value356 = 8;\nconsole.log(value356);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 329,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value358 = 10;\nconsole.log(value358);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 330,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value360 = 12;\nconsole.log(value360);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 331,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value362 = 14;\nconsole.log(value362);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 332,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value364 = 16;\nconsole.log(value364);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 333,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value366 = 18;\nconsole.log(value366);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 334,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value368 = 20;\nconsole.log(value368);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 335,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value370 = 22;\nconsole.log(value370);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 336,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value372 = 24;\nconsole.log(value372);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 337,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value374 = 26;\nconsole.log(value374);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 338,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value376 = 28;\nconsole.log(value376);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 339,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value378 = 1;\nconsole.log(value378);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 340,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value380 = 3;\nconsole.log(value380);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 341,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value382 = 5;\nconsole.log(value382);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 342,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value384 = 7;\nconsole.log(value384);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 343,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value386 = 9;\nconsole.log(value386);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 344,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value388 = 11;\nconsole.log(value388);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 345,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value390 = 13;\nconsole.log(value390);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 346,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value392 = 15;\nconsole.log(value392);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 347,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value394 = 17;\nconsole.log(value394);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 348,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value396 = 19;\nconsole.log(value396);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 349,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value398 = 21;\nconsole.log(value398);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 350,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value400 = 23;\nconsole.log(value400);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 351,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value402 = 25;\nconsole.log(value402);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 352,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value404 = 27;\nconsole.log(value404);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 353,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value406 = 0;\nconsole.log(value406);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 354,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value408 = 2;\nconsole.log(value408);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 355,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value410 = 4;\nconsole.log(value410);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 356,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value412 = 6;\nconsole.log(value412);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 357,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value414 = 8;\nconsole.log(value414);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 358,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value416 = 10;\nconsole.log(value416);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 359,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value418 = 12;\nconsole.log(value418);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 360,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value420 = 14;\nconsole.log(value420);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 361,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value422 = 16;\nconsole.log(value422);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 362,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value424 = 18;\nconsole.log(value424);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 363,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value426 = 20;\nconsole.log(value426);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 364,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value428 = 22;\nconsole.log(value428);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 365,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value430 = 24;\nconsole.log(value430);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 366,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value432 = 26;\nconsole.log(value432);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 367,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value434 = 28;\nconsole.log(value434);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 368,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value436 = 1;\nconsole.log(value436);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 369,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value438 = 3;\nconsole.log(value438);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 370,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value440 = 5;\nconsole.log(value440);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 371,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value442 = 7;\nconsole.log(value442);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 372,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value444 = 9;\nconsole.log(value444);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 373,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value446 = 11;\nconsole.log(value446);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 374,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value448 = 13;\nconsole.log(value448);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 375,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value450 = 15;\nconsole.log(value450);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 376,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value452 = 17;\nconsole.log(value452);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 377,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value454 = 19;\nconsole.log(value454);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 378,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value456 = 21;\nconsole.log(value456);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 379,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value458 = 23;\nconsole.log(value458);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 380,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value460 = 25;\nconsole.log(value460);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 381,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value462 = 27;\nconsole.log(value462);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 382,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value464 = 0;\nconsole.log(value464);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 383,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value466 = 2;\nconsole.log(value466);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 384,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value468 = 4;\nconsole.log(value468);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 385,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value470 = 6;\nconsole.log(value470);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 386,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value472 = 8;\nconsole.log(value472);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 387,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value474 = 10;\nconsole.log(value474);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 388,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value476 = 12;\nconsole.log(value476);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 389,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value478 = 14;\nconsole.log(value478);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 390,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value480 = 16;\nconsole.log(value480);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 391,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value482 = 18;\nconsole.log(value482);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 392,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value484 = 20;\nconsole.log(value484);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 393,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value486 = 22;\nconsole.log(value486);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 394,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value488 = 24;\nconsole.log(value488);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 395,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value490 = 26;\nconsole.log(value490);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 396,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value492 = 28;\nconsole.log(value492);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 397,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value494 = 1;\nconsole.log(value494);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 398,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value496 = 3;\nconsole.log(value496);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 399,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value498 = 5;\nconsole.log(value498);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 400,
+      "question": "What is the key outcome of this snippet?\n```javascript\nconst value500 = 7;\nconsole.log(value500);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    }
+  ]
+}

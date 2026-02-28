@@ -1,0 +1,4407 @@
+{
+  "slug": "csharp",
+  "title": "C# Quiz",
+  "description": "100 C# programming practice questions",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which namespace contains Console class?",
+      "options": [
+        "System.IO",
+        "System",
+        "Microsoft",
+        "Collections"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "Which keyword is used to define a property accessor?",
+      "options": [
+        "get/set",
+        "read/write",
+        "open/close",
+        "attr"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "Which type is used for whole numbers in C#?",
+      "options": [
+        "float",
+        "int",
+        "double",
+        "decimal"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 4,
+      "question": "Which keyword creates an object instance?",
+      "options": [
+        "new",
+        "create",
+        "instance",
+        "alloc"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Which collection stores unique values?",
+      "options": [
+        "List<T>",
+        "Dictionary<K,V>",
+        "HashSet<T>",
+        "Queue<T>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "Which keyword allows a method to be overridden?",
+      "options": [
+        "virtual",
+        "override",
+        "base",
+        "abstract"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 7,
+      "question": "Which symbol starts a single-line comment in C#?",
+      "options": [
+        "#",
+        "//",
+        "--",
+        "/*"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 8,
+      "question": "Which framework is commonly used for C# web APIs?",
+      "options": [
+        "Django",
+        "Express",
+        "ASP.NET Core",
+        "Laravel"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "In C#, which namespace contains Console class?",
+      "options": [
+        "System.IO",
+        "System",
+        "Microsoft",
+        "Collections"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "In C#, which keyword is used to define a property accessor?",
+      "options": [
+        "get/set",
+        "read/write",
+        "open/close",
+        "attr"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 11,
+      "question": "In C#, which type is used for whole numbers in C#?",
+      "options": [
+        "float",
+        "int",
+        "double",
+        "decimal"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 12,
+      "question": "In C#, which keyword creates an object instance?",
+      "options": [
+        "new",
+        "create",
+        "instance",
+        "alloc"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 13,
+      "question": "In C#, which collection stores unique values?",
+      "options": [
+        "List<T>",
+        "Dictionary<K,V>",
+        "HashSet<T>",
+        "Queue<T>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 14,
+      "question": "In C#, which keyword allows a method to be overridden?",
+      "options": [
+        "virtual",
+        "override",
+        "base",
+        "abstract"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 15,
+      "question": "In C#, which symbol starts a single-line comment in C#?",
+      "options": [
+        "#",
+        "//",
+        "--",
+        "/*"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 16,
+      "question": "In C#, which framework is commonly used for C# web APIs?",
+      "options": [
+        "Django",
+        "Express",
+        "ASP.NET Core",
+        "Laravel"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 17,
+      "question": "For C#, which namespace contains Console class?",
+      "options": [
+        "System.IO",
+        "System",
+        "Microsoft",
+        "Collections"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 18,
+      "question": "For C#, which keyword is used to define a property accessor?",
+      "options": [
+        "get/set",
+        "read/write",
+        "open/close",
+        "attr"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 19,
+      "question": "For C#, which type is used for whole numbers in C#?",
+      "options": [
+        "float",
+        "int",
+        "double",
+        "decimal"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 20,
+      "question": "For C#, which keyword creates an object instance?",
+      "options": [
+        "new",
+        "create",
+        "instance",
+        "alloc"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 21,
+      "question": "For C#, which collection stores unique values?",
+      "options": [
+        "List<T>",
+        "Dictionary<K,V>",
+        "HashSet<T>",
+        "Queue<T>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 22,
+      "question": "For C#, which keyword allows a method to be overridden?",
+      "options": [
+        "virtual",
+        "override",
+        "base",
+        "abstract"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 23,
+      "question": "For C#, which symbol starts a single-line comment in C#?",
+      "options": [
+        "#",
+        "//",
+        "--",
+        "/*"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 24,
+      "question": "For C#, which framework is commonly used for C# web APIs?",
+      "options": [
+        "Django",
+        "Express",
+        "ASP.NET Core",
+        "Laravel"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 25,
+      "question": "When using C#, which namespace contains Console class?",
+      "options": [
+        "System.IO",
+        "System",
+        "Microsoft",
+        "Collections"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 26,
+      "question": "When using C#, which keyword is used to define a property accessor?",
+      "options": [
+        "get/set",
+        "read/write",
+        "open/close",
+        "attr"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 27,
+      "question": "When using C#, which type is used for whole numbers in C#?",
+      "options": [
+        "float",
+        "int",
+        "double",
+        "decimal"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 28,
+      "question": "When using C#, which keyword creates an object instance?",
+      "options": [
+        "new",
+        "create",
+        "instance",
+        "alloc"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 29,
+      "question": "When using C#, which collection stores unique values?",
+      "options": [
+        "List<T>",
+        "Dictionary<K,V>",
+        "HashSet<T>",
+        "Queue<T>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 30,
+      "question": "When using C#, which keyword allows a method to be overridden?",
+      "options": [
+        "virtual",
+        "override",
+        "base",
+        "abstract"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 31,
+      "question": "When using C#, which symbol starts a single-line comment in C#?",
+      "options": [
+        "#",
+        "//",
+        "--",
+        "/*"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 32,
+      "question": "When using C#, which framework is commonly used for C# web APIs?",
+      "options": [
+        "Django",
+        "Express",
+        "ASP.NET Core",
+        "Laravel"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 33,
+      "question": "In a C# query, which namespace contains Console class?",
+      "options": [
+        "System.IO",
+        "System",
+        "Microsoft",
+        "Collections"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 34,
+      "question": "In a C# query, which keyword is used to define a property accessor?",
+      "options": [
+        "get/set",
+        "read/write",
+        "open/close",
+        "attr"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 35,
+      "question": "In a C# query, which type is used for whole numbers in C#?",
+      "options": [
+        "float",
+        "int",
+        "double",
+        "decimal"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 36,
+      "question": "In a C# query, which keyword creates an object instance?",
+      "options": [
+        "new",
+        "create",
+        "instance",
+        "alloc"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 37,
+      "question": "In a C# query, which collection stores unique values?",
+      "options": [
+        "List<T>",
+        "Dictionary<K,V>",
+        "HashSet<T>",
+        "Queue<T>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 38,
+      "question": "In a C# query, which keyword allows a method to be overridden?",
+      "options": [
+        "virtual",
+        "override",
+        "base",
+        "abstract"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 39,
+      "question": "In a C# query, which symbol starts a single-line comment in C#?",
+      "options": [
+        "#",
+        "//",
+        "--",
+        "/*"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 40,
+      "question": "In a C# query, which framework is commonly used for C# web APIs?",
+      "options": [
+        "Django",
+        "Express",
+        "ASP.NET Core",
+        "Laravel"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 41,
+      "question": "From a C# perspective, which namespace contains Console class?",
+      "options": [
+        "System.IO",
+        "System",
+        "Microsoft",
+        "Collections"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 42,
+      "question": "From a C# perspective, which keyword is used to define a property accessor?",
+      "options": [
+        "get/set",
+        "read/write",
+        "open/close",
+        "attr"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 43,
+      "question": "From a C# perspective, which type is used for whole numbers in C#?",
+      "options": [
+        "float",
+        "int",
+        "double",
+        "decimal"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 44,
+      "question": "From a C# perspective, which keyword creates an object instance?",
+      "options": [
+        "new",
+        "create",
+        "instance",
+        "alloc"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 45,
+      "question": "From a C# perspective, which collection stores unique values?",
+      "options": [
+        "List<T>",
+        "Dictionary<K,V>",
+        "HashSet<T>",
+        "Queue<T>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 46,
+      "question": "From a C# perspective, which keyword allows a method to be overridden?",
+      "options": [
+        "virtual",
+        "override",
+        "base",
+        "abstract"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 47,
+      "question": "From a C# perspective, which symbol starts a single-line comment in C#?",
+      "options": [
+        "#",
+        "//",
+        "--",
+        "/*"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 48,
+      "question": "From a C# perspective, which framework is commonly used for C# web APIs?",
+      "options": [
+        "Django",
+        "Express",
+        "ASP.NET Core",
+        "Laravel"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 49,
+      "question": "In practical C# usage, which namespace contains Console class?",
+      "options": [
+        "System.IO",
+        "System",
+        "Microsoft",
+        "Collections"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 50,
+      "question": "In practical C# usage, which keyword is used to define a property accessor?",
+      "options": [
+        "get/set",
+        "read/write",
+        "open/close",
+        "attr"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 51,
+      "question": "In practical C# usage, which type is used for whole numbers in C#?",
+      "options": [
+        "float",
+        "int",
+        "double",
+        "decimal"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 52,
+      "question": "In practical C# usage, which keyword creates an object instance?",
+      "options": [
+        "new",
+        "create",
+        "instance",
+        "alloc"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 53,
+      "question": "In practical C# usage, which collection stores unique values?",
+      "options": [
+        "List<T>",
+        "Dictionary<K,V>",
+        "HashSet<T>",
+        "Queue<T>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 54,
+      "question": "In practical C# usage, which keyword allows a method to be overridden?",
+      "options": [
+        "virtual",
+        "override",
+        "base",
+        "abstract"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 55,
+      "question": "In practical C# usage, which symbol starts a single-line comment in C#?",
+      "options": [
+        "#",
+        "//",
+        "--",
+        "/*"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 56,
+      "question": "In practical C# usage, which framework is commonly used for C# web APIs?",
+      "options": [
+        "Django",
+        "Express",
+        "ASP.NET Core",
+        "Laravel"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 57,
+      "question": "Within C#, which namespace contains Console class?",
+      "options": [
+        "System.IO",
+        "System",
+        "Microsoft",
+        "Collections"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 58,
+      "question": "Within C#, which keyword is used to define a property accessor?",
+      "options": [
+        "get/set",
+        "read/write",
+        "open/close",
+        "attr"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 59,
+      "question": "Within C#, which type is used for whole numbers in C#?",
+      "options": [
+        "float",
+        "int",
+        "double",
+        "decimal"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 60,
+      "question": "Within C#, which keyword creates an object instance?",
+      "options": [
+        "new",
+        "create",
+        "instance",
+        "alloc"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 61,
+      "question": "Within C#, which collection stores unique values?",
+      "options": [
+        "List<T>",
+        "Dictionary<K,V>",
+        "HashSet<T>",
+        "Queue<T>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 62,
+      "question": "Within C#, which keyword allows a method to be overridden?",
+      "options": [
+        "virtual",
+        "override",
+        "base",
+        "abstract"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 63,
+      "question": "Within C#, which symbol starts a single-line comment in C#?",
+      "options": [
+        "#",
+        "//",
+        "--",
+        "/*"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 64,
+      "question": "Within C#, which framework is commonly used for C# web APIs?",
+      "options": [
+        "Django",
+        "Express",
+        "ASP.NET Core",
+        "Laravel"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 65,
+      "question": "For C# developers, which namespace contains Console class?",
+      "options": [
+        "System.IO",
+        "System",
+        "Microsoft",
+        "Collections"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 66,
+      "question": "For C# developers, which keyword is used to define a property accessor?",
+      "options": [
+        "get/set",
+        "read/write",
+        "open/close",
+        "attr"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 67,
+      "question": "For C# developers, which type is used for whole numbers in C#?",
+      "options": [
+        "float",
+        "int",
+        "double",
+        "decimal"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 68,
+      "question": "For C# developers, which keyword creates an object instance?",
+      "options": [
+        "new",
+        "create",
+        "instance",
+        "alloc"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 69,
+      "question": "For C# developers, which collection stores unique values?",
+      "options": [
+        "List<T>",
+        "Dictionary<K,V>",
+        "HashSet<T>",
+        "Queue<T>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 70,
+      "question": "For C# developers, which keyword allows a method to be overridden?",
+      "options": [
+        "virtual",
+        "override",
+        "base",
+        "abstract"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 71,
+      "question": "For C# developers, which symbol starts a single-line comment in C#?",
+      "options": [
+        "#",
+        "//",
+        "--",
+        "/*"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 72,
+      "question": "For C# developers, which framework is commonly used for C# web APIs?",
+      "options": [
+        "Django",
+        "Express",
+        "ASP.NET Core",
+        "Laravel"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 73,
+      "question": "In day-to-day C# work, which namespace contains Console class?",
+      "options": [
+        "System.IO",
+        "System",
+        "Microsoft",
+        "Collections"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 74,
+      "question": "In day-to-day C# work, which keyword is used to define a property accessor?",
+      "options": [
+        "get/set",
+        "read/write",
+        "open/close",
+        "attr"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 75,
+      "question": "In day-to-day C# work, which type is used for whole numbers in C#?",
+      "options": [
+        "float",
+        "int",
+        "double",
+        "decimal"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 76,
+      "question": "In day-to-day C# work, which keyword creates an object instance?",
+      "options": [
+        "new",
+        "create",
+        "instance",
+        "alloc"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 77,
+      "question": "In day-to-day C# work, which collection stores unique values?",
+      "options": [
+        "List<T>",
+        "Dictionary<K,V>",
+        "HashSet<T>",
+        "Queue<T>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 78,
+      "question": "In day-to-day C# work, which keyword allows a method to be overridden?",
+      "options": [
+        "virtual",
+        "override",
+        "base",
+        "abstract"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 79,
+      "question": "In day-to-day C# work, which symbol starts a single-line comment in C#?",
+      "options": [
+        "#",
+        "//",
+        "--",
+        "/*"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 80,
+      "question": "In day-to-day C# work, which framework is commonly used for C# web APIs?",
+      "options": [
+        "Django",
+        "Express",
+        "ASP.NET Core",
+        "Laravel"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 81,
+      "question": "Using C#, which namespace contains Console class?",
+      "options": [
+        "System.IO",
+        "System",
+        "Microsoft",
+        "Collections"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 82,
+      "question": "Using C#, which keyword is used to define a property accessor?",
+      "options": [
+        "get/set",
+        "read/write",
+        "open/close",
+        "attr"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 83,
+      "question": "Using C#, which type is used for whole numbers in C#?",
+      "options": [
+        "float",
+        "int",
+        "double",
+        "decimal"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 84,
+      "question": "Using C#, which keyword creates an object instance?",
+      "options": [
+        "new",
+        "create",
+        "instance",
+        "alloc"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 85,
+      "question": "Using C#, which collection stores unique values?",
+      "options": [
+        "List<T>",
+        "Dictionary<K,V>",
+        "HashSet<T>",
+        "Queue<T>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 86,
+      "question": "Using C#, which keyword allows a method to be overridden?",
+      "options": [
+        "virtual",
+        "override",
+        "base",
+        "abstract"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 87,
+      "question": "Using C#, which symbol starts a single-line comment in C#?",
+      "options": [
+        "#",
+        "//",
+        "--",
+        "/*"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 88,
+      "question": "Using C#, which framework is commonly used for C# web APIs?",
+      "options": [
+        "Django",
+        "Express",
+        "ASP.NET Core",
+        "Laravel"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 89,
+      "question": "In C# practice, which namespace contains Console class?",
+      "options": [
+        "System.IO",
+        "System",
+        "Microsoft",
+        "Collections"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 90,
+      "question": "In C# practice, which keyword is used to define a property accessor?",
+      "options": [
+        "get/set",
+        "read/write",
+        "open/close",
+        "attr"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 91,
+      "question": "In C# practice, which type is used for whole numbers in C#?",
+      "options": [
+        "float",
+        "int",
+        "double",
+        "decimal"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 92,
+      "question": "In C# practice, which keyword creates an object instance?",
+      "options": [
+        "new",
+        "create",
+        "instance",
+        "alloc"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 93,
+      "question": "In C# practice, which collection stores unique values?",
+      "options": [
+        "List<T>",
+        "Dictionary<K,V>",
+        "HashSet<T>",
+        "Queue<T>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 94,
+      "question": "In C# practice, which keyword allows a method to be overridden?",
+      "options": [
+        "virtual",
+        "override",
+        "base",
+        "abstract"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 95,
+      "question": "In C# practice, which symbol starts a single-line comment in C#?",
+      "options": [
+        "#",
+        "//",
+        "--",
+        "/*"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 96,
+      "question": "In C# practice, which framework is commonly used for C# web APIs?",
+      "options": [
+        "Django",
+        "Express",
+        "ASP.NET Core",
+        "Laravel"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 97,
+      "question": "With C#, which namespace contains Console class?",
+      "options": [
+        "System.IO",
+        "System",
+        "Microsoft",
+        "Collections"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 98,
+      "question": "With C#, which keyword is used to define a property accessor?",
+      "options": [
+        "get/set",
+        "read/write",
+        "open/close",
+        "attr"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 99,
+      "question": "With C#, which type is used for whole numbers in C#?",
+      "options": [
+        "float",
+        "int",
+        "double",
+        "decimal"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 100,
+      "question": "With C#, which keyword creates an object instance?",
+      "options": [
+        "new",
+        "create",
+        "instance",
+        "alloc"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 101,
+      "question": "Which description best matches \"LINQ\" in C#?",
+      "options": [
+        "An abstraction representing asynchronous operations.",
+        "A member exposing controlled access through get/set accessors.",
+        "A contract that implementing types must satisfy.",
+        "A query feature for collections and data sources in C#."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 102,
+      "question": "In C#, \"LINQ\" is mainly used for what?",
+      "options": [
+        "A contract that implementing types must satisfy.",
+        "An abstraction representing asynchronous operations.",
+        "A query feature for collections and data sources in C#.",
+        "A member exposing controlled access through get/set accessors."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 103,
+      "question": "What is the primary purpose of \"LINQ\" in C#?",
+      "options": [
+        "A member exposing controlled access through get/set accessors.",
+        "A query feature for collections and data sources in C#.",
+        "A contract that implementing types must satisfy.",
+        "An abstraction representing asynchronous operations."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 104,
+      "question": "Choose the most accurate statement about \"LINQ\" in C#?",
+      "options": [
+        "A query feature for collections and data sources in C#.",
+        "An abstraction representing asynchronous operations.",
+        "A member exposing controlled access through get/set accessors.",
+        "A contract that implementing types must satisfy."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 105,
+      "question": "Which option correctly explains \"LINQ\" for C# developers?",
+      "options": [
+        "A member exposing controlled access through get/set accessors.",
+        "A contract that implementing types must satisfy.",
+        "An abstraction representing asynchronous operations.",
+        "A query feature for collections and data sources in C#."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 106,
+      "question": "In practical C# code, when would you use \"LINQ\"?",
+      "options": [
+        "An abstraction representing asynchronous operations.",
+        "A member exposing controlled access through get/set accessors.",
+        "A query feature for collections and data sources in C#.",
+        "A contract that implementing types must satisfy."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 107,
+      "question": "What does \"LINQ\" represent?",
+      "options": [
+        "A contract that implementing types must satisfy.",
+        "A query feature for collections and data sources in C#.",
+        "An abstraction representing asynchronous operations.",
+        "A member exposing controlled access through get/set accessors."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 108,
+      "question": "Identify the correct meaning of \"LINQ\" in C#?",
+      "options": [
+        "A query feature for collections and data sources in C#.",
+        "A member exposing controlled access through get/set accessors.",
+        "A contract that implementing types must satisfy.",
+        "An abstraction representing asynchronous operations."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 109,
+      "question": "Which definition of \"LINQ\" is correct in C#?",
+      "options": [
+        "A contract that implementing types must satisfy.",
+        "An abstraction representing asynchronous operations.",
+        "A member exposing controlled access through get/set accessors.",
+        "A query feature for collections and data sources in C#."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 110,
+      "question": "For C#, \"LINQ\" is best described as:?",
+      "options": [
+        "A member exposing controlled access through get/set accessors.",
+        "A contract that implementing types must satisfy.",
+        "A query feature for collections and data sources in C#.",
+        "An abstraction representing asynchronous operations."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 111,
+      "question": "Which description best matches \"Task\" in C#?",
+      "options": [
+        "An object representing an error condition during execution.",
+        "An abstraction representing asynchronous operations.",
+        "A member exposing controlled access through get/set accessors.",
+        "A contract that implementing types must satisfy."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 112,
+      "question": "In C#, \"Task\" is mainly used for what?",
+      "options": [
+        "An abstraction representing asynchronous operations.",
+        "A contract that implementing types must satisfy.",
+        "An object representing an error condition during execution.",
+        "A member exposing controlled access through get/set accessors."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 113,
+      "question": "What is the primary purpose of \"Task\" in C#?",
+      "options": [
+        "An object representing an error condition during execution.",
+        "A member exposing controlled access through get/set accessors.",
+        "A contract that implementing types must satisfy.",
+        "An abstraction representing asynchronous operations."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 114,
+      "question": "Choose the most accurate statement about \"Task\" in C#?",
+      "options": [
+        "A contract that implementing types must satisfy.",
+        "An object representing an error condition during execution.",
+        "An abstraction representing asynchronous operations.",
+        "A member exposing controlled access through get/set accessors."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 115,
+      "question": "Which option correctly explains \"Task\" for C# developers?",
+      "options": [
+        "A member exposing controlled access through get/set accessors.",
+        "An abstraction representing asynchronous operations.",
+        "A contract that implementing types must satisfy.",
+        "An object representing an error condition during execution."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 116,
+      "question": "In practical C# code, when would you use \"Task\"?",
+      "options": [
+        "An abstraction representing asynchronous operations.",
+        "An object representing an error condition during execution.",
+        "A member exposing controlled access through get/set accessors.",
+        "A contract that implementing types must satisfy."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 117,
+      "question": "What does \"Task\" represent?",
+      "options": [
+        "A member exposing controlled access through get/set accessors.",
+        "A contract that implementing types must satisfy.",
+        "An object representing an error condition during execution.",
+        "An abstraction representing asynchronous operations."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 118,
+      "question": "Identify the correct meaning of \"Task\" in C#?",
+      "options": [
+        "An object representing an error condition during execution.",
+        "A member exposing controlled access through get/set accessors.",
+        "An abstraction representing asynchronous operations.",
+        "A contract that implementing types must satisfy."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 119,
+      "question": "Which definition of \"Task\" is correct in C#?",
+      "options": [
+        "A contract that implementing types must satisfy.",
+        "An abstraction representing asynchronous operations.",
+        "An object representing an error condition during execution.",
+        "A member exposing controlled access through get/set accessors."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 120,
+      "question": "For C#, \"Task\" is best described as:?",
+      "options": [
+        "An abstraction representing asynchronous operations.",
+        "A member exposing controlled access through get/set accessors.",
+        "A contract that implementing types must satisfy.",
+        "An object representing an error condition during execution."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 121,
+      "question": "Which description best matches \"Property\" in C#?",
+      "options": [
+        "A contract that implementing types must satisfy.",
+        "An object representing an error condition during execution.",
+        "A value type that can also represent null.",
+        "A member exposing controlled access through get/set accessors."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 122,
+      "question": "In C#, \"Property\" is mainly used for what?",
+      "options": [
+        "A value type that can also represent null.",
+        "A contract that implementing types must satisfy.",
+        "A member exposing controlled access through get/set accessors.",
+        "An object representing an error condition during execution."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 123,
+      "question": "What is the primary purpose of \"Property\" in C#?",
+      "options": [
+        "An object representing an error condition during execution.",
+        "A member exposing controlled access through get/set accessors.",
+        "A value type that can also represent null.",
+        "A contract that implementing types must satisfy."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 124,
+      "question": "Choose the most accurate statement about \"Property\" in C#?",
+      "options": [
+        "A member exposing controlled access through get/set accessors.",
+        "A contract that implementing types must satisfy.",
+        "An object representing an error condition during execution.",
+        "A value type that can also represent null."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 125,
+      "question": "Which option correctly explains \"Property\" for C# developers?",
+      "options": [
+        "An object representing an error condition during execution.",
+        "A value type that can also represent null.",
+        "A contract that implementing types must satisfy.",
+        "A member exposing controlled access through get/set accessors."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 126,
+      "question": "In practical C# code, when would you use \"Property\"?",
+      "options": [
+        "A contract that implementing types must satisfy.",
+        "An object representing an error condition during execution.",
+        "A member exposing controlled access through get/set accessors.",
+        "A value type that can also represent null."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 127,
+      "question": "What does \"Property\" represent?",
+      "options": [
+        "A value type that can also represent null.",
+        "A member exposing controlled access through get/set accessors.",
+        "A contract that implementing types must satisfy.",
+        "An object representing an error condition during execution."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 128,
+      "question": "Identify the correct meaning of \"Property\" in C#?",
+      "options": [
+        "A member exposing controlled access through get/set accessors.",
+        "An object representing an error condition during execution.",
+        "A value type that can also represent null.",
+        "A contract that implementing types must satisfy."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 129,
+      "question": "Which definition of \"Property\" is correct in C#?",
+      "options": [
+        "A value type that can also represent null.",
+        "A contract that implementing types must satisfy.",
+        "An object representing an error condition during execution.",
+        "A member exposing controlled access through get/set accessors."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 130,
+      "question": "For C#, \"Property\" is best described as:?",
+      "options": [
+        "An object representing an error condition during execution.",
+        "A value type that can also represent null.",
+        "A member exposing controlled access through get/set accessors.",
+        "A contract that implementing types must satisfy."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 131,
+      "question": "Which description best matches \"Interface\" in C#?",
+      "options": [
+        "An interface enabling forward-only iteration over collections.",
+        "A contract that implementing types must satisfy.",
+        "An object representing an error condition during execution.",
+        "A value type that can also represent null."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 132,
+      "question": "In C#, \"Interface\" is mainly used for what?",
+      "options": [
+        "A contract that implementing types must satisfy.",
+        "A value type that can also represent null.",
+        "An interface enabling forward-only iteration over collections.",
+        "An object representing an error condition during execution."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 133,
+      "question": "What is the primary purpose of \"Interface\" in C#?",
+      "options": [
+        "An interface enabling forward-only iteration over collections.",
+        "An object representing an error condition during execution.",
+        "A value type that can also represent null.",
+        "A contract that implementing types must satisfy."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 134,
+      "question": "Choose the most accurate statement about \"Interface\" in C#?",
+      "options": [
+        "A value type that can also represent null.",
+        "An interface enabling forward-only iteration over collections.",
+        "A contract that implementing types must satisfy.",
+        "An object representing an error condition during execution."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 135,
+      "question": "Which option correctly explains \"Interface\" for C# developers?",
+      "options": [
+        "An object representing an error condition during execution.",
+        "A contract that implementing types must satisfy.",
+        "A value type that can also represent null.",
+        "An interface enabling forward-only iteration over collections."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 136,
+      "question": "In practical C# code, when would you use \"Interface\"?",
+      "options": [
+        "A contract that implementing types must satisfy.",
+        "An interface enabling forward-only iteration over collections.",
+        "An object representing an error condition during execution.",
+        "A value type that can also represent null."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 137,
+      "question": "What does \"Interface\" represent?",
+      "options": [
+        "An object representing an error condition during execution.",
+        "A value type that can also represent null.",
+        "An interface enabling forward-only iteration over collections.",
+        "A contract that implementing types must satisfy."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 138,
+      "question": "Identify the correct meaning of \"Interface\" in C#?",
+      "options": [
+        "An interface enabling forward-only iteration over collections.",
+        "An object representing an error condition during execution.",
+        "A contract that implementing types must satisfy.",
+        "A value type that can also represent null."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 139,
+      "question": "Which definition of \"Interface\" is correct in C#?",
+      "options": [
+        "A value type that can also represent null.",
+        "A contract that implementing types must satisfy.",
+        "An interface enabling forward-only iteration over collections.",
+        "An object representing an error condition during execution."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 140,
+      "question": "For C#, \"Interface\" is best described as:?",
+      "options": [
+        "A contract that implementing types must satisfy.",
+        "An object representing an error condition during execution.",
+        "A value type that can also represent null.",
+        "An interface enabling forward-only iteration over collections."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 141,
+      "question": "Which description best matches \"Exception\" in C#?",
+      "options": [
+        "A value type that can also represent null.",
+        "An interface enabling forward-only iteration over collections.",
+        "Supplying dependencies from outside instead of creating them internally.",
+        "An object representing an error condition during execution."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 142,
+      "question": "In C#, \"Exception\" is mainly used for what?",
+      "options": [
+        "Supplying dependencies from outside instead of creating them internally.",
+        "A value type that can also represent null.",
+        "An object representing an error condition during execution.",
+        "An interface enabling forward-only iteration over collections."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 143,
+      "question": "What is the primary purpose of \"Exception\" in C#?",
+      "options": [
+        "An interface enabling forward-only iteration over collections.",
+        "An object representing an error condition during execution.",
+        "Supplying dependencies from outside instead of creating them internally.",
+        "A value type that can also represent null."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 144,
+      "question": "Choose the most accurate statement about \"Exception\" in C#?",
+      "options": [
+        "An object representing an error condition during execution.",
+        "A value type that can also represent null.",
+        "An interface enabling forward-only iteration over collections.",
+        "Supplying dependencies from outside instead of creating them internally."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 145,
+      "question": "Which option correctly explains \"Exception\" for C# developers?",
+      "options": [
+        "An interface enabling forward-only iteration over collections.",
+        "Supplying dependencies from outside instead of creating them internally.",
+        "A value type that can also represent null.",
+        "An object representing an error condition during execution."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 146,
+      "question": "In practical C# code, when would you use \"Exception\"?",
+      "options": [
+        "A value type that can also represent null.",
+        "An interface enabling forward-only iteration over collections.",
+        "An object representing an error condition during execution.",
+        "Supplying dependencies from outside instead of creating them internally."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 147,
+      "question": "What does \"Exception\" represent?",
+      "options": [
+        "Supplying dependencies from outside instead of creating them internally.",
+        "An object representing an error condition during execution.",
+        "A value type that can also represent null.",
+        "An interface enabling forward-only iteration over collections."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 148,
+      "question": "Identify the correct meaning of \"Exception\" in C#?",
+      "options": [
+        "An object representing an error condition during execution.",
+        "An interface enabling forward-only iteration over collections.",
+        "Supplying dependencies from outside instead of creating them internally.",
+        "A value type that can also represent null."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 149,
+      "question": "Which definition of \"Exception\" is correct in C#?",
+      "options": [
+        "Supplying dependencies from outside instead of creating them internally.",
+        "A value type that can also represent null.",
+        "An interface enabling forward-only iteration over collections.",
+        "An object representing an error condition during execution."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 150,
+      "question": "For C#, \"Exception\" is best described as:?",
+      "options": [
+        "An interface enabling forward-only iteration over collections.",
+        "Supplying dependencies from outside instead of creating them internally.",
+        "An object representing an error condition during execution.",
+        "A value type that can also represent null."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 151,
+      "question": "Which description best matches \"Nullable type\" in C#?",
+      "options": [
+        "A reference type optimized for immutable data models and value equality.",
+        "A value type that can also represent null.",
+        "An interface enabling forward-only iteration over collections.",
+        "Supplying dependencies from outside instead of creating them internally."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 152,
+      "question": "In C#, \"Nullable type\" is mainly used for what?",
+      "options": [
+        "A value type that can also represent null.",
+        "Supplying dependencies from outside instead of creating them internally.",
+        "A reference type optimized for immutable data models and value equality.",
+        "An interface enabling forward-only iteration over collections."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 153,
+      "question": "What is the primary purpose of \"Nullable type\" in C#?",
+      "options": [
+        "A reference type optimized for immutable data models and value equality.",
+        "An interface enabling forward-only iteration over collections.",
+        "Supplying dependencies from outside instead of creating them internally.",
+        "A value type that can also represent null."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 154,
+      "question": "Choose the most accurate statement about \"Nullable type\" in C#?",
+      "options": [
+        "Supplying dependencies from outside instead of creating them internally.",
+        "A reference type optimized for immutable data models and value equality.",
+        "A value type that can also represent null.",
+        "An interface enabling forward-only iteration over collections."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 155,
+      "question": "Which option correctly explains \"Nullable type\" for C# developers?",
+      "options": [
+        "An interface enabling forward-only iteration over collections.",
+        "A value type that can also represent null.",
+        "Supplying dependencies from outside instead of creating them internally.",
+        "A reference type optimized for immutable data models and value equality."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 156,
+      "question": "In practical C# code, when would you use \"Nullable type\"?",
+      "options": [
+        "A value type that can also represent null.",
+        "A reference type optimized for immutable data models and value equality.",
+        "An interface enabling forward-only iteration over collections.",
+        "Supplying dependencies from outside instead of creating them internally."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 157,
+      "question": "What does \"Nullable type\" represent?",
+      "options": [
+        "An interface enabling forward-only iteration over collections.",
+        "Supplying dependencies from outside instead of creating them internally.",
+        "A reference type optimized for immutable data models and value equality.",
+        "A value type that can also represent null."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 158,
+      "question": "Identify the correct meaning of \"Nullable type\" in C#?",
+      "options": [
+        "A reference type optimized for immutable data models and value equality.",
+        "An interface enabling forward-only iteration over collections.",
+        "A value type that can also represent null.",
+        "Supplying dependencies from outside instead of creating them internally."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 159,
+      "question": "Which definition of \"Nullable type\" is correct in C#?",
+      "options": [
+        "Supplying dependencies from outside instead of creating them internally.",
+        "A value type that can also represent null.",
+        "A reference type optimized for immutable data models and value equality.",
+        "An interface enabling forward-only iteration over collections."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 160,
+      "question": "For C#, \"Nullable type\" is best described as:?",
+      "options": [
+        "A value type that can also represent null.",
+        "An interface enabling forward-only iteration over collections.",
+        "Supplying dependencies from outside instead of creating them internally.",
+        "A reference type optimized for immutable data models and value equality."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 161,
+      "question": "Which description best matches \"IEnumerable\" in C#?",
+      "options": [
+        "Supplying dependencies from outside instead of creating them internally.",
+        "A reference type optimized for immutable data models and value equality.",
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "An interface enabling forward-only iteration over collections."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 162,
+      "question": "In C#, \"IEnumerable\" is mainly used for what?",
+      "options": [
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "Supplying dependencies from outside instead of creating them internally.",
+        "An interface enabling forward-only iteration over collections.",
+        "A reference type optimized for immutable data models and value equality."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 163,
+      "question": "What is the primary purpose of \"IEnumerable\" in C#?",
+      "options": [
+        "A reference type optimized for immutable data models and value equality.",
+        "An interface enabling forward-only iteration over collections.",
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "Supplying dependencies from outside instead of creating them internally."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 164,
+      "question": "Choose the most accurate statement about \"IEnumerable\" in C#?",
+      "options": [
+        "An interface enabling forward-only iteration over collections.",
+        "Supplying dependencies from outside instead of creating them internally.",
+        "A reference type optimized for immutable data models and value equality.",
+        "A construct ensuring IDisposable resources are disposed automatically."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 165,
+      "question": "Which option correctly explains \"IEnumerable\" for C# developers?",
+      "options": [
+        "A reference type optimized for immutable data models and value equality.",
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "Supplying dependencies from outside instead of creating them internally.",
+        "An interface enabling forward-only iteration over collections."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 166,
+      "question": "In practical C# code, when would you use \"IEnumerable\"?",
+      "options": [
+        "Supplying dependencies from outside instead of creating them internally.",
+        "A reference type optimized for immutable data models and value equality.",
+        "An interface enabling forward-only iteration over collections.",
+        "A construct ensuring IDisposable resources are disposed automatically."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 167,
+      "question": "What does \"IEnumerable\" represent?",
+      "options": [
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "An interface enabling forward-only iteration over collections.",
+        "Supplying dependencies from outside instead of creating them internally.",
+        "A reference type optimized for immutable data models and value equality."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 168,
+      "question": "Identify the correct meaning of \"IEnumerable\" in C#?",
+      "options": [
+        "An interface enabling forward-only iteration over collections.",
+        "A reference type optimized for immutable data models and value equality.",
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "Supplying dependencies from outside instead of creating them internally."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 169,
+      "question": "Which definition of \"IEnumerable\" is correct in C#?",
+      "options": [
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "Supplying dependencies from outside instead of creating them internally.",
+        "A reference type optimized for immutable data models and value equality.",
+        "An interface enabling forward-only iteration over collections."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 170,
+      "question": "For C#, \"IEnumerable\" is best described as:?",
+      "options": [
+        "A reference type optimized for immutable data models and value equality.",
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "An interface enabling forward-only iteration over collections.",
+        "Supplying dependencies from outside instead of creating them internally."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 171,
+      "question": "Which description best matches \"Dependency injection\" in C#?",
+      "options": [
+        "A query feature for collections and data sources in C#.",
+        "Supplying dependencies from outside instead of creating them internally.",
+        "A reference type optimized for immutable data models and value equality.",
+        "A construct ensuring IDisposable resources are disposed automatically."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 172,
+      "question": "In C#, \"Dependency injection\" is mainly used for what?",
+      "options": [
+        "Supplying dependencies from outside instead of creating them internally.",
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "A query feature for collections and data sources in C#.",
+        "A reference type optimized for immutable data models and value equality."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 173,
+      "question": "What is the primary purpose of \"Dependency injection\" in C#?",
+      "options": [
+        "A query feature for collections and data sources in C#.",
+        "A reference type optimized for immutable data models and value equality.",
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "Supplying dependencies from outside instead of creating them internally."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 174,
+      "question": "Choose the most accurate statement about \"Dependency injection\" in C#?",
+      "options": [
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "A query feature for collections and data sources in C#.",
+        "Supplying dependencies from outside instead of creating them internally.",
+        "A reference type optimized for immutable data models and value equality."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 175,
+      "question": "Which option correctly explains \"Dependency injection\" for C# developers?",
+      "options": [
+        "A reference type optimized for immutable data models and value equality.",
+        "Supplying dependencies from outside instead of creating them internally.",
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "A query feature for collections and data sources in C#."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 176,
+      "question": "In practical C# code, when would you use \"Dependency injection\"?",
+      "options": [
+        "Supplying dependencies from outside instead of creating them internally.",
+        "A query feature for collections and data sources in C#.",
+        "A reference type optimized for immutable data models and value equality.",
+        "A construct ensuring IDisposable resources are disposed automatically."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 177,
+      "question": "What does \"Dependency injection\" represent?",
+      "options": [
+        "A reference type optimized for immutable data models and value equality.",
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "A query feature for collections and data sources in C#.",
+        "Supplying dependencies from outside instead of creating them internally."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 178,
+      "question": "Identify the correct meaning of \"Dependency injection\" in C#?",
+      "options": [
+        "A query feature for collections and data sources in C#.",
+        "A reference type optimized for immutable data models and value equality.",
+        "Supplying dependencies from outside instead of creating them internally.",
+        "A construct ensuring IDisposable resources are disposed automatically."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 179,
+      "question": "Which definition of \"Dependency injection\" is correct in C#?",
+      "options": [
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "Supplying dependencies from outside instead of creating them internally.",
+        "A query feature for collections and data sources in C#.",
+        "A reference type optimized for immutable data models and value equality."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 180,
+      "question": "For C#, \"Dependency injection\" is best described as:?",
+      "options": [
+        "Supplying dependencies from outside instead of creating them internally.",
+        "A reference type optimized for immutable data models and value equality.",
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "A query feature for collections and data sources in C#."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 181,
+      "question": "Which description best matches \"Record\" in C#?",
+      "options": [
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "A query feature for collections and data sources in C#.",
+        "An abstraction representing asynchronous operations.",
+        "A reference type optimized for immutable data models and value equality."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 182,
+      "question": "In C#, \"Record\" is mainly used for what?",
+      "options": [
+        "An abstraction representing asynchronous operations.",
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "A reference type optimized for immutable data models and value equality.",
+        "A query feature for collections and data sources in C#."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 183,
+      "question": "What is the primary purpose of \"Record\" in C#?",
+      "options": [
+        "A query feature for collections and data sources in C#.",
+        "A reference type optimized for immutable data models and value equality.",
+        "An abstraction representing asynchronous operations.",
+        "A construct ensuring IDisposable resources are disposed automatically."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 184,
+      "question": "Choose the most accurate statement about \"Record\" in C#?",
+      "options": [
+        "A reference type optimized for immutable data models and value equality.",
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "A query feature for collections and data sources in C#.",
+        "An abstraction representing asynchronous operations."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 185,
+      "question": "Which option correctly explains \"Record\" for C# developers?",
+      "options": [
+        "A query feature for collections and data sources in C#.",
+        "An abstraction representing asynchronous operations.",
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "A reference type optimized for immutable data models and value equality."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 186,
+      "question": "In practical C# code, when would you use \"Record\"?",
+      "options": [
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "A query feature for collections and data sources in C#.",
+        "A reference type optimized for immutable data models and value equality.",
+        "An abstraction representing asynchronous operations."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 187,
+      "question": "What does \"Record\" represent?",
+      "options": [
+        "An abstraction representing asynchronous operations.",
+        "A reference type optimized for immutable data models and value equality.",
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "A query feature for collections and data sources in C#."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 188,
+      "question": "Identify the correct meaning of \"Record\" in C#?",
+      "options": [
+        "A reference type optimized for immutable data models and value equality.",
+        "A query feature for collections and data sources in C#.",
+        "An abstraction representing asynchronous operations.",
+        "A construct ensuring IDisposable resources are disposed automatically."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 189,
+      "question": "Which definition of \"Record\" is correct in C#?",
+      "options": [
+        "An abstraction representing asynchronous operations.",
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "A query feature for collections and data sources in C#.",
+        "A reference type optimized for immutable data models and value equality."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 190,
+      "question": "For C#, \"Record\" is best described as:?",
+      "options": [
+        "A query feature for collections and data sources in C#.",
+        "An abstraction representing asynchronous operations.",
+        "A reference type optimized for immutable data models and value equality.",
+        "A construct ensuring IDisposable resources are disposed automatically."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 191,
+      "question": "Which description best matches \"using statement\" in C#?",
+      "options": [
+        "A member exposing controlled access through get/set accessors.",
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "A query feature for collections and data sources in C#.",
+        "An abstraction representing asynchronous operations."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 192,
+      "question": "In C#, \"using statement\" is mainly used for what?",
+      "options": [
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "An abstraction representing asynchronous operations.",
+        "A member exposing controlled access through get/set accessors.",
+        "A query feature for collections and data sources in C#."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 193,
+      "question": "What is the primary purpose of \"using statement\" in C#?",
+      "options": [
+        "A member exposing controlled access through get/set accessors.",
+        "A query feature for collections and data sources in C#.",
+        "An abstraction representing asynchronous operations.",
+        "A construct ensuring IDisposable resources are disposed automatically."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 194,
+      "question": "Choose the most accurate statement about \"using statement\" in C#?",
+      "options": [
+        "An abstraction representing asynchronous operations.",
+        "A member exposing controlled access through get/set accessors.",
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "A query feature for collections and data sources in C#."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 195,
+      "question": "Which option correctly explains \"using statement\" for C# developers?",
+      "options": [
+        "A query feature for collections and data sources in C#.",
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "An abstraction representing asynchronous operations.",
+        "A member exposing controlled access through get/set accessors."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 196,
+      "question": "In practical C# code, when would you use \"using statement\"?",
+      "options": [
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "A member exposing controlled access through get/set accessors.",
+        "A query feature for collections and data sources in C#.",
+        "An abstraction representing asynchronous operations."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 197,
+      "question": "What does \"using statement\" represent?",
+      "options": [
+        "A query feature for collections and data sources in C#.",
+        "An abstraction representing asynchronous operations.",
+        "A member exposing controlled access through get/set accessors.",
+        "A construct ensuring IDisposable resources are disposed automatically."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 198,
+      "question": "Identify the correct meaning of \"using statement\" in C#?",
+      "options": [
+        "A member exposing controlled access through get/set accessors.",
+        "A query feature for collections and data sources in C#.",
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "An abstraction representing asynchronous operations."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 199,
+      "question": "Which definition of \"using statement\" is correct in C#?",
+      "options": [
+        "An abstraction representing asynchronous operations.",
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "A member exposing controlled access through get/set accessors.",
+        "A query feature for collections and data sources in C#."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 200,
+      "question": "For C#, \"using statement\" is best described as:?",
+      "options": [
+        "A construct ensuring IDisposable resources are disposed automatically.",
+        "A query feature for collections and data sources in C#.",
+        "An abstraction representing asynchronous operations.",
+        "A member exposing controlled access through get/set accessors."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 201,
+      "question": "What is output?\n```csharp\nint x = 4 + 1;\nConsole.WriteLine(x);\n```",
+      "options": [
+        "41",
+        "5",
+        "4",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 202,
+      "question": "What gets printed?\n```csharp\nstring s = \"abc\";\nConsole.WriteLine(s.Length);\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "abc"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 203,
+      "question": "Output value?\n```csharp\nvar list = new List<int>{1,2};\nConsole.WriteLine(list[0]);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 204,
+      "question": "What is printed?\n```csharp\nint a = 7 / 2;\nConsole.WriteLine(a);\n```",
+      "options": [
+        "3",
+        "3.5",
+        "4",
+        "2"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 205,
+      "question": "What is output?\n```csharp\nbool ok = true;\nif(ok) Console.WriteLine(\"yes\");\n```",
+      "options": [
+        "yes",
+        "true",
+        "ok",
+        "Nothing"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 206,
+      "question": "In C#, what is output?\n```csharp\nint x = 4 + 1;\nConsole.WriteLine(x);\n```",
+      "options": [
+        "41",
+        "5",
+        "4",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 207,
+      "question": "In C#, what gets printed?\n```csharp\nstring s = \"abc\";\nConsole.WriteLine(s.Length);\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "abc"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 208,
+      "question": "In C#, output value?\n```csharp\nvar list = new List<int>{1,2};\nConsole.WriteLine(list[0]);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 209,
+      "question": "In C#, what is printed?\n```csharp\nint a = 7 / 2;\nConsole.WriteLine(a);\n```",
+      "options": [
+        "3",
+        "3.5",
+        "4",
+        "2"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 210,
+      "question": "In C#, what is output?\n```csharp\nbool ok = true;\nif(ok) Console.WriteLine(\"yes\");\n```",
+      "options": [
+        "yes",
+        "true",
+        "ok",
+        "Nothing"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 211,
+      "question": "For C#, what is output?\n```csharp\nint x = 4 + 1;\nConsole.WriteLine(x);\n```",
+      "options": [
+        "41",
+        "5",
+        "4",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 212,
+      "question": "For C#, what gets printed?\n```csharp\nstring s = \"abc\";\nConsole.WriteLine(s.Length);\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "abc"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 213,
+      "question": "For C#, output value?\n```csharp\nvar list = new List<int>{1,2};\nConsole.WriteLine(list[0]);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 214,
+      "question": "For C#, what is printed?\n```csharp\nint a = 7 / 2;\nConsole.WriteLine(a);\n```",
+      "options": [
+        "3",
+        "3.5",
+        "4",
+        "2"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 215,
+      "question": "For C#, what is output?\n```csharp\nbool ok = true;\nif(ok) Console.WriteLine(\"yes\");\n```",
+      "options": [
+        "yes",
+        "true",
+        "ok",
+        "Nothing"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 216,
+      "question": "When using C#, what is output?\n```csharp\nint x = 4 + 1;\nConsole.WriteLine(x);\n```",
+      "options": [
+        "41",
+        "5",
+        "4",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 217,
+      "question": "When using C#, what gets printed?\n```csharp\nstring s = \"abc\";\nConsole.WriteLine(s.Length);\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "abc"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 218,
+      "question": "When using C#, output value?\n```csharp\nvar list = new List<int>{1,2};\nConsole.WriteLine(list[0]);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 219,
+      "question": "When using C#, what is printed?\n```csharp\nint a = 7 / 2;\nConsole.WriteLine(a);\n```",
+      "options": [
+        "3",
+        "3.5",
+        "4",
+        "2"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 220,
+      "question": "When using C#, what is output?\n```csharp\nbool ok = true;\nif(ok) Console.WriteLine(\"yes\");\n```",
+      "options": [
+        "yes",
+        "true",
+        "ok",
+        "Nothing"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 221,
+      "question": "In a C# query, what is output?\n```csharp\nint x = 4 + 1;\nConsole.WriteLine(x);\n```",
+      "options": [
+        "41",
+        "5",
+        "4",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 222,
+      "question": "In a C# query, what gets printed?\n```csharp\nstring s = \"abc\";\nConsole.WriteLine(s.Length);\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "abc"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 223,
+      "question": "In a C# query, output value?\n```csharp\nvar list = new List<int>{1,2};\nConsole.WriteLine(list[0]);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 224,
+      "question": "In a C# query, what is printed?\n```csharp\nint a = 7 / 2;\nConsole.WriteLine(a);\n```",
+      "options": [
+        "3",
+        "3.5",
+        "4",
+        "2"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 225,
+      "question": "In a C# query, what is output?\n```csharp\nbool ok = true;\nif(ok) Console.WriteLine(\"yes\");\n```",
+      "options": [
+        "yes",
+        "true",
+        "ok",
+        "Nothing"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 226,
+      "question": "From a C# perspective, what is output?\n```csharp\nint x = 4 + 1;\nConsole.WriteLine(x);\n```",
+      "options": [
+        "41",
+        "5",
+        "4",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 227,
+      "question": "From a C# perspective, what gets printed?\n```csharp\nstring s = \"abc\";\nConsole.WriteLine(s.Length);\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "abc"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 228,
+      "question": "From a C# perspective, output value?\n```csharp\nvar list = new List<int>{1,2};\nConsole.WriteLine(list[0]);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 229,
+      "question": "From a C# perspective, what is printed?\n```csharp\nint a = 7 / 2;\nConsole.WriteLine(a);\n```",
+      "options": [
+        "3",
+        "3.5",
+        "4",
+        "2"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 230,
+      "question": "From a C# perspective, what is output?\n```csharp\nbool ok = true;\nif(ok) Console.WriteLine(\"yes\");\n```",
+      "options": [
+        "yes",
+        "true",
+        "ok",
+        "Nothing"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 231,
+      "question": "In practical C# usage, what is output?\n```csharp\nint x = 4 + 1;\nConsole.WriteLine(x);\n```",
+      "options": [
+        "41",
+        "5",
+        "4",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 232,
+      "question": "In practical C# usage, what gets printed?\n```csharp\nstring s = \"abc\";\nConsole.WriteLine(s.Length);\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "abc"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 233,
+      "question": "In practical C# usage, output value?\n```csharp\nvar list = new List<int>{1,2};\nConsole.WriteLine(list[0]);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 234,
+      "question": "In practical C# usage, what is printed?\n```csharp\nint a = 7 / 2;\nConsole.WriteLine(a);\n```",
+      "options": [
+        "3",
+        "3.5",
+        "4",
+        "2"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 235,
+      "question": "In practical C# usage, what is output?\n```csharp\nbool ok = true;\nif(ok) Console.WriteLine(\"yes\");\n```",
+      "options": [
+        "yes",
+        "true",
+        "ok",
+        "Nothing"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 236,
+      "question": "Within C#, what is output?\n```csharp\nint x = 4 + 1;\nConsole.WriteLine(x);\n```",
+      "options": [
+        "41",
+        "5",
+        "4",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 237,
+      "question": "Within C#, what gets printed?\n```csharp\nstring s = \"abc\";\nConsole.WriteLine(s.Length);\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "abc"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 238,
+      "question": "Within C#, output value?\n```csharp\nvar list = new List<int>{1,2};\nConsole.WriteLine(list[0]);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 239,
+      "question": "Within C#, what is printed?\n```csharp\nint a = 7 / 2;\nConsole.WriteLine(a);\n```",
+      "options": [
+        "3",
+        "3.5",
+        "4",
+        "2"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 240,
+      "question": "Within C#, what is output?\n```csharp\nbool ok = true;\nif(ok) Console.WriteLine(\"yes\");\n```",
+      "options": [
+        "yes",
+        "true",
+        "ok",
+        "Nothing"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 241,
+      "question": "For C# developers, what is output?\n```csharp\nint x = 4 + 1;\nConsole.WriteLine(x);\n```",
+      "options": [
+        "41",
+        "5",
+        "4",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 242,
+      "question": "For C# developers, what gets printed?\n```csharp\nstring s = \"abc\";\nConsole.WriteLine(s.Length);\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "abc"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 243,
+      "question": "For C# developers, output value?\n```csharp\nvar list = new List<int>{1,2};\nConsole.WriteLine(list[0]);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 244,
+      "question": "For C# developers, what is printed?\n```csharp\nint a = 7 / 2;\nConsole.WriteLine(a);\n```",
+      "options": [
+        "3",
+        "3.5",
+        "4",
+        "2"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 245,
+      "question": "For C# developers, what is output?\n```csharp\nbool ok = true;\nif(ok) Console.WriteLine(\"yes\");\n```",
+      "options": [
+        "yes",
+        "true",
+        "ok",
+        "Nothing"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 246,
+      "question": "In day-to-day C# work, what is output?\n```csharp\nint x = 4 + 1;\nConsole.WriteLine(x);\n```",
+      "options": [
+        "41",
+        "5",
+        "4",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 247,
+      "question": "In day-to-day C# work, what gets printed?\n```csharp\nstring s = \"abc\";\nConsole.WriteLine(s.Length);\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "abc"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 248,
+      "question": "In day-to-day C# work, output value?\n```csharp\nvar list = new List<int>{1,2};\nConsole.WriteLine(list[0]);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 249,
+      "question": "In day-to-day C# work, what is printed?\n```csharp\nint a = 7 / 2;\nConsole.WriteLine(a);\n```",
+      "options": [
+        "3",
+        "3.5",
+        "4",
+        "2"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 250,
+      "question": "In day-to-day C# work, what is output?\n```csharp\nbool ok = true;\nif(ok) Console.WriteLine(\"yes\");\n```",
+      "options": [
+        "yes",
+        "true",
+        "ok",
+        "Nothing"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 251,
+      "question": "Output?\n```csharp\nint a=9,b=4;\nConsole.WriteLine(a%b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 252,
+      "question": "Printed value?\n```csharp\nstring s=\"cs\";\nConsole.WriteLine(s.ToUpper());\n```",
+      "options": [
+        "cs",
+        "CS",
+        "Cs",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 253,
+      "question": "What is output?\n```csharp\nvar arr = new int[]{4,8};\nConsole.WriteLine(arr[1]);\n```",
+      "options": [
+        "4",
+        "8",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 254,
+      "question": "What prints?\n```csharp\nbool ok=false;\nConsole.WriteLine(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 255,
+      "question": "Final x?\n```csharp\nint x=3;\nx += 4;\nConsole.WriteLine(x);\n```",
+      "options": [
+        "3",
+        "4",
+        "7",
+        "34"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 256,
+      "question": "In C#, output?\n```csharp\nint a=9,b=4;\nConsole.WriteLine(a%b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 257,
+      "question": "In C#, printed value?\n```csharp\nstring s=\"cs\";\nConsole.WriteLine(s.ToUpper());\n```",
+      "options": [
+        "cs",
+        "CS",
+        "Cs",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 258,
+      "question": "In C#, what is output?\n```csharp\nvar arr = new int[]{4,8};\nConsole.WriteLine(arr[1]);\n```",
+      "options": [
+        "4",
+        "8",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 259,
+      "question": "In C#, what prints?\n```csharp\nbool ok=false;\nConsole.WriteLine(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 260,
+      "question": "In C#, final x?\n```csharp\nint x=3;\nx += 4;\nConsole.WriteLine(x);\n```",
+      "options": [
+        "3",
+        "4",
+        "7",
+        "34"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 261,
+      "question": "For C#, output?\n```csharp\nint a=9,b=4;\nConsole.WriteLine(a%b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 262,
+      "question": "For C#, printed value?\n```csharp\nstring s=\"cs\";\nConsole.WriteLine(s.ToUpper());\n```",
+      "options": [
+        "cs",
+        "CS",
+        "Cs",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 263,
+      "question": "For C#, what is output?\n```csharp\nvar arr = new int[]{4,8};\nConsole.WriteLine(arr[1]);\n```",
+      "options": [
+        "4",
+        "8",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 264,
+      "question": "For C#, what prints?\n```csharp\nbool ok=false;\nConsole.WriteLine(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 265,
+      "question": "For C#, final x?\n```csharp\nint x=3;\nx += 4;\nConsole.WriteLine(x);\n```",
+      "options": [
+        "3",
+        "4",
+        "7",
+        "34"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 266,
+      "question": "When using C#, output?\n```csharp\nint a=9,b=4;\nConsole.WriteLine(a%b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 267,
+      "question": "When using C#, printed value?\n```csharp\nstring s=\"cs\";\nConsole.WriteLine(s.ToUpper());\n```",
+      "options": [
+        "cs",
+        "CS",
+        "Cs",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 268,
+      "question": "When using C#, what is output?\n```csharp\nvar arr = new int[]{4,8};\nConsole.WriteLine(arr[1]);\n```",
+      "options": [
+        "4",
+        "8",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 269,
+      "question": "When using C#, what prints?\n```csharp\nbool ok=false;\nConsole.WriteLine(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 270,
+      "question": "When using C#, final x?\n```csharp\nint x=3;\nx += 4;\nConsole.WriteLine(x);\n```",
+      "options": [
+        "3",
+        "4",
+        "7",
+        "34"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 271,
+      "question": "In a C# query, output?\n```csharp\nint a=9,b=4;\nConsole.WriteLine(a%b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 272,
+      "question": "In a C# query, printed value?\n```csharp\nstring s=\"cs\";\nConsole.WriteLine(s.ToUpper());\n```",
+      "options": [
+        "cs",
+        "CS",
+        "Cs",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 273,
+      "question": "In a C# query, what is output?\n```csharp\nvar arr = new int[]{4,8};\nConsole.WriteLine(arr[1]);\n```",
+      "options": [
+        "4",
+        "8",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 274,
+      "question": "In a C# query, what prints?\n```csharp\nbool ok=false;\nConsole.WriteLine(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 275,
+      "question": "In a C# query, final x?\n```csharp\nint x=3;\nx += 4;\nConsole.WriteLine(x);\n```",
+      "options": [
+        "3",
+        "4",
+        "7",
+        "34"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 276,
+      "question": "From a C# perspective, output?\n```csharp\nint a=9,b=4;\nConsole.WriteLine(a%b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 277,
+      "question": "From a C# perspective, printed value?\n```csharp\nstring s=\"cs\";\nConsole.WriteLine(s.ToUpper());\n```",
+      "options": [
+        "cs",
+        "CS",
+        "Cs",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 278,
+      "question": "From a C# perspective, what is output?\n```csharp\nvar arr = new int[]{4,8};\nConsole.WriteLine(arr[1]);\n```",
+      "options": [
+        "4",
+        "8",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 279,
+      "question": "From a C# perspective, what prints?\n```csharp\nbool ok=false;\nConsole.WriteLine(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 280,
+      "question": "From a C# perspective, final x?\n```csharp\nint x=3;\nx += 4;\nConsole.WriteLine(x);\n```",
+      "options": [
+        "3",
+        "4",
+        "7",
+        "34"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 281,
+      "question": "In practical C# usage, output?\n```csharp\nint a=9,b=4;\nConsole.WriteLine(a%b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 282,
+      "question": "In practical C# usage, printed value?\n```csharp\nstring s=\"cs\";\nConsole.WriteLine(s.ToUpper());\n```",
+      "options": [
+        "cs",
+        "CS",
+        "Cs",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 283,
+      "question": "In practical C# usage, what is output?\n```csharp\nvar arr = new int[]{4,8};\nConsole.WriteLine(arr[1]);\n```",
+      "options": [
+        "4",
+        "8",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 284,
+      "question": "In practical C# usage, what prints?\n```csharp\nbool ok=false;\nConsole.WriteLine(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 285,
+      "question": "In practical C# usage, final x?\n```csharp\nint x=3;\nx += 4;\nConsole.WriteLine(x);\n```",
+      "options": [
+        "3",
+        "4",
+        "7",
+        "34"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 286,
+      "question": "Within C#, output?\n```csharp\nint a=9,b=4;\nConsole.WriteLine(a%b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 287,
+      "question": "Within C#, printed value?\n```csharp\nstring s=\"cs\";\nConsole.WriteLine(s.ToUpper());\n```",
+      "options": [
+        "cs",
+        "CS",
+        "Cs",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 288,
+      "question": "Within C#, what is output?\n```csharp\nvar arr = new int[]{4,8};\nConsole.WriteLine(arr[1]);\n```",
+      "options": [
+        "4",
+        "8",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 289,
+      "question": "Within C#, what prints?\n```csharp\nbool ok=false;\nConsole.WriteLine(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 290,
+      "question": "Within C#, final x?\n```csharp\nint x=3;\nx += 4;\nConsole.WriteLine(x);\n```",
+      "options": [
+        "3",
+        "4",
+        "7",
+        "34"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 291,
+      "question": "For C# developers, output?\n```csharp\nint a=9,b=4;\nConsole.WriteLine(a%b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 292,
+      "question": "For C# developers, printed value?\n```csharp\nstring s=\"cs\";\nConsole.WriteLine(s.ToUpper());\n```",
+      "options": [
+        "cs",
+        "CS",
+        "Cs",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 293,
+      "question": "For C# developers, what is output?\n```csharp\nvar arr = new int[]{4,8};\nConsole.WriteLine(arr[1]);\n```",
+      "options": [
+        "4",
+        "8",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 294,
+      "question": "For C# developers, what prints?\n```csharp\nbool ok=false;\nConsole.WriteLine(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 295,
+      "question": "For C# developers, final x?\n```csharp\nint x=3;\nx += 4;\nConsole.WriteLine(x);\n```",
+      "options": [
+        "3",
+        "4",
+        "7",
+        "34"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 296,
+      "question": "In day-to-day C# work, output?\n```csharp\nint a=9,b=4;\nConsole.WriteLine(a%b);\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 297,
+      "question": "In day-to-day C# work, printed value?\n```csharp\nstring s=\"cs\";\nConsole.WriteLine(s.ToUpper());\n```",
+      "options": [
+        "cs",
+        "CS",
+        "Cs",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 298,
+      "question": "In day-to-day C# work, what is output?\n```csharp\nvar arr = new int[]{4,8};\nConsole.WriteLine(arr[1]);\n```",
+      "options": [
+        "4",
+        "8",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 299,
+      "question": "In day-to-day C# work, what prints?\n```csharp\nbool ok=false;\nConsole.WriteLine(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 300,
+      "question": "In day-to-day C# work, final x?\n```csharp\nint x=3;\nx += 4;\nConsole.WriteLine(x);\n```",
+      "options": [
+        "3",
+        "4",
+        "7",
+        "34"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 301,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value302 = 6;\nConsole.WriteLine(value302);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 302,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value304 = 8;\nConsole.WriteLine(value304);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 303,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value306 = 10;\nConsole.WriteLine(value306);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 304,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value308 = 12;\nConsole.WriteLine(value308);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 305,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value310 = 14;\nConsole.WriteLine(value310);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 306,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value312 = 16;\nConsole.WriteLine(value312);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 307,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value314 = 18;\nConsole.WriteLine(value314);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 308,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value316 = 20;\nConsole.WriteLine(value316);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 309,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value318 = 22;\nConsole.WriteLine(value318);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 310,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value320 = 24;\nConsole.WriteLine(value320);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 311,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value322 = 26;\nConsole.WriteLine(value322);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 312,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value324 = 28;\nConsole.WriteLine(value324);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 313,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value326 = 30;\nConsole.WriteLine(value326);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 314,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value328 = 32;\nConsole.WriteLine(value328);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 315,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value330 = 34;\nConsole.WriteLine(value330);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 316,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value332 = 36;\nConsole.WriteLine(value332);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 317,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value334 = 1;\nConsole.WriteLine(value334);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 318,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value336 = 3;\nConsole.WriteLine(value336);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 319,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value338 = 5;\nConsole.WriteLine(value338);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 320,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value340 = 7;\nConsole.WriteLine(value340);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 321,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value342 = 9;\nConsole.WriteLine(value342);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 322,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value344 = 11;\nConsole.WriteLine(value344);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 323,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value346 = 13;\nConsole.WriteLine(value346);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 324,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value348 = 15;\nConsole.WriteLine(value348);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 325,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value350 = 17;\nConsole.WriteLine(value350);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 326,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value352 = 19;\nConsole.WriteLine(value352);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 327,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value354 = 21;\nConsole.WriteLine(value354);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 328,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value356 = 23;\nConsole.WriteLine(value356);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 329,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value358 = 25;\nConsole.WriteLine(value358);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 330,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value360 = 27;\nConsole.WriteLine(value360);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 331,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value362 = 29;\nConsole.WriteLine(value362);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 332,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value364 = 31;\nConsole.WriteLine(value364);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 333,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value366 = 33;\nConsole.WriteLine(value366);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 334,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value368 = 35;\nConsole.WriteLine(value368);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 335,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value370 = 0;\nConsole.WriteLine(value370);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 336,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value372 = 2;\nConsole.WriteLine(value372);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 337,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value374 = 4;\nConsole.WriteLine(value374);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 338,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value376 = 6;\nConsole.WriteLine(value376);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 339,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value378 = 8;\nConsole.WriteLine(value378);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 340,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value380 = 10;\nConsole.WriteLine(value380);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 341,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value382 = 12;\nConsole.WriteLine(value382);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 342,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value384 = 14;\nConsole.WriteLine(value384);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 343,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value386 = 16;\nConsole.WriteLine(value386);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 344,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value388 = 18;\nConsole.WriteLine(value388);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 345,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value390 = 20;\nConsole.WriteLine(value390);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 346,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value392 = 22;\nConsole.WriteLine(value392);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 347,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value394 = 24;\nConsole.WriteLine(value394);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 348,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value396 = 26;\nConsole.WriteLine(value396);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 349,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value398 = 28;\nConsole.WriteLine(value398);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 350,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value400 = 30;\nConsole.WriteLine(value400);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 351,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value402 = 32;\nConsole.WriteLine(value402);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 352,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value404 = 34;\nConsole.WriteLine(value404);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 353,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value406 = 36;\nConsole.WriteLine(value406);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 354,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value408 = 1;\nConsole.WriteLine(value408);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 355,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value410 = 3;\nConsole.WriteLine(value410);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 356,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value412 = 5;\nConsole.WriteLine(value412);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 357,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value414 = 7;\nConsole.WriteLine(value414);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 358,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value416 = 9;\nConsole.WriteLine(value416);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 359,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value418 = 11;\nConsole.WriteLine(value418);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 360,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value420 = 13;\nConsole.WriteLine(value420);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 361,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value422 = 15;\nConsole.WriteLine(value422);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 362,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value424 = 17;\nConsole.WriteLine(value424);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 363,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value426 = 19;\nConsole.WriteLine(value426);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 364,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value428 = 21;\nConsole.WriteLine(value428);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 365,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value430 = 23;\nConsole.WriteLine(value430);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 366,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value432 = 25;\nConsole.WriteLine(value432);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 367,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value434 = 27;\nConsole.WriteLine(value434);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 368,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value436 = 29;\nConsole.WriteLine(value436);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 369,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value438 = 31;\nConsole.WriteLine(value438);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 370,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value440 = 33;\nConsole.WriteLine(value440);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 371,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value442 = 35;\nConsole.WriteLine(value442);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 372,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value444 = 0;\nConsole.WriteLine(value444);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 373,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value446 = 2;\nConsole.WriteLine(value446);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 374,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value448 = 4;\nConsole.WriteLine(value448);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 375,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value450 = 6;\nConsole.WriteLine(value450);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 376,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value452 = 8;\nConsole.WriteLine(value452);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 377,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value454 = 10;\nConsole.WriteLine(value454);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 378,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value456 = 12;\nConsole.WriteLine(value456);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 379,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value458 = 14;\nConsole.WriteLine(value458);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 380,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value460 = 16;\nConsole.WriteLine(value460);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 381,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value462 = 18;\nConsole.WriteLine(value462);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 382,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value464 = 20;\nConsole.WriteLine(value464);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 383,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value466 = 22;\nConsole.WriteLine(value466);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 384,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value468 = 24;\nConsole.WriteLine(value468);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 385,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value470 = 26;\nConsole.WriteLine(value470);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 386,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value472 = 28;\nConsole.WriteLine(value472);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 387,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value474 = 30;\nConsole.WriteLine(value474);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 388,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value476 = 32;\nConsole.WriteLine(value476);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 389,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value478 = 34;\nConsole.WriteLine(value478);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 390,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value480 = 36;\nConsole.WriteLine(value480);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 391,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value482 = 1;\nConsole.WriteLine(value482);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 392,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value484 = 3;\nConsole.WriteLine(value484);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 393,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value486 = 5;\nConsole.WriteLine(value486);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 394,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value488 = 7;\nConsole.WriteLine(value488);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 395,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value490 = 9;\nConsole.WriteLine(value490);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 396,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value492 = 11;\nConsole.WriteLine(value492);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 397,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value494 = 13;\nConsole.WriteLine(value494);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 398,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value496 = 15;\nConsole.WriteLine(value496);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 399,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value498 = 17;\nConsole.WriteLine(value498);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 400,
+      "question": "What is the key outcome of this snippet?\n```csharp\nint value500 = 19;\nConsole.WriteLine(value500);\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,4407 @@
+{
+  "slug": "css",
+  "title": "CSS Quiz",
+  "description": "100 CSS practice questions",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which property changes text color?",
+      "options": [
+        "font-color",
+        "text-color",
+        "color",
+        "foreground"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "Which layout model is one-dimensional?",
+      "options": [
+        "grid",
+        "flexbox",
+        "table",
+        "float"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "Which unit is relative to root font size?",
+      "options": [
+        "em",
+        "rem",
+        "px",
+        "%"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 4,
+      "question": "Which property controls element spacing outside border?",
+      "options": [
+        "padding",
+        "margin",
+        "border-spacing",
+        "gap"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Which selector targets an element with id=\"hero\"?",
+      "options": [
+        ".hero",
+        "#hero",
+        "hero",
+        "*hero"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "Which property makes corners rounded?",
+      "options": [
+        "round",
+        "corner-radius",
+        "border-radius",
+        "radius"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 7,
+      "question": "Which property sets stacking order?",
+      "options": [
+        "depth",
+        "z-index",
+        "layer",
+        "stack"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 8,
+      "question": "Which media query feature is used for viewport width?",
+      "options": [
+        "screen-width",
+        "device",
+        "width",
+        "viewport"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "In CSS, which property changes text color?",
+      "options": [
+        "font-color",
+        "text-color",
+        "color",
+        "foreground"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "In CSS, which layout model is one-dimensional?",
+      "options": [
+        "grid",
+        "flexbox",
+        "table",
+        "float"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 11,
+      "question": "In CSS, which unit is relative to root font size?",
+      "options": [
+        "em",
+        "rem",
+        "px",
+        "%"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 12,
+      "question": "In CSS, which property controls element spacing outside border?",
+      "options": [
+        "padding",
+        "margin",
+        "border-spacing",
+        "gap"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 13,
+      "question": "In CSS, which selector targets an element with id=\"hero\"?",
+      "options": [
+        ".hero",
+        "#hero",
+        "hero",
+        "*hero"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 14,
+      "question": "In CSS, which property makes corners rounded?",
+      "options": [
+        "round",
+        "corner-radius",
+        "border-radius",
+        "radius"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 15,
+      "question": "In CSS, which property sets stacking order?",
+      "options": [
+        "depth",
+        "z-index",
+        "layer",
+        "stack"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 16,
+      "question": "In CSS, which media query feature is used for viewport width?",
+      "options": [
+        "screen-width",
+        "device",
+        "width",
+        "viewport"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 17,
+      "question": "For CSS, which property changes text color?",
+      "options": [
+        "font-color",
+        "text-color",
+        "color",
+        "foreground"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 18,
+      "question": "For CSS, which layout model is one-dimensional?",
+      "options": [
+        "grid",
+        "flexbox",
+        "table",
+        "float"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 19,
+      "question": "For CSS, which unit is relative to root font size?",
+      "options": [
+        "em",
+        "rem",
+        "px",
+        "%"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 20,
+      "question": "For CSS, which property controls element spacing outside border?",
+      "options": [
+        "padding",
+        "margin",
+        "border-spacing",
+        "gap"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 21,
+      "question": "For CSS, which selector targets an element with id=\"hero\"?",
+      "options": [
+        ".hero",
+        "#hero",
+        "hero",
+        "*hero"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 22,
+      "question": "For CSS, which property makes corners rounded?",
+      "options": [
+        "round",
+        "corner-radius",
+        "border-radius",
+        "radius"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 23,
+      "question": "For CSS, which property sets stacking order?",
+      "options": [
+        "depth",
+        "z-index",
+        "layer",
+        "stack"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 24,
+      "question": "For CSS, which media query feature is used for viewport width?",
+      "options": [
+        "screen-width",
+        "device",
+        "width",
+        "viewport"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 25,
+      "question": "When using CSS, which property changes text color?",
+      "options": [
+        "font-color",
+        "text-color",
+        "color",
+        "foreground"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 26,
+      "question": "When using CSS, which layout model is one-dimensional?",
+      "options": [
+        "grid",
+        "flexbox",
+        "table",
+        "float"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 27,
+      "question": "When using CSS, which unit is relative to root font size?",
+      "options": [
+        "em",
+        "rem",
+        "px",
+        "%"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 28,
+      "question": "When using CSS, which property controls element spacing outside border?",
+      "options": [
+        "padding",
+        "margin",
+        "border-spacing",
+        "gap"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 29,
+      "question": "When using CSS, which selector targets an element with id=\"hero\"?",
+      "options": [
+        ".hero",
+        "#hero",
+        "hero",
+        "*hero"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 30,
+      "question": "When using CSS, which property makes corners rounded?",
+      "options": [
+        "round",
+        "corner-radius",
+        "border-radius",
+        "radius"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 31,
+      "question": "When using CSS, which property sets stacking order?",
+      "options": [
+        "depth",
+        "z-index",
+        "layer",
+        "stack"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 32,
+      "question": "When using CSS, which media query feature is used for viewport width?",
+      "options": [
+        "screen-width",
+        "device",
+        "width",
+        "viewport"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 33,
+      "question": "In a CSS query, which property changes text color?",
+      "options": [
+        "font-color",
+        "text-color",
+        "color",
+        "foreground"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 34,
+      "question": "In a CSS query, which layout model is one-dimensional?",
+      "options": [
+        "grid",
+        "flexbox",
+        "table",
+        "float"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 35,
+      "question": "In a CSS query, which unit is relative to root font size?",
+      "options": [
+        "em",
+        "rem",
+        "px",
+        "%"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 36,
+      "question": "In a CSS query, which property controls element spacing outside border?",
+      "options": [
+        "padding",
+        "margin",
+        "border-spacing",
+        "gap"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 37,
+      "question": "In a CSS query, which selector targets an element with id=\"hero\"?",
+      "options": [
+        ".hero",
+        "#hero",
+        "hero",
+        "*hero"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 38,
+      "question": "In a CSS query, which property makes corners rounded?",
+      "options": [
+        "round",
+        "corner-radius",
+        "border-radius",
+        "radius"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 39,
+      "question": "In a CSS query, which property sets stacking order?",
+      "options": [
+        "depth",
+        "z-index",
+        "layer",
+        "stack"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 40,
+      "question": "In a CSS query, which media query feature is used for viewport width?",
+      "options": [
+        "screen-width",
+        "device",
+        "width",
+        "viewport"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 41,
+      "question": "From a CSS perspective, which property changes text color?",
+      "options": [
+        "font-color",
+        "text-color",
+        "color",
+        "foreground"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 42,
+      "question": "From a CSS perspective, which layout model is one-dimensional?",
+      "options": [
+        "grid",
+        "flexbox",
+        "table",
+        "float"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 43,
+      "question": "From a CSS perspective, which unit is relative to root font size?",
+      "options": [
+        "em",
+        "rem",
+        "px",
+        "%"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 44,
+      "question": "From a CSS perspective, which property controls element spacing outside border?",
+      "options": [
+        "padding",
+        "margin",
+        "border-spacing",
+        "gap"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 45,
+      "question": "From a CSS perspective, which selector targets an element with id=\"hero\"?",
+      "options": [
+        ".hero",
+        "#hero",
+        "hero",
+        "*hero"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 46,
+      "question": "From a CSS perspective, which property makes corners rounded?",
+      "options": [
+        "round",
+        "corner-radius",
+        "border-radius",
+        "radius"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 47,
+      "question": "From a CSS perspective, which property sets stacking order?",
+      "options": [
+        "depth",
+        "z-index",
+        "layer",
+        "stack"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 48,
+      "question": "From a CSS perspective, which media query feature is used for viewport width?",
+      "options": [
+        "screen-width",
+        "device",
+        "width",
+        "viewport"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 49,
+      "question": "In practical CSS usage, which property changes text color?",
+      "options": [
+        "font-color",
+        "text-color",
+        "color",
+        "foreground"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 50,
+      "question": "In practical CSS usage, which layout model is one-dimensional?",
+      "options": [
+        "grid",
+        "flexbox",
+        "table",
+        "float"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 51,
+      "question": "In practical CSS usage, which unit is relative to root font size?",
+      "options": [
+        "em",
+        "rem",
+        "px",
+        "%"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 52,
+      "question": "In practical CSS usage, which property controls element spacing outside border?",
+      "options": [
+        "padding",
+        "margin",
+        "border-spacing",
+        "gap"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 53,
+      "question": "In practical CSS usage, which selector targets an element with id=\"hero\"?",
+      "options": [
+        ".hero",
+        "#hero",
+        "hero",
+        "*hero"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 54,
+      "question": "In practical CSS usage, which property makes corners rounded?",
+      "options": [
+        "round",
+        "corner-radius",
+        "border-radius",
+        "radius"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 55,
+      "question": "In practical CSS usage, which property sets stacking order?",
+      "options": [
+        "depth",
+        "z-index",
+        "layer",
+        "stack"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 56,
+      "question": "In practical CSS usage, which media query feature is used for viewport width?",
+      "options": [
+        "screen-width",
+        "device",
+        "width",
+        "viewport"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 57,
+      "question": "Within CSS, which property changes text color?",
+      "options": [
+        "font-color",
+        "text-color",
+        "color",
+        "foreground"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 58,
+      "question": "Within CSS, which layout model is one-dimensional?",
+      "options": [
+        "grid",
+        "flexbox",
+        "table",
+        "float"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 59,
+      "question": "Within CSS, which unit is relative to root font size?",
+      "options": [
+        "em",
+        "rem",
+        "px",
+        "%"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 60,
+      "question": "Within CSS, which property controls element spacing outside border?",
+      "options": [
+        "padding",
+        "margin",
+        "border-spacing",
+        "gap"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 61,
+      "question": "Within CSS, which selector targets an element with id=\"hero\"?",
+      "options": [
+        ".hero",
+        "#hero",
+        "hero",
+        "*hero"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 62,
+      "question": "Within CSS, which property makes corners rounded?",
+      "options": [
+        "round",
+        "corner-radius",
+        "border-radius",
+        "radius"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 63,
+      "question": "Within CSS, which property sets stacking order?",
+      "options": [
+        "depth",
+        "z-index",
+        "layer",
+        "stack"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 64,
+      "question": "Within CSS, which media query feature is used for viewport width?",
+      "options": [
+        "screen-width",
+        "device",
+        "width",
+        "viewport"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 65,
+      "question": "For CSS developers, which property changes text color?",
+      "options": [
+        "font-color",
+        "text-color",
+        "color",
+        "foreground"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 66,
+      "question": "For CSS developers, which layout model is one-dimensional?",
+      "options": [
+        "grid",
+        "flexbox",
+        "table",
+        "float"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 67,
+      "question": "For CSS developers, which unit is relative to root font size?",
+      "options": [
+        "em",
+        "rem",
+        "px",
+        "%"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 68,
+      "question": "For CSS developers, which property controls element spacing outside border?",
+      "options": [
+        "padding",
+        "margin",
+        "border-spacing",
+        "gap"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 69,
+      "question": "For CSS developers, which selector targets an element with id=\"hero\"?",
+      "options": [
+        ".hero",
+        "#hero",
+        "hero",
+        "*hero"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 70,
+      "question": "For CSS developers, which property makes corners rounded?",
+      "options": [
+        "round",
+        "corner-radius",
+        "border-radius",
+        "radius"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 71,
+      "question": "For CSS developers, which property sets stacking order?",
+      "options": [
+        "depth",
+        "z-index",
+        "layer",
+        "stack"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 72,
+      "question": "For CSS developers, which media query feature is used for viewport width?",
+      "options": [
+        "screen-width",
+        "device",
+        "width",
+        "viewport"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 73,
+      "question": "In day-to-day CSS work, which property changes text color?",
+      "options": [
+        "font-color",
+        "text-color",
+        "color",
+        "foreground"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 74,
+      "question": "In day-to-day CSS work, which layout model is one-dimensional?",
+      "options": [
+        "grid",
+        "flexbox",
+        "table",
+        "float"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 75,
+      "question": "In day-to-day CSS work, which unit is relative to root font size?",
+      "options": [
+        "em",
+        "rem",
+        "px",
+        "%"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 76,
+      "question": "In day-to-day CSS work, which property controls element spacing outside border?",
+      "options": [
+        "padding",
+        "margin",
+        "border-spacing",
+        "gap"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 77,
+      "question": "In day-to-day CSS work, which selector targets an element with id=\"hero\"?",
+      "options": [
+        ".hero",
+        "#hero",
+        "hero",
+        "*hero"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 78,
+      "question": "In day-to-day CSS work, which property makes corners rounded?",
+      "options": [
+        "round",
+        "corner-radius",
+        "border-radius",
+        "radius"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 79,
+      "question": "In day-to-day CSS work, which property sets stacking order?",
+      "options": [
+        "depth",
+        "z-index",
+        "layer",
+        "stack"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 80,
+      "question": "In day-to-day CSS work, which media query feature is used for viewport width?",
+      "options": [
+        "screen-width",
+        "device",
+        "width",
+        "viewport"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 81,
+      "question": "Using CSS, which property changes text color?",
+      "options": [
+        "font-color",
+        "text-color",
+        "color",
+        "foreground"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 82,
+      "question": "Using CSS, which layout model is one-dimensional?",
+      "options": [
+        "grid",
+        "flexbox",
+        "table",
+        "float"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 83,
+      "question": "Using CSS, which unit is relative to root font size?",
+      "options": [
+        "em",
+        "rem",
+        "px",
+        "%"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 84,
+      "question": "Using CSS, which property controls element spacing outside border?",
+      "options": [
+        "padding",
+        "margin",
+        "border-spacing",
+        "gap"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 85,
+      "question": "Using CSS, which selector targets an element with id=\"hero\"?",
+      "options": [
+        ".hero",
+        "#hero",
+        "hero",
+        "*hero"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 86,
+      "question": "Using CSS, which property makes corners rounded?",
+      "options": [
+        "round",
+        "corner-radius",
+        "border-radius",
+        "radius"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 87,
+      "question": "Using CSS, which property sets stacking order?",
+      "options": [
+        "depth",
+        "z-index",
+        "layer",
+        "stack"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 88,
+      "question": "Using CSS, which media query feature is used for viewport width?",
+      "options": [
+        "screen-width",
+        "device",
+        "width",
+        "viewport"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 89,
+      "question": "In CSS practice, which property changes text color?",
+      "options": [
+        "font-color",
+        "text-color",
+        "color",
+        "foreground"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 90,
+      "question": "In CSS practice, which layout model is one-dimensional?",
+      "options": [
+        "grid",
+        "flexbox",
+        "table",
+        "float"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 91,
+      "question": "In CSS practice, which unit is relative to root font size?",
+      "options": [
+        "em",
+        "rem",
+        "px",
+        "%"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 92,
+      "question": "In CSS practice, which property controls element spacing outside border?",
+      "options": [
+        "padding",
+        "margin",
+        "border-spacing",
+        "gap"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 93,
+      "question": "In CSS practice, which selector targets an element with id=\"hero\"?",
+      "options": [
+        ".hero",
+        "#hero",
+        "hero",
+        "*hero"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 94,
+      "question": "In CSS practice, which property makes corners rounded?",
+      "options": [
+        "round",
+        "corner-radius",
+        "border-radius",
+        "radius"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 95,
+      "question": "In CSS practice, which property sets stacking order?",
+      "options": [
+        "depth",
+        "z-index",
+        "layer",
+        "stack"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 96,
+      "question": "In CSS practice, which media query feature is used for viewport width?",
+      "options": [
+        "screen-width",
+        "device",
+        "width",
+        "viewport"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 97,
+      "question": "With CSS, which property changes text color?",
+      "options": [
+        "font-color",
+        "text-color",
+        "color",
+        "foreground"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 98,
+      "question": "With CSS, which layout model is one-dimensional?",
+      "options": [
+        "grid",
+        "flexbox",
+        "table",
+        "float"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 99,
+      "question": "With CSS, which unit is relative to root font size?",
+      "options": [
+        "em",
+        "rem",
+        "px",
+        "%"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 100,
+      "question": "With CSS, which property controls element spacing outside border?",
+      "options": [
+        "padding",
+        "margin",
+        "border-spacing",
+        "gap"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 101,
+      "question": "Which description best matches \"Specificity\" in CSS?",
+      "options": [
+        "A one-dimensional layout model for rows or columns.",
+        "A two-dimensional layout system for rows and columns.",
+        "A conditional rule that applies styles for specific device conditions.",
+        "The priority system browsers use to resolve conflicting selectors."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 102,
+      "question": "In CSS, \"Specificity\" is mainly used for what?",
+      "options": [
+        "A conditional rule that applies styles for specific device conditions.",
+        "A one-dimensional layout model for rows or columns.",
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A two-dimensional layout system for rows and columns."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 103,
+      "question": "What is the primary purpose of \"Specificity\" in CSS?",
+      "options": [
+        "A two-dimensional layout system for rows and columns.",
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A conditional rule that applies styles for specific device conditions.",
+        "A one-dimensional layout model for rows or columns."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 104,
+      "question": "Choose the most accurate statement about \"Specificity\" in CSS?",
+      "options": [
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A one-dimensional layout model for rows or columns.",
+        "A two-dimensional layout system for rows and columns.",
+        "A conditional rule that applies styles for specific device conditions."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 105,
+      "question": "Which option correctly explains \"Specificity\" for CSS developers?",
+      "options": [
+        "A two-dimensional layout system for rows and columns.",
+        "A conditional rule that applies styles for specific device conditions.",
+        "A one-dimensional layout model for rows or columns.",
+        "The priority system browsers use to resolve conflicting selectors."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 106,
+      "question": "In practical CSS code, when would you use \"Specificity\"?",
+      "options": [
+        "A one-dimensional layout model for rows or columns.",
+        "A two-dimensional layout system for rows and columns.",
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A conditional rule that applies styles for specific device conditions."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 107,
+      "question": "What does \"Specificity\" represent?",
+      "options": [
+        "A conditional rule that applies styles for specific device conditions.",
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A one-dimensional layout model for rows or columns.",
+        "A two-dimensional layout system for rows and columns."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 108,
+      "question": "Identify the correct meaning of \"Specificity\" in CSS?",
+      "options": [
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A two-dimensional layout system for rows and columns.",
+        "A conditional rule that applies styles for specific device conditions.",
+        "A one-dimensional layout model for rows or columns."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 109,
+      "question": "Which definition of \"Specificity\" is correct in CSS?",
+      "options": [
+        "A conditional rule that applies styles for specific device conditions.",
+        "A one-dimensional layout model for rows or columns.",
+        "A two-dimensional layout system for rows and columns.",
+        "The priority system browsers use to resolve conflicting selectors."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 110,
+      "question": "For CSS, \"Specificity\" is best described as:?",
+      "options": [
+        "A two-dimensional layout system for rows and columns.",
+        "A conditional rule that applies styles for specific device conditions.",
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A one-dimensional layout model for rows or columns."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 111,
+      "question": "Which description best matches \"Flexbox\" in CSS?",
+      "options": [
+        "The content, padding, border, and margin layout structure.",
+        "A one-dimensional layout model for rows or columns.",
+        "A two-dimensional layout system for rows and columns.",
+        "A conditional rule that applies styles for specific device conditions."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 112,
+      "question": "In CSS, \"Flexbox\" is mainly used for what?",
+      "options": [
+        "A one-dimensional layout model for rows or columns.",
+        "A conditional rule that applies styles for specific device conditions.",
+        "The content, padding, border, and margin layout structure.",
+        "A two-dimensional layout system for rows and columns."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 113,
+      "question": "What is the primary purpose of \"Flexbox\" in CSS?",
+      "options": [
+        "The content, padding, border, and margin layout structure.",
+        "A two-dimensional layout system for rows and columns.",
+        "A conditional rule that applies styles for specific device conditions.",
+        "A one-dimensional layout model for rows or columns."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 114,
+      "question": "Choose the most accurate statement about \"Flexbox\" in CSS?",
+      "options": [
+        "A conditional rule that applies styles for specific device conditions.",
+        "The content, padding, border, and margin layout structure.",
+        "A one-dimensional layout model for rows or columns.",
+        "A two-dimensional layout system for rows and columns."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 115,
+      "question": "Which option correctly explains \"Flexbox\" for CSS developers?",
+      "options": [
+        "A two-dimensional layout system for rows and columns.",
+        "A one-dimensional layout model for rows or columns.",
+        "A conditional rule that applies styles for specific device conditions.",
+        "The content, padding, border, and margin layout structure."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 116,
+      "question": "In practical CSS code, when would you use \"Flexbox\"?",
+      "options": [
+        "A one-dimensional layout model for rows or columns.",
+        "The content, padding, border, and margin layout structure.",
+        "A two-dimensional layout system for rows and columns.",
+        "A conditional rule that applies styles for specific device conditions."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 117,
+      "question": "What does \"Flexbox\" represent?",
+      "options": [
+        "A two-dimensional layout system for rows and columns.",
+        "A conditional rule that applies styles for specific device conditions.",
+        "The content, padding, border, and margin layout structure.",
+        "A one-dimensional layout model for rows or columns."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 118,
+      "question": "Identify the correct meaning of \"Flexbox\" in CSS?",
+      "options": [
+        "The content, padding, border, and margin layout structure.",
+        "A two-dimensional layout system for rows and columns.",
+        "A one-dimensional layout model for rows or columns.",
+        "A conditional rule that applies styles for specific device conditions."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 119,
+      "question": "Which definition of \"Flexbox\" is correct in CSS?",
+      "options": [
+        "A conditional rule that applies styles for specific device conditions.",
+        "A one-dimensional layout model for rows or columns.",
+        "The content, padding, border, and margin layout structure.",
+        "A two-dimensional layout system for rows and columns."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 120,
+      "question": "For CSS, \"Flexbox\" is best described as:?",
+      "options": [
+        "A one-dimensional layout model for rows or columns.",
+        "A two-dimensional layout system for rows and columns.",
+        "A conditional rule that applies styles for specific device conditions.",
+        "The content, padding, border, and margin layout structure."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 121,
+      "question": "Which description best matches \"Grid\" in CSS?",
+      "options": [
+        "A conditional rule that applies styles for specific device conditions.",
+        "The content, padding, border, and margin layout structure.",
+        "A property controlling stacking order of positioned elements.",
+        "A two-dimensional layout system for rows and columns."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 122,
+      "question": "In CSS, \"Grid\" is mainly used for what?",
+      "options": [
+        "A property controlling stacking order of positioned elements.",
+        "A conditional rule that applies styles for specific device conditions.",
+        "A two-dimensional layout system for rows and columns.",
+        "The content, padding, border, and margin layout structure."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 123,
+      "question": "What is the primary purpose of \"Grid\" in CSS?",
+      "options": [
+        "The content, padding, border, and margin layout structure.",
+        "A two-dimensional layout system for rows and columns.",
+        "A property controlling stacking order of positioned elements.",
+        "A conditional rule that applies styles for specific device conditions."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 124,
+      "question": "Choose the most accurate statement about \"Grid\" in CSS?",
+      "options": [
+        "A two-dimensional layout system for rows and columns.",
+        "A conditional rule that applies styles for specific device conditions.",
+        "The content, padding, border, and margin layout structure.",
+        "A property controlling stacking order of positioned elements."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 125,
+      "question": "Which option correctly explains \"Grid\" for CSS developers?",
+      "options": [
+        "The content, padding, border, and margin layout structure.",
+        "A property controlling stacking order of positioned elements.",
+        "A conditional rule that applies styles for specific device conditions.",
+        "A two-dimensional layout system for rows and columns."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 126,
+      "question": "In practical CSS code, when would you use \"Grid\"?",
+      "options": [
+        "A conditional rule that applies styles for specific device conditions.",
+        "The content, padding, border, and margin layout structure.",
+        "A two-dimensional layout system for rows and columns.",
+        "A property controlling stacking order of positioned elements."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 127,
+      "question": "What does \"Grid\" represent?",
+      "options": [
+        "A property controlling stacking order of positioned elements.",
+        "A two-dimensional layout system for rows and columns.",
+        "A conditional rule that applies styles for specific device conditions.",
+        "The content, padding, border, and margin layout structure."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 128,
+      "question": "Identify the correct meaning of \"Grid\" in CSS?",
+      "options": [
+        "A two-dimensional layout system for rows and columns.",
+        "The content, padding, border, and margin layout structure.",
+        "A property controlling stacking order of positioned elements.",
+        "A conditional rule that applies styles for specific device conditions."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 129,
+      "question": "Which definition of \"Grid\" is correct in CSS?",
+      "options": [
+        "A property controlling stacking order of positioned elements.",
+        "A conditional rule that applies styles for specific device conditions.",
+        "The content, padding, border, and margin layout structure.",
+        "A two-dimensional layout system for rows and columns."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 130,
+      "question": "For CSS, \"Grid\" is best described as:?",
+      "options": [
+        "The content, padding, border, and margin layout structure.",
+        "A property controlling stacking order of positioned elements.",
+        "A two-dimensional layout system for rows and columns.",
+        "A conditional rule that applies styles for specific device conditions."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 131,
+      "question": "Which description best matches \"Media query\" in CSS?",
+      "options": [
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "A conditional rule that applies styles for specific device conditions.",
+        "The content, padding, border, and margin layout structure.",
+        "A property controlling stacking order of positioned elements."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 132,
+      "question": "In CSS, \"Media query\" is mainly used for what?",
+      "options": [
+        "A conditional rule that applies styles for specific device conditions.",
+        "A property controlling stacking order of positioned elements.",
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "The content, padding, border, and margin layout structure."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 133,
+      "question": "What is the primary purpose of \"Media query\" in CSS?",
+      "options": [
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "The content, padding, border, and margin layout structure.",
+        "A property controlling stacking order of positioned elements.",
+        "A conditional rule that applies styles for specific device conditions."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 134,
+      "question": "Choose the most accurate statement about \"Media query\" in CSS?",
+      "options": [
+        "A property controlling stacking order of positioned elements.",
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "A conditional rule that applies styles for specific device conditions.",
+        "The content, padding, border, and margin layout structure."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 135,
+      "question": "Which option correctly explains \"Media query\" for CSS developers?",
+      "options": [
+        "The content, padding, border, and margin layout structure.",
+        "A conditional rule that applies styles for specific device conditions.",
+        "A property controlling stacking order of positioned elements.",
+        "A positioning mode relative to the nearest positioned ancestor."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 136,
+      "question": "In practical CSS code, when would you use \"Media query\"?",
+      "options": [
+        "A conditional rule that applies styles for specific device conditions.",
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "The content, padding, border, and margin layout structure.",
+        "A property controlling stacking order of positioned elements."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 137,
+      "question": "What does \"Media query\" represent?",
+      "options": [
+        "The content, padding, border, and margin layout structure.",
+        "A property controlling stacking order of positioned elements.",
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "A conditional rule that applies styles for specific device conditions."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 138,
+      "question": "Identify the correct meaning of \"Media query\" in CSS?",
+      "options": [
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "The content, padding, border, and margin layout structure.",
+        "A conditional rule that applies styles for specific device conditions.",
+        "A property controlling stacking order of positioned elements."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 139,
+      "question": "Which definition of \"Media query\" is correct in CSS?",
+      "options": [
+        "A property controlling stacking order of positioned elements.",
+        "A conditional rule that applies styles for specific device conditions.",
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "The content, padding, border, and margin layout structure."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 140,
+      "question": "For CSS, \"Media query\" is best described as:?",
+      "options": [
+        "A conditional rule that applies styles for specific device conditions.",
+        "The content, padding, border, and margin layout structure.",
+        "A property controlling stacking order of positioned elements.",
+        "A positioning mode relative to the nearest positioned ancestor."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 141,
+      "question": "Which description best matches \"Box model\" in CSS?",
+      "options": [
+        "A property controlling stacking order of positioned elements.",
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "The content, padding, border, and margin layout structure."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 142,
+      "question": "In CSS, \"Box model\" is mainly used for what?",
+      "options": [
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "A property controlling stacking order of positioned elements.",
+        "The content, padding, border, and margin layout structure.",
+        "A positioning mode relative to the nearest positioned ancestor."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 143,
+      "question": "What is the primary purpose of \"Box model\" in CSS?",
+      "options": [
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "The content, padding, border, and margin layout structure.",
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "A property controlling stacking order of positioned elements."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 144,
+      "question": "Choose the most accurate statement about \"Box model\" in CSS?",
+      "options": [
+        "The content, padding, border, and margin layout structure.",
+        "A property controlling stacking order of positioned elements.",
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "A pseudo-class matching elements when a pointing device hovers them."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 145,
+      "question": "Which option correctly explains \"Box model\" for CSS developers?",
+      "options": [
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "A property controlling stacking order of positioned elements.",
+        "The content, padding, border, and margin layout structure."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 146,
+      "question": "In practical CSS code, when would you use \"Box model\"?",
+      "options": [
+        "A property controlling stacking order of positioned elements.",
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "The content, padding, border, and margin layout structure.",
+        "A pseudo-class matching elements when a pointing device hovers them."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 147,
+      "question": "What does \"Box model\" represent?",
+      "options": [
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "The content, padding, border, and margin layout structure.",
+        "A property controlling stacking order of positioned elements.",
+        "A positioning mode relative to the nearest positioned ancestor."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 148,
+      "question": "Identify the correct meaning of \"Box model\" in CSS?",
+      "options": [
+        "The content, padding, border, and margin layout structure.",
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "A property controlling stacking order of positioned elements."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 149,
+      "question": "Which definition of \"Box model\" is correct in CSS?",
+      "options": [
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "A property controlling stacking order of positioned elements.",
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "The content, padding, border, and margin layout structure."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 150,
+      "question": "For CSS, \"Box model\" is best described as:?",
+      "options": [
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "The content, padding, border, and margin layout structure.",
+        "A property controlling stacking order of positioned elements."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 151,
+      "question": "Which description best matches \"z-index\" in CSS?",
+      "options": [
+        "A length unit relative to the root element font size.",
+        "A property controlling stacking order of positioned elements.",
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "A pseudo-class matching elements when a pointing device hovers them."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 152,
+      "question": "In CSS, \"z-index\" is mainly used for what?",
+      "options": [
+        "A property controlling stacking order of positioned elements.",
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "A length unit relative to the root element font size.",
+        "A positioning mode relative to the nearest positioned ancestor."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 153,
+      "question": "What is the primary purpose of \"z-index\" in CSS?",
+      "options": [
+        "A length unit relative to the root element font size.",
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "A property controlling stacking order of positioned elements."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 154,
+      "question": "Choose the most accurate statement about \"z-index\" in CSS?",
+      "options": [
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "A length unit relative to the root element font size.",
+        "A property controlling stacking order of positioned elements.",
+        "A positioning mode relative to the nearest positioned ancestor."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 155,
+      "question": "Which option correctly explains \"z-index\" for CSS developers?",
+      "options": [
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "A property controlling stacking order of positioned elements.",
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "A length unit relative to the root element font size."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 156,
+      "question": "In practical CSS code, when would you use \"z-index\"?",
+      "options": [
+        "A property controlling stacking order of positioned elements.",
+        "A length unit relative to the root element font size.",
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "A pseudo-class matching elements when a pointing device hovers them."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 157,
+      "question": "What does \"z-index\" represent?",
+      "options": [
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "A length unit relative to the root element font size.",
+        "A property controlling stacking order of positioned elements."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 158,
+      "question": "Identify the correct meaning of \"z-index\" in CSS?",
+      "options": [
+        "A length unit relative to the root element font size.",
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "A property controlling stacking order of positioned elements.",
+        "A pseudo-class matching elements when a pointing device hovers them."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 159,
+      "question": "Which definition of \"z-index\" is correct in CSS?",
+      "options": [
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "A property controlling stacking order of positioned elements.",
+        "A length unit relative to the root element font size.",
+        "A positioning mode relative to the nearest positioned ancestor."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 160,
+      "question": "For CSS, \"z-index\" is best described as:?",
+      "options": [
+        "A property controlling stacking order of positioned elements.",
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "A length unit relative to the root element font size."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 161,
+      "question": "Which description best matches \"position: absolute\" in CSS?",
+      "options": [
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "A length unit relative to the root element font size.",
+        "A custom property defined with --name and reused via var().",
+        "A positioning mode relative to the nearest positioned ancestor."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 162,
+      "question": "In CSS, \"position: absolute\" is mainly used for what?",
+      "options": [
+        "A custom property defined with --name and reused via var().",
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "A length unit relative to the root element font size."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 163,
+      "question": "What is the primary purpose of \"position: absolute\" in CSS?",
+      "options": [
+        "A length unit relative to the root element font size.",
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "A custom property defined with --name and reused via var().",
+        "A pseudo-class matching elements when a pointing device hovers them."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 164,
+      "question": "Choose the most accurate statement about \"position: absolute\" in CSS?",
+      "options": [
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "A length unit relative to the root element font size.",
+        "A custom property defined with --name and reused via var()."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 165,
+      "question": "Which option correctly explains \"position: absolute\" for CSS developers?",
+      "options": [
+        "A length unit relative to the root element font size.",
+        "A custom property defined with --name and reused via var().",
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "A positioning mode relative to the nearest positioned ancestor."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 166,
+      "question": "In practical CSS code, when would you use \"position: absolute\"?",
+      "options": [
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "A length unit relative to the root element font size.",
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "A custom property defined with --name and reused via var()."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 167,
+      "question": "What does \"position: absolute\" represent?",
+      "options": [
+        "A custom property defined with --name and reused via var().",
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "A length unit relative to the root element font size."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 168,
+      "question": "Identify the correct meaning of \"position: absolute\" in CSS?",
+      "options": [
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "A length unit relative to the root element font size.",
+        "A custom property defined with --name and reused via var().",
+        "A pseudo-class matching elements when a pointing device hovers them."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 169,
+      "question": "Which definition of \"position: absolute\" is correct in CSS?",
+      "options": [
+        "A custom property defined with --name and reused via var().",
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "A length unit relative to the root element font size.",
+        "A positioning mode relative to the nearest positioned ancestor."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 170,
+      "question": "For CSS, \"position: absolute\" is best described as:?",
+      "options": [
+        "A length unit relative to the root element font size.",
+        "A custom property defined with --name and reused via var().",
+        "A positioning mode relative to the nearest positioned ancestor.",
+        "A pseudo-class matching elements when a pointing device hovers them."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 171,
+      "question": "Which description best matches \":hover\" in CSS?",
+      "options": [
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "A length unit relative to the root element font size.",
+        "A custom property defined with --name and reused via var()."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 172,
+      "question": "In CSS, \":hover\" is mainly used for what?",
+      "options": [
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "A custom property defined with --name and reused via var().",
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A length unit relative to the root element font size."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 173,
+      "question": "What is the primary purpose of \":hover\" in CSS?",
+      "options": [
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A length unit relative to the root element font size.",
+        "A custom property defined with --name and reused via var().",
+        "A pseudo-class matching elements when a pointing device hovers them."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 174,
+      "question": "Choose the most accurate statement about \":hover\" in CSS?",
+      "options": [
+        "A custom property defined with --name and reused via var().",
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "A length unit relative to the root element font size."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 175,
+      "question": "Which option correctly explains \":hover\" for CSS developers?",
+      "options": [
+        "A length unit relative to the root element font size.",
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "A custom property defined with --name and reused via var().",
+        "The priority system browsers use to resolve conflicting selectors."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 176,
+      "question": "In practical CSS code, when would you use \":hover\"?",
+      "options": [
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A length unit relative to the root element font size.",
+        "A custom property defined with --name and reused via var()."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 177,
+      "question": "What does \":hover\" represent?",
+      "options": [
+        "A length unit relative to the root element font size.",
+        "A custom property defined with --name and reused via var().",
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A pseudo-class matching elements when a pointing device hovers them."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 178,
+      "question": "Identify the correct meaning of \":hover\" in CSS?",
+      "options": [
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A length unit relative to the root element font size.",
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "A custom property defined with --name and reused via var()."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 179,
+      "question": "Which definition of \":hover\" is correct in CSS?",
+      "options": [
+        "A custom property defined with --name and reused via var().",
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A length unit relative to the root element font size."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 180,
+      "question": "For CSS, \":hover\" is best described as:?",
+      "options": [
+        "A pseudo-class matching elements when a pointing device hovers them.",
+        "A length unit relative to the root element font size.",
+        "A custom property defined with --name and reused via var().",
+        "The priority system browsers use to resolve conflicting selectors."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 181,
+      "question": "Which description best matches \"rem unit\" in CSS?",
+      "options": [
+        "A custom property defined with --name and reused via var().",
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A one-dimensional layout model for rows or columns.",
+        "A length unit relative to the root element font size."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 182,
+      "question": "In CSS, \"rem unit\" is mainly used for what?",
+      "options": [
+        "A one-dimensional layout model for rows or columns.",
+        "A custom property defined with --name and reused via var().",
+        "A length unit relative to the root element font size.",
+        "The priority system browsers use to resolve conflicting selectors."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 183,
+      "question": "What is the primary purpose of \"rem unit\" in CSS?",
+      "options": [
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A length unit relative to the root element font size.",
+        "A one-dimensional layout model for rows or columns.",
+        "A custom property defined with --name and reused via var()."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 184,
+      "question": "Choose the most accurate statement about \"rem unit\" in CSS?",
+      "options": [
+        "A length unit relative to the root element font size.",
+        "A custom property defined with --name and reused via var().",
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A one-dimensional layout model for rows or columns."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 185,
+      "question": "Which option correctly explains \"rem unit\" for CSS developers?",
+      "options": [
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A one-dimensional layout model for rows or columns.",
+        "A custom property defined with --name and reused via var().",
+        "A length unit relative to the root element font size."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 186,
+      "question": "In practical CSS code, when would you use \"rem unit\"?",
+      "options": [
+        "A custom property defined with --name and reused via var().",
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A length unit relative to the root element font size.",
+        "A one-dimensional layout model for rows or columns."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 187,
+      "question": "What does \"rem unit\" represent?",
+      "options": [
+        "A one-dimensional layout model for rows or columns.",
+        "A length unit relative to the root element font size.",
+        "A custom property defined with --name and reused via var().",
+        "The priority system browsers use to resolve conflicting selectors."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 188,
+      "question": "Identify the correct meaning of \"rem unit\" in CSS?",
+      "options": [
+        "A length unit relative to the root element font size.",
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A one-dimensional layout model for rows or columns.",
+        "A custom property defined with --name and reused via var()."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 189,
+      "question": "Which definition of \"rem unit\" is correct in CSS?",
+      "options": [
+        "A one-dimensional layout model for rows or columns.",
+        "A custom property defined with --name and reused via var().",
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A length unit relative to the root element font size."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 190,
+      "question": "For CSS, \"rem unit\" is best described as:?",
+      "options": [
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A one-dimensional layout model for rows or columns.",
+        "A length unit relative to the root element font size.",
+        "A custom property defined with --name and reused via var()."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 191,
+      "question": "Which description best matches \"CSS variable\" in CSS?",
+      "options": [
+        "A two-dimensional layout system for rows and columns.",
+        "A custom property defined with --name and reused via var().",
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A one-dimensional layout model for rows or columns."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 192,
+      "question": "In CSS, \"CSS variable\" is mainly used for what?",
+      "options": [
+        "A custom property defined with --name and reused via var().",
+        "A one-dimensional layout model for rows or columns.",
+        "A two-dimensional layout system for rows and columns.",
+        "The priority system browsers use to resolve conflicting selectors."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 193,
+      "question": "What is the primary purpose of \"CSS variable\" in CSS?",
+      "options": [
+        "A two-dimensional layout system for rows and columns.",
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A one-dimensional layout model for rows or columns.",
+        "A custom property defined with --name and reused via var()."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 194,
+      "question": "Choose the most accurate statement about \"CSS variable\" in CSS?",
+      "options": [
+        "A one-dimensional layout model for rows or columns.",
+        "A two-dimensional layout system for rows and columns.",
+        "A custom property defined with --name and reused via var().",
+        "The priority system browsers use to resolve conflicting selectors."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 195,
+      "question": "Which option correctly explains \"CSS variable\" for CSS developers?",
+      "options": [
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A custom property defined with --name and reused via var().",
+        "A one-dimensional layout model for rows or columns.",
+        "A two-dimensional layout system for rows and columns."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 196,
+      "question": "In practical CSS code, when would you use \"CSS variable\"?",
+      "options": [
+        "A custom property defined with --name and reused via var().",
+        "A two-dimensional layout system for rows and columns.",
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A one-dimensional layout model for rows or columns."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 197,
+      "question": "What does \"CSS variable\" represent?",
+      "options": [
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A one-dimensional layout model for rows or columns.",
+        "A two-dimensional layout system for rows and columns.",
+        "A custom property defined with --name and reused via var()."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 198,
+      "question": "Identify the correct meaning of \"CSS variable\" in CSS?",
+      "options": [
+        "A two-dimensional layout system for rows and columns.",
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A custom property defined with --name and reused via var().",
+        "A one-dimensional layout model for rows or columns."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 199,
+      "question": "Which definition of \"CSS variable\" is correct in CSS?",
+      "options": [
+        "A one-dimensional layout model for rows or columns.",
+        "A custom property defined with --name and reused via var().",
+        "A two-dimensional layout system for rows and columns.",
+        "The priority system browsers use to resolve conflicting selectors."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 200,
+      "question": "For CSS, \"CSS variable\" is best described as:?",
+      "options": [
+        "A custom property defined with --name and reused via var().",
+        "The priority system browsers use to resolve conflicting selectors.",
+        "A one-dimensional layout model for rows or columns.",
+        "A two-dimensional layout system for rows and columns."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 201,
+      "question": "What does this rule change?\n```css\nh1 { color: blue; }\n```",
+      "options": [
+        "Background color",
+        "Text color",
+        "Font size",
+        "Margin"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 202,
+      "question": "Which layout model is enabled?\n```css\n.card { display: flex; }\n```",
+      "options": [
+        "Grid",
+        "Block",
+        "Flexbox",
+        "Table"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 203,
+      "question": "What spacing is controlled?\n```css\n#hero { margin: 16px; }\n```",
+      "options": [
+        "Inside border",
+        "Outside border",
+        "Text spacing",
+        "Line height"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 204,
+      "question": "When does this style apply?\n```css\nbutton:hover { background: red; }\n```",
+      "options": [
+        "On click only",
+        "On page load",
+        "On hover",
+        "On focus only"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 205,
+      "question": "This defines what?\n```css\n:root { --brand: #2563eb; }\n```",
+      "options": [
+        "Keyframe",
+        "CSS variable",
+        "Animation",
+        "Media query"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 206,
+      "question": "In CSS, what does this rule change?\n```css\nh1 { color: blue; }\n```",
+      "options": [
+        "Background color",
+        "Text color",
+        "Font size",
+        "Margin"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 207,
+      "question": "In CSS, which layout model is enabled?\n```css\n.card { display: flex; }\n```",
+      "options": [
+        "Grid",
+        "Block",
+        "Flexbox",
+        "Table"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 208,
+      "question": "In CSS, what spacing is controlled?\n```css\n#hero { margin: 16px; }\n```",
+      "options": [
+        "Inside border",
+        "Outside border",
+        "Text spacing",
+        "Line height"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 209,
+      "question": "In CSS, when does this style apply?\n```css\nbutton:hover { background: red; }\n```",
+      "options": [
+        "On click only",
+        "On page load",
+        "On hover",
+        "On focus only"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 210,
+      "question": "In CSS, this defines what?\n```css\n:root { --brand: #2563eb; }\n```",
+      "options": [
+        "Keyframe",
+        "CSS variable",
+        "Animation",
+        "Media query"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 211,
+      "question": "For CSS, what does this rule change?\n```css\nh1 { color: blue; }\n```",
+      "options": [
+        "Background color",
+        "Text color",
+        "Font size",
+        "Margin"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 212,
+      "question": "For CSS, which layout model is enabled?\n```css\n.card { display: flex; }\n```",
+      "options": [
+        "Grid",
+        "Block",
+        "Flexbox",
+        "Table"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 213,
+      "question": "For CSS, what spacing is controlled?\n```css\n#hero { margin: 16px; }\n```",
+      "options": [
+        "Inside border",
+        "Outside border",
+        "Text spacing",
+        "Line height"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 214,
+      "question": "For CSS, when does this style apply?\n```css\nbutton:hover { background: red; }\n```",
+      "options": [
+        "On click only",
+        "On page load",
+        "On hover",
+        "On focus only"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 215,
+      "question": "For CSS, this defines what?\n```css\n:root { --brand: #2563eb; }\n```",
+      "options": [
+        "Keyframe",
+        "CSS variable",
+        "Animation",
+        "Media query"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 216,
+      "question": "When using CSS, what does this rule change?\n```css\nh1 { color: blue; }\n```",
+      "options": [
+        "Background color",
+        "Text color",
+        "Font size",
+        "Margin"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 217,
+      "question": "When using CSS, which layout model is enabled?\n```css\n.card { display: flex; }\n```",
+      "options": [
+        "Grid",
+        "Block",
+        "Flexbox",
+        "Table"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 218,
+      "question": "When using CSS, what spacing is controlled?\n```css\n#hero { margin: 16px; }\n```",
+      "options": [
+        "Inside border",
+        "Outside border",
+        "Text spacing",
+        "Line height"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 219,
+      "question": "When using CSS, when does this style apply?\n```css\nbutton:hover { background: red; }\n```",
+      "options": [
+        "On click only",
+        "On page load",
+        "On hover",
+        "On focus only"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 220,
+      "question": "When using CSS, this defines what?\n```css\n:root { --brand: #2563eb; }\n```",
+      "options": [
+        "Keyframe",
+        "CSS variable",
+        "Animation",
+        "Media query"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 221,
+      "question": "In a CSS query, what does this rule change?\n```css\nh1 { color: blue; }\n```",
+      "options": [
+        "Background color",
+        "Text color",
+        "Font size",
+        "Margin"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 222,
+      "question": "In a CSS query, which layout model is enabled?\n```css\n.card { display: flex; }\n```",
+      "options": [
+        "Grid",
+        "Block",
+        "Flexbox",
+        "Table"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 223,
+      "question": "In a CSS query, what spacing is controlled?\n```css\n#hero { margin: 16px; }\n```",
+      "options": [
+        "Inside border",
+        "Outside border",
+        "Text spacing",
+        "Line height"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 224,
+      "question": "In a CSS query, when does this style apply?\n```css\nbutton:hover { background: red; }\n```",
+      "options": [
+        "On click only",
+        "On page load",
+        "On hover",
+        "On focus only"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 225,
+      "question": "In a CSS query, this defines what?\n```css\n:root { --brand: #2563eb; }\n```",
+      "options": [
+        "Keyframe",
+        "CSS variable",
+        "Animation",
+        "Media query"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 226,
+      "question": "From a CSS perspective, what does this rule change?\n```css\nh1 { color: blue; }\n```",
+      "options": [
+        "Background color",
+        "Text color",
+        "Font size",
+        "Margin"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 227,
+      "question": "From a CSS perspective, which layout model is enabled?\n```css\n.card { display: flex; }\n```",
+      "options": [
+        "Grid",
+        "Block",
+        "Flexbox",
+        "Table"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 228,
+      "question": "From a CSS perspective, what spacing is controlled?\n```css\n#hero { margin: 16px; }\n```",
+      "options": [
+        "Inside border",
+        "Outside border",
+        "Text spacing",
+        "Line height"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 229,
+      "question": "From a CSS perspective, when does this style apply?\n```css\nbutton:hover { background: red; }\n```",
+      "options": [
+        "On click only",
+        "On page load",
+        "On hover",
+        "On focus only"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 230,
+      "question": "From a CSS perspective, this defines what?\n```css\n:root { --brand: #2563eb; }\n```",
+      "options": [
+        "Keyframe",
+        "CSS variable",
+        "Animation",
+        "Media query"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 231,
+      "question": "In practical CSS usage, what does this rule change?\n```css\nh1 { color: blue; }\n```",
+      "options": [
+        "Background color",
+        "Text color",
+        "Font size",
+        "Margin"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 232,
+      "question": "In practical CSS usage, which layout model is enabled?\n```css\n.card { display: flex; }\n```",
+      "options": [
+        "Grid",
+        "Block",
+        "Flexbox",
+        "Table"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 233,
+      "question": "In practical CSS usage, what spacing is controlled?\n```css\n#hero { margin: 16px; }\n```",
+      "options": [
+        "Inside border",
+        "Outside border",
+        "Text spacing",
+        "Line height"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 234,
+      "question": "In practical CSS usage, when does this style apply?\n```css\nbutton:hover { background: red; }\n```",
+      "options": [
+        "On click only",
+        "On page load",
+        "On hover",
+        "On focus only"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 235,
+      "question": "In practical CSS usage, this defines what?\n```css\n:root { --brand: #2563eb; }\n```",
+      "options": [
+        "Keyframe",
+        "CSS variable",
+        "Animation",
+        "Media query"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 236,
+      "question": "Within CSS, what does this rule change?\n```css\nh1 { color: blue; }\n```",
+      "options": [
+        "Background color",
+        "Text color",
+        "Font size",
+        "Margin"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 237,
+      "question": "Within CSS, which layout model is enabled?\n```css\n.card { display: flex; }\n```",
+      "options": [
+        "Grid",
+        "Block",
+        "Flexbox",
+        "Table"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 238,
+      "question": "Within CSS, what spacing is controlled?\n```css\n#hero { margin: 16px; }\n```",
+      "options": [
+        "Inside border",
+        "Outside border",
+        "Text spacing",
+        "Line height"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 239,
+      "question": "Within CSS, when does this style apply?\n```css\nbutton:hover { background: red; }\n```",
+      "options": [
+        "On click only",
+        "On page load",
+        "On hover",
+        "On focus only"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 240,
+      "question": "Within CSS, this defines what?\n```css\n:root { --brand: #2563eb; }\n```",
+      "options": [
+        "Keyframe",
+        "CSS variable",
+        "Animation",
+        "Media query"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 241,
+      "question": "For CSS developers, what does this rule change?\n```css\nh1 { color: blue; }\n```",
+      "options": [
+        "Background color",
+        "Text color",
+        "Font size",
+        "Margin"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 242,
+      "question": "For CSS developers, which layout model is enabled?\n```css\n.card { display: flex; }\n```",
+      "options": [
+        "Grid",
+        "Block",
+        "Flexbox",
+        "Table"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 243,
+      "question": "For CSS developers, what spacing is controlled?\n```css\n#hero { margin: 16px; }\n```",
+      "options": [
+        "Inside border",
+        "Outside border",
+        "Text spacing",
+        "Line height"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 244,
+      "question": "For CSS developers, when does this style apply?\n```css\nbutton:hover { background: red; }\n```",
+      "options": [
+        "On click only",
+        "On page load",
+        "On hover",
+        "On focus only"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 245,
+      "question": "For CSS developers, this defines what?\n```css\n:root { --brand: #2563eb; }\n```",
+      "options": [
+        "Keyframe",
+        "CSS variable",
+        "Animation",
+        "Media query"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 246,
+      "question": "In day-to-day CSS work, what does this rule change?\n```css\nh1 { color: blue; }\n```",
+      "options": [
+        "Background color",
+        "Text color",
+        "Font size",
+        "Margin"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 247,
+      "question": "In day-to-day CSS work, which layout model is enabled?\n```css\n.card { display: flex; }\n```",
+      "options": [
+        "Grid",
+        "Block",
+        "Flexbox",
+        "Table"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 248,
+      "question": "In day-to-day CSS work, what spacing is controlled?\n```css\n#hero { margin: 16px; }\n```",
+      "options": [
+        "Inside border",
+        "Outside border",
+        "Text spacing",
+        "Line height"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 249,
+      "question": "In day-to-day CSS work, when does this style apply?\n```css\nbutton:hover { background: red; }\n```",
+      "options": [
+        "On click only",
+        "On page load",
+        "On hover",
+        "On focus only"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 250,
+      "question": "In day-to-day CSS work, this defines what?\n```css\n:root { --brand: #2563eb; }\n```",
+      "options": [
+        "Keyframe",
+        "CSS variable",
+        "Animation",
+        "Media query"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 251,
+      "question": "What property is set?\n```css\n.title { font-size: 20px; }\n```",
+      "options": [
+        "color",
+        "font-size",
+        "margin",
+        "padding"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 252,
+      "question": "Which layout is enabled?\n```css\n.box { display: grid; }\n```",
+      "options": [
+        "Flexbox",
+        "Grid",
+        "Block",
+        "Inline"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 253,
+      "question": "Padding affects which area?\n```css\n#hero { padding: 12px; }\n```",
+      "options": [
+        "Outside border",
+        "Inside border",
+        "Text color",
+        "z-order"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 254,
+      "question": "When does this apply?\n```css\na:hover { text-decoration: underline; }\n```",
+      "options": [
+        "Click",
+        "Hover",
+        "Load",
+        "Focus only"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 255,
+      "question": "This defines what?\n```css\n:root { --main: #111827; }\n```",
+      "options": [
+        "Class",
+        "Variable",
+        "Keyframe",
+        "Media rule"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 256,
+      "question": "In CSS, what property is set?\n```css\n.title { font-size: 20px; }\n```",
+      "options": [
+        "color",
+        "font-size",
+        "margin",
+        "padding"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 257,
+      "question": "In CSS, which layout is enabled?\n```css\n.box { display: grid; }\n```",
+      "options": [
+        "Flexbox",
+        "Grid",
+        "Block",
+        "Inline"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 258,
+      "question": "In CSS, padding affects which area?\n```css\n#hero { padding: 12px; }\n```",
+      "options": [
+        "Outside border",
+        "Inside border",
+        "Text color",
+        "z-order"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 259,
+      "question": "In CSS, when does this apply?\n```css\na:hover { text-decoration: underline; }\n```",
+      "options": [
+        "Click",
+        "Hover",
+        "Load",
+        "Focus only"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 260,
+      "question": "In CSS, this defines what?\n```css\n:root { --main: #111827; }\n```",
+      "options": [
+        "Class",
+        "Variable",
+        "Keyframe",
+        "Media rule"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 261,
+      "question": "For CSS, what property is set?\n```css\n.title { font-size: 20px; }\n```",
+      "options": [
+        "color",
+        "font-size",
+        "margin",
+        "padding"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 262,
+      "question": "For CSS, which layout is enabled?\n```css\n.box { display: grid; }\n```",
+      "options": [
+        "Flexbox",
+        "Grid",
+        "Block",
+        "Inline"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 263,
+      "question": "For CSS, padding affects which area?\n```css\n#hero { padding: 12px; }\n```",
+      "options": [
+        "Outside border",
+        "Inside border",
+        "Text color",
+        "z-order"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 264,
+      "question": "For CSS, when does this apply?\n```css\na:hover { text-decoration: underline; }\n```",
+      "options": [
+        "Click",
+        "Hover",
+        "Load",
+        "Focus only"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 265,
+      "question": "For CSS, this defines what?\n```css\n:root { --main: #111827; }\n```",
+      "options": [
+        "Class",
+        "Variable",
+        "Keyframe",
+        "Media rule"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 266,
+      "question": "When using CSS, what property is set?\n```css\n.title { font-size: 20px; }\n```",
+      "options": [
+        "color",
+        "font-size",
+        "margin",
+        "padding"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 267,
+      "question": "When using CSS, which layout is enabled?\n```css\n.box { display: grid; }\n```",
+      "options": [
+        "Flexbox",
+        "Grid",
+        "Block",
+        "Inline"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 268,
+      "question": "When using CSS, padding affects which area?\n```css\n#hero { padding: 12px; }\n```",
+      "options": [
+        "Outside border",
+        "Inside border",
+        "Text color",
+        "z-order"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 269,
+      "question": "When using CSS, when does this apply?\n```css\na:hover { text-decoration: underline; }\n```",
+      "options": [
+        "Click",
+        "Hover",
+        "Load",
+        "Focus only"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 270,
+      "question": "When using CSS, this defines what?\n```css\n:root { --main: #111827; }\n```",
+      "options": [
+        "Class",
+        "Variable",
+        "Keyframe",
+        "Media rule"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 271,
+      "question": "In a CSS query, what property is set?\n```css\n.title { font-size: 20px; }\n```",
+      "options": [
+        "color",
+        "font-size",
+        "margin",
+        "padding"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 272,
+      "question": "In a CSS query, which layout is enabled?\n```css\n.box { display: grid; }\n```",
+      "options": [
+        "Flexbox",
+        "Grid",
+        "Block",
+        "Inline"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 273,
+      "question": "In a CSS query, padding affects which area?\n```css\n#hero { padding: 12px; }\n```",
+      "options": [
+        "Outside border",
+        "Inside border",
+        "Text color",
+        "z-order"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 274,
+      "question": "In a CSS query, when does this apply?\n```css\na:hover { text-decoration: underline; }\n```",
+      "options": [
+        "Click",
+        "Hover",
+        "Load",
+        "Focus only"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 275,
+      "question": "In a CSS query, this defines what?\n```css\n:root { --main: #111827; }\n```",
+      "options": [
+        "Class",
+        "Variable",
+        "Keyframe",
+        "Media rule"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 276,
+      "question": "From a CSS perspective, what property is set?\n```css\n.title { font-size: 20px; }\n```",
+      "options": [
+        "color",
+        "font-size",
+        "margin",
+        "padding"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 277,
+      "question": "From a CSS perspective, which layout is enabled?\n```css\n.box { display: grid; }\n```",
+      "options": [
+        "Flexbox",
+        "Grid",
+        "Block",
+        "Inline"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 278,
+      "question": "From a CSS perspective, padding affects which area?\n```css\n#hero { padding: 12px; }\n```",
+      "options": [
+        "Outside border",
+        "Inside border",
+        "Text color",
+        "z-order"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 279,
+      "question": "From a CSS perspective, when does this apply?\n```css\na:hover { text-decoration: underline; }\n```",
+      "options": [
+        "Click",
+        "Hover",
+        "Load",
+        "Focus only"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 280,
+      "question": "From a CSS perspective, this defines what?\n```css\n:root { --main: #111827; }\n```",
+      "options": [
+        "Class",
+        "Variable",
+        "Keyframe",
+        "Media rule"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 281,
+      "question": "In practical CSS usage, what property is set?\n```css\n.title { font-size: 20px; }\n```",
+      "options": [
+        "color",
+        "font-size",
+        "margin",
+        "padding"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 282,
+      "question": "In practical CSS usage, which layout is enabled?\n```css\n.box { display: grid; }\n```",
+      "options": [
+        "Flexbox",
+        "Grid",
+        "Block",
+        "Inline"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 283,
+      "question": "In practical CSS usage, padding affects which area?\n```css\n#hero { padding: 12px; }\n```",
+      "options": [
+        "Outside border",
+        "Inside border",
+        "Text color",
+        "z-order"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 284,
+      "question": "In practical CSS usage, when does this apply?\n```css\na:hover { text-decoration: underline; }\n```",
+      "options": [
+        "Click",
+        "Hover",
+        "Load",
+        "Focus only"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 285,
+      "question": "In practical CSS usage, this defines what?\n```css\n:root { --main: #111827; }\n```",
+      "options": [
+        "Class",
+        "Variable",
+        "Keyframe",
+        "Media rule"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 286,
+      "question": "Within CSS, what property is set?\n```css\n.title { font-size: 20px; }\n```",
+      "options": [
+        "color",
+        "font-size",
+        "margin",
+        "padding"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 287,
+      "question": "Within CSS, which layout is enabled?\n```css\n.box { display: grid; }\n```",
+      "options": [
+        "Flexbox",
+        "Grid",
+        "Block",
+        "Inline"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 288,
+      "question": "Within CSS, padding affects which area?\n```css\n#hero { padding: 12px; }\n```",
+      "options": [
+        "Outside border",
+        "Inside border",
+        "Text color",
+        "z-order"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 289,
+      "question": "Within CSS, when does this apply?\n```css\na:hover { text-decoration: underline; }\n```",
+      "options": [
+        "Click",
+        "Hover",
+        "Load",
+        "Focus only"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 290,
+      "question": "Within CSS, this defines what?\n```css\n:root { --main: #111827; }\n```",
+      "options": [
+        "Class",
+        "Variable",
+        "Keyframe",
+        "Media rule"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 291,
+      "question": "For CSS developers, what property is set?\n```css\n.title { font-size: 20px; }\n```",
+      "options": [
+        "color",
+        "font-size",
+        "margin",
+        "padding"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 292,
+      "question": "For CSS developers, which layout is enabled?\n```css\n.box { display: grid; }\n```",
+      "options": [
+        "Flexbox",
+        "Grid",
+        "Block",
+        "Inline"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 293,
+      "question": "For CSS developers, padding affects which area?\n```css\n#hero { padding: 12px; }\n```",
+      "options": [
+        "Outside border",
+        "Inside border",
+        "Text color",
+        "z-order"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 294,
+      "question": "For CSS developers, when does this apply?\n```css\na:hover { text-decoration: underline; }\n```",
+      "options": [
+        "Click",
+        "Hover",
+        "Load",
+        "Focus only"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 295,
+      "question": "For CSS developers, this defines what?\n```css\n:root { --main: #111827; }\n```",
+      "options": [
+        "Class",
+        "Variable",
+        "Keyframe",
+        "Media rule"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 296,
+      "question": "In day-to-day CSS work, what property is set?\n```css\n.title { font-size: 20px; }\n```",
+      "options": [
+        "color",
+        "font-size",
+        "margin",
+        "padding"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 297,
+      "question": "In day-to-day CSS work, which layout is enabled?\n```css\n.box { display: grid; }\n```",
+      "options": [
+        "Flexbox",
+        "Grid",
+        "Block",
+        "Inline"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 298,
+      "question": "In day-to-day CSS work, padding affects which area?\n```css\n#hero { padding: 12px; }\n```",
+      "options": [
+        "Outside border",
+        "Inside border",
+        "Text color",
+        "z-order"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 299,
+      "question": "In day-to-day CSS work, when does this apply?\n```css\na:hover { text-decoration: underline; }\n```",
+      "options": [
+        "Click",
+        "Hover",
+        "Load",
+        "Focus only"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 300,
+      "question": "In day-to-day CSS work, this defines what?\n```css\n:root { --main: #111827; }\n```",
+      "options": [
+        "Class",
+        "Variable",
+        "Keyframe",
+        "Media rule"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 301,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-302 {\n  color: #1d4ed8;\n  margin: 6px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 302,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-304 {\n  color: #1d4ed8;\n  margin: 0px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 303,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-306 {\n  color: #1d4ed8;\n  margin: 2px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 304,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-308 {\n  color: #1d4ed8;\n  margin: 4px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 305,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-310 {\n  color: #1d4ed8;\n  margin: 6px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 306,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-312 {\n  color: #1d4ed8;\n  margin: 0px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 307,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-314 {\n  color: #1d4ed8;\n  margin: 2px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 308,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-316 {\n  color: #1d4ed8;\n  margin: 4px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 309,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-318 {\n  color: #1d4ed8;\n  margin: 6px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 310,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-320 {\n  color: #1d4ed8;\n  margin: 0px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 311,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-322 {\n  color: #1d4ed8;\n  margin: 2px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 312,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-324 {\n  color: #1d4ed8;\n  margin: 4px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 313,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-326 {\n  color: #1d4ed8;\n  margin: 6px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 314,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-328 {\n  color: #1d4ed8;\n  margin: 0px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 315,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-330 {\n  color: #1d4ed8;\n  margin: 2px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 316,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-332 {\n  color: #1d4ed8;\n  margin: 4px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 317,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-334 {\n  color: #1d4ed8;\n  margin: 6px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 318,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-336 {\n  color: #1d4ed8;\n  margin: 0px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 319,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-338 {\n  color: #1d4ed8;\n  margin: 2px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 320,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-340 {\n  color: #1d4ed8;\n  margin: 4px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 321,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-342 {\n  color: #1d4ed8;\n  margin: 6px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 322,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-344 {\n  color: #1d4ed8;\n  margin: 0px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 323,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-346 {\n  color: #1d4ed8;\n  margin: 2px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 324,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-348 {\n  color: #1d4ed8;\n  margin: 4px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 325,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-350 {\n  color: #1d4ed8;\n  margin: 6px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 326,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-352 {\n  color: #1d4ed8;\n  margin: 0px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 327,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-354 {\n  color: #1d4ed8;\n  margin: 2px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 328,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-356 {\n  color: #1d4ed8;\n  margin: 4px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 329,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-358 {\n  color: #1d4ed8;\n  margin: 6px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 330,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-360 {\n  color: #1d4ed8;\n  margin: 0px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 331,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-362 {\n  color: #1d4ed8;\n  margin: 2px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 332,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-364 {\n  color: #1d4ed8;\n  margin: 4px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 333,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-366 {\n  color: #1d4ed8;\n  margin: 6px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 334,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-368 {\n  color: #1d4ed8;\n  margin: 0px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 335,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-370 {\n  color: #1d4ed8;\n  margin: 2px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 336,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-372 {\n  color: #1d4ed8;\n  margin: 4px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 337,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-374 {\n  color: #1d4ed8;\n  margin: 6px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 338,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-376 {\n  color: #1d4ed8;\n  margin: 0px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 339,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-378 {\n  color: #1d4ed8;\n  margin: 2px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 340,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-380 {\n  color: #1d4ed8;\n  margin: 4px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 341,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-382 {\n  color: #1d4ed8;\n  margin: 6px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 342,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-384 {\n  color: #1d4ed8;\n  margin: 0px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 343,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-386 {\n  color: #1d4ed8;\n  margin: 2px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 344,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-388 {\n  color: #1d4ed8;\n  margin: 4px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 345,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-390 {\n  color: #1d4ed8;\n  margin: 6px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 346,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-392 {\n  color: #1d4ed8;\n  margin: 0px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 347,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-394 {\n  color: #1d4ed8;\n  margin: 2px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 348,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-396 {\n  color: #1d4ed8;\n  margin: 4px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 349,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-398 {\n  color: #1d4ed8;\n  margin: 6px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 350,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-400 {\n  color: #1d4ed8;\n  margin: 0px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 351,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-402 {\n  color: #1d4ed8;\n  margin: 2px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 352,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-404 {\n  color: #1d4ed8;\n  margin: 4px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 353,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-406 {\n  color: #1d4ed8;\n  margin: 6px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 354,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-408 {\n  color: #1d4ed8;\n  margin: 0px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 355,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-410 {\n  color: #1d4ed8;\n  margin: 2px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 356,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-412 {\n  color: #1d4ed8;\n  margin: 4px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 357,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-414 {\n  color: #1d4ed8;\n  margin: 6px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 358,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-416 {\n  color: #1d4ed8;\n  margin: 0px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 359,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-418 {\n  color: #1d4ed8;\n  margin: 2px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 360,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-420 {\n  color: #1d4ed8;\n  margin: 4px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 361,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-422 {\n  color: #1d4ed8;\n  margin: 6px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 362,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-424 {\n  color: #1d4ed8;\n  margin: 0px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 363,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-426 {\n  color: #1d4ed8;\n  margin: 2px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 364,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-428 {\n  color: #1d4ed8;\n  margin: 4px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 365,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-430 {\n  color: #1d4ed8;\n  margin: 6px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 366,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-432 {\n  color: #1d4ed8;\n  margin: 0px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 367,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-434 {\n  color: #1d4ed8;\n  margin: 2px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 368,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-436 {\n  color: #1d4ed8;\n  margin: 4px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 369,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-438 {\n  color: #1d4ed8;\n  margin: 6px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 370,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-440 {\n  color: #1d4ed8;\n  margin: 0px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 371,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-442 {\n  color: #1d4ed8;\n  margin: 2px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 372,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-444 {\n  color: #1d4ed8;\n  margin: 4px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 373,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-446 {\n  color: #1d4ed8;\n  margin: 6px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 374,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-448 {\n  color: #1d4ed8;\n  margin: 0px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 375,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-450 {\n  color: #1d4ed8;\n  margin: 2px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 376,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-452 {\n  color: #1d4ed8;\n  margin: 4px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 377,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-454 {\n  color: #1d4ed8;\n  margin: 6px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 378,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-456 {\n  color: #1d4ed8;\n  margin: 0px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 379,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-458 {\n  color: #1d4ed8;\n  margin: 2px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 380,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-460 {\n  color: #1d4ed8;\n  margin: 4px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 381,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-462 {\n  color: #1d4ed8;\n  margin: 6px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 382,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-464 {\n  color: #1d4ed8;\n  margin: 0px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 383,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-466 {\n  color: #1d4ed8;\n  margin: 2px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 384,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-468 {\n  color: #1d4ed8;\n  margin: 4px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 385,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-470 {\n  color: #1d4ed8;\n  margin: 6px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 386,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-472 {\n  color: #1d4ed8;\n  margin: 0px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 387,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-474 {\n  color: #1d4ed8;\n  margin: 2px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 388,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-476 {\n  color: #1d4ed8;\n  margin: 4px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 389,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-478 {\n  color: #1d4ed8;\n  margin: 6px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 390,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-480 {\n  color: #1d4ed8;\n  margin: 0px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 391,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-482 {\n  color: #1d4ed8;\n  margin: 2px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 392,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-484 {\n  color: #1d4ed8;\n  margin: 4px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 393,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-486 {\n  color: #1d4ed8;\n  margin: 6px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 394,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-488 {\n  color: #1d4ed8;\n  margin: 0px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 395,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-490 {\n  color: #1d4ed8;\n  margin: 2px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 396,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-492 {\n  color: #1d4ed8;\n  margin: 4px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 397,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-494 {\n  color: #1d4ed8;\n  margin: 6px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 398,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-496 {\n  color: #1d4ed8;\n  margin: 0px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 399,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-498 {\n  color: #1d4ed8;\n  margin: 2px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 400,
+      "question": "What is the key outcome of this snippet?\n```css\n.snippet-500 {\n  color: #1d4ed8;\n  margin: 4px;\n}\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    }
+  ]
+}

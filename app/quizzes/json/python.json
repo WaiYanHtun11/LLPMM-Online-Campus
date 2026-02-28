@@ -1,0 +1,4407 @@
+{
+  "slug": "python",
+  "title": "Python Quiz",
+  "description": "100 Python programming practice questions",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which keyword defines a function in Python?",
+      "options": [
+        "func",
+        "def",
+        "function",
+        "lambda"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "Which data type is immutable in Python?",
+      "options": [
+        "list",
+        "dict",
+        "set",
+        "tuple"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "How do you start a class definition in Python?",
+      "options": [
+        "class MyClass:",
+        "def MyClass():",
+        "new class MyClass",
+        "object MyClass:"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 4,
+      "question": "Which keyword handles exceptions?",
+      "options": [
+        "catch",
+        "except",
+        "handle",
+        "error"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Which built-in function returns the length of an object?",
+      "options": [
+        "count()",
+        "size()",
+        "len()",
+        "length()"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "What does PEP stand for in Python?",
+      "options": [
+        "Python Enhancement Proposal",
+        "Programming Extension Package",
+        "Python Execution Plan",
+        "Program Entry Point"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 7,
+      "question": "Which symbol is used for list slicing?",
+      "options": [
+        ":",
+        ";",
+        "|",
+        "."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 8,
+      "question": "Which of these is a Python package manager?",
+      "options": [
+        "npm",
+        "pip",
+        "maven",
+        "composer"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "In Python, which keyword defines a function in Python?",
+      "options": [
+        "func",
+        "def",
+        "function",
+        "lambda"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "In Python, which data type is immutable in Python?",
+      "options": [
+        "list",
+        "dict",
+        "set",
+        "tuple"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 11,
+      "question": "In Python, how do you start a class definition in Python?",
+      "options": [
+        "class MyClass:",
+        "def MyClass():",
+        "new class MyClass",
+        "object MyClass:"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 12,
+      "question": "In Python, which keyword handles exceptions?",
+      "options": [
+        "catch",
+        "except",
+        "handle",
+        "error"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 13,
+      "question": "In Python, which built-in function returns the length of an object?",
+      "options": [
+        "count()",
+        "size()",
+        "len()",
+        "length()"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 14,
+      "question": "In Python, what does PEP stand for in Python?",
+      "options": [
+        "Python Enhancement Proposal",
+        "Programming Extension Package",
+        "Python Execution Plan",
+        "Program Entry Point"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 15,
+      "question": "In Python, which symbol is used for list slicing?",
+      "options": [
+        ":",
+        ";",
+        "|",
+        "."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 16,
+      "question": "In Python, which of these is a Python package manager?",
+      "options": [
+        "npm",
+        "pip",
+        "maven",
+        "composer"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 17,
+      "question": "For Python, which keyword defines a function in Python?",
+      "options": [
+        "func",
+        "def",
+        "function",
+        "lambda"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 18,
+      "question": "For Python, which data type is immutable in Python?",
+      "options": [
+        "list",
+        "dict",
+        "set",
+        "tuple"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 19,
+      "question": "For Python, how do you start a class definition in Python?",
+      "options": [
+        "class MyClass:",
+        "def MyClass():",
+        "new class MyClass",
+        "object MyClass:"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 20,
+      "question": "For Python, which keyword handles exceptions?",
+      "options": [
+        "catch",
+        "except",
+        "handle",
+        "error"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 21,
+      "question": "For Python, which built-in function returns the length of an object?",
+      "options": [
+        "count()",
+        "size()",
+        "len()",
+        "length()"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 22,
+      "question": "For Python, what does PEP stand for in Python?",
+      "options": [
+        "Python Enhancement Proposal",
+        "Programming Extension Package",
+        "Python Execution Plan",
+        "Program Entry Point"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 23,
+      "question": "For Python, which symbol is used for list slicing?",
+      "options": [
+        ":",
+        ";",
+        "|",
+        "."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 24,
+      "question": "For Python, which of these is a Python package manager?",
+      "options": [
+        "npm",
+        "pip",
+        "maven",
+        "composer"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 25,
+      "question": "When using Python, which keyword defines a function in Python?",
+      "options": [
+        "func",
+        "def",
+        "function",
+        "lambda"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 26,
+      "question": "When using Python, which data type is immutable in Python?",
+      "options": [
+        "list",
+        "dict",
+        "set",
+        "tuple"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 27,
+      "question": "When using Python, how do you start a class definition in Python?",
+      "options": [
+        "class MyClass:",
+        "def MyClass():",
+        "new class MyClass",
+        "object MyClass:"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 28,
+      "question": "When using Python, which keyword handles exceptions?",
+      "options": [
+        "catch",
+        "except",
+        "handle",
+        "error"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 29,
+      "question": "When using Python, which built-in function returns the length of an object?",
+      "options": [
+        "count()",
+        "size()",
+        "len()",
+        "length()"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 30,
+      "question": "When using Python, what does PEP stand for in Python?",
+      "options": [
+        "Python Enhancement Proposal",
+        "Programming Extension Package",
+        "Python Execution Plan",
+        "Program Entry Point"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 31,
+      "question": "When using Python, which symbol is used for list slicing?",
+      "options": [
+        ":",
+        ";",
+        "|",
+        "."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 32,
+      "question": "When using Python, which of these is a Python package manager?",
+      "options": [
+        "npm",
+        "pip",
+        "maven",
+        "composer"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 33,
+      "question": "In a Python query, which keyword defines a function in Python?",
+      "options": [
+        "func",
+        "def",
+        "function",
+        "lambda"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 34,
+      "question": "In a Python query, which data type is immutable in Python?",
+      "options": [
+        "list",
+        "dict",
+        "set",
+        "tuple"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 35,
+      "question": "In a Python query, how do you start a class definition in Python?",
+      "options": [
+        "class MyClass:",
+        "def MyClass():",
+        "new class MyClass",
+        "object MyClass:"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 36,
+      "question": "In a Python query, which keyword handles exceptions?",
+      "options": [
+        "catch",
+        "except",
+        "handle",
+        "error"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 37,
+      "question": "In a Python query, which built-in function returns the length of an object?",
+      "options": [
+        "count()",
+        "size()",
+        "len()",
+        "length()"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 38,
+      "question": "In a Python query, what does PEP stand for in Python?",
+      "options": [
+        "Python Enhancement Proposal",
+        "Programming Extension Package",
+        "Python Execution Plan",
+        "Program Entry Point"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 39,
+      "question": "In a Python query, which symbol is used for list slicing?",
+      "options": [
+        ":",
+        ";",
+        "|",
+        "."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 40,
+      "question": "In a Python query, which of these is a Python package manager?",
+      "options": [
+        "npm",
+        "pip",
+        "maven",
+        "composer"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 41,
+      "question": "From a Python perspective, which keyword defines a function in Python?",
+      "options": [
+        "func",
+        "def",
+        "function",
+        "lambda"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 42,
+      "question": "From a Python perspective, which data type is immutable in Python?",
+      "options": [
+        "list",
+        "dict",
+        "set",
+        "tuple"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 43,
+      "question": "From a Python perspective, how do you start a class definition in Python?",
+      "options": [
+        "class MyClass:",
+        "def MyClass():",
+        "new class MyClass",
+        "object MyClass:"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 44,
+      "question": "From a Python perspective, which keyword handles exceptions?",
+      "options": [
+        "catch",
+        "except",
+        "handle",
+        "error"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 45,
+      "question": "From a Python perspective, which built-in function returns the length of an object?",
+      "options": [
+        "count()",
+        "size()",
+        "len()",
+        "length()"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 46,
+      "question": "From a Python perspective, what does PEP stand for in Python?",
+      "options": [
+        "Python Enhancement Proposal",
+        "Programming Extension Package",
+        "Python Execution Plan",
+        "Program Entry Point"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 47,
+      "question": "From a Python perspective, which symbol is used for list slicing?",
+      "options": [
+        ":",
+        ";",
+        "|",
+        "."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 48,
+      "question": "From a Python perspective, which of these is a Python package manager?",
+      "options": [
+        "npm",
+        "pip",
+        "maven",
+        "composer"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 49,
+      "question": "In practical Python usage, which keyword defines a function in Python?",
+      "options": [
+        "func",
+        "def",
+        "function",
+        "lambda"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 50,
+      "question": "In practical Python usage, which data type is immutable in Python?",
+      "options": [
+        "list",
+        "dict",
+        "set",
+        "tuple"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 51,
+      "question": "In practical Python usage, how do you start a class definition in Python?",
+      "options": [
+        "class MyClass:",
+        "def MyClass():",
+        "new class MyClass",
+        "object MyClass:"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 52,
+      "question": "In practical Python usage, which keyword handles exceptions?",
+      "options": [
+        "catch",
+        "except",
+        "handle",
+        "error"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 53,
+      "question": "In practical Python usage, which built-in function returns the length of an object?",
+      "options": [
+        "count()",
+        "size()",
+        "len()",
+        "length()"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 54,
+      "question": "In practical Python usage, what does PEP stand for in Python?",
+      "options": [
+        "Python Enhancement Proposal",
+        "Programming Extension Package",
+        "Python Execution Plan",
+        "Program Entry Point"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 55,
+      "question": "In practical Python usage, which symbol is used for list slicing?",
+      "options": [
+        ":",
+        ";",
+        "|",
+        "."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 56,
+      "question": "In practical Python usage, which of these is a Python package manager?",
+      "options": [
+        "npm",
+        "pip",
+        "maven",
+        "composer"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 57,
+      "question": "Within Python, which keyword defines a function in Python?",
+      "options": [
+        "func",
+        "def",
+        "function",
+        "lambda"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 58,
+      "question": "Within Python, which data type is immutable in Python?",
+      "options": [
+        "list",
+        "dict",
+        "set",
+        "tuple"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 59,
+      "question": "Within Python, how do you start a class definition in Python?",
+      "options": [
+        "class MyClass:",
+        "def MyClass():",
+        "new class MyClass",
+        "object MyClass:"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 60,
+      "question": "Within Python, which keyword handles exceptions?",
+      "options": [
+        "catch",
+        "except",
+        "handle",
+        "error"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 61,
+      "question": "Within Python, which built-in function returns the length of an object?",
+      "options": [
+        "count()",
+        "size()",
+        "len()",
+        "length()"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 62,
+      "question": "Within Python, what does PEP stand for in Python?",
+      "options": [
+        "Python Enhancement Proposal",
+        "Programming Extension Package",
+        "Python Execution Plan",
+        "Program Entry Point"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 63,
+      "question": "Within Python, which symbol is used for list slicing?",
+      "options": [
+        ":",
+        ";",
+        "|",
+        "."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 64,
+      "question": "Within Python, which of these is a Python package manager?",
+      "options": [
+        "npm",
+        "pip",
+        "maven",
+        "composer"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 65,
+      "question": "For Python developers, which keyword defines a function in Python?",
+      "options": [
+        "func",
+        "def",
+        "function",
+        "lambda"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 66,
+      "question": "For Python developers, which data type is immutable in Python?",
+      "options": [
+        "list",
+        "dict",
+        "set",
+        "tuple"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 67,
+      "question": "For Python developers, how do you start a class definition in Python?",
+      "options": [
+        "class MyClass:",
+        "def MyClass():",
+        "new class MyClass",
+        "object MyClass:"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 68,
+      "question": "For Python developers, which keyword handles exceptions?",
+      "options": [
+        "catch",
+        "except",
+        "handle",
+        "error"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 69,
+      "question": "For Python developers, which built-in function returns the length of an object?",
+      "options": [
+        "count()",
+        "size()",
+        "len()",
+        "length()"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 70,
+      "question": "For Python developers, what does PEP stand for in Python?",
+      "options": [
+        "Python Enhancement Proposal",
+        "Programming Extension Package",
+        "Python Execution Plan",
+        "Program Entry Point"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 71,
+      "question": "For Python developers, which symbol is used for list slicing?",
+      "options": [
+        ":",
+        ";",
+        "|",
+        "."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 72,
+      "question": "For Python developers, which of these is a Python package manager?",
+      "options": [
+        "npm",
+        "pip",
+        "maven",
+        "composer"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 73,
+      "question": "In day-to-day Python work, which keyword defines a function in Python?",
+      "options": [
+        "func",
+        "def",
+        "function",
+        "lambda"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 74,
+      "question": "In day-to-day Python work, which data type is immutable in Python?",
+      "options": [
+        "list",
+        "dict",
+        "set",
+        "tuple"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 75,
+      "question": "In day-to-day Python work, how do you start a class definition in Python?",
+      "options": [
+        "class MyClass:",
+        "def MyClass():",
+        "new class MyClass",
+        "object MyClass:"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 76,
+      "question": "In day-to-day Python work, which keyword handles exceptions?",
+      "options": [
+        "catch",
+        "except",
+        "handle",
+        "error"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 77,
+      "question": "In day-to-day Python work, which built-in function returns the length of an object?",
+      "options": [
+        "count()",
+        "size()",
+        "len()",
+        "length()"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 78,
+      "question": "In day-to-day Python work, what does PEP stand for in Python?",
+      "options": [
+        "Python Enhancement Proposal",
+        "Programming Extension Package",
+        "Python Execution Plan",
+        "Program Entry Point"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 79,
+      "question": "In day-to-day Python work, which symbol is used for list slicing?",
+      "options": [
+        ":",
+        ";",
+        "|",
+        "."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 80,
+      "question": "In day-to-day Python work, which of these is a Python package manager?",
+      "options": [
+        "npm",
+        "pip",
+        "maven",
+        "composer"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 81,
+      "question": "Using Python, which keyword defines a function in Python?",
+      "options": [
+        "func",
+        "def",
+        "function",
+        "lambda"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 82,
+      "question": "Using Python, which data type is immutable in Python?",
+      "options": [
+        "list",
+        "dict",
+        "set",
+        "tuple"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 83,
+      "question": "Using Python, how do you start a class definition in Python?",
+      "options": [
+        "class MyClass:",
+        "def MyClass():",
+        "new class MyClass",
+        "object MyClass:"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 84,
+      "question": "Using Python, which keyword handles exceptions?",
+      "options": [
+        "catch",
+        "except",
+        "handle",
+        "error"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 85,
+      "question": "Using Python, which built-in function returns the length of an object?",
+      "options": [
+        "count()",
+        "size()",
+        "len()",
+        "length()"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 86,
+      "question": "Using Python, what does PEP stand for in Python?",
+      "options": [
+        "Python Enhancement Proposal",
+        "Programming Extension Package",
+        "Python Execution Plan",
+        "Program Entry Point"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 87,
+      "question": "Using Python, which symbol is used for list slicing?",
+      "options": [
+        ":",
+        ";",
+        "|",
+        "."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 88,
+      "question": "Using Python, which of these is a Python package manager?",
+      "options": [
+        "npm",
+        "pip",
+        "maven",
+        "composer"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 89,
+      "question": "In Python practice, which keyword defines a function in Python?",
+      "options": [
+        "func",
+        "def",
+        "function",
+        "lambda"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 90,
+      "question": "In Python practice, which data type is immutable in Python?",
+      "options": [
+        "list",
+        "dict",
+        "set",
+        "tuple"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 91,
+      "question": "In Python practice, how do you start a class definition in Python?",
+      "options": [
+        "class MyClass:",
+        "def MyClass():",
+        "new class MyClass",
+        "object MyClass:"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 92,
+      "question": "In Python practice, which keyword handles exceptions?",
+      "options": [
+        "catch",
+        "except",
+        "handle",
+        "error"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 93,
+      "question": "In Python practice, which built-in function returns the length of an object?",
+      "options": [
+        "count()",
+        "size()",
+        "len()",
+        "length()"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 94,
+      "question": "In Python practice, what does PEP stand for in Python?",
+      "options": [
+        "Python Enhancement Proposal",
+        "Programming Extension Package",
+        "Python Execution Plan",
+        "Program Entry Point"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 95,
+      "question": "In Python practice, which symbol is used for list slicing?",
+      "options": [
+        ":",
+        ";",
+        "|",
+        "."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 96,
+      "question": "In Python practice, which of these is a Python package manager?",
+      "options": [
+        "npm",
+        "pip",
+        "maven",
+        "composer"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 97,
+      "question": "With Python, which keyword defines a function in Python?",
+      "options": [
+        "func",
+        "def",
+        "function",
+        "lambda"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 98,
+      "question": "With Python, which data type is immutable in Python?",
+      "options": [
+        "list",
+        "dict",
+        "set",
+        "tuple"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 99,
+      "question": "With Python, how do you start a class definition in Python?",
+      "options": [
+        "class MyClass:",
+        "def MyClass():",
+        "new class MyClass",
+        "object MyClass:"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 100,
+      "question": "With Python, which keyword handles exceptions?",
+      "options": [
+        "catch",
+        "except",
+        "handle",
+        "error"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 101,
+      "question": "Which description best matches \"List comprehension\" in Python?",
+      "options": [
+        "An isolated environment for project-specific dependencies.",
+        "An immutable ordered collection type.",
+        "A mapping type storing key-value pairs.",
+        "A concise syntax for creating lists from iterables."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 102,
+      "question": "In Python, \"List comprehension\" is mainly used for what?",
+      "options": [
+        "A mapping type storing key-value pairs.",
+        "An isolated environment for project-specific dependencies.",
+        "A concise syntax for creating lists from iterables.",
+        "An immutable ordered collection type."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 103,
+      "question": "What is the primary purpose of \"List comprehension\" in Python?",
+      "options": [
+        "An immutable ordered collection type.",
+        "A concise syntax for creating lists from iterables.",
+        "A mapping type storing key-value pairs.",
+        "An isolated environment for project-specific dependencies."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 104,
+      "question": "Choose the most accurate statement about \"List comprehension\" in Python?",
+      "options": [
+        "A concise syntax for creating lists from iterables.",
+        "An isolated environment for project-specific dependencies.",
+        "An immutable ordered collection type.",
+        "A mapping type storing key-value pairs."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 105,
+      "question": "Which option correctly explains \"List comprehension\" for Python developers?",
+      "options": [
+        "An immutable ordered collection type.",
+        "A mapping type storing key-value pairs.",
+        "An isolated environment for project-specific dependencies.",
+        "A concise syntax for creating lists from iterables."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 106,
+      "question": "In practical Python code, when would you use \"List comprehension\"?",
+      "options": [
+        "An isolated environment for project-specific dependencies.",
+        "An immutable ordered collection type.",
+        "A concise syntax for creating lists from iterables.",
+        "A mapping type storing key-value pairs."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 107,
+      "question": "What does \"List comprehension\" represent?",
+      "options": [
+        "A mapping type storing key-value pairs.",
+        "A concise syntax for creating lists from iterables.",
+        "An isolated environment for project-specific dependencies.",
+        "An immutable ordered collection type."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 108,
+      "question": "Identify the correct meaning of \"List comprehension\" in Python?",
+      "options": [
+        "A concise syntax for creating lists from iterables.",
+        "An immutable ordered collection type.",
+        "A mapping type storing key-value pairs.",
+        "An isolated environment for project-specific dependencies."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 109,
+      "question": "Which definition of \"List comprehension\" is correct in Python?",
+      "options": [
+        "A mapping type storing key-value pairs.",
+        "An isolated environment for project-specific dependencies.",
+        "An immutable ordered collection type.",
+        "A concise syntax for creating lists from iterables."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 110,
+      "question": "For Python, \"List comprehension\" is best described as:?",
+      "options": [
+        "An immutable ordered collection type.",
+        "A mapping type storing key-value pairs.",
+        "A concise syntax for creating lists from iterables.",
+        "An isolated environment for project-specific dependencies."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 111,
+      "question": "Which description best matches \"Virtual environment\" in Python?",
+      "options": [
+        "An iterator-producing construct that yields values lazily.",
+        "An isolated environment for project-specific dependencies.",
+        "An immutable ordered collection type.",
+        "A mapping type storing key-value pairs."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 112,
+      "question": "In Python, \"Virtual environment\" is mainly used for what?",
+      "options": [
+        "An isolated environment for project-specific dependencies.",
+        "A mapping type storing key-value pairs.",
+        "An iterator-producing construct that yields values lazily.",
+        "An immutable ordered collection type."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 113,
+      "question": "What is the primary purpose of \"Virtual environment\" in Python?",
+      "options": [
+        "An iterator-producing construct that yields values lazily.",
+        "An immutable ordered collection type.",
+        "A mapping type storing key-value pairs.",
+        "An isolated environment for project-specific dependencies."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 114,
+      "question": "Choose the most accurate statement about \"Virtual environment\" in Python?",
+      "options": [
+        "A mapping type storing key-value pairs.",
+        "An iterator-producing construct that yields values lazily.",
+        "An isolated environment for project-specific dependencies.",
+        "An immutable ordered collection type."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 115,
+      "question": "Which option correctly explains \"Virtual environment\" for Python developers?",
+      "options": [
+        "An immutable ordered collection type.",
+        "An isolated environment for project-specific dependencies.",
+        "A mapping type storing key-value pairs.",
+        "An iterator-producing construct that yields values lazily."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 116,
+      "question": "In practical Python code, when would you use \"Virtual environment\"?",
+      "options": [
+        "An isolated environment for project-specific dependencies.",
+        "An iterator-producing construct that yields values lazily.",
+        "An immutable ordered collection type.",
+        "A mapping type storing key-value pairs."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 117,
+      "question": "What does \"Virtual environment\" represent?",
+      "options": [
+        "An immutable ordered collection type.",
+        "A mapping type storing key-value pairs.",
+        "An iterator-producing construct that yields values lazily.",
+        "An isolated environment for project-specific dependencies."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 118,
+      "question": "Identify the correct meaning of \"Virtual environment\" in Python?",
+      "options": [
+        "An iterator-producing construct that yields values lazily.",
+        "An immutable ordered collection type.",
+        "An isolated environment for project-specific dependencies.",
+        "A mapping type storing key-value pairs."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 119,
+      "question": "Which definition of \"Virtual environment\" is correct in Python?",
+      "options": [
+        "A mapping type storing key-value pairs.",
+        "An isolated environment for project-specific dependencies.",
+        "An iterator-producing construct that yields values lazily.",
+        "An immutable ordered collection type."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 120,
+      "question": "For Python, \"Virtual environment\" is best described as:?",
+      "options": [
+        "An isolated environment for project-specific dependencies.",
+        "An immutable ordered collection type.",
+        "A mapping type storing key-value pairs.",
+        "An iterator-producing construct that yields values lazily."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 121,
+      "question": "Which description best matches \"Tuple\" in Python?",
+      "options": [
+        "A mapping type storing key-value pairs.",
+        "An iterator-producing construct that yields values lazily.",
+        "A callable that wraps and extends function or class behavior.",
+        "An immutable ordered collection type."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 122,
+      "question": "In Python, \"Tuple\" is mainly used for what?",
+      "options": [
+        "A callable that wraps and extends function or class behavior.",
+        "A mapping type storing key-value pairs.",
+        "An immutable ordered collection type.",
+        "An iterator-producing construct that yields values lazily."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 123,
+      "question": "What is the primary purpose of \"Tuple\" in Python?",
+      "options": [
+        "An iterator-producing construct that yields values lazily.",
+        "An immutable ordered collection type.",
+        "A callable that wraps and extends function or class behavior.",
+        "A mapping type storing key-value pairs."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 124,
+      "question": "Choose the most accurate statement about \"Tuple\" in Python?",
+      "options": [
+        "An immutable ordered collection type.",
+        "A mapping type storing key-value pairs.",
+        "An iterator-producing construct that yields values lazily.",
+        "A callable that wraps and extends function or class behavior."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 125,
+      "question": "Which option correctly explains \"Tuple\" for Python developers?",
+      "options": [
+        "An iterator-producing construct that yields values lazily.",
+        "A callable that wraps and extends function or class behavior.",
+        "A mapping type storing key-value pairs.",
+        "An immutable ordered collection type."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 126,
+      "question": "In practical Python code, when would you use \"Tuple\"?",
+      "options": [
+        "A mapping type storing key-value pairs.",
+        "An iterator-producing construct that yields values lazily.",
+        "An immutable ordered collection type.",
+        "A callable that wraps and extends function or class behavior."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 127,
+      "question": "What does \"Tuple\" represent?",
+      "options": [
+        "A callable that wraps and extends function or class behavior.",
+        "An immutable ordered collection type.",
+        "A mapping type storing key-value pairs.",
+        "An iterator-producing construct that yields values lazily."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 128,
+      "question": "Identify the correct meaning of \"Tuple\" in Python?",
+      "options": [
+        "An immutable ordered collection type.",
+        "An iterator-producing construct that yields values lazily.",
+        "A callable that wraps and extends function or class behavior.",
+        "A mapping type storing key-value pairs."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 129,
+      "question": "Which definition of \"Tuple\" is correct in Python?",
+      "options": [
+        "A callable that wraps and extends function or class behavior.",
+        "A mapping type storing key-value pairs.",
+        "An iterator-producing construct that yields values lazily.",
+        "An immutable ordered collection type."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 130,
+      "question": "For Python, \"Tuple\" is best described as:?",
+      "options": [
+        "An iterator-producing construct that yields values lazily.",
+        "A callable that wraps and extends function or class behavior.",
+        "An immutable ordered collection type.",
+        "A mapping type storing key-value pairs."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 131,
+      "question": "Which description best matches \"Dictionary\" in Python?",
+      "options": [
+        "The initializer method called when creating an object instance.",
+        "A mapping type storing key-value pairs.",
+        "An iterator-producing construct that yields values lazily.",
+        "A callable that wraps and extends function or class behavior."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 132,
+      "question": "In Python, \"Dictionary\" is mainly used for what?",
+      "options": [
+        "A mapping type storing key-value pairs.",
+        "A callable that wraps and extends function or class behavior.",
+        "The initializer method called when creating an object instance.",
+        "An iterator-producing construct that yields values lazily."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 133,
+      "question": "What is the primary purpose of \"Dictionary\" in Python?",
+      "options": [
+        "The initializer method called when creating an object instance.",
+        "An iterator-producing construct that yields values lazily.",
+        "A callable that wraps and extends function or class behavior.",
+        "A mapping type storing key-value pairs."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 134,
+      "question": "Choose the most accurate statement about \"Dictionary\" in Python?",
+      "options": [
+        "A callable that wraps and extends function or class behavior.",
+        "The initializer method called when creating an object instance.",
+        "A mapping type storing key-value pairs.",
+        "An iterator-producing construct that yields values lazily."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 135,
+      "question": "Which option correctly explains \"Dictionary\" for Python developers?",
+      "options": [
+        "An iterator-producing construct that yields values lazily.",
+        "A mapping type storing key-value pairs.",
+        "A callable that wraps and extends function or class behavior.",
+        "The initializer method called when creating an object instance."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 136,
+      "question": "In practical Python code, when would you use \"Dictionary\"?",
+      "options": [
+        "A mapping type storing key-value pairs.",
+        "The initializer method called when creating an object instance.",
+        "An iterator-producing construct that yields values lazily.",
+        "A callable that wraps and extends function or class behavior."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 137,
+      "question": "What does \"Dictionary\" represent?",
+      "options": [
+        "An iterator-producing construct that yields values lazily.",
+        "A callable that wraps and extends function or class behavior.",
+        "The initializer method called when creating an object instance.",
+        "A mapping type storing key-value pairs."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 138,
+      "question": "Identify the correct meaning of \"Dictionary\" in Python?",
+      "options": [
+        "The initializer method called when creating an object instance.",
+        "An iterator-producing construct that yields values lazily.",
+        "A mapping type storing key-value pairs.",
+        "A callable that wraps and extends function or class behavior."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 139,
+      "question": "Which definition of \"Dictionary\" is correct in Python?",
+      "options": [
+        "A callable that wraps and extends function or class behavior.",
+        "A mapping type storing key-value pairs.",
+        "The initializer method called when creating an object instance.",
+        "An iterator-producing construct that yields values lazily."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 140,
+      "question": "For Python, \"Dictionary\" is best described as:?",
+      "options": [
+        "A mapping type storing key-value pairs.",
+        "An iterator-producing construct that yields values lazily.",
+        "A callable that wraps and extends function or class behavior.",
+        "The initializer method called when creating an object instance."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 141,
+      "question": "Which description best matches \"Generator\" in Python?",
+      "options": [
+        "A callable that wraps and extends function or class behavior.",
+        "The initializer method called when creating an object instance.",
+        "Whitespace-based syntax used to define Python code blocks.",
+        "An iterator-producing construct that yields values lazily."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 142,
+      "question": "In Python, \"Generator\" is mainly used for what?",
+      "options": [
+        "Whitespace-based syntax used to define Python code blocks.",
+        "A callable that wraps and extends function or class behavior.",
+        "An iterator-producing construct that yields values lazily.",
+        "The initializer method called when creating an object instance."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 143,
+      "question": "What is the primary purpose of \"Generator\" in Python?",
+      "options": [
+        "The initializer method called when creating an object instance.",
+        "An iterator-producing construct that yields values lazily.",
+        "Whitespace-based syntax used to define Python code blocks.",
+        "A callable that wraps and extends function or class behavior."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 144,
+      "question": "Choose the most accurate statement about \"Generator\" in Python?",
+      "options": [
+        "An iterator-producing construct that yields values lazily.",
+        "A callable that wraps and extends function or class behavior.",
+        "The initializer method called when creating an object instance.",
+        "Whitespace-based syntax used to define Python code blocks."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 145,
+      "question": "Which option correctly explains \"Generator\" for Python developers?",
+      "options": [
+        "The initializer method called when creating an object instance.",
+        "Whitespace-based syntax used to define Python code blocks.",
+        "A callable that wraps and extends function or class behavior.",
+        "An iterator-producing construct that yields values lazily."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 146,
+      "question": "In practical Python code, when would you use \"Generator\"?",
+      "options": [
+        "A callable that wraps and extends function or class behavior.",
+        "The initializer method called when creating an object instance.",
+        "An iterator-producing construct that yields values lazily.",
+        "Whitespace-based syntax used to define Python code blocks."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 147,
+      "question": "What does \"Generator\" represent?",
+      "options": [
+        "Whitespace-based syntax used to define Python code blocks.",
+        "An iterator-producing construct that yields values lazily.",
+        "A callable that wraps and extends function or class behavior.",
+        "The initializer method called when creating an object instance."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 148,
+      "question": "Identify the correct meaning of \"Generator\" in Python?",
+      "options": [
+        "An iterator-producing construct that yields values lazily.",
+        "The initializer method called when creating an object instance.",
+        "Whitespace-based syntax used to define Python code blocks.",
+        "A callable that wraps and extends function or class behavior."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 149,
+      "question": "Which definition of \"Generator\" is correct in Python?",
+      "options": [
+        "Whitespace-based syntax used to define Python code blocks.",
+        "A callable that wraps and extends function or class behavior.",
+        "The initializer method called when creating an object instance.",
+        "An iterator-producing construct that yields values lazily."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 150,
+      "question": "For Python, \"Generator\" is best described as:?",
+      "options": [
+        "The initializer method called when creating an object instance.",
+        "Whitespace-based syntax used to define Python code blocks.",
+        "An iterator-producing construct that yields values lazily.",
+        "A callable that wraps and extends function or class behavior."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 151,
+      "question": "Which description best matches \"Decorator\" in Python?",
+      "options": [
+        "The standard package installer for Python packages.",
+        "A callable that wraps and extends function or class behavior.",
+        "The initializer method called when creating an object instance.",
+        "Whitespace-based syntax used to define Python code blocks."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 152,
+      "question": "In Python, \"Decorator\" is mainly used for what?",
+      "options": [
+        "A callable that wraps and extends function or class behavior.",
+        "Whitespace-based syntax used to define Python code blocks.",
+        "The standard package installer for Python packages.",
+        "The initializer method called when creating an object instance."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 153,
+      "question": "What is the primary purpose of \"Decorator\" in Python?",
+      "options": [
+        "The standard package installer for Python packages.",
+        "The initializer method called when creating an object instance.",
+        "Whitespace-based syntax used to define Python code blocks.",
+        "A callable that wraps and extends function or class behavior."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 154,
+      "question": "Choose the most accurate statement about \"Decorator\" in Python?",
+      "options": [
+        "Whitespace-based syntax used to define Python code blocks.",
+        "The standard package installer for Python packages.",
+        "A callable that wraps and extends function or class behavior.",
+        "The initializer method called when creating an object instance."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 155,
+      "question": "Which option correctly explains \"Decorator\" for Python developers?",
+      "options": [
+        "The initializer method called when creating an object instance.",
+        "A callable that wraps and extends function or class behavior.",
+        "Whitespace-based syntax used to define Python code blocks.",
+        "The standard package installer for Python packages."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 156,
+      "question": "In practical Python code, when would you use \"Decorator\"?",
+      "options": [
+        "A callable that wraps and extends function or class behavior.",
+        "The standard package installer for Python packages.",
+        "The initializer method called when creating an object instance.",
+        "Whitespace-based syntax used to define Python code blocks."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 157,
+      "question": "What does \"Decorator\" represent?",
+      "options": [
+        "The initializer method called when creating an object instance.",
+        "Whitespace-based syntax used to define Python code blocks.",
+        "The standard package installer for Python packages.",
+        "A callable that wraps and extends function or class behavior."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 158,
+      "question": "Identify the correct meaning of \"Decorator\" in Python?",
+      "options": [
+        "The standard package installer for Python packages.",
+        "The initializer method called when creating an object instance.",
+        "A callable that wraps and extends function or class behavior.",
+        "Whitespace-based syntax used to define Python code blocks."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 159,
+      "question": "Which definition of \"Decorator\" is correct in Python?",
+      "options": [
+        "Whitespace-based syntax used to define Python code blocks.",
+        "A callable that wraps and extends function or class behavior.",
+        "The standard package installer for Python packages.",
+        "The initializer method called when creating an object instance."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 160,
+      "question": "For Python, \"Decorator\" is best described as:?",
+      "options": [
+        "A callable that wraps and extends function or class behavior.",
+        "The initializer method called when creating an object instance.",
+        "Whitespace-based syntax used to define Python code blocks.",
+        "The standard package installer for Python packages."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 161,
+      "question": "Which description best matches \"__init__\" in Python?",
+      "options": [
+        "Whitespace-based syntax used to define Python code blocks.",
+        "The standard package installer for Python packages.",
+        "The use of try/except blocks to manage runtime errors.",
+        "The initializer method called when creating an object instance."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 162,
+      "question": "In Python, \"__init__\" is mainly used for what?",
+      "options": [
+        "The use of try/except blocks to manage runtime errors.",
+        "Whitespace-based syntax used to define Python code blocks.",
+        "The initializer method called when creating an object instance.",
+        "The standard package installer for Python packages."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 163,
+      "question": "What is the primary purpose of \"__init__\" in Python?",
+      "options": [
+        "The standard package installer for Python packages.",
+        "The initializer method called when creating an object instance.",
+        "The use of try/except blocks to manage runtime errors.",
+        "Whitespace-based syntax used to define Python code blocks."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 164,
+      "question": "Choose the most accurate statement about \"__init__\" in Python?",
+      "options": [
+        "The initializer method called when creating an object instance.",
+        "Whitespace-based syntax used to define Python code blocks.",
+        "The standard package installer for Python packages.",
+        "The use of try/except blocks to manage runtime errors."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 165,
+      "question": "Which option correctly explains \"__init__\" for Python developers?",
+      "options": [
+        "The standard package installer for Python packages.",
+        "The use of try/except blocks to manage runtime errors.",
+        "Whitespace-based syntax used to define Python code blocks.",
+        "The initializer method called when creating an object instance."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 166,
+      "question": "In practical Python code, when would you use \"__init__\"?",
+      "options": [
+        "Whitespace-based syntax used to define Python code blocks.",
+        "The standard package installer for Python packages.",
+        "The initializer method called when creating an object instance.",
+        "The use of try/except blocks to manage runtime errors."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 167,
+      "question": "What does \"__init__\" represent?",
+      "options": [
+        "The use of try/except blocks to manage runtime errors.",
+        "The initializer method called when creating an object instance.",
+        "Whitespace-based syntax used to define Python code blocks.",
+        "The standard package installer for Python packages."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 168,
+      "question": "Identify the correct meaning of \"__init__\" in Python?",
+      "options": [
+        "The initializer method called when creating an object instance.",
+        "The standard package installer for Python packages.",
+        "The use of try/except blocks to manage runtime errors.",
+        "Whitespace-based syntax used to define Python code blocks."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 169,
+      "question": "Which definition of \"__init__\" is correct in Python?",
+      "options": [
+        "The use of try/except blocks to manage runtime errors.",
+        "Whitespace-based syntax used to define Python code blocks.",
+        "The standard package installer for Python packages.",
+        "The initializer method called when creating an object instance."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 170,
+      "question": "For Python, \"__init__\" is best described as:?",
+      "options": [
+        "The standard package installer for Python packages.",
+        "The use of try/except blocks to manage runtime errors.",
+        "The initializer method called when creating an object instance.",
+        "Whitespace-based syntax used to define Python code blocks."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 171,
+      "question": "Which description best matches \"Indentation\" in Python?",
+      "options": [
+        "A concise syntax for creating lists from iterables.",
+        "Whitespace-based syntax used to define Python code blocks.",
+        "The standard package installer for Python packages.",
+        "The use of try/except blocks to manage runtime errors."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 172,
+      "question": "In Python, \"Indentation\" is mainly used for what?",
+      "options": [
+        "Whitespace-based syntax used to define Python code blocks.",
+        "The use of try/except blocks to manage runtime errors.",
+        "A concise syntax for creating lists from iterables.",
+        "The standard package installer for Python packages."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 173,
+      "question": "What is the primary purpose of \"Indentation\" in Python?",
+      "options": [
+        "A concise syntax for creating lists from iterables.",
+        "The standard package installer for Python packages.",
+        "The use of try/except blocks to manage runtime errors.",
+        "Whitespace-based syntax used to define Python code blocks."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 174,
+      "question": "Choose the most accurate statement about \"Indentation\" in Python?",
+      "options": [
+        "The use of try/except blocks to manage runtime errors.",
+        "A concise syntax for creating lists from iterables.",
+        "Whitespace-based syntax used to define Python code blocks.",
+        "The standard package installer for Python packages."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 175,
+      "question": "Which option correctly explains \"Indentation\" for Python developers?",
+      "options": [
+        "The standard package installer for Python packages.",
+        "Whitespace-based syntax used to define Python code blocks.",
+        "The use of try/except blocks to manage runtime errors.",
+        "A concise syntax for creating lists from iterables."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 176,
+      "question": "In practical Python code, when would you use \"Indentation\"?",
+      "options": [
+        "Whitespace-based syntax used to define Python code blocks.",
+        "A concise syntax for creating lists from iterables.",
+        "The standard package installer for Python packages.",
+        "The use of try/except blocks to manage runtime errors."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 177,
+      "question": "What does \"Indentation\" represent?",
+      "options": [
+        "The standard package installer for Python packages.",
+        "The use of try/except blocks to manage runtime errors.",
+        "A concise syntax for creating lists from iterables.",
+        "Whitespace-based syntax used to define Python code blocks."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 178,
+      "question": "Identify the correct meaning of \"Indentation\" in Python?",
+      "options": [
+        "A concise syntax for creating lists from iterables.",
+        "The standard package installer for Python packages.",
+        "Whitespace-based syntax used to define Python code blocks.",
+        "The use of try/except blocks to manage runtime errors."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 179,
+      "question": "Which definition of \"Indentation\" is correct in Python?",
+      "options": [
+        "The use of try/except blocks to manage runtime errors.",
+        "Whitespace-based syntax used to define Python code blocks.",
+        "A concise syntax for creating lists from iterables.",
+        "The standard package installer for Python packages."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 180,
+      "question": "For Python, \"Indentation\" is best described as:?",
+      "options": [
+        "Whitespace-based syntax used to define Python code blocks.",
+        "The standard package installer for Python packages.",
+        "The use of try/except blocks to manage runtime errors.",
+        "A concise syntax for creating lists from iterables."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 181,
+      "question": "Which description best matches \"pip\" in Python?",
+      "options": [
+        "The use of try/except blocks to manage runtime errors.",
+        "A concise syntax for creating lists from iterables.",
+        "An isolated environment for project-specific dependencies.",
+        "The standard package installer for Python packages."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 182,
+      "question": "In Python, \"pip\" is mainly used for what?",
+      "options": [
+        "An isolated environment for project-specific dependencies.",
+        "The use of try/except blocks to manage runtime errors.",
+        "The standard package installer for Python packages.",
+        "A concise syntax for creating lists from iterables."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 183,
+      "question": "What is the primary purpose of \"pip\" in Python?",
+      "options": [
+        "A concise syntax for creating lists from iterables.",
+        "The standard package installer for Python packages.",
+        "An isolated environment for project-specific dependencies.",
+        "The use of try/except blocks to manage runtime errors."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 184,
+      "question": "Choose the most accurate statement about \"pip\" in Python?",
+      "options": [
+        "The standard package installer for Python packages.",
+        "The use of try/except blocks to manage runtime errors.",
+        "A concise syntax for creating lists from iterables.",
+        "An isolated environment for project-specific dependencies."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 185,
+      "question": "Which option correctly explains \"pip\" for Python developers?",
+      "options": [
+        "A concise syntax for creating lists from iterables.",
+        "An isolated environment for project-specific dependencies.",
+        "The use of try/except blocks to manage runtime errors.",
+        "The standard package installer for Python packages."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 186,
+      "question": "In practical Python code, when would you use \"pip\"?",
+      "options": [
+        "The use of try/except blocks to manage runtime errors.",
+        "A concise syntax for creating lists from iterables.",
+        "The standard package installer for Python packages.",
+        "An isolated environment for project-specific dependencies."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 187,
+      "question": "What does \"pip\" represent?",
+      "options": [
+        "An isolated environment for project-specific dependencies.",
+        "The standard package installer for Python packages.",
+        "The use of try/except blocks to manage runtime errors.",
+        "A concise syntax for creating lists from iterables."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 188,
+      "question": "Identify the correct meaning of \"pip\" in Python?",
+      "options": [
+        "The standard package installer for Python packages.",
+        "A concise syntax for creating lists from iterables.",
+        "An isolated environment for project-specific dependencies.",
+        "The use of try/except blocks to manage runtime errors."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 189,
+      "question": "Which definition of \"pip\" is correct in Python?",
+      "options": [
+        "An isolated environment for project-specific dependencies.",
+        "The use of try/except blocks to manage runtime errors.",
+        "A concise syntax for creating lists from iterables.",
+        "The standard package installer for Python packages."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 190,
+      "question": "For Python, \"pip\" is best described as:?",
+      "options": [
+        "A concise syntax for creating lists from iterables.",
+        "An isolated environment for project-specific dependencies.",
+        "The standard package installer for Python packages.",
+        "The use of try/except blocks to manage runtime errors."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 191,
+      "question": "Which description best matches \"Exception handling\" in Python?",
+      "options": [
+        "An immutable ordered collection type.",
+        "The use of try/except blocks to manage runtime errors.",
+        "A concise syntax for creating lists from iterables.",
+        "An isolated environment for project-specific dependencies."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 192,
+      "question": "In Python, \"Exception handling\" is mainly used for what?",
+      "options": [
+        "The use of try/except blocks to manage runtime errors.",
+        "An isolated environment for project-specific dependencies.",
+        "An immutable ordered collection type.",
+        "A concise syntax for creating lists from iterables."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 193,
+      "question": "What is the primary purpose of \"Exception handling\" in Python?",
+      "options": [
+        "An immutable ordered collection type.",
+        "A concise syntax for creating lists from iterables.",
+        "An isolated environment for project-specific dependencies.",
+        "The use of try/except blocks to manage runtime errors."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 194,
+      "question": "Choose the most accurate statement about \"Exception handling\" in Python?",
+      "options": [
+        "An isolated environment for project-specific dependencies.",
+        "An immutable ordered collection type.",
+        "The use of try/except blocks to manage runtime errors.",
+        "A concise syntax for creating lists from iterables."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 195,
+      "question": "Which option correctly explains \"Exception handling\" for Python developers?",
+      "options": [
+        "A concise syntax for creating lists from iterables.",
+        "The use of try/except blocks to manage runtime errors.",
+        "An isolated environment for project-specific dependencies.",
+        "An immutable ordered collection type."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 196,
+      "question": "In practical Python code, when would you use \"Exception handling\"?",
+      "options": [
+        "The use of try/except blocks to manage runtime errors.",
+        "An immutable ordered collection type.",
+        "A concise syntax for creating lists from iterables.",
+        "An isolated environment for project-specific dependencies."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 197,
+      "question": "What does \"Exception handling\" represent?",
+      "options": [
+        "A concise syntax for creating lists from iterables.",
+        "An isolated environment for project-specific dependencies.",
+        "An immutable ordered collection type.",
+        "The use of try/except blocks to manage runtime errors."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 198,
+      "question": "Identify the correct meaning of \"Exception handling\" in Python?",
+      "options": [
+        "An immutable ordered collection type.",
+        "A concise syntax for creating lists from iterables.",
+        "The use of try/except blocks to manage runtime errors.",
+        "An isolated environment for project-specific dependencies."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 199,
+      "question": "Which definition of \"Exception handling\" is correct in Python?",
+      "options": [
+        "An isolated environment for project-specific dependencies.",
+        "The use of try/except blocks to manage runtime errors.",
+        "An immutable ordered collection type.",
+        "A concise syntax for creating lists from iterables."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 200,
+      "question": "For Python, \"Exception handling\" is best described as:?",
+      "options": [
+        "The use of try/except blocks to manage runtime errors.",
+        "A concise syntax for creating lists from iterables.",
+        "An isolated environment for project-specific dependencies.",
+        "An immutable ordered collection type."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 201,
+      "question": "What is printed?\n```python\nx = 3\nprint(x + 2)\n```",
+      "options": [
+        "32",
+        "5",
+        "3",
+        "2"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 202,
+      "question": "What is the output?\n```python\nnums = [1, 2, 3]\nprint(nums[0])\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 203,
+      "question": "What is printed?\n```python\nfor i in range(3):\n    pass\nprint(i)\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Error"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 204,
+      "question": "What is printed?\n```python\nname = \"LLPMM\"\nprint(name.lower())\n```",
+      "options": [
+        "LLPMM",
+        "llpmm",
+        "Llpmm",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 205,
+      "question": "What is output?\n```python\nd = {\"a\": 1}\nprint(d.get(\"b\", 0))\n```",
+      "options": [
+        "1",
+        "None",
+        "0",
+        "KeyError"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 206,
+      "question": "In Python, what is printed?\n```python\nx = 3\nprint(x + 2)\n```",
+      "options": [
+        "32",
+        "5",
+        "3",
+        "2"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 207,
+      "question": "In Python, what is the output?\n```python\nnums = [1, 2, 3]\nprint(nums[0])\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 208,
+      "question": "In Python, what is printed?\n```python\nfor i in range(3): pass\nprint(i)\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Error"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 209,
+      "question": "In Python, what is printed?\n```python\nname = \"LLPMM\"\nprint(name.lower())\n```",
+      "options": [
+        "LLPMM",
+        "llpmm",
+        "Llpmm",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 210,
+      "question": "In Python, what is output?\n```python\nd = {\"a\": 1}\nprint(d.get(\"b\", 0))\n```",
+      "options": [
+        "1",
+        "None",
+        "0",
+        "KeyError"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 211,
+      "question": "For Python, what is printed?\n```python\nx = 3\nprint(x + 2)\n```",
+      "options": [
+        "32",
+        "5",
+        "3",
+        "2"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 212,
+      "question": "For Python, what is the output?\n```python\nnums = [1, 2, 3]\nprint(nums[0])\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 213,
+      "question": "In Python, in Python, what is printed?\n```python\nfor i in range(3): pass\nprint(i)\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Error"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 214,
+      "question": "For Python, what is printed?\n```python\nname = \"LLPMM\"\nprint(name.lower())\n```",
+      "options": [
+        "LLPMM",
+        "llpmm",
+        "Llpmm",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 215,
+      "question": "For Python, what is output?\n```python\nd = {\"a\": 1}\nprint(d.get(\"b\", 0))\n```",
+      "options": [
+        "1",
+        "None",
+        "0",
+        "KeyError"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 216,
+      "question": "When using Python, what is printed?\n```python\nx = 3\nprint(x + 2)\n```",
+      "options": [
+        "32",
+        "5",
+        "3",
+        "2"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 217,
+      "question": "When using Python, what is the output?\n```python\nnums = [1, 2, 3]\nprint(nums[0])\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 218,
+      "question": "For Python, in Python, what is printed?\n```python\nfor i in range(3): pass\nprint(i)\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Error"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 219,
+      "question": "When using Python, what is printed?\n```python\nname = \"LLPMM\"\nprint(name.lower())\n```",
+      "options": [
+        "LLPMM",
+        "llpmm",
+        "Llpmm",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 220,
+      "question": "When using Python, what is output?\n```python\nd = {\"a\": 1}\nprint(d.get(\"b\", 0))\n```",
+      "options": [
+        "1",
+        "None",
+        "0",
+        "KeyError"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 221,
+      "question": "In a Python query, what is printed?\n```python\nx = 3\nprint(x + 2)\n```",
+      "options": [
+        "32",
+        "5",
+        "3",
+        "2"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 222,
+      "question": "In a Python query, what is the output?\n```python\nnums = [1, 2, 3]\nprint(nums[0])\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 223,
+      "question": "When using Python, in Python, what is printed?\n```python\nfor i in range(3): pass\nprint(i)\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Error"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 224,
+      "question": "In a Python query, what is printed?\n```python\nname = \"LLPMM\"\nprint(name.lower())\n```",
+      "options": [
+        "LLPMM",
+        "llpmm",
+        "Llpmm",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 225,
+      "question": "In a Python query, what is output?\n```python\nd = {\"a\": 1}\nprint(d.get(\"b\", 0))\n```",
+      "options": [
+        "1",
+        "None",
+        "0",
+        "KeyError"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 226,
+      "question": "From a Python perspective, what is printed?\n```python\nx = 3\nprint(x + 2)\n```",
+      "options": [
+        "32",
+        "5",
+        "3",
+        "2"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 227,
+      "question": "From a Python perspective, what is the output?\n```python\nnums = [1, 2, 3]\nprint(nums[0])\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 228,
+      "question": "Within Python, in Python, what is printed?\n```python\nfor i in range(3): pass\nprint(i)\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Error"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 229,
+      "question": "From a Python perspective, what is printed?\n```python\nname = \"LLPMM\"\nprint(name.lower())\n```",
+      "options": [
+        "LLPMM",
+        "llpmm",
+        "Llpmm",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 230,
+      "question": "From a Python perspective, what is output?\n```python\nd = {\"a\": 1}\nprint(d.get(\"b\", 0))\n```",
+      "options": [
+        "1",
+        "None",
+        "0",
+        "KeyError"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 231,
+      "question": "In practical Python usage, what is printed?\n```python\nx = 3\nprint(x + 2)\n```",
+      "options": [
+        "32",
+        "5",
+        "3",
+        "2"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 232,
+      "question": "In practical Python usage, what is the output?\n```python\nnums = [1, 2, 3]\nprint(nums[0])\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 233,
+      "question": "In practical Python usage, in Python, what is printed?\n```python\nfor i in range(3): pass\nprint(i)\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Error"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 234,
+      "question": "In practical Python usage, what is printed?\n```python\nname = \"LLPMM\"\nprint(name.lower())\n```",
+      "options": [
+        "LLPMM",
+        "llpmm",
+        "Llpmm",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 235,
+      "question": "In practical Python usage, what is output?\n```python\nd = {\"a\": 1}\nprint(d.get(\"b\", 0))\n```",
+      "options": [
+        "1",
+        "None",
+        "0",
+        "KeyError"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 236,
+      "question": "Within Python, what is printed?\n```python\nx = 3\nprint(x + 2)\n```",
+      "options": [
+        "32",
+        "5",
+        "3",
+        "2"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 237,
+      "question": "Within Python, what is the output?\n```python\nnums = [1, 2, 3]\nprint(nums[0])\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 238,
+      "question": "For Python developers, in Python, what is printed?\n```python\nfor i in range(3): pass\nprint(i)\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Error"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 239,
+      "question": "Within Python, what is printed?\n```python\nname = \"LLPMM\"\nprint(name.lower())\n```",
+      "options": [
+        "LLPMM",
+        "llpmm",
+        "Llpmm",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 240,
+      "question": "Within Python, what is output?\n```python\nd = {\"a\": 1}\nprint(d.get(\"b\", 0))\n```",
+      "options": [
+        "1",
+        "None",
+        "0",
+        "KeyError"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 241,
+      "question": "For Python developers, what is printed?\n```python\nx = 3\nprint(x + 2)\n```",
+      "options": [
+        "32",
+        "5",
+        "3",
+        "2"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 242,
+      "question": "For Python developers, what is the output?\n```python\nnums = [1, 2, 3]\nprint(nums[0])\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 243,
+      "question": "In Python practice, in Python, what is printed?\n```python\nfor i in range(3): pass\nprint(i)\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Error"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 244,
+      "question": "For Python developers, what is printed?\n```python\nname = \"LLPMM\"\nprint(name.lower())\n```",
+      "options": [
+        "LLPMM",
+        "llpmm",
+        "Llpmm",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 245,
+      "question": "For Python developers, what is output?\n```python\nd = {\"a\": 1}\nprint(d.get(\"b\", 0))\n```",
+      "options": [
+        "1",
+        "None",
+        "0",
+        "KeyError"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 246,
+      "question": "In day-to-day Python work, what is printed?\n```python\nx = 3\nprint(x + 2)\n```",
+      "options": [
+        "32",
+        "5",
+        "3",
+        "2"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 247,
+      "question": "In day-to-day Python work, what is the output?\n```python\nnums = [1, 2, 3]\nprint(nums[0])\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 248,
+      "question": "With Python, in Python, what is printed?\n```python\nfor i in range(3): pass\nprint(i)\n```",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Error"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 249,
+      "question": "In day-to-day Python work, what is printed?\n```python\nname = \"LLPMM\"\nprint(name.lower())\n```",
+      "options": [
+        "LLPMM",
+        "llpmm",
+        "Llpmm",
+        "Error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 250,
+      "question": "In day-to-day Python work, what is output?\n```python\nd = {\"a\": 1}\nprint(d.get(\"b\", 0))\n```",
+      "options": [
+        "1",
+        "None",
+        "0",
+        "KeyError"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 251,
+      "question": "What is output?\n```python\nx = 10\ny = 4\nprint(x // y)\n```",
+      "options": [
+        "2",
+        "2.5",
+        "3",
+        "4"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 252,
+      "question": "What is printed?\n```python\nname = 'py'\nprint(name * 2)\n```",
+      "options": [
+        "py2",
+        "pypy",
+        "py py",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 253,
+      "question": "What is output?\n```python\nitems = [3,1,2]\nitems.sort()\nprint(items[0])\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 254,
+      "question": "What is printed?\n```python\nd = {'x': 5}\nprint('x' in d)\n```",
+      "options": [
+        "False",
+        "True",
+        "x",
+        "5"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 255,
+      "question": "Final i value?\n```python\nfor i in range(1,4):\n    pass\nprint(i)\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 256,
+      "question": "In Python, what is output?\n```python\nx = 10\ny = 4\nprint(x // y)\n```",
+      "options": [
+        "2",
+        "2.5",
+        "3",
+        "4"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 257,
+      "question": "In Python, what is printed?\n```python\nname = 'py'\nprint(name * 2)\n```",
+      "options": [
+        "py2",
+        "pypy",
+        "py py",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 258,
+      "question": "In Python, what is output?\n```python\nitems = [3,1,2]\nitems.sort()\nprint(items[0])\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 259,
+      "question": "In Python, what is printed?\n```python\nd = {'x': 5}\nprint('x' in d)\n```",
+      "options": [
+        "False",
+        "True",
+        "x",
+        "5"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 260,
+      "question": "In Python, final i value?\n```python\nfor i in range(1,4): pass\nprint(i)\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 261,
+      "question": "For Python, what is output?\n```python\nx = 10\ny = 4\nprint(x // y)\n```",
+      "options": [
+        "2",
+        "2.5",
+        "3",
+        "4"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 262,
+      "question": "For Python, what is printed?\n```python\nname = 'py'\nprint(name * 2)\n```",
+      "options": [
+        "py2",
+        "pypy",
+        "py py",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 263,
+      "question": "For Python, what is output?\n```python\nitems = [3,1,2]\nitems.sort()\nprint(items[0])\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 264,
+      "question": "For Python, what is printed?\n```python\nd = {'x': 5}\nprint('x' in d)\n```",
+      "options": [
+        "False",
+        "True",
+        "x",
+        "5"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 265,
+      "question": "In Python, in Python, final i value?\n```python\nfor i in range(1,4): pass\nprint(i)\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 266,
+      "question": "When using Python, what is output?\n```python\nx = 10\ny = 4\nprint(x // y)\n```",
+      "options": [
+        "2",
+        "2.5",
+        "3",
+        "4"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 267,
+      "question": "When using Python, what is printed?\n```python\nname = 'py'\nprint(name * 2)\n```",
+      "options": [
+        "py2",
+        "pypy",
+        "py py",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 268,
+      "question": "When using Python, what is output?\n```python\nitems = [3,1,2]\nitems.sort()\nprint(items[0])\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 269,
+      "question": "When using Python, what is printed?\n```python\nd = {'x': 5}\nprint('x' in d)\n```",
+      "options": [
+        "False",
+        "True",
+        "x",
+        "5"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 270,
+      "question": "For Python, in Python, final i value?\n```python\nfor i in range(1,4): pass\nprint(i)\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 271,
+      "question": "In a Python query, what is output?\n```python\nx = 10\ny = 4\nprint(x // y)\n```",
+      "options": [
+        "2",
+        "2.5",
+        "3",
+        "4"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 272,
+      "question": "In a Python query, what is printed?\n```python\nname = 'py'\nprint(name * 2)\n```",
+      "options": [
+        "py2",
+        "pypy",
+        "py py",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 273,
+      "question": "In a Python query, what is output?\n```python\nitems = [3,1,2]\nitems.sort()\nprint(items[0])\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 274,
+      "question": "In a Python query, what is printed?\n```python\nd = {'x': 5}\nprint('x' in d)\n```",
+      "options": [
+        "False",
+        "True",
+        "x",
+        "5"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 275,
+      "question": "When using Python, in Python, final i value?\n```python\nfor i in range(1,4): pass\nprint(i)\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 276,
+      "question": "From a Python perspective, what is output?\n```python\nx = 10\ny = 4\nprint(x // y)\n```",
+      "options": [
+        "2",
+        "2.5",
+        "3",
+        "4"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 277,
+      "question": "From a Python perspective, what is printed?\n```python\nname = 'py'\nprint(name * 2)\n```",
+      "options": [
+        "py2",
+        "pypy",
+        "py py",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 278,
+      "question": "From a Python perspective, what is output?\n```python\nitems = [3,1,2]\nitems.sort()\nprint(items[0])\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 279,
+      "question": "From a Python perspective, what is printed?\n```python\nd = {'x': 5}\nprint('x' in d)\n```",
+      "options": [
+        "False",
+        "True",
+        "x",
+        "5"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 280,
+      "question": "Within Python, in Python, final i value?\n```python\nfor i in range(1,4): pass\nprint(i)\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 281,
+      "question": "In practical Python usage, what is output?\n```python\nx = 10\ny = 4\nprint(x // y)\n```",
+      "options": [
+        "2",
+        "2.5",
+        "3",
+        "4"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 282,
+      "question": "In practical Python usage, what is printed?\n```python\nname = 'py'\nprint(name * 2)\n```",
+      "options": [
+        "py2",
+        "pypy",
+        "py py",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 283,
+      "question": "In practical Python usage, what is output?\n```python\nitems = [3,1,2]\nitems.sort()\nprint(items[0])\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 284,
+      "question": "In practical Python usage, what is printed?\n```python\nd = {'x': 5}\nprint('x' in d)\n```",
+      "options": [
+        "False",
+        "True",
+        "x",
+        "5"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 285,
+      "question": "In practical Python usage, in Python, final i value?\n```python\nfor i in range(1,4): pass\nprint(i)\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 286,
+      "question": "Within Python, what is output?\n```python\nx = 10\ny = 4\nprint(x // y)\n```",
+      "options": [
+        "2",
+        "2.5",
+        "3",
+        "4"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 287,
+      "question": "Within Python, what is printed?\n```python\nname = 'py'\nprint(name * 2)\n```",
+      "options": [
+        "py2",
+        "pypy",
+        "py py",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 288,
+      "question": "Within Python, what is output?\n```python\nitems = [3,1,2]\nitems.sort()\nprint(items[0])\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 289,
+      "question": "Within Python, what is printed?\n```python\nd = {'x': 5}\nprint('x' in d)\n```",
+      "options": [
+        "False",
+        "True",
+        "x",
+        "5"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 290,
+      "question": "For Python developers, in Python, final i value?\n```python\nfor i in range(1,4): pass\nprint(i)\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 291,
+      "question": "For Python developers, what is output?\n```python\nx = 10\ny = 4\nprint(x // y)\n```",
+      "options": [
+        "2",
+        "2.5",
+        "3",
+        "4"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 292,
+      "question": "For Python developers, what is printed?\n```python\nname = 'py'\nprint(name * 2)\n```",
+      "options": [
+        "py2",
+        "pypy",
+        "py py",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 293,
+      "question": "For Python developers, what is output?\n```python\nitems = [3,1,2]\nitems.sort()\nprint(items[0])\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 294,
+      "question": "For Python developers, what is printed?\n```python\nd = {'x': 5}\nprint('x' in d)\n```",
+      "options": [
+        "False",
+        "True",
+        "x",
+        "5"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 295,
+      "question": "In Python practice, in Python, final i value?\n```python\nfor i in range(1,4): pass\nprint(i)\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 296,
+      "question": "In day-to-day Python work, what is output?\n```python\nx = 10\ny = 4\nprint(x // y)\n```",
+      "options": [
+        "2",
+        "2.5",
+        "3",
+        "4"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 297,
+      "question": "In day-to-day Python work, what is printed?\n```python\nname = 'py'\nprint(name * 2)\n```",
+      "options": [
+        "py2",
+        "pypy",
+        "py py",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 298,
+      "question": "In day-to-day Python work, what is output?\n```python\nitems = [3,1,2]\nitems.sort()\nprint(items[0])\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 299,
+      "question": "In day-to-day Python work, what is printed?\n```python\nd = {'x': 5}\nprint('x' in d)\n```",
+      "options": [
+        "False",
+        "True",
+        "x",
+        "5"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 300,
+      "question": "With Python, in Python, final i value?\n```python\nfor i in range(1,4): pass\nprint(i)\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 301,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_302 = 3\nprint(value_302)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 302,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_304 = 5\nprint(value_304)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 303,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_306 = 7\nprint(value_306)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 304,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_308 = 9\nprint(value_308)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 305,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_310 = 11\nprint(value_310)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 306,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_312 = 13\nprint(value_312)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 307,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_314 = 15\nprint(value_314)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 308,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_316 = 17\nprint(value_316)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 309,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_318 = 19\nprint(value_318)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 310,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_320 = 21\nprint(value_320)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 311,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_322 = 0\nprint(value_322)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 312,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_324 = 2\nprint(value_324)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 313,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_326 = 4\nprint(value_326)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 314,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_328 = 6\nprint(value_328)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 315,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_330 = 8\nprint(value_330)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 316,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_332 = 10\nprint(value_332)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 317,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_334 = 12\nprint(value_334)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 318,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_336 = 14\nprint(value_336)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 319,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_338 = 16\nprint(value_338)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 320,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_340 = 18\nprint(value_340)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 321,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_342 = 20\nprint(value_342)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 322,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_344 = 22\nprint(value_344)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 323,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_346 = 1\nprint(value_346)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 324,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_348 = 3\nprint(value_348)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 325,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_350 = 5\nprint(value_350)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 326,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_352 = 7\nprint(value_352)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 327,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_354 = 9\nprint(value_354)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 328,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_356 = 11\nprint(value_356)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 329,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_358 = 13\nprint(value_358)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 330,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_360 = 15\nprint(value_360)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 331,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_362 = 17\nprint(value_362)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 332,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_364 = 19\nprint(value_364)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 333,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_366 = 21\nprint(value_366)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 334,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_368 = 0\nprint(value_368)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 335,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_370 = 2\nprint(value_370)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 336,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_372 = 4\nprint(value_372)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 337,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_374 = 6\nprint(value_374)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 338,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_376 = 8\nprint(value_376)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 339,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_378 = 10\nprint(value_378)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 340,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_380 = 12\nprint(value_380)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 341,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_382 = 14\nprint(value_382)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 342,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_384 = 16\nprint(value_384)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 343,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_386 = 18\nprint(value_386)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 344,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_388 = 20\nprint(value_388)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 345,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_390 = 22\nprint(value_390)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 346,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_392 = 1\nprint(value_392)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 347,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_394 = 3\nprint(value_394)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 348,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_396 = 5\nprint(value_396)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 349,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_398 = 7\nprint(value_398)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 350,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_400 = 9\nprint(value_400)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 351,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_402 = 11\nprint(value_402)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 352,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_404 = 13\nprint(value_404)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 353,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_406 = 15\nprint(value_406)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 354,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_408 = 17\nprint(value_408)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 355,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_410 = 19\nprint(value_410)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 356,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_412 = 21\nprint(value_412)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 357,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_414 = 0\nprint(value_414)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 358,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_416 = 2\nprint(value_416)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 359,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_418 = 4\nprint(value_418)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 360,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_420 = 6\nprint(value_420)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 361,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_422 = 8\nprint(value_422)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 362,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_424 = 10\nprint(value_424)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 363,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_426 = 12\nprint(value_426)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 364,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_428 = 14\nprint(value_428)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 365,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_430 = 16\nprint(value_430)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 366,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_432 = 18\nprint(value_432)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 367,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_434 = 20\nprint(value_434)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 368,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_436 = 22\nprint(value_436)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 369,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_438 = 1\nprint(value_438)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 370,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_440 = 3\nprint(value_440)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 371,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_442 = 5\nprint(value_442)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 372,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_444 = 7\nprint(value_444)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 373,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_446 = 9\nprint(value_446)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 374,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_448 = 11\nprint(value_448)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 375,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_450 = 13\nprint(value_450)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 376,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_452 = 15\nprint(value_452)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 377,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_454 = 17\nprint(value_454)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 378,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_456 = 19\nprint(value_456)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 379,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_458 = 21\nprint(value_458)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 380,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_460 = 0\nprint(value_460)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 381,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_462 = 2\nprint(value_462)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 382,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_464 = 4\nprint(value_464)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 383,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_466 = 6\nprint(value_466)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 384,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_468 = 8\nprint(value_468)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 385,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_470 = 10\nprint(value_470)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 386,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_472 = 12\nprint(value_472)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 387,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_474 = 14\nprint(value_474)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 388,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_476 = 16\nprint(value_476)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 389,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_478 = 18\nprint(value_478)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 390,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_480 = 20\nprint(value_480)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 391,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_482 = 22\nprint(value_482)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 392,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_484 = 1\nprint(value_484)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 393,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_486 = 3\nprint(value_486)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 394,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_488 = 5\nprint(value_488)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 395,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_490 = 7\nprint(value_490)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 396,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_492 = 9\nprint(value_492)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 397,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_494 = 11\nprint(value_494)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 398,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_496 = 13\nprint(value_496)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 399,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_498 = 15\nprint(value_498)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 400,
+      "question": "What is the key outcome of this snippet?\n```python\nvalue_500 = 17\nprint(value_500)\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    }
+  ]
+}

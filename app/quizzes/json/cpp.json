@@ -1,0 +1,4407 @@
+{
+  "slug": "cpp",
+  "title": "C++ Quiz",
+  "description": "100 C++ programming practice questions",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which header is commonly used for standard input/output streams?",
+      "options": [
+        "<stdio.h>",
+        "<iostream>",
+        "<string>",
+        "<vector>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "Which operator is used to access members through a pointer?",
+      "options": [
+        ".",
+        "::",
+        "->",
+        "*"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "Which keyword creates a class inheritance relationship?",
+      "options": [
+        "extends",
+        "inherits",
+        ":",
+        "implements"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 4,
+      "question": "Which container stores key-value pairs in sorted order by key?",
+      "options": [
+        "vector",
+        "unordered_map",
+        "map",
+        "set"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Which keyword is used for dynamic memory allocation in C++?",
+      "options": [
+        "malloc",
+        "alloc",
+        "new",
+        "create"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "What is the correct file extension for C++ source files (common)?",
+      "options": [
+        ".c",
+        ".java",
+        ".cpp",
+        ".py"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 7,
+      "question": "Which concept allows same function name with different parameter lists?",
+      "options": [
+        "overriding",
+        "overloading",
+        "templating",
+        "casting"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 8,
+      "question": "Which keyword prevents a class from being inherited?",
+      "options": [
+        "final",
+        "sealed",
+        "const",
+        "static"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "Which header is commonly used for standard input/output streams in C++?",
+      "options": [
+        "<stdio.h>",
+        "<iostream>",
+        "<string>",
+        "<vector>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "In C++, which operator is used to access members through a pointer?",
+      "options": [
+        ".",
+        "::",
+        "->",
+        "*"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 11,
+      "question": "Which symbol is used to declare class inheritance in C++?",
+      "options": [
+        "extends",
+        "inherits",
+        ":",
+        "implements"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 12,
+      "question": "Which container stores key-value pairs in sorted key order?",
+      "options": [
+        "vector",
+        "unordered_map",
+        "map",
+        "set"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 13,
+      "question": "In C++, which keyword is used for dynamic memory allocation in C++?",
+      "options": [
+        "malloc",
+        "alloc",
+        "new",
+        "create"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 14,
+      "question": "Which file extension is commonly used for C++ source files?",
+      "options": [
+        ".c",
+        ".java",
+        ".cpp",
+        ".py"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 15,
+      "question": "Which concept allows the same function name with different parameter lists?",
+      "options": [
+        "overriding",
+        "overloading",
+        "templating",
+        "casting"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 16,
+      "question": "Which keyword prevents a class from being inherited in modern C++?",
+      "options": [
+        "final",
+        "sealed",
+        "const",
+        "static"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 17,
+      "question": "In C++, which header is commonly used for standard input/output streams in C++?",
+      "options": [
+        "<stdio.h>",
+        "<iostream>",
+        "<string>",
+        "<vector>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 18,
+      "question": "For C++, which operator is used to access members through a pointer?",
+      "options": [
+        ".",
+        "::",
+        "->",
+        "*"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 19,
+      "question": "In C++, which symbol is used to declare class inheritance in C++?",
+      "options": [
+        "extends",
+        "inherits",
+        ":",
+        "implements"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 20,
+      "question": "In C++, which container stores key-value pairs in sorted key order?",
+      "options": [
+        "vector",
+        "unordered_map",
+        "map",
+        "set"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 21,
+      "question": "For C++, which keyword is used for dynamic memory allocation in C++?",
+      "options": [
+        "malloc",
+        "alloc",
+        "new",
+        "create"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 22,
+      "question": "In C++, which file extension is commonly used for C++ source files?",
+      "options": [
+        ".c",
+        ".java",
+        ".cpp",
+        ".py"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 23,
+      "question": "In C++, which concept allows the same function name with different parameter lists?",
+      "options": [
+        "overriding",
+        "overloading",
+        "templating",
+        "casting"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 24,
+      "question": "In C++, which keyword prevents a class from being inherited in modern C++?",
+      "options": [
+        "final",
+        "sealed",
+        "const",
+        "static"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 25,
+      "question": "For C++, which header is commonly used for standard input/output streams in C++?",
+      "options": [
+        "<stdio.h>",
+        "<iostream>",
+        "<string>",
+        "<vector>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 26,
+      "question": "When using C++, which operator is used to access members through a pointer?",
+      "options": [
+        ".",
+        "::",
+        "->",
+        "*"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 27,
+      "question": "For C++, which symbol is used to declare class inheritance in C++?",
+      "options": [
+        "extends",
+        "inherits",
+        ":",
+        "implements"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 28,
+      "question": "For C++, which container stores key-value pairs in sorted key order?",
+      "options": [
+        "vector",
+        "unordered_map",
+        "map",
+        "set"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 29,
+      "question": "When using C++, which keyword is used for dynamic memory allocation in C++?",
+      "options": [
+        "malloc",
+        "alloc",
+        "new",
+        "create"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 30,
+      "question": "For C++, which file extension is commonly used for C++ source files?",
+      "options": [
+        ".c",
+        ".java",
+        ".cpp",
+        ".py"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 31,
+      "question": "For C++, which concept allows the same function name with different parameter lists?",
+      "options": [
+        "overriding",
+        "overloading",
+        "templating",
+        "casting"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 32,
+      "question": "For C++, which keyword prevents a class from being inherited in modern C++?",
+      "options": [
+        "final",
+        "sealed",
+        "const",
+        "static"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 33,
+      "question": "When using C++, which header is commonly used for standard input/output streams in C++?",
+      "options": [
+        "<stdio.h>",
+        "<iostream>",
+        "<string>",
+        "<vector>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 34,
+      "question": "In a C++ query, which operator is used to access members through a pointer?",
+      "options": [
+        ".",
+        "::",
+        "->",
+        "*"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 35,
+      "question": "When using C++, which symbol is used to declare class inheritance in C++?",
+      "options": [
+        "extends",
+        "inherits",
+        ":",
+        "implements"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 36,
+      "question": "When using C++, which container stores key-value pairs in sorted key order?",
+      "options": [
+        "vector",
+        "unordered_map",
+        "map",
+        "set"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 37,
+      "question": "In a C++ query, which keyword is used for dynamic memory allocation in C++?",
+      "options": [
+        "malloc",
+        "alloc",
+        "new",
+        "create"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 38,
+      "question": "When using C++, which file extension is commonly used for C++ source files?",
+      "options": [
+        ".c",
+        ".java",
+        ".cpp",
+        ".py"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 39,
+      "question": "When using C++, which concept allows the same function name with different parameter lists?",
+      "options": [
+        "overriding",
+        "overloading",
+        "templating",
+        "casting"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 40,
+      "question": "When using C++, which keyword prevents a class from being inherited in modern C++?",
+      "options": [
+        "final",
+        "sealed",
+        "const",
+        "static"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 41,
+      "question": "In a C++ query, which header is commonly used for standard input/output streams in C++?",
+      "options": [
+        "<stdio.h>",
+        "<iostream>",
+        "<string>",
+        "<vector>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 42,
+      "question": "From a C++ perspective, which operator is used to access members through a pointer?",
+      "options": [
+        ".",
+        "::",
+        "->",
+        "*"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 43,
+      "question": "In a C++ query, which symbol is used to declare class inheritance in C++?",
+      "options": [
+        "extends",
+        "inherits",
+        ":",
+        "implements"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 44,
+      "question": "In a C++ query, which container stores key-value pairs in sorted key order?",
+      "options": [
+        "vector",
+        "unordered_map",
+        "map",
+        "set"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 45,
+      "question": "From a C++ perspective, which keyword is used for dynamic memory allocation in C++?",
+      "options": [
+        "malloc",
+        "alloc",
+        "new",
+        "create"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 46,
+      "question": "In a C++ query, which file extension is commonly used for C++ source files?",
+      "options": [
+        ".c",
+        ".java",
+        ".cpp",
+        ".py"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 47,
+      "question": "In a C++ query, which concept allows the same function name with different parameter lists?",
+      "options": [
+        "overriding",
+        "overloading",
+        "templating",
+        "casting"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 48,
+      "question": "In a C++ query, which keyword prevents a class from being inherited in modern C++?",
+      "options": [
+        "final",
+        "sealed",
+        "const",
+        "static"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 49,
+      "question": "From a C++ perspective, which header is commonly used for standard input/output streams in C++?",
+      "options": [
+        "<stdio.h>",
+        "<iostream>",
+        "<string>",
+        "<vector>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 50,
+      "question": "In practical C++ usage, which operator is used to access members through a pointer?",
+      "options": [
+        ".",
+        "::",
+        "->",
+        "*"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 51,
+      "question": "From a C++ perspective, which symbol is used to declare class inheritance in C++?",
+      "options": [
+        "extends",
+        "inherits",
+        ":",
+        "implements"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 52,
+      "question": "From a C++ perspective, which container stores key-value pairs in sorted key order?",
+      "options": [
+        "vector",
+        "unordered_map",
+        "map",
+        "set"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 53,
+      "question": "In practical C++ usage, which keyword is used for dynamic memory allocation in C++?",
+      "options": [
+        "malloc",
+        "alloc",
+        "new",
+        "create"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 54,
+      "question": "From a C++ perspective, which file extension is commonly used for C++ source files?",
+      "options": [
+        ".c",
+        ".java",
+        ".cpp",
+        ".py"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 55,
+      "question": "From a C++ perspective, which concept allows the same function name with different parameter lists?",
+      "options": [
+        "overriding",
+        "overloading",
+        "templating",
+        "casting"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 56,
+      "question": "From a C++ perspective, which keyword prevents a class from being inherited in modern C++?",
+      "options": [
+        "final",
+        "sealed",
+        "const",
+        "static"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 57,
+      "question": "In practical C++ usage, which header is commonly used for standard input/output streams in C++?",
+      "options": [
+        "<stdio.h>",
+        "<iostream>",
+        "<string>",
+        "<vector>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 58,
+      "question": "Within C++, which operator is used to access members through a pointer?",
+      "options": [
+        ".",
+        "::",
+        "->",
+        "*"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 59,
+      "question": "In practical C++ usage, which symbol is used to declare class inheritance in C++?",
+      "options": [
+        "extends",
+        "inherits",
+        ":",
+        "implements"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 60,
+      "question": "In practical C++ usage, which container stores key-value pairs in sorted key order?",
+      "options": [
+        "vector",
+        "unordered_map",
+        "map",
+        "set"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 61,
+      "question": "Within C++, which keyword is used for dynamic memory allocation in C++?",
+      "options": [
+        "malloc",
+        "alloc",
+        "new",
+        "create"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 62,
+      "question": "In practical C++ usage, which file extension is commonly used for C++ source files?",
+      "options": [
+        ".c",
+        ".java",
+        ".cpp",
+        ".py"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 63,
+      "question": "In practical C++ usage, which concept allows the same function name with different parameter lists?",
+      "options": [
+        "overriding",
+        "overloading",
+        "templating",
+        "casting"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 64,
+      "question": "In practical C++ usage, which keyword prevents a class from being inherited in modern C++?",
+      "options": [
+        "final",
+        "sealed",
+        "const",
+        "static"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 65,
+      "question": "Within C++, which header is commonly used for standard input/output streams in C++?",
+      "options": [
+        "<stdio.h>",
+        "<iostream>",
+        "<string>",
+        "<vector>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 66,
+      "question": "For C++ developers, which operator is used to access members through a pointer?",
+      "options": [
+        ".",
+        "::",
+        "->",
+        "*"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 67,
+      "question": "Within C++, which symbol is used to declare class inheritance in C++?",
+      "options": [
+        "extends",
+        "inherits",
+        ":",
+        "implements"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 68,
+      "question": "Within C++, which container stores key-value pairs in sorted key order?",
+      "options": [
+        "vector",
+        "unordered_map",
+        "map",
+        "set"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 69,
+      "question": "For C++ developers, which keyword is used for dynamic memory allocation in C++?",
+      "options": [
+        "malloc",
+        "alloc",
+        "new",
+        "create"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 70,
+      "question": "Within C++, which file extension is commonly used for C++ source files?",
+      "options": [
+        ".c",
+        ".java",
+        ".cpp",
+        ".py"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 71,
+      "question": "Within C++, which concept allows the same function name with different parameter lists?",
+      "options": [
+        "overriding",
+        "overloading",
+        "templating",
+        "casting"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 72,
+      "question": "Within C++, which keyword prevents a class from being inherited in modern C++?",
+      "options": [
+        "final",
+        "sealed",
+        "const",
+        "static"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 73,
+      "question": "For C++ developers, which header is commonly used for standard input/output streams in C++?",
+      "options": [
+        "<stdio.h>",
+        "<iostream>",
+        "<string>",
+        "<vector>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 74,
+      "question": "In day-to-day C++ work, which operator is used to access members through a pointer?",
+      "options": [
+        ".",
+        "::",
+        "->",
+        "*"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 75,
+      "question": "For C++ developers, which symbol is used to declare class inheritance in C++?",
+      "options": [
+        "extends",
+        "inherits",
+        ":",
+        "implements"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 76,
+      "question": "For C++ developers, which container stores key-value pairs in sorted key order?",
+      "options": [
+        "vector",
+        "unordered_map",
+        "map",
+        "set"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 77,
+      "question": "In day-to-day C++ work, which keyword is used for dynamic memory allocation in C++?",
+      "options": [
+        "malloc",
+        "alloc",
+        "new",
+        "create"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 78,
+      "question": "For C++ developers, which file extension is commonly used for C++ source files?",
+      "options": [
+        ".c",
+        ".java",
+        ".cpp",
+        ".py"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 79,
+      "question": "For C++ developers, which concept allows the same function name with different parameter lists?",
+      "options": [
+        "overriding",
+        "overloading",
+        "templating",
+        "casting"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 80,
+      "question": "For C++ developers, which keyword prevents a class from being inherited in modern C++?",
+      "options": [
+        "final",
+        "sealed",
+        "const",
+        "static"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 81,
+      "question": "In day-to-day C++ work, which header is commonly used for standard input/output streams in C++?",
+      "options": [
+        "<stdio.h>",
+        "<iostream>",
+        "<string>",
+        "<vector>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 82,
+      "question": "Using C++, which operator is used to access members through a pointer?",
+      "options": [
+        ".",
+        "::",
+        "->",
+        "*"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 83,
+      "question": "In day-to-day C++ work, which symbol is used to declare class inheritance in C++?",
+      "options": [
+        "extends",
+        "inherits",
+        ":",
+        "implements"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 84,
+      "question": "In day-to-day C++ work, which container stores key-value pairs in sorted key order?",
+      "options": [
+        "vector",
+        "unordered_map",
+        "map",
+        "set"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 85,
+      "question": "Using C++, which keyword is used for dynamic memory allocation in C++?",
+      "options": [
+        "malloc",
+        "alloc",
+        "new",
+        "create"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 86,
+      "question": "In day-to-day C++ work, which file extension is commonly used for C++ source files?",
+      "options": [
+        ".c",
+        ".java",
+        ".cpp",
+        ".py"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 87,
+      "question": "In day-to-day C++ work, which concept allows the same function name with different parameter lists?",
+      "options": [
+        "overriding",
+        "overloading",
+        "templating",
+        "casting"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 88,
+      "question": "In day-to-day C++ work, which keyword prevents a class from being inherited in modern C++?",
+      "options": [
+        "final",
+        "sealed",
+        "const",
+        "static"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 89,
+      "question": "Using C++, which header is commonly used for standard input/output streams in C++?",
+      "options": [
+        "<stdio.h>",
+        "<iostream>",
+        "<string>",
+        "<vector>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 90,
+      "question": "In C++ practice, which operator is used to access members through a pointer?",
+      "options": [
+        ".",
+        "::",
+        "->",
+        "*"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 91,
+      "question": "Using C++, which symbol is used to declare class inheritance in C++?",
+      "options": [
+        "extends",
+        "inherits",
+        ":",
+        "implements"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 92,
+      "question": "Using C++, which container stores key-value pairs in sorted key order?",
+      "options": [
+        "vector",
+        "unordered_map",
+        "map",
+        "set"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 93,
+      "question": "In C++ practice, which keyword is used for dynamic memory allocation in C++?",
+      "options": [
+        "malloc",
+        "alloc",
+        "new",
+        "create"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 94,
+      "question": "Using C++, which file extension is commonly used for C++ source files?",
+      "options": [
+        ".c",
+        ".java",
+        ".cpp",
+        ".py"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 95,
+      "question": "Using C++, which concept allows the same function name with different parameter lists?",
+      "options": [
+        "overriding",
+        "overloading",
+        "templating",
+        "casting"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 96,
+      "question": "Using C++, which keyword prevents a class from being inherited in modern C++?",
+      "options": [
+        "final",
+        "sealed",
+        "const",
+        "static"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 97,
+      "question": "In C++ practice, which header is commonly used for standard input/output streams in C++?",
+      "options": [
+        "<stdio.h>",
+        "<iostream>",
+        "<string>",
+        "<vector>"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 98,
+      "question": "With C++, which operator is used to access members through a pointer?",
+      "options": [
+        ".",
+        "::",
+        "->",
+        "*"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 99,
+      "question": "In C++ practice, which symbol is used to declare class inheritance in C++?",
+      "options": [
+        "extends",
+        "inherits",
+        ":",
+        "implements"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 100,
+      "question": "In C++ practice, which container stores key-value pairs in sorted key order?",
+      "options": [
+        "vector",
+        "unordered_map",
+        "map",
+        "set"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 101,
+      "question": "Which description best matches \"RAII\" in C++?",
+      "options": [
+        "An alias that refers to an existing object.",
+        "A dynamic array container from the STL.",
+        "An object managing pointer ownership automatically.",
+        "A pattern tying resource lifetime to object lifetime."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 102,
+      "question": "In C++, \"RAII\" is mainly used for what?",
+      "options": [
+        "An object managing pointer ownership automatically.",
+        "An alias that refers to an existing object.",
+        "A pattern tying resource lifetime to object lifetime.",
+        "A dynamic array container from the STL."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 103,
+      "question": "What is the primary purpose of \"RAII\" in C++?",
+      "options": [
+        "A dynamic array container from the STL.",
+        "A pattern tying resource lifetime to object lifetime.",
+        "An object managing pointer ownership automatically.",
+        "An alias that refers to an existing object."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 104,
+      "question": "Choose the most accurate statement about \"RAII\" in C++?",
+      "options": [
+        "A pattern tying resource lifetime to object lifetime.",
+        "An alias that refers to an existing object.",
+        "A dynamic array container from the STL.",
+        "An object managing pointer ownership automatically."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 105,
+      "question": "Which option correctly explains \"RAII\" for C++ developers?",
+      "options": [
+        "A dynamic array container from the STL.",
+        "An object managing pointer ownership automatically.",
+        "An alias that refers to an existing object.",
+        "A pattern tying resource lifetime to object lifetime."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 106,
+      "question": "In practical C++ code, when would you use \"RAII\"?",
+      "options": [
+        "An alias that refers to an existing object.",
+        "A dynamic array container from the STL.",
+        "A pattern tying resource lifetime to object lifetime.",
+        "An object managing pointer ownership automatically."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 107,
+      "question": "What does \"RAII\" represent?",
+      "options": [
+        "An object managing pointer ownership automatically.",
+        "A pattern tying resource lifetime to object lifetime.",
+        "An alias that refers to an existing object.",
+        "A dynamic array container from the STL."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 108,
+      "question": "Identify the correct meaning of \"RAII\" in C++?",
+      "options": [
+        "A pattern tying resource lifetime to object lifetime.",
+        "A dynamic array container from the STL.",
+        "An object managing pointer ownership automatically.",
+        "An alias that refers to an existing object."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 109,
+      "question": "Which definition of \"RAII\" is correct in C++?",
+      "options": [
+        "An object managing pointer ownership automatically.",
+        "An alias that refers to an existing object.",
+        "A dynamic array container from the STL.",
+        "A pattern tying resource lifetime to object lifetime."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 110,
+      "question": "For C++, \"RAII\" is best described as:?",
+      "options": [
+        "A dynamic array container from the STL.",
+        "An object managing pointer ownership automatically.",
+        "A pattern tying resource lifetime to object lifetime.",
+        "An alias that refers to an existing object."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 111,
+      "question": "Which description best matches \"Reference\" in C++?",
+      "options": [
+        "A generic programming mechanism for type-parameterized code.",
+        "An alias that refers to an existing object.",
+        "A dynamic array container from the STL.",
+        "An object managing pointer ownership automatically."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 112,
+      "question": "In C++, \"Reference\" is mainly used for what?",
+      "options": [
+        "An alias that refers to an existing object.",
+        "An object managing pointer ownership automatically.",
+        "A generic programming mechanism for type-parameterized code.",
+        "A dynamic array container from the STL."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 113,
+      "question": "What is the primary purpose of \"Reference\" in C++?",
+      "options": [
+        "A generic programming mechanism for type-parameterized code.",
+        "A dynamic array container from the STL.",
+        "An object managing pointer ownership automatically.",
+        "An alias that refers to an existing object."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 114,
+      "question": "Choose the most accurate statement about \"Reference\" in C++?",
+      "options": [
+        "An object managing pointer ownership automatically.",
+        "A generic programming mechanism for type-parameterized code.",
+        "An alias that refers to an existing object.",
+        "A dynamic array container from the STL."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 115,
+      "question": "Which option correctly explains \"Reference\" for C++ developers?",
+      "options": [
+        "A dynamic array container from the STL.",
+        "An alias that refers to an existing object.",
+        "An object managing pointer ownership automatically.",
+        "A generic programming mechanism for type-parameterized code."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 116,
+      "question": "In practical C++ code, when would you use \"Reference\"?",
+      "options": [
+        "An alias that refers to an existing object.",
+        "A generic programming mechanism for type-parameterized code.",
+        "A dynamic array container from the STL.",
+        "An object managing pointer ownership automatically."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 117,
+      "question": "What does \"Reference\" represent?",
+      "options": [
+        "A dynamic array container from the STL.",
+        "An object managing pointer ownership automatically.",
+        "A generic programming mechanism for type-parameterized code.",
+        "An alias that refers to an existing object."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 118,
+      "question": "Identify the correct meaning of \"Reference\" in C++?",
+      "options": [
+        "A generic programming mechanism for type-parameterized code.",
+        "A dynamic array container from the STL.",
+        "An alias that refers to an existing object.",
+        "An object managing pointer ownership automatically."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 119,
+      "question": "Which definition of \"Reference\" is correct in C++?",
+      "options": [
+        "An object managing pointer ownership automatically.",
+        "An alias that refers to an existing object.",
+        "A generic programming mechanism for type-parameterized code.",
+        "A dynamic array container from the STL."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 120,
+      "question": "For C++, \"Reference\" is best described as:?",
+      "options": [
+        "An alias that refers to an existing object.",
+        "A dynamic array container from the STL.",
+        "An object managing pointer ownership automatically.",
+        "A generic programming mechanism for type-parameterized code."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 121,
+      "question": "Which description best matches \"std::vector\" in C++?",
+      "options": [
+        "An object managing pointer ownership automatically.",
+        "A generic programming mechanism for type-parameterized code.",
+        "A special function that initializes objects.",
+        "A dynamic array container from the STL."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 122,
+      "question": "In C++, \"std::vector\" is mainly used for what?",
+      "options": [
+        "A special function that initializes objects.",
+        "An object managing pointer ownership automatically.",
+        "A dynamic array container from the STL.",
+        "A generic programming mechanism for type-parameterized code."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 123,
+      "question": "What is the primary purpose of \"std::vector\" in C++?",
+      "options": [
+        "A generic programming mechanism for type-parameterized code.",
+        "A dynamic array container from the STL.",
+        "A special function that initializes objects.",
+        "An object managing pointer ownership automatically."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 124,
+      "question": "Choose the most accurate statement about \"std::vector\" in C++?",
+      "options": [
+        "A dynamic array container from the STL.",
+        "An object managing pointer ownership automatically.",
+        "A generic programming mechanism for type-parameterized code.",
+        "A special function that initializes objects."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 125,
+      "question": "Which option correctly explains \"std::vector\" for C++ developers?",
+      "options": [
+        "A generic programming mechanism for type-parameterized code.",
+        "A special function that initializes objects.",
+        "An object managing pointer ownership automatically.",
+        "A dynamic array container from the STL."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 126,
+      "question": "In practical C++ code, when would you use \"std::vector\"?",
+      "options": [
+        "An object managing pointer ownership automatically.",
+        "A generic programming mechanism for type-parameterized code.",
+        "A dynamic array container from the STL.",
+        "A special function that initializes objects."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 127,
+      "question": "What does \"std::vector\" represent?",
+      "options": [
+        "A special function that initializes objects.",
+        "A dynamic array container from the STL.",
+        "An object managing pointer ownership automatically.",
+        "A generic programming mechanism for type-parameterized code."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 128,
+      "question": "Identify the correct meaning of \"std::vector\" in C++?",
+      "options": [
+        "A dynamic array container from the STL.",
+        "A generic programming mechanism for type-parameterized code.",
+        "A special function that initializes objects.",
+        "An object managing pointer ownership automatically."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 129,
+      "question": "Which definition of \"std::vector\" is correct in C++?",
+      "options": [
+        "A special function that initializes objects.",
+        "An object managing pointer ownership automatically.",
+        "A generic programming mechanism for type-parameterized code.",
+        "A dynamic array container from the STL."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 130,
+      "question": "For C++, \"std::vector\" is best described as:?",
+      "options": [
+        "A generic programming mechanism for type-parameterized code.",
+        "A special function that initializes objects.",
+        "A dynamic array container from the STL.",
+        "An object managing pointer ownership automatically."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 131,
+      "question": "Which description best matches \"Smart pointer\" in C++?",
+      "options": [
+        "A special function called when an object is destroyed.",
+        "An object managing pointer ownership automatically.",
+        "A generic programming mechanism for type-parameterized code.",
+        "A special function that initializes objects."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 132,
+      "question": "In C++, \"Smart pointer\" is mainly used for what?",
+      "options": [
+        "An object managing pointer ownership automatically.",
+        "A special function that initializes objects.",
+        "A special function called when an object is destroyed.",
+        "A generic programming mechanism for type-parameterized code."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 133,
+      "question": "What is the primary purpose of \"Smart pointer\" in C++?",
+      "options": [
+        "A special function called when an object is destroyed.",
+        "A generic programming mechanism for type-parameterized code.",
+        "A special function that initializes objects.",
+        "An object managing pointer ownership automatically."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 134,
+      "question": "Choose the most accurate statement about \"Smart pointer\" in C++?",
+      "options": [
+        "A special function that initializes objects.",
+        "A special function called when an object is destroyed.",
+        "An object managing pointer ownership automatically.",
+        "A generic programming mechanism for type-parameterized code."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 135,
+      "question": "Which option correctly explains \"Smart pointer\" for C++ developers?",
+      "options": [
+        "A generic programming mechanism for type-parameterized code.",
+        "An object managing pointer ownership automatically.",
+        "A special function that initializes objects.",
+        "A special function called when an object is destroyed."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 136,
+      "question": "In practical C++ code, when would you use \"Smart pointer\"?",
+      "options": [
+        "An object managing pointer ownership automatically.",
+        "A special function called when an object is destroyed.",
+        "A generic programming mechanism for type-parameterized code.",
+        "A special function that initializes objects."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 137,
+      "question": "What does \"Smart pointer\" represent?",
+      "options": [
+        "A generic programming mechanism for type-parameterized code.",
+        "A special function that initializes objects.",
+        "A special function called when an object is destroyed.",
+        "An object managing pointer ownership automatically."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 138,
+      "question": "Identify the correct meaning of \"Smart pointer\" in C++?",
+      "options": [
+        "A special function called when an object is destroyed.",
+        "A generic programming mechanism for type-parameterized code.",
+        "An object managing pointer ownership automatically.",
+        "A special function that initializes objects."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 139,
+      "question": "Which definition of \"Smart pointer\" is correct in C++?",
+      "options": [
+        "A special function that initializes objects.",
+        "An object managing pointer ownership automatically.",
+        "A special function called when an object is destroyed.",
+        "A generic programming mechanism for type-parameterized code."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 140,
+      "question": "For C++, \"Smart pointer\" is best described as:?",
+      "options": [
+        "An object managing pointer ownership automatically.",
+        "A generic programming mechanism for type-parameterized code.",
+        "A special function that initializes objects.",
+        "A special function called when an object is destroyed."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 141,
+      "question": "Which description best matches \"Template\" in C++?",
+      "options": [
+        "A special function that initializes objects.",
+        "A special function called when an object is destroyed.",
+        "A scope that helps avoid name collisions.",
+        "A generic programming mechanism for type-parameterized code."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 142,
+      "question": "In C++, \"Template\" is mainly used for what?",
+      "options": [
+        "A scope that helps avoid name collisions.",
+        "A special function that initializes objects.",
+        "A generic programming mechanism for type-parameterized code.",
+        "A special function called when an object is destroyed."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 143,
+      "question": "What is the primary purpose of \"Template\" in C++?",
+      "options": [
+        "A special function called when an object is destroyed.",
+        "A generic programming mechanism for type-parameterized code.",
+        "A scope that helps avoid name collisions.",
+        "A special function that initializes objects."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 144,
+      "question": "Choose the most accurate statement about \"Template\" in C++?",
+      "options": [
+        "A generic programming mechanism for type-parameterized code.",
+        "A special function that initializes objects.",
+        "A special function called when an object is destroyed.",
+        "A scope that helps avoid name collisions."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 145,
+      "question": "Which option correctly explains \"Template\" for C++ developers?",
+      "options": [
+        "A special function called when an object is destroyed.",
+        "A scope that helps avoid name collisions.",
+        "A special function that initializes objects.",
+        "A generic programming mechanism for type-parameterized code."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 146,
+      "question": "In practical C++ code, when would you use \"Template\"?",
+      "options": [
+        "A special function that initializes objects.",
+        "A special function called when an object is destroyed.",
+        "A generic programming mechanism for type-parameterized code.",
+        "A scope that helps avoid name collisions."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 147,
+      "question": "What does \"Template\" represent?",
+      "options": [
+        "A scope that helps avoid name collisions.",
+        "A generic programming mechanism for type-parameterized code.",
+        "A special function that initializes objects.",
+        "A special function called when an object is destroyed."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 148,
+      "question": "Identify the correct meaning of \"Template\" in C++?",
+      "options": [
+        "A generic programming mechanism for type-parameterized code.",
+        "A special function called when an object is destroyed.",
+        "A scope that helps avoid name collisions.",
+        "A special function that initializes objects."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 149,
+      "question": "Which definition of \"Template\" is correct in C++?",
+      "options": [
+        "A scope that helps avoid name collisions.",
+        "A special function that initializes objects.",
+        "A special function called when an object is destroyed.",
+        "A generic programming mechanism for type-parameterized code."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 150,
+      "question": "For C++, \"Template\" is best described as:?",
+      "options": [
+        "A special function called when an object is destroyed.",
+        "A scope that helps avoid name collisions.",
+        "A generic programming mechanism for type-parameterized code.",
+        "A special function that initializes objects."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 151,
+      "question": "Which description best matches \"Constructor\" in C++?",
+      "options": [
+        "Multiple functions sharing a name with different signatures.",
+        "A special function that initializes objects.",
+        "A special function called when an object is destroyed.",
+        "A scope that helps avoid name collisions."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 152,
+      "question": "In C++, \"Constructor\" is mainly used for what?",
+      "options": [
+        "A special function that initializes objects.",
+        "A scope that helps avoid name collisions.",
+        "Multiple functions sharing a name with different signatures.",
+        "A special function called when an object is destroyed."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 153,
+      "question": "What is the primary purpose of \"Constructor\" in C++?",
+      "options": [
+        "Multiple functions sharing a name with different signatures.",
+        "A special function called when an object is destroyed.",
+        "A scope that helps avoid name collisions.",
+        "A special function that initializes objects."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 154,
+      "question": "Choose the most accurate statement about \"Constructor\" in C++?",
+      "options": [
+        "A scope that helps avoid name collisions.",
+        "Multiple functions sharing a name with different signatures.",
+        "A special function that initializes objects.",
+        "A special function called when an object is destroyed."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 155,
+      "question": "Which option correctly explains \"Constructor\" for C++ developers?",
+      "options": [
+        "A special function called when an object is destroyed.",
+        "A special function that initializes objects.",
+        "A scope that helps avoid name collisions.",
+        "Multiple functions sharing a name with different signatures."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 156,
+      "question": "In practical C++ code, when would you use \"Constructor\"?",
+      "options": [
+        "A special function that initializes objects.",
+        "Multiple functions sharing a name with different signatures.",
+        "A special function called when an object is destroyed.",
+        "A scope that helps avoid name collisions."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 157,
+      "question": "What does \"Constructor\" represent?",
+      "options": [
+        "A special function called when an object is destroyed.",
+        "A scope that helps avoid name collisions.",
+        "Multiple functions sharing a name with different signatures.",
+        "A special function that initializes objects."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 158,
+      "question": "Identify the correct meaning of \"Constructor\" in C++?",
+      "options": [
+        "Multiple functions sharing a name with different signatures.",
+        "A special function called when an object is destroyed.",
+        "A special function that initializes objects.",
+        "A scope that helps avoid name collisions."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 159,
+      "question": "Which definition of \"Constructor\" is correct in C++?",
+      "options": [
+        "A scope that helps avoid name collisions.",
+        "A special function that initializes objects.",
+        "Multiple functions sharing a name with different signatures.",
+        "A special function called when an object is destroyed."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 160,
+      "question": "For C++, \"Constructor\" is best described as:?",
+      "options": [
+        "A special function that initializes objects.",
+        "A special function called when an object is destroyed.",
+        "A scope that helps avoid name collisions.",
+        "Multiple functions sharing a name with different signatures."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 161,
+      "question": "Which description best matches \"Destructor\" in C++?",
+      "options": [
+        "A scope that helps avoid name collisions.",
+        "Multiple functions sharing a name with different signatures.",
+        "A feature transferring resources instead of copying them.",
+        "A special function called when an object is destroyed."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 162,
+      "question": "In C++, \"Destructor\" is mainly used for what?",
+      "options": [
+        "A feature transferring resources instead of copying them.",
+        "A scope that helps avoid name collisions.",
+        "A special function called when an object is destroyed.",
+        "Multiple functions sharing a name with different signatures."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 163,
+      "question": "What is the primary purpose of \"Destructor\" in C++?",
+      "options": [
+        "Multiple functions sharing a name with different signatures.",
+        "A special function called when an object is destroyed.",
+        "A feature transferring resources instead of copying them.",
+        "A scope that helps avoid name collisions."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 164,
+      "question": "Choose the most accurate statement about \"Destructor\" in C++?",
+      "options": [
+        "A special function called when an object is destroyed.",
+        "A scope that helps avoid name collisions.",
+        "Multiple functions sharing a name with different signatures.",
+        "A feature transferring resources instead of copying them."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 165,
+      "question": "Which option correctly explains \"Destructor\" for C++ developers?",
+      "options": [
+        "Multiple functions sharing a name with different signatures.",
+        "A feature transferring resources instead of copying them.",
+        "A scope that helps avoid name collisions.",
+        "A special function called when an object is destroyed."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 166,
+      "question": "In practical C++ code, when would you use \"Destructor\"?",
+      "options": [
+        "A scope that helps avoid name collisions.",
+        "Multiple functions sharing a name with different signatures.",
+        "A special function called when an object is destroyed.",
+        "A feature transferring resources instead of copying them."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 167,
+      "question": "What does \"Destructor\" represent?",
+      "options": [
+        "A feature transferring resources instead of copying them.",
+        "A special function called when an object is destroyed.",
+        "A scope that helps avoid name collisions.",
+        "Multiple functions sharing a name with different signatures."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 168,
+      "question": "Identify the correct meaning of \"Destructor\" in C++?",
+      "options": [
+        "A special function called when an object is destroyed.",
+        "Multiple functions sharing a name with different signatures.",
+        "A feature transferring resources instead of copying them.",
+        "A scope that helps avoid name collisions."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 169,
+      "question": "Which definition of \"Destructor\" is correct in C++?",
+      "options": [
+        "A feature transferring resources instead of copying them.",
+        "A scope that helps avoid name collisions.",
+        "Multiple functions sharing a name with different signatures.",
+        "A special function called when an object is destroyed."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 170,
+      "question": "For C++, \"Destructor\" is best described as:?",
+      "options": [
+        "Multiple functions sharing a name with different signatures.",
+        "A feature transferring resources instead of copying them.",
+        "A special function called when an object is destroyed.",
+        "A scope that helps avoid name collisions."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 171,
+      "question": "Which description best matches \"Namespace\" in C++?",
+      "options": [
+        "A pattern tying resource lifetime to object lifetime.",
+        "A scope that helps avoid name collisions.",
+        "Multiple functions sharing a name with different signatures.",
+        "A feature transferring resources instead of copying them."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 172,
+      "question": "In C++, \"Namespace\" is mainly used for what?",
+      "options": [
+        "A scope that helps avoid name collisions.",
+        "A feature transferring resources instead of copying them.",
+        "A pattern tying resource lifetime to object lifetime.",
+        "Multiple functions sharing a name with different signatures."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 173,
+      "question": "What is the primary purpose of \"Namespace\" in C++?",
+      "options": [
+        "A pattern tying resource lifetime to object lifetime.",
+        "Multiple functions sharing a name with different signatures.",
+        "A feature transferring resources instead of copying them.",
+        "A scope that helps avoid name collisions."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 174,
+      "question": "Choose the most accurate statement about \"Namespace\" in C++?",
+      "options": [
+        "A feature transferring resources instead of copying them.",
+        "A pattern tying resource lifetime to object lifetime.",
+        "A scope that helps avoid name collisions.",
+        "Multiple functions sharing a name with different signatures."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 175,
+      "question": "Which option correctly explains \"Namespace\" for C++ developers?",
+      "options": [
+        "Multiple functions sharing a name with different signatures.",
+        "A scope that helps avoid name collisions.",
+        "A feature transferring resources instead of copying them.",
+        "A pattern tying resource lifetime to object lifetime."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 176,
+      "question": "In practical C++ code, when would you use \"Namespace\"?",
+      "options": [
+        "A scope that helps avoid name collisions.",
+        "A pattern tying resource lifetime to object lifetime.",
+        "Multiple functions sharing a name with different signatures.",
+        "A feature transferring resources instead of copying them."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 177,
+      "question": "What does \"Namespace\" represent?",
+      "options": [
+        "Multiple functions sharing a name with different signatures.",
+        "A feature transferring resources instead of copying them.",
+        "A pattern tying resource lifetime to object lifetime.",
+        "A scope that helps avoid name collisions."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 178,
+      "question": "Identify the correct meaning of \"Namespace\" in C++?",
+      "options": [
+        "A pattern tying resource lifetime to object lifetime.",
+        "Multiple functions sharing a name with different signatures.",
+        "A scope that helps avoid name collisions.",
+        "A feature transferring resources instead of copying them."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 179,
+      "question": "Which definition of \"Namespace\" is correct in C++?",
+      "options": [
+        "A feature transferring resources instead of copying them.",
+        "A scope that helps avoid name collisions.",
+        "A pattern tying resource lifetime to object lifetime.",
+        "Multiple functions sharing a name with different signatures."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 180,
+      "question": "For C++, \"Namespace\" is best described as:?",
+      "options": [
+        "A scope that helps avoid name collisions.",
+        "Multiple functions sharing a name with different signatures.",
+        "A feature transferring resources instead of copying them.",
+        "A pattern tying resource lifetime to object lifetime."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 181,
+      "question": "Which description best matches \"Function overloading\" in C++?",
+      "options": [
+        "A feature transferring resources instead of copying them.",
+        "A pattern tying resource lifetime to object lifetime.",
+        "An alias that refers to an existing object.",
+        "Multiple functions sharing a name with different signatures."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 182,
+      "question": "In C++, \"Function overloading\" is mainly used for what?",
+      "options": [
+        "An alias that refers to an existing object.",
+        "A feature transferring resources instead of copying them.",
+        "Multiple functions sharing a name with different signatures.",
+        "A pattern tying resource lifetime to object lifetime."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 183,
+      "question": "What is the primary purpose of \"Function overloading\" in C++?",
+      "options": [
+        "A pattern tying resource lifetime to object lifetime.",
+        "Multiple functions sharing a name with different signatures.",
+        "An alias that refers to an existing object.",
+        "A feature transferring resources instead of copying them."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 184,
+      "question": "Choose the most accurate statement about \"Function overloading\" in C++?",
+      "options": [
+        "Multiple functions sharing a name with different signatures.",
+        "A feature transferring resources instead of copying them.",
+        "A pattern tying resource lifetime to object lifetime.",
+        "An alias that refers to an existing object."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 185,
+      "question": "Which option correctly explains \"Function overloading\" for C++ developers?",
+      "options": [
+        "A pattern tying resource lifetime to object lifetime.",
+        "An alias that refers to an existing object.",
+        "A feature transferring resources instead of copying them.",
+        "Multiple functions sharing a name with different signatures."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 186,
+      "question": "In practical C++ code, when would you use \"Function overloading\"?",
+      "options": [
+        "A feature transferring resources instead of copying them.",
+        "A pattern tying resource lifetime to object lifetime.",
+        "Multiple functions sharing a name with different signatures.",
+        "An alias that refers to an existing object."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 187,
+      "question": "What does \"Function overloading\" represent?",
+      "options": [
+        "An alias that refers to an existing object.",
+        "Multiple functions sharing a name with different signatures.",
+        "A feature transferring resources instead of copying them.",
+        "A pattern tying resource lifetime to object lifetime."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 188,
+      "question": "Identify the correct meaning of \"Function overloading\" in C++?",
+      "options": [
+        "Multiple functions sharing a name with different signatures.",
+        "A pattern tying resource lifetime to object lifetime.",
+        "An alias that refers to an existing object.",
+        "A feature transferring resources instead of copying them."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 189,
+      "question": "Which definition of \"Function overloading\" is correct in C++?",
+      "options": [
+        "An alias that refers to an existing object.",
+        "A feature transferring resources instead of copying them.",
+        "A pattern tying resource lifetime to object lifetime.",
+        "Multiple functions sharing a name with different signatures."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 190,
+      "question": "For C++, \"Function overloading\" is best described as:?",
+      "options": [
+        "A pattern tying resource lifetime to object lifetime.",
+        "An alias that refers to an existing object.",
+        "Multiple functions sharing a name with different signatures.",
+        "A feature transferring resources instead of copying them."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 191,
+      "question": "Which description best matches \"Move semantics\" in C++?",
+      "options": [
+        "A dynamic array container from the STL.",
+        "A feature transferring resources instead of copying them.",
+        "A pattern tying resource lifetime to object lifetime.",
+        "An alias that refers to an existing object."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 192,
+      "question": "In C++, \"Move semantics\" is mainly used for what?",
+      "options": [
+        "A feature transferring resources instead of copying them.",
+        "An alias that refers to an existing object.",
+        "A dynamic array container from the STL.",
+        "A pattern tying resource lifetime to object lifetime."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 193,
+      "question": "What is the primary purpose of \"Move semantics\" in C++?",
+      "options": [
+        "A dynamic array container from the STL.",
+        "A pattern tying resource lifetime to object lifetime.",
+        "An alias that refers to an existing object.",
+        "A feature transferring resources instead of copying them."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 194,
+      "question": "Choose the most accurate statement about \"Move semantics\" in C++?",
+      "options": [
+        "An alias that refers to an existing object.",
+        "A dynamic array container from the STL.",
+        "A feature transferring resources instead of copying them.",
+        "A pattern tying resource lifetime to object lifetime."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 195,
+      "question": "Which option correctly explains \"Move semantics\" for C++ developers?",
+      "options": [
+        "A pattern tying resource lifetime to object lifetime.",
+        "A feature transferring resources instead of copying them.",
+        "An alias that refers to an existing object.",
+        "A dynamic array container from the STL."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 196,
+      "question": "In practical C++ code, when would you use \"Move semantics\"?",
+      "options": [
+        "A feature transferring resources instead of copying them.",
+        "A dynamic array container from the STL.",
+        "A pattern tying resource lifetime to object lifetime.",
+        "An alias that refers to an existing object."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 197,
+      "question": "What does \"Move semantics\" represent?",
+      "options": [
+        "A pattern tying resource lifetime to object lifetime.",
+        "An alias that refers to an existing object.",
+        "A dynamic array container from the STL.",
+        "A feature transferring resources instead of copying them."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 198,
+      "question": "Identify the correct meaning of \"Move semantics\" in C++?",
+      "options": [
+        "A dynamic array container from the STL.",
+        "A pattern tying resource lifetime to object lifetime.",
+        "A feature transferring resources instead of copying them.",
+        "An alias that refers to an existing object."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 199,
+      "question": "Which definition of \"Move semantics\" is correct in C++?",
+      "options": [
+        "An alias that refers to an existing object.",
+        "A feature transferring resources instead of copying them.",
+        "A dynamic array container from the STL.",
+        "A pattern tying resource lifetime to object lifetime."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 200,
+      "question": "For C++, \"Move semantics\" is best described as:?",
+      "options": [
+        "A feature transferring resources instead of copying them.",
+        "A pattern tying resource lifetime to object lifetime.",
+        "An alias that refers to an existing object.",
+        "A dynamic array container from the STL."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 201,
+      "question": "What is printed?\n```cpp\n#include <iostream>\nint main(){\n  std::cout << 2 + 2;\n}\n```",
+      "options": [
+        "22",
+        "4",
+        "2",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 202,
+      "question": "What is x after assignment?\n```cpp\nint x = 5;\nint &r = x;\nr = 7;\n```",
+      "options": [
+        "5",
+        "7",
+        "0",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 203,
+      "question": "What is output?\n```cpp\nstd::vector<int> v = {1,2,3};\nstd::cout << v.size();\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 204,
+      "question": "Result of integer division?\n```cpp\nint a = 9, b = 2;\nstd::cout << a / b;\n```",
+      "options": [
+        "4",
+        "4.5",
+        "5",
+        "3"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 205,
+      "question": "What is printed?\n```cpp\nstd::string s = \"Hi\";\nstd::cout << s[0];\n```",
+      "options": [
+        "H",
+        "i",
+        "Hi",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 206,
+      "question": "In C++, what is printed?\n```cpp\n#include <iostream>\nint main(){ std::cout << 2 + 2;\n}\n```",
+      "options": [
+        "22",
+        "4",
+        "2",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 207,
+      "question": "In C++, what is x after assignment?\n```cpp\nint x = 5;\nint &r = x;\nr = 7;\n```",
+      "options": [
+        "5",
+        "7",
+        "0",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 208,
+      "question": "In C++, what is output?\n```cpp\nstd::vector<int> v = {1,2,3};\nstd::cout << v.size();\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 209,
+      "question": "In C++, result of integer division?\n```cpp\nint a = 9, b = 2;\nstd::cout << a / b;\n```",
+      "options": [
+        "4",
+        "4.5",
+        "5",
+        "3"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 210,
+      "question": "In C++, what is printed?\n```cpp\nstd::string s = \"Hi\";\nstd::cout << s[0];\n```",
+      "options": [
+        "H",
+        "i",
+        "Hi",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 211,
+      "question": "In C++, in C++, what is printed?\n```cpp\n#include <iostream>\nint main(){ std::cout << 2 + 2;\n}\n```",
+      "options": [
+        "22",
+        "4",
+        "2",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 212,
+      "question": "For C++, what is x after assignment?\n```cpp\nint x = 5;\nint &r = x;\nr = 7;\n```",
+      "options": [
+        "5",
+        "7",
+        "0",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 213,
+      "question": "For C++, what is output?\n```cpp\nstd::vector<int> v = {1,2,3};\nstd::cout << v.size();\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 214,
+      "question": "For C++, result of integer division?\n```cpp\nint a = 9, b = 2;\nstd::cout << a / b;\n```",
+      "options": [
+        "4",
+        "4.5",
+        "5",
+        "3"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 215,
+      "question": "For C++, what is printed?\n```cpp\nstd::string s = \"Hi\";\nstd::cout << s[0];\n```",
+      "options": [
+        "H",
+        "i",
+        "Hi",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 216,
+      "question": "For C++, in C++, what is printed?\n```cpp\n#include <iostream>\nint main(){ std::cout << 2 + 2;\n}\n```",
+      "options": [
+        "22",
+        "4",
+        "2",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 217,
+      "question": "When using C++, what is x after assignment?\n```cpp\nint x = 5;\nint &r = x;\nr = 7;\n```",
+      "options": [
+        "5",
+        "7",
+        "0",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 218,
+      "question": "When using C++, what is output?\n```cpp\nstd::vector<int> v = {1,2,3};\nstd::cout << v.size();\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 219,
+      "question": "When using C++, result of integer division?\n```cpp\nint a = 9, b = 2;\nstd::cout << a / b;\n```",
+      "options": [
+        "4",
+        "4.5",
+        "5",
+        "3"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 220,
+      "question": "When using C++, what is printed?\n```cpp\nstd::string s = \"Hi\";\nstd::cout << s[0];\n```",
+      "options": [
+        "H",
+        "i",
+        "Hi",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 221,
+      "question": "When using C++, in C++, what is printed?\n```cpp\n#include <iostream>\nint main(){ std::cout << 2 + 2;\n}\n```",
+      "options": [
+        "22",
+        "4",
+        "2",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 222,
+      "question": "In a C++ query, what is x after assignment?\n```cpp\nint x = 5;\nint &r = x;\nr = 7;\n```",
+      "options": [
+        "5",
+        "7",
+        "0",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 223,
+      "question": "In a C++ query, what is output?\n```cpp\nstd::vector<int> v = {1,2,3};\nstd::cout << v.size();\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 224,
+      "question": "In a C++ query, result of integer division?\n```cpp\nint a = 9, b = 2;\nstd::cout << a / b;\n```",
+      "options": [
+        "4",
+        "4.5",
+        "5",
+        "3"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 225,
+      "question": "In a C++ query, what is printed?\n```cpp\nstd::string s = \"Hi\";\nstd::cout << s[0];\n```",
+      "options": [
+        "H",
+        "i",
+        "Hi",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 226,
+      "question": "Within C++, in C++, what is printed?\n```cpp\n#include <iostream>\nint main(){ std::cout << 2 + 2;\n}\n```",
+      "options": [
+        "22",
+        "4",
+        "2",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 227,
+      "question": "From a C++ perspective, what is x after assignment?\n```cpp\nint x = 5;\nint &r = x;\nr = 7;\n```",
+      "options": [
+        "5",
+        "7",
+        "0",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 228,
+      "question": "From a C++ perspective, what is output?\n```cpp\nstd::vector<int> v = {1,2,3};\nstd::cout << v.size();\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 229,
+      "question": "From a C++ perspective, result of integer division?\n```cpp\nint a = 9, b = 2;\nstd::cout << a / b;\n```",
+      "options": [
+        "4",
+        "4.5",
+        "5",
+        "3"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 230,
+      "question": "From a C++ perspective, what is printed?\n```cpp\nstd::string s = \"Hi\";\nstd::cout << s[0];\n```",
+      "options": [
+        "H",
+        "i",
+        "Hi",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 231,
+      "question": "In practical C++ usage, in C++, what is printed?\n```cpp\n#include <iostream>\nint main(){ std::cout << 2 + 2;\n}\n```",
+      "options": [
+        "22",
+        "4",
+        "2",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 232,
+      "question": "In practical C++ usage, what is x after assignment?\n```cpp\nint x = 5;\nint &r = x;\nr = 7;\n```",
+      "options": [
+        "5",
+        "7",
+        "0",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 233,
+      "question": "In practical C++ usage, what is output?\n```cpp\nstd::vector<int> v = {1,2,3};\nstd::cout << v.size();\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 234,
+      "question": "In practical C++ usage, result of integer division?\n```cpp\nint a = 9, b = 2;\nstd::cout << a / b;\n```",
+      "options": [
+        "4",
+        "4.5",
+        "5",
+        "3"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 235,
+      "question": "In practical C++ usage, what is printed?\n```cpp\nstd::string s = \"Hi\";\nstd::cout << s[0];\n```",
+      "options": [
+        "H",
+        "i",
+        "Hi",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 236,
+      "question": "For C++ developers, in C++, what is printed?\n```cpp\n#include <iostream>\nint main(){ std::cout << 2 + 2;\n}\n```",
+      "options": [
+        "22",
+        "4",
+        "2",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 237,
+      "question": "Within C++, what is x after assignment?\n```cpp\nint x = 5;\nint &r = x;\nr = 7;\n```",
+      "options": [
+        "5",
+        "7",
+        "0",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 238,
+      "question": "Within C++, what is output?\n```cpp\nstd::vector<int> v = {1,2,3};\nstd::cout << v.size();\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 239,
+      "question": "Within C++, result of integer division?\n```cpp\nint a = 9, b = 2;\nstd::cout << a / b;\n```",
+      "options": [
+        "4",
+        "4.5",
+        "5",
+        "3"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 240,
+      "question": "Within C++, what is printed?\n```cpp\nstd::string s = \"Hi\";\nstd::cout << s[0];\n```",
+      "options": [
+        "H",
+        "i",
+        "Hi",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 241,
+      "question": "In C++ practice, in C++, what is printed?\n```cpp\n#include <iostream>\nint main(){ std::cout << 2 + 2;\n}\n```",
+      "options": [
+        "22",
+        "4",
+        "2",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 242,
+      "question": "For C++ developers, what is x after assignment?\n```cpp\nint x = 5;\nint &r = x;\nr = 7;\n```",
+      "options": [
+        "5",
+        "7",
+        "0",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 243,
+      "question": "For C++ developers, what is output?\n```cpp\nstd::vector<int> v = {1,2,3};\nstd::cout << v.size();\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 244,
+      "question": "For C++ developers, result of integer division?\n```cpp\nint a = 9, b = 2;\nstd::cout << a / b;\n```",
+      "options": [
+        "4",
+        "4.5",
+        "5",
+        "3"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 245,
+      "question": "For C++ developers, what is printed?\n```cpp\nstd::string s = \"Hi\";\nstd::cout << s[0];\n```",
+      "options": [
+        "H",
+        "i",
+        "Hi",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 246,
+      "question": "With C++, in C++, what is printed?\n```cpp\n#include <iostream>\nint main(){ std::cout << 2 + 2;\n}\n```",
+      "options": [
+        "22",
+        "4",
+        "2",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 247,
+      "question": "In day-to-day C++ work, what is x after assignment?\n```cpp\nint x = 5;\nint &r = x;\nr = 7;\n```",
+      "options": [
+        "5",
+        "7",
+        "0",
+        "undefined"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 248,
+      "question": "In day-to-day C++ work, what is output?\n```cpp\nstd::vector<int> v = {1,2,3};\nstd::cout << v.size();\n```",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 249,
+      "question": "In day-to-day C++ work, result of integer division?\n```cpp\nint a = 9, b = 2;\nstd::cout << a / b;\n```",
+      "options": [
+        "4",
+        "4.5",
+        "5",
+        "3"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 250,
+      "question": "In day-to-day C++ work, what is printed?\n```cpp\nstd::string s = \"Hi\";\nstd::cout << s[0];\n```",
+      "options": [
+        "H",
+        "i",
+        "Hi",
+        "0"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 251,
+      "question": "What is output?\n```cpp\nint a=11,b=4;\nstd::cout << a%b;\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 252,
+      "question": "What prints?\n```cpp\nstd::string s=\"cpp\";\nstd::cout<<s.size();\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 253,
+      "question": "Printed value?\n```cpp\nstd::vector<int> v={4,5};\nstd::cout<<v[1];\n```",
+      "options": [
+        "4",
+        "5",
+        "1",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 254,
+      "question": "Output?\n```cpp\nbool ok=false;\nstd::cout<<(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 255,
+      "question": "Final x?\n```cpp\nint x=2; x*=3;\nstd::cout<<x;\n```",
+      "options": [
+        "5",
+        "6",
+        "3",
+        "2"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 256,
+      "question": "In C++, what is output?\n```cpp\nint a=11,b=4;\nstd::cout << a%b;\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 257,
+      "question": "In C++, what prints?\n```cpp\nstd::string s=\"cpp\";\nstd::cout<<s.size();\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 258,
+      "question": "In C++, printed value?\n```cpp\nstd::vector<int> v={4,5};\nstd::cout<<v[1];\n```",
+      "options": [
+        "4",
+        "5",
+        "1",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 259,
+      "question": "In C++, output?\n```cpp\nbool ok=false;\nstd::cout<<(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 260,
+      "question": "In C++, final x?\n```cpp\nint x=2; x*=3;\nstd::cout<<x;\n```",
+      "options": [
+        "5",
+        "6",
+        "3",
+        "2"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 261,
+      "question": "For C++, what is output?\n```cpp\nint a=11,b=4;\nstd::cout << a%b;\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 262,
+      "question": "For C++, what prints?\n```cpp\nstd::string s=\"cpp\";\nstd::cout<<s.size();\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 263,
+      "question": "For C++, printed value?\n```cpp\nstd::vector<int> v={4,5};\nstd::cout<<v[1];\n```",
+      "options": [
+        "4",
+        "5",
+        "1",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 264,
+      "question": "For C++, output?\n```cpp\nbool ok=false;\nstd::cout<<(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 265,
+      "question": "For C++, final x?\n```cpp\nint x=2; x*=3;\nstd::cout<<x;\n```",
+      "options": [
+        "5",
+        "6",
+        "3",
+        "2"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 266,
+      "question": "When using C++, what is output?\n```cpp\nint a=11,b=4;\nstd::cout << a%b;\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 267,
+      "question": "When using C++, what prints?\n```cpp\nstd::string s=\"cpp\";\nstd::cout<<s.size();\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 268,
+      "question": "When using C++, printed value?\n```cpp\nstd::vector<int> v={4,5};\nstd::cout<<v[1];\n```",
+      "options": [
+        "4",
+        "5",
+        "1",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 269,
+      "question": "When using C++, output?\n```cpp\nbool ok=false;\nstd::cout<<(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 270,
+      "question": "When using C++, final x?\n```cpp\nint x=2; x*=3;\nstd::cout<<x;\n```",
+      "options": [
+        "5",
+        "6",
+        "3",
+        "2"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 271,
+      "question": "In a C++ query, what is output?\n```cpp\nint a=11,b=4;\nstd::cout << a%b;\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 272,
+      "question": "In a C++ query, what prints?\n```cpp\nstd::string s=\"cpp\";\nstd::cout<<s.size();\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 273,
+      "question": "In a C++ query, printed value?\n```cpp\nstd::vector<int> v={4,5};\nstd::cout<<v[1];\n```",
+      "options": [
+        "4",
+        "5",
+        "1",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 274,
+      "question": "In a C++ query, output?\n```cpp\nbool ok=false;\nstd::cout<<(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 275,
+      "question": "In a C++ query, final x?\n```cpp\nint x=2; x*=3;\nstd::cout<<x;\n```",
+      "options": [
+        "5",
+        "6",
+        "3",
+        "2"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 276,
+      "question": "From a C++ perspective, what is output?\n```cpp\nint a=11,b=4;\nstd::cout << a%b;\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 277,
+      "question": "From a C++ perspective, what prints?\n```cpp\nstd::string s=\"cpp\";\nstd::cout<<s.size();\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 278,
+      "question": "From a C++ perspective, printed value?\n```cpp\nstd::vector<int> v={4,5};\nstd::cout<<v[1];\n```",
+      "options": [
+        "4",
+        "5",
+        "1",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 279,
+      "question": "From a C++ perspective, output?\n```cpp\nbool ok=false;\nstd::cout<<(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 280,
+      "question": "From a C++ perspective, final x?\n```cpp\nint x=2; x*=3;\nstd::cout<<x;\n```",
+      "options": [
+        "5",
+        "6",
+        "3",
+        "2"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 281,
+      "question": "In practical C++ usage, what is output?\n```cpp\nint a=11,b=4;\nstd::cout << a%b;\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 282,
+      "question": "In practical C++ usage, what prints?\n```cpp\nstd::string s=\"cpp\";\nstd::cout<<s.size();\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 283,
+      "question": "In practical C++ usage, printed value?\n```cpp\nstd::vector<int> v={4,5};\nstd::cout<<v[1];\n```",
+      "options": [
+        "4",
+        "5",
+        "1",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 284,
+      "question": "In practical C++ usage, output?\n```cpp\nbool ok=false;\nstd::cout<<(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 285,
+      "question": "In practical C++ usage, final x?\n```cpp\nint x=2; x*=3;\nstd::cout<<x;\n```",
+      "options": [
+        "5",
+        "6",
+        "3",
+        "2"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 286,
+      "question": "Within C++, what is output?\n```cpp\nint a=11,b=4;\nstd::cout << a%b;\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 287,
+      "question": "Within C++, what prints?\n```cpp\nstd::string s=\"cpp\";\nstd::cout<<s.size();\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 288,
+      "question": "Within C++, printed value?\n```cpp\nstd::vector<int> v={4,5};\nstd::cout<<v[1];\n```",
+      "options": [
+        "4",
+        "5",
+        "1",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 289,
+      "question": "Within C++, output?\n```cpp\nbool ok=false;\nstd::cout<<(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 290,
+      "question": "Within C++, final x?\n```cpp\nint x=2; x*=3;\nstd::cout<<x;\n```",
+      "options": [
+        "5",
+        "6",
+        "3",
+        "2"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 291,
+      "question": "For C++ developers, what is output?\n```cpp\nint a=11,b=4;\nstd::cout << a%b;\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 292,
+      "question": "For C++ developers, what prints?\n```cpp\nstd::string s=\"cpp\";\nstd::cout<<s.size();\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 293,
+      "question": "For C++ developers, printed value?\n```cpp\nstd::vector<int> v={4,5};\nstd::cout<<v[1];\n```",
+      "options": [
+        "4",
+        "5",
+        "1",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 294,
+      "question": "For C++ developers, output?\n```cpp\nbool ok=false;\nstd::cout<<(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 295,
+      "question": "For C++ developers, final x?\n```cpp\nint x=2; x*=3;\nstd::cout<<x;\n```",
+      "options": [
+        "5",
+        "6",
+        "3",
+        "2"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 296,
+      "question": "In day-to-day C++ work, what is output?\n```cpp\nint a=11,b=4;\nstd::cout << a%b;\n```",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 297,
+      "question": "In day-to-day C++ work, what prints?\n```cpp\nstd::string s=\"cpp\";\nstd::cout<<s.size();\n```",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "0"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 298,
+      "question": "In day-to-day C++ work, printed value?\n```cpp\nstd::vector<int> v={4,5};\nstd::cout<<v[1];\n```",
+      "options": [
+        "4",
+        "5",
+        "1",
+        "error"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 299,
+      "question": "In day-to-day C++ work, output?\n```cpp\nbool ok=false;\nstd::cout<<(!ok);\n```",
+      "options": [
+        "false",
+        "true",
+        "0",
+        "none"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 300,
+      "question": "In day-to-day C++ work, final x?\n```cpp\nint x=2; x*=3;\nstd::cout<<x;\n```",
+      "options": [
+        "5",
+        "6",
+        "3",
+        "2"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 301,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value302 = 23;\nstd::cout << value302;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 302,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value304 = 25;\nstd::cout << value304;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 303,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value306 = 27;\nstd::cout << value306;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 304,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value308 = 29;\nstd::cout << value308;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 305,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value310 = 0;\nstd::cout << value310;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 306,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value312 = 2;\nstd::cout << value312;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 307,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value314 = 4;\nstd::cout << value314;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 308,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value316 = 6;\nstd::cout << value316;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 309,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value318 = 8;\nstd::cout << value318;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 310,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value320 = 10;\nstd::cout << value320;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 311,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value322 = 12;\nstd::cout << value322;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 312,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value324 = 14;\nstd::cout << value324;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 313,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value326 = 16;\nstd::cout << value326;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 314,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value328 = 18;\nstd::cout << value328;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 315,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value330 = 20;\nstd::cout << value330;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 316,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value332 = 22;\nstd::cout << value332;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 317,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value334 = 24;\nstd::cout << value334;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 318,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value336 = 26;\nstd::cout << value336;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 319,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value338 = 28;\nstd::cout << value338;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 320,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value340 = 30;\nstd::cout << value340;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 321,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value342 = 1;\nstd::cout << value342;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 322,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value344 = 3;\nstd::cout << value344;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 323,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value346 = 5;\nstd::cout << value346;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 324,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value348 = 7;\nstd::cout << value348;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 325,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value350 = 9;\nstd::cout << value350;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 326,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value352 = 11;\nstd::cout << value352;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 327,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value354 = 13;\nstd::cout << value354;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 328,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value356 = 15;\nstd::cout << value356;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 329,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value358 = 17;\nstd::cout << value358;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 330,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value360 = 19;\nstd::cout << value360;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 331,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value362 = 21;\nstd::cout << value362;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 332,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value364 = 23;\nstd::cout << value364;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 333,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value366 = 25;\nstd::cout << value366;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 334,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value368 = 27;\nstd::cout << value368;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 335,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value370 = 29;\nstd::cout << value370;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 336,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value372 = 0;\nstd::cout << value372;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 337,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value374 = 2;\nstd::cout << value374;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 338,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value376 = 4;\nstd::cout << value376;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 339,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value378 = 6;\nstd::cout << value378;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 340,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value380 = 8;\nstd::cout << value380;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 341,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value382 = 10;\nstd::cout << value382;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 342,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value384 = 12;\nstd::cout << value384;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 343,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value386 = 14;\nstd::cout << value386;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 344,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value388 = 16;\nstd::cout << value388;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 345,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value390 = 18;\nstd::cout << value390;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 346,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value392 = 20;\nstd::cout << value392;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 347,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value394 = 22;\nstd::cout << value394;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 348,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value396 = 24;\nstd::cout << value396;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 349,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value398 = 26;\nstd::cout << value398;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 350,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value400 = 28;\nstd::cout << value400;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 351,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value402 = 30;\nstd::cout << value402;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 352,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value404 = 1;\nstd::cout << value404;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 353,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value406 = 3;\nstd::cout << value406;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 354,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value408 = 5;\nstd::cout << value408;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 355,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value410 = 7;\nstd::cout << value410;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 356,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value412 = 9;\nstd::cout << value412;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 357,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value414 = 11;\nstd::cout << value414;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 358,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value416 = 13;\nstd::cout << value416;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 359,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value418 = 15;\nstd::cout << value418;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 360,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value420 = 17;\nstd::cout << value420;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 361,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value422 = 19;\nstd::cout << value422;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 362,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value424 = 21;\nstd::cout << value424;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 363,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value426 = 23;\nstd::cout << value426;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 364,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value428 = 25;\nstd::cout << value428;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 365,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value430 = 27;\nstd::cout << value430;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 366,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value432 = 29;\nstd::cout << value432;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 367,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value434 = 0;\nstd::cout << value434;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 368,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value436 = 2;\nstd::cout << value436;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 369,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value438 = 4;\nstd::cout << value438;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 370,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value440 = 6;\nstd::cout << value440;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 371,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value442 = 8;\nstd::cout << value442;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 372,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value444 = 10;\nstd::cout << value444;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 373,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value446 = 12;\nstd::cout << value446;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 374,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value448 = 14;\nstd::cout << value448;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 375,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value450 = 16;\nstd::cout << value450;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 376,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value452 = 18;\nstd::cout << value452;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 377,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value454 = 20;\nstd::cout << value454;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 378,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value456 = 22;\nstd::cout << value456;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 379,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value458 = 24;\nstd::cout << value458;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 380,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value460 = 26;\nstd::cout << value460;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 381,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value462 = 28;\nstd::cout << value462;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 382,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value464 = 30;\nstd::cout << value464;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 383,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value466 = 1;\nstd::cout << value466;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 384,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value468 = 3;\nstd::cout << value468;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 385,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value470 = 5;\nstd::cout << value470;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 386,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value472 = 7;\nstd::cout << value472;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 387,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value474 = 9;\nstd::cout << value474;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 388,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value476 = 11;\nstd::cout << value476;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 389,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value478 = 13;\nstd::cout << value478;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 390,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value480 = 15;\nstd::cout << value480;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 391,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value482 = 17;\nstd::cout << value482;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 392,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value484 = 19;\nstd::cout << value484;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 393,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value486 = 21;\nstd::cout << value486;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 394,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value488 = 23;\nstd::cout << value488;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 395,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value490 = 25;\nstd::cout << value490;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 396,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value492 = 27;\nstd::cout << value492;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 397,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value494 = 29;\nstd::cout << value494;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 398,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value496 = 0;\nstd::cout << value496;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 399,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value498 = 2;\nstd::cout << value498;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 400,
+      "question": "What is the key outcome of this snippet?\n```cpp\nint value500 = 4;\nstd::cout << value500;\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    }
+  ]
+}

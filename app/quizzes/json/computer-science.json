@@ -1,0 +1,4407 @@
+{
+  "slug": "computer-science",
+  "title": "Computer Science Quiz",
+  "description": "100 computer science fundamentals practice questions",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which data structure follows FIFO order?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Heap",
+        "Tree"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "What is the average time complexity of binary search?",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n log n)",
+        "O(1)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "Which traversal order is Left-Root-Right?",
+      "options": [
+        "Preorder",
+        "Postorder",
+        "Inorder",
+        "Level order"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 4,
+      "question": "Which sorting algorithm is typically O(n log n) average case?",
+      "options": [
+        "Bubble sort",
+        "Selection sort",
+        "Merge sort",
+        "Insertion sort"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Which protocol is used for secure web traffic?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "HTTPS",
+        "SMTP"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "Which memory is volatile?",
+      "options": [
+        "SSD",
+        "ROM",
+        "RAM",
+        "HDD"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 7,
+      "question": "Which graph algorithm finds shortest paths from one source?",
+      "options": [
+        "Kruskal",
+        "Prim",
+        "Dijkstra",
+        "Floyd-Warshall"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 8,
+      "question": "Which OS concept allows multiple processes to share CPU over time?",
+      "options": [
+        "Paging",
+        "Scheduling",
+        "Compaction",
+        "Spooling"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "In Computer Science, which data structure follows FIFO order?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Heap",
+        "Tree"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "In Computer Science, what is the average time complexity of binary search?",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n log n)",
+        "O(1)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 11,
+      "question": "In Computer Science, which traversal order is Left-Root-Right?",
+      "options": [
+        "Preorder",
+        "Postorder",
+        "Inorder",
+        "Level order"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 12,
+      "question": "In Computer Science, which sorting algorithm is typically O(n log n) average case?",
+      "options": [
+        "Bubble sort",
+        "Selection sort",
+        "Merge sort",
+        "Insertion sort"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 13,
+      "question": "In Computer Science, which protocol is used for secure web traffic?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "HTTPS",
+        "SMTP"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 14,
+      "question": "In Computer Science, which memory is volatile?",
+      "options": [
+        "SSD",
+        "ROM",
+        "RAM",
+        "HDD"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 15,
+      "question": "In Computer Science, which graph algorithm finds shortest paths from one source?",
+      "options": [
+        "Kruskal",
+        "Prim",
+        "Dijkstra",
+        "Floyd-Warshall"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 16,
+      "question": "In Computer Science, which OS concept allows multiple processes to share CPU over time?",
+      "options": [
+        "Paging",
+        "Scheduling",
+        "Compaction",
+        "Spooling"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 17,
+      "question": "For Computer Science, which data structure follows FIFO order?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Heap",
+        "Tree"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 18,
+      "question": "For Computer Science, what is the average time complexity of binary search?",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n log n)",
+        "O(1)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 19,
+      "question": "For Computer Science, which traversal order is Left-Root-Right?",
+      "options": [
+        "Preorder",
+        "Postorder",
+        "Inorder",
+        "Level order"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 20,
+      "question": "For Computer Science, which sorting algorithm is typically O(n log n) average case?",
+      "options": [
+        "Bubble sort",
+        "Selection sort",
+        "Merge sort",
+        "Insertion sort"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 21,
+      "question": "For Computer Science, which protocol is used for secure web traffic?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "HTTPS",
+        "SMTP"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 22,
+      "question": "For Computer Science, which memory is volatile?",
+      "options": [
+        "SSD",
+        "ROM",
+        "RAM",
+        "HDD"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 23,
+      "question": "For Computer Science, which graph algorithm finds shortest paths from one source?",
+      "options": [
+        "Kruskal",
+        "Prim",
+        "Dijkstra",
+        "Floyd-Warshall"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 24,
+      "question": "For Computer Science, which OS concept allows multiple processes to share CPU over time?",
+      "options": [
+        "Paging",
+        "Scheduling",
+        "Compaction",
+        "Spooling"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 25,
+      "question": "When using Computer Science, which data structure follows FIFO order?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Heap",
+        "Tree"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 26,
+      "question": "When using Computer Science, what is the average time complexity of binary search?",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n log n)",
+        "O(1)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 27,
+      "question": "When using Computer Science, which traversal order is Left-Root-Right?",
+      "options": [
+        "Preorder",
+        "Postorder",
+        "Inorder",
+        "Level order"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 28,
+      "question": "When using Computer Science, which sorting algorithm is typically O(n log n) average case?",
+      "options": [
+        "Bubble sort",
+        "Selection sort",
+        "Merge sort",
+        "Insertion sort"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 29,
+      "question": "When using Computer Science, which protocol is used for secure web traffic?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "HTTPS",
+        "SMTP"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 30,
+      "question": "When using Computer Science, which memory is volatile?",
+      "options": [
+        "SSD",
+        "ROM",
+        "RAM",
+        "HDD"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 31,
+      "question": "When using Computer Science, which graph algorithm finds shortest paths from one source?",
+      "options": [
+        "Kruskal",
+        "Prim",
+        "Dijkstra",
+        "Floyd-Warshall"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 32,
+      "question": "When using Computer Science, which OS concept allows multiple processes to share CPU over time?",
+      "options": [
+        "Paging",
+        "Scheduling",
+        "Compaction",
+        "Spooling"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 33,
+      "question": "In a Computer Science query, which data structure follows FIFO order?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Heap",
+        "Tree"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 34,
+      "question": "In a Computer Science query, what is the average time complexity of binary search?",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n log n)",
+        "O(1)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 35,
+      "question": "In a Computer Science query, which traversal order is Left-Root-Right?",
+      "options": [
+        "Preorder",
+        "Postorder",
+        "Inorder",
+        "Level order"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 36,
+      "question": "In a Computer Science query, which sorting algorithm is typically O(n log n) average case?",
+      "options": [
+        "Bubble sort",
+        "Selection sort",
+        "Merge sort",
+        "Insertion sort"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 37,
+      "question": "In a Computer Science query, which protocol is used for secure web traffic?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "HTTPS",
+        "SMTP"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 38,
+      "question": "In a Computer Science query, which memory is volatile?",
+      "options": [
+        "SSD",
+        "ROM",
+        "RAM",
+        "HDD"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 39,
+      "question": "In a Computer Science query, which graph algorithm finds shortest paths from one source?",
+      "options": [
+        "Kruskal",
+        "Prim",
+        "Dijkstra",
+        "Floyd-Warshall"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 40,
+      "question": "In a Computer Science query, which OS concept allows multiple processes to share CPU over time?",
+      "options": [
+        "Paging",
+        "Scheduling",
+        "Compaction",
+        "Spooling"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 41,
+      "question": "From a Computer Science perspective, which data structure follows FIFO order?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Heap",
+        "Tree"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 42,
+      "question": "From a Computer Science perspective, what is the average time complexity of binary search?",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n log n)",
+        "O(1)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 43,
+      "question": "From a Computer Science perspective, which traversal order is Left-Root-Right?",
+      "options": [
+        "Preorder",
+        "Postorder",
+        "Inorder",
+        "Level order"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 44,
+      "question": "From a Computer Science perspective, which sorting algorithm is typically O(n log n) average case?",
+      "options": [
+        "Bubble sort",
+        "Selection sort",
+        "Merge sort",
+        "Insertion sort"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 45,
+      "question": "From a Computer Science perspective, which protocol is used for secure web traffic?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "HTTPS",
+        "SMTP"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 46,
+      "question": "From a Computer Science perspective, which memory is volatile?",
+      "options": [
+        "SSD",
+        "ROM",
+        "RAM",
+        "HDD"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 47,
+      "question": "From a Computer Science perspective, which graph algorithm finds shortest paths from one source?",
+      "options": [
+        "Kruskal",
+        "Prim",
+        "Dijkstra",
+        "Floyd-Warshall"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 48,
+      "question": "From a Computer Science perspective, which OS concept allows multiple processes to share CPU over time?",
+      "options": [
+        "Paging",
+        "Scheduling",
+        "Compaction",
+        "Spooling"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 49,
+      "question": "In practical Computer Science usage, which data structure follows FIFO order?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Heap",
+        "Tree"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 50,
+      "question": "In practical Computer Science usage, what is the average time complexity of binary search?",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n log n)",
+        "O(1)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 51,
+      "question": "In practical Computer Science usage, which traversal order is Left-Root-Right?",
+      "options": [
+        "Preorder",
+        "Postorder",
+        "Inorder",
+        "Level order"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 52,
+      "question": "In practical Computer Science usage, which sorting algorithm is typically O(n log n) average case?",
+      "options": [
+        "Bubble sort",
+        "Selection sort",
+        "Merge sort",
+        "Insertion sort"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 53,
+      "question": "In practical Computer Science usage, which protocol is used for secure web traffic?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "HTTPS",
+        "SMTP"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 54,
+      "question": "In practical Computer Science usage, which memory is volatile?",
+      "options": [
+        "SSD",
+        "ROM",
+        "RAM",
+        "HDD"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 55,
+      "question": "In practical Computer Science usage, which graph algorithm finds shortest paths from one source?",
+      "options": [
+        "Kruskal",
+        "Prim",
+        "Dijkstra",
+        "Floyd-Warshall"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 56,
+      "question": "In practical Computer Science usage, which OS concept allows multiple processes to share CPU over time?",
+      "options": [
+        "Paging",
+        "Scheduling",
+        "Compaction",
+        "Spooling"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 57,
+      "question": "Within Computer Science, which data structure follows FIFO order?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Heap",
+        "Tree"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 58,
+      "question": "Within Computer Science, what is the average time complexity of binary search?",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n log n)",
+        "O(1)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 59,
+      "question": "Within Computer Science, which traversal order is Left-Root-Right?",
+      "options": [
+        "Preorder",
+        "Postorder",
+        "Inorder",
+        "Level order"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 60,
+      "question": "Within Computer Science, which sorting algorithm is typically O(n log n) average case?",
+      "options": [
+        "Bubble sort",
+        "Selection sort",
+        "Merge sort",
+        "Insertion sort"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 61,
+      "question": "Within Computer Science, which protocol is used for secure web traffic?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "HTTPS",
+        "SMTP"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 62,
+      "question": "Within Computer Science, which memory is volatile?",
+      "options": [
+        "SSD",
+        "ROM",
+        "RAM",
+        "HDD"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 63,
+      "question": "Within Computer Science, which graph algorithm finds shortest paths from one source?",
+      "options": [
+        "Kruskal",
+        "Prim",
+        "Dijkstra",
+        "Floyd-Warshall"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 64,
+      "question": "Within Computer Science, which OS concept allows multiple processes to share CPU over time?",
+      "options": [
+        "Paging",
+        "Scheduling",
+        "Compaction",
+        "Spooling"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 65,
+      "question": "For Computer Science developers, which data structure follows FIFO order?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Heap",
+        "Tree"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 66,
+      "question": "For Computer Science developers, what is the average time complexity of binary search?",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n log n)",
+        "O(1)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 67,
+      "question": "For Computer Science developers, which traversal order is Left-Root-Right?",
+      "options": [
+        "Preorder",
+        "Postorder",
+        "Inorder",
+        "Level order"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 68,
+      "question": "For Computer Science developers, which sorting algorithm is typically O(n log n) average case?",
+      "options": [
+        "Bubble sort",
+        "Selection sort",
+        "Merge sort",
+        "Insertion sort"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 69,
+      "question": "For Computer Science developers, which protocol is used for secure web traffic?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "HTTPS",
+        "SMTP"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 70,
+      "question": "For Computer Science developers, which memory is volatile?",
+      "options": [
+        "SSD",
+        "ROM",
+        "RAM",
+        "HDD"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 71,
+      "question": "For Computer Science developers, which graph algorithm finds shortest paths from one source?",
+      "options": [
+        "Kruskal",
+        "Prim",
+        "Dijkstra",
+        "Floyd-Warshall"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 72,
+      "question": "For Computer Science developers, which OS concept allows multiple processes to share CPU over time?",
+      "options": [
+        "Paging",
+        "Scheduling",
+        "Compaction",
+        "Spooling"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 73,
+      "question": "In day-to-day Computer Science work, which data structure follows FIFO order?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Heap",
+        "Tree"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 74,
+      "question": "In day-to-day Computer Science work, what is the average time complexity of binary search?",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n log n)",
+        "O(1)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 75,
+      "question": "In day-to-day Computer Science work, which traversal order is Left-Root-Right?",
+      "options": [
+        "Preorder",
+        "Postorder",
+        "Inorder",
+        "Level order"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 76,
+      "question": "In day-to-day Computer Science work, which sorting algorithm is typically O(n log n) average case?",
+      "options": [
+        "Bubble sort",
+        "Selection sort",
+        "Merge sort",
+        "Insertion sort"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 77,
+      "question": "In day-to-day Computer Science work, which protocol is used for secure web traffic?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "HTTPS",
+        "SMTP"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 78,
+      "question": "In day-to-day Computer Science work, which memory is volatile?",
+      "options": [
+        "SSD",
+        "ROM",
+        "RAM",
+        "HDD"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 79,
+      "question": "In day-to-day Computer Science work, which graph algorithm finds shortest paths from one source?",
+      "options": [
+        "Kruskal",
+        "Prim",
+        "Dijkstra",
+        "Floyd-Warshall"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 80,
+      "question": "In day-to-day Computer Science work, which OS concept allows multiple processes to share CPU over time?",
+      "options": [
+        "Paging",
+        "Scheduling",
+        "Compaction",
+        "Spooling"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 81,
+      "question": "Using Computer Science, which data structure follows FIFO order?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Heap",
+        "Tree"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 82,
+      "question": "Using Computer Science, what is the average time complexity of binary search?",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n log n)",
+        "O(1)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 83,
+      "question": "Using Computer Science, which traversal order is Left-Root-Right?",
+      "options": [
+        "Preorder",
+        "Postorder",
+        "Inorder",
+        "Level order"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 84,
+      "question": "Using Computer Science, which sorting algorithm is typically O(n log n) average case?",
+      "options": [
+        "Bubble sort",
+        "Selection sort",
+        "Merge sort",
+        "Insertion sort"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 85,
+      "question": "Using Computer Science, which protocol is used for secure web traffic?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "HTTPS",
+        "SMTP"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 86,
+      "question": "Using Computer Science, which memory is volatile?",
+      "options": [
+        "SSD",
+        "ROM",
+        "RAM",
+        "HDD"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 87,
+      "question": "Using Computer Science, which graph algorithm finds shortest paths from one source?",
+      "options": [
+        "Kruskal",
+        "Prim",
+        "Dijkstra",
+        "Floyd-Warshall"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 88,
+      "question": "Using Computer Science, which OS concept allows multiple processes to share CPU over time?",
+      "options": [
+        "Paging",
+        "Scheduling",
+        "Compaction",
+        "Spooling"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 89,
+      "question": "In Computer Science practice, which data structure follows FIFO order?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Heap",
+        "Tree"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 90,
+      "question": "In Computer Science practice, what is the average time complexity of binary search?",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n log n)",
+        "O(1)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 91,
+      "question": "In Computer Science practice, which traversal order is Left-Root-Right?",
+      "options": [
+        "Preorder",
+        "Postorder",
+        "Inorder",
+        "Level order"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 92,
+      "question": "In Computer Science practice, which sorting algorithm is typically O(n log n) average case?",
+      "options": [
+        "Bubble sort",
+        "Selection sort",
+        "Merge sort",
+        "Insertion sort"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 93,
+      "question": "In Computer Science practice, which protocol is used for secure web traffic?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "HTTPS",
+        "SMTP"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 94,
+      "question": "In Computer Science practice, which memory is volatile?",
+      "options": [
+        "SSD",
+        "ROM",
+        "RAM",
+        "HDD"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 95,
+      "question": "In Computer Science practice, which graph algorithm finds shortest paths from one source?",
+      "options": [
+        "Kruskal",
+        "Prim",
+        "Dijkstra",
+        "Floyd-Warshall"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 96,
+      "question": "In Computer Science practice, which OS concept allows multiple processes to share CPU over time?",
+      "options": [
+        "Paging",
+        "Scheduling",
+        "Compaction",
+        "Spooling"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 97,
+      "question": "With Computer Science, which data structure follows FIFO order?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Heap",
+        "Tree"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 98,
+      "question": "With Computer Science, what is the average time complexity of binary search?",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n log n)",
+        "O(1)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 99,
+      "question": "With Computer Science, which traversal order is Left-Root-Right?",
+      "options": [
+        "Preorder",
+        "Postorder",
+        "Inorder",
+        "Level order"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 100,
+      "question": "With Computer Science, which sorting algorithm is typically O(n log n) average case?",
+      "options": [
+        "Bubble sort",
+        "Selection sort",
+        "Merge sort",
+        "Insertion sort"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 101,
+      "question": "Which description best matches \"Big-O notation\" in Computer Science?",
+      "options": [
+        "A LIFO data structure where the last item is removed first.",
+        "A FIFO data structure where the first item is removed first.",
+        "A structure mapping keys to values using a hash function.",
+        "A notation describing asymptotic growth of algorithm complexity."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 102,
+      "question": "In Computer Science, \"Big-O notation\" is mainly used for what?",
+      "options": [
+        "A structure mapping keys to values using a hash function.",
+        "A LIFO data structure where the last item is removed first.",
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A FIFO data structure where the first item is removed first."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 103,
+      "question": "What is the primary purpose of \"Big-O notation\" in Computer Science?",
+      "options": [
+        "A FIFO data structure where the first item is removed first.",
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A structure mapping keys to values using a hash function.",
+        "A LIFO data structure where the last item is removed first."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 104,
+      "question": "Choose the most accurate statement about \"Big-O notation\" in Computer Science?",
+      "options": [
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A LIFO data structure where the last item is removed first.",
+        "A FIFO data structure where the first item is removed first.",
+        "A structure mapping keys to values using a hash function."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 105,
+      "question": "Which option correctly explains \"Big-O notation\" for Computer Science developers?",
+      "options": [
+        "A FIFO data structure where the first item is removed first.",
+        "A structure mapping keys to values using a hash function.",
+        "A LIFO data structure where the last item is removed first.",
+        "A notation describing asymptotic growth of algorithm complexity."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 106,
+      "question": "In practical Computer Science code, when would you use \"Big-O notation\"?",
+      "options": [
+        "A LIFO data structure where the last item is removed first.",
+        "A FIFO data structure where the first item is removed first.",
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A structure mapping keys to values using a hash function."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 107,
+      "question": "What does \"Big-O notation\" represent?",
+      "options": [
+        "A structure mapping keys to values using a hash function.",
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A LIFO data structure where the last item is removed first.",
+        "A FIFO data structure where the first item is removed first."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 108,
+      "question": "Identify the correct meaning of \"Big-O notation\" in Computer Science?",
+      "options": [
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A FIFO data structure where the first item is removed first.",
+        "A structure mapping keys to values using a hash function.",
+        "A LIFO data structure where the last item is removed first."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 109,
+      "question": "Which definition of \"Big-O notation\" is correct in Computer Science?",
+      "options": [
+        "A structure mapping keys to values using a hash function.",
+        "A LIFO data structure where the last item is removed first.",
+        "A FIFO data structure where the first item is removed first.",
+        "A notation describing asymptotic growth of algorithm complexity."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 110,
+      "question": "For Computer Science, \"Big-O notation\" is best described as:?",
+      "options": [
+        "A FIFO data structure where the first item is removed first.",
+        "A structure mapping keys to values using a hash function.",
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A LIFO data structure where the last item is removed first."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 111,
+      "question": "Which description best matches \"Stack\" in Computer Science?",
+      "options": [
+        "A technique where a function calls itself with smaller subproblems.",
+        "A LIFO data structure where the last item is removed first.",
+        "A FIFO data structure where the first item is removed first.",
+        "A structure mapping keys to values using a hash function."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 112,
+      "question": "In Computer Science, \"Stack\" is mainly used for what?",
+      "options": [
+        "A LIFO data structure where the last item is removed first.",
+        "A structure mapping keys to values using a hash function.",
+        "A technique where a function calls itself with smaller subproblems.",
+        "A FIFO data structure where the first item is removed first."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 113,
+      "question": "What is the primary purpose of \"Stack\" in Computer Science?",
+      "options": [
+        "A technique where a function calls itself with smaller subproblems.",
+        "A FIFO data structure where the first item is removed first.",
+        "A structure mapping keys to values using a hash function.",
+        "A LIFO data structure where the last item is removed first."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 114,
+      "question": "Choose the most accurate statement about \"Stack\" in Computer Science?",
+      "options": [
+        "A structure mapping keys to values using a hash function.",
+        "A technique where a function calls itself with smaller subproblems.",
+        "A LIFO data structure where the last item is removed first.",
+        "A FIFO data structure where the first item is removed first."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 115,
+      "question": "Which option correctly explains \"Stack\" for Computer Science developers?",
+      "options": [
+        "A FIFO data structure where the first item is removed first.",
+        "A LIFO data structure where the last item is removed first.",
+        "A structure mapping keys to values using a hash function.",
+        "A technique where a function calls itself with smaller subproblems."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 116,
+      "question": "In practical Computer Science code, when would you use \"Stack\"?",
+      "options": [
+        "A LIFO data structure where the last item is removed first.",
+        "A technique where a function calls itself with smaller subproblems.",
+        "A FIFO data structure where the first item is removed first.",
+        "A structure mapping keys to values using a hash function."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 117,
+      "question": "What does \"Stack\" represent?",
+      "options": [
+        "A FIFO data structure where the first item is removed first.",
+        "A structure mapping keys to values using a hash function.",
+        "A technique where a function calls itself with smaller subproblems.",
+        "A LIFO data structure where the last item is removed first."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 118,
+      "question": "Identify the correct meaning of \"Stack\" in Computer Science?",
+      "options": [
+        "A technique where a function calls itself with smaller subproblems.",
+        "A FIFO data structure where the first item is removed first.",
+        "A LIFO data structure where the last item is removed first.",
+        "A structure mapping keys to values using a hash function."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 119,
+      "question": "Which definition of \"Stack\" is correct in Computer Science?",
+      "options": [
+        "A structure mapping keys to values using a hash function.",
+        "A LIFO data structure where the last item is removed first.",
+        "A technique where a function calls itself with smaller subproblems.",
+        "A FIFO data structure where the first item is removed first."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 120,
+      "question": "For Computer Science, \"Stack\" is best described as:?",
+      "options": [
+        "A LIFO data structure where the last item is removed first.",
+        "A FIFO data structure where the first item is removed first.",
+        "A structure mapping keys to values using a hash function.",
+        "A technique where a function calls itself with smaller subproblems."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 121,
+      "question": "Which description best matches \"Queue\" in Computer Science?",
+      "options": [
+        "A structure mapping keys to values using a hash function.",
+        "A technique where a function calls itself with smaller subproblems.",
+        "An optimization method using overlapping subproblem results.",
+        "A FIFO data structure where the first item is removed first."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 122,
+      "question": "In Computer Science, \"Queue\" is mainly used for what?",
+      "options": [
+        "An optimization method using overlapping subproblem results.",
+        "A structure mapping keys to values using a hash function.",
+        "A FIFO data structure where the first item is removed first.",
+        "A technique where a function calls itself with smaller subproblems."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 123,
+      "question": "What is the primary purpose of \"Queue\" in Computer Science?",
+      "options": [
+        "A technique where a function calls itself with smaller subproblems.",
+        "A FIFO data structure where the first item is removed first.",
+        "An optimization method using overlapping subproblem results.",
+        "A structure mapping keys to values using a hash function."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 124,
+      "question": "Choose the most accurate statement about \"Queue\" in Computer Science?",
+      "options": [
+        "A FIFO data structure where the first item is removed first.",
+        "A structure mapping keys to values using a hash function.",
+        "A technique where a function calls itself with smaller subproblems.",
+        "An optimization method using overlapping subproblem results."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 125,
+      "question": "Which option correctly explains \"Queue\" for Computer Science developers?",
+      "options": [
+        "A technique where a function calls itself with smaller subproblems.",
+        "An optimization method using overlapping subproblem results.",
+        "A structure mapping keys to values using a hash function.",
+        "A FIFO data structure where the first item is removed first."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 126,
+      "question": "In practical Computer Science code, when would you use \"Queue\"?",
+      "options": [
+        "A structure mapping keys to values using a hash function.",
+        "A technique where a function calls itself with smaller subproblems.",
+        "A FIFO data structure where the first item is removed first.",
+        "An optimization method using overlapping subproblem results."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 127,
+      "question": "What does \"Queue\" represent?",
+      "options": [
+        "An optimization method using overlapping subproblem results.",
+        "A FIFO data structure where the first item is removed first.",
+        "A structure mapping keys to values using a hash function.",
+        "A technique where a function calls itself with smaller subproblems."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 128,
+      "question": "Identify the correct meaning of \"Queue\" in Computer Science?",
+      "options": [
+        "A FIFO data structure where the first item is removed first.",
+        "A technique where a function calls itself with smaller subproblems.",
+        "An optimization method using overlapping subproblem results.",
+        "A structure mapping keys to values using a hash function."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 129,
+      "question": "Which definition of \"Queue\" is correct in Computer Science?",
+      "options": [
+        "An optimization method using overlapping subproblem results.",
+        "A structure mapping keys to values using a hash function.",
+        "A technique where a function calls itself with smaller subproblems.",
+        "A FIFO data structure where the first item is removed first."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 130,
+      "question": "For Computer Science, \"Queue\" is best described as:?",
+      "options": [
+        "A technique where a function calls itself with smaller subproblems.",
+        "An optimization method using overlapping subproblem results.",
+        "A FIFO data structure where the first item is removed first.",
+        "A structure mapping keys to values using a hash function."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 131,
+      "question": "Which description best matches \"Hash table\" in Computer Science?",
+      "options": [
+        "A logarithmic search algorithm on sorted data.",
+        "A structure mapping keys to values using a hash function.",
+        "A technique where a function calls itself with smaller subproblems.",
+        "An optimization method using overlapping subproblem results."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 132,
+      "question": "In Computer Science, \"Hash table\" is mainly used for what?",
+      "options": [
+        "A structure mapping keys to values using a hash function.",
+        "An optimization method using overlapping subproblem results.",
+        "A logarithmic search algorithm on sorted data.",
+        "A technique where a function calls itself with smaller subproblems."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 133,
+      "question": "What is the primary purpose of \"Hash table\" in Computer Science?",
+      "options": [
+        "A logarithmic search algorithm on sorted data.",
+        "A technique where a function calls itself with smaller subproblems.",
+        "An optimization method using overlapping subproblem results.",
+        "A structure mapping keys to values using a hash function."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 134,
+      "question": "Choose the most accurate statement about \"Hash table\" in Computer Science?",
+      "options": [
+        "An optimization method using overlapping subproblem results.",
+        "A logarithmic search algorithm on sorted data.",
+        "A structure mapping keys to values using a hash function.",
+        "A technique where a function calls itself with smaller subproblems."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 135,
+      "question": "Which option correctly explains \"Hash table\" for Computer Science developers?",
+      "options": [
+        "A technique where a function calls itself with smaller subproblems.",
+        "A structure mapping keys to values using a hash function.",
+        "An optimization method using overlapping subproblem results.",
+        "A logarithmic search algorithm on sorted data."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 136,
+      "question": "In practical Computer Science code, when would you use \"Hash table\"?",
+      "options": [
+        "A structure mapping keys to values using a hash function.",
+        "A logarithmic search algorithm on sorted data.",
+        "A technique where a function calls itself with smaller subproblems.",
+        "An optimization method using overlapping subproblem results."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 137,
+      "question": "What does \"Hash table\" represent?",
+      "options": [
+        "A technique where a function calls itself with smaller subproblems.",
+        "An optimization method using overlapping subproblem results.",
+        "A logarithmic search algorithm on sorted data.",
+        "A structure mapping keys to values using a hash function."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 138,
+      "question": "Identify the correct meaning of \"Hash table\" in Computer Science?",
+      "options": [
+        "A logarithmic search algorithm on sorted data.",
+        "A technique where a function calls itself with smaller subproblems.",
+        "A structure mapping keys to values using a hash function.",
+        "An optimization method using overlapping subproblem results."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 139,
+      "question": "Which definition of \"Hash table\" is correct in Computer Science?",
+      "options": [
+        "An optimization method using overlapping subproblem results.",
+        "A structure mapping keys to values using a hash function.",
+        "A logarithmic search algorithm on sorted data.",
+        "A technique where a function calls itself with smaller subproblems."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 140,
+      "question": "For Computer Science, \"Hash table\" is best described as:?",
+      "options": [
+        "A structure mapping keys to values using a hash function.",
+        "A technique where a function calls itself with smaller subproblems.",
+        "An optimization method using overlapping subproblem results.",
+        "A logarithmic search algorithm on sorted data."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 141,
+      "question": "Which description best matches \"Recursion\" in Computer Science?",
+      "options": [
+        "An optimization method using overlapping subproblem results.",
+        "A logarithmic search algorithm on sorted data.",
+        "A state where processes wait indefinitely for each other’s resources.",
+        "A technique where a function calls itself with smaller subproblems."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 142,
+      "question": "In Computer Science, \"Recursion\" is mainly used for what?",
+      "options": [
+        "A state where processes wait indefinitely for each other’s resources.",
+        "An optimization method using overlapping subproblem results.",
+        "A technique where a function calls itself with smaller subproblems.",
+        "A logarithmic search algorithm on sorted data."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 143,
+      "question": "What is the primary purpose of \"Recursion\" in Computer Science?",
+      "options": [
+        "A logarithmic search algorithm on sorted data.",
+        "A technique where a function calls itself with smaller subproblems.",
+        "A state where processes wait indefinitely for each other’s resources.",
+        "An optimization method using overlapping subproblem results."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 144,
+      "question": "Choose the most accurate statement about \"Recursion\" in Computer Science?",
+      "options": [
+        "A technique where a function calls itself with smaller subproblems.",
+        "An optimization method using overlapping subproblem results.",
+        "A logarithmic search algorithm on sorted data.",
+        "A state where processes wait indefinitely for each other’s resources."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 145,
+      "question": "Which option correctly explains \"Recursion\" for Computer Science developers?",
+      "options": [
+        "A logarithmic search algorithm on sorted data.",
+        "A state where processes wait indefinitely for each other’s resources.",
+        "An optimization method using overlapping subproblem results.",
+        "A technique where a function calls itself with smaller subproblems."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 146,
+      "question": "In practical Computer Science code, when would you use \"Recursion\"?",
+      "options": [
+        "An optimization method using overlapping subproblem results.",
+        "A logarithmic search algorithm on sorted data.",
+        "A technique where a function calls itself with smaller subproblems.",
+        "A state where processes wait indefinitely for each other’s resources."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 147,
+      "question": "What does \"Recursion\" represent?",
+      "options": [
+        "A state where processes wait indefinitely for each other’s resources.",
+        "A technique where a function calls itself with smaller subproblems.",
+        "An optimization method using overlapping subproblem results.",
+        "A logarithmic search algorithm on sorted data."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 148,
+      "question": "Identify the correct meaning of \"Recursion\" in Computer Science?",
+      "options": [
+        "A technique where a function calls itself with smaller subproblems.",
+        "A logarithmic search algorithm on sorted data.",
+        "A state where processes wait indefinitely for each other’s resources.",
+        "An optimization method using overlapping subproblem results."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 149,
+      "question": "Which definition of \"Recursion\" is correct in Computer Science?",
+      "options": [
+        "A state where processes wait indefinitely for each other’s resources.",
+        "An optimization method using overlapping subproblem results.",
+        "A logarithmic search algorithm on sorted data.",
+        "A technique where a function calls itself with smaller subproblems."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 150,
+      "question": "For Computer Science, \"Recursion\" is best described as:?",
+      "options": [
+        "A logarithmic search algorithm on sorted data.",
+        "A state where processes wait indefinitely for each other’s resources.",
+        "A technique where a function calls itself with smaller subproblems.",
+        "An optimization method using overlapping subproblem results."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 151,
+      "question": "Which description best matches \"Dynamic programming\" in Computer Science?",
+      "options": [
+        "A database design process reducing redundancy and anomalies.",
+        "An optimization method using overlapping subproblem results.",
+        "A logarithmic search algorithm on sorted data.",
+        "A state where processes wait indefinitely for each other’s resources."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 152,
+      "question": "In Computer Science, \"Dynamic programming\" is mainly used for what?",
+      "options": [
+        "An optimization method using overlapping subproblem results.",
+        "A state where processes wait indefinitely for each other’s resources.",
+        "A database design process reducing redundancy and anomalies.",
+        "A logarithmic search algorithm on sorted data."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 153,
+      "question": "What is the primary purpose of \"Dynamic programming\" in Computer Science?",
+      "options": [
+        "A database design process reducing redundancy and anomalies.",
+        "A logarithmic search algorithm on sorted data.",
+        "A state where processes wait indefinitely for each other’s resources.",
+        "An optimization method using overlapping subproblem results."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 154,
+      "question": "Choose the most accurate statement about \"Dynamic programming\" in Computer Science?",
+      "options": [
+        "A state where processes wait indefinitely for each other’s resources.",
+        "A database design process reducing redundancy and anomalies.",
+        "An optimization method using overlapping subproblem results.",
+        "A logarithmic search algorithm on sorted data."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 155,
+      "question": "Which option correctly explains \"Dynamic programming\" for Computer Science developers?",
+      "options": [
+        "A logarithmic search algorithm on sorted data.",
+        "An optimization method using overlapping subproblem results.",
+        "A state where processes wait indefinitely for each other’s resources.",
+        "A database design process reducing redundancy and anomalies."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 156,
+      "question": "In practical Computer Science code, when would you use \"Dynamic programming\"?",
+      "options": [
+        "An optimization method using overlapping subproblem results.",
+        "A database design process reducing redundancy and anomalies.",
+        "A logarithmic search algorithm on sorted data.",
+        "A state where processes wait indefinitely for each other’s resources."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 157,
+      "question": "What does \"Dynamic programming\" represent?",
+      "options": [
+        "A logarithmic search algorithm on sorted data.",
+        "A state where processes wait indefinitely for each other’s resources.",
+        "A database design process reducing redundancy and anomalies.",
+        "An optimization method using overlapping subproblem results."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 158,
+      "question": "Identify the correct meaning of \"Dynamic programming\" in Computer Science?",
+      "options": [
+        "A database design process reducing redundancy and anomalies.",
+        "A logarithmic search algorithm on sorted data.",
+        "An optimization method using overlapping subproblem results.",
+        "A state where processes wait indefinitely for each other’s resources."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 159,
+      "question": "Which definition of \"Dynamic programming\" is correct in Computer Science?",
+      "options": [
+        "A state where processes wait indefinitely for each other’s resources.",
+        "An optimization method using overlapping subproblem results.",
+        "A database design process reducing redundancy and anomalies.",
+        "A logarithmic search algorithm on sorted data."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 160,
+      "question": "For Computer Science, \"Dynamic programming\" is best described as:?",
+      "options": [
+        "An optimization method using overlapping subproblem results.",
+        "A logarithmic search algorithm on sorted data.",
+        "A state where processes wait indefinitely for each other’s resources.",
+        "A database design process reducing redundancy and anomalies."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 161,
+      "question": "Which description best matches \"Binary search\" in Computer Science?",
+      "options": [
+        "A state where processes wait indefinitely for each other’s resources.",
+        "A database design process reducing redundancy and anomalies.",
+        "A reliable, connection-oriented transport protocol.",
+        "A logarithmic search algorithm on sorted data."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 162,
+      "question": "In Computer Science, \"Binary search\" is mainly used for what?",
+      "options": [
+        "A reliable, connection-oriented transport protocol.",
+        "A state where processes wait indefinitely for each other’s resources.",
+        "A logarithmic search algorithm on sorted data.",
+        "A database design process reducing redundancy and anomalies."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 163,
+      "question": "What is the primary purpose of \"Binary search\" in Computer Science?",
+      "options": [
+        "A database design process reducing redundancy and anomalies.",
+        "A logarithmic search algorithm on sorted data.",
+        "A reliable, connection-oriented transport protocol.",
+        "A state where processes wait indefinitely for each other’s resources."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 164,
+      "question": "Choose the most accurate statement about \"Binary search\" in Computer Science?",
+      "options": [
+        "A logarithmic search algorithm on sorted data.",
+        "A state where processes wait indefinitely for each other’s resources.",
+        "A database design process reducing redundancy and anomalies.",
+        "A reliable, connection-oriented transport protocol."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 165,
+      "question": "Which option correctly explains \"Binary search\" for Computer Science developers?",
+      "options": [
+        "A database design process reducing redundancy and anomalies.",
+        "A reliable, connection-oriented transport protocol.",
+        "A state where processes wait indefinitely for each other’s resources.",
+        "A logarithmic search algorithm on sorted data."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 166,
+      "question": "In practical Computer Science code, when would you use \"Binary search\"?",
+      "options": [
+        "A state where processes wait indefinitely for each other’s resources.",
+        "A database design process reducing redundancy and anomalies.",
+        "A logarithmic search algorithm on sorted data.",
+        "A reliable, connection-oriented transport protocol."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 167,
+      "question": "What does \"Binary search\" represent?",
+      "options": [
+        "A reliable, connection-oriented transport protocol.",
+        "A logarithmic search algorithm on sorted data.",
+        "A state where processes wait indefinitely for each other’s resources.",
+        "A database design process reducing redundancy and anomalies."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 168,
+      "question": "Identify the correct meaning of \"Binary search\" in Computer Science?",
+      "options": [
+        "A logarithmic search algorithm on sorted data.",
+        "A database design process reducing redundancy and anomalies.",
+        "A reliable, connection-oriented transport protocol.",
+        "A state where processes wait indefinitely for each other’s resources."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 169,
+      "question": "Which definition of \"Binary search\" is correct in Computer Science?",
+      "options": [
+        "A reliable, connection-oriented transport protocol.",
+        "A state where processes wait indefinitely for each other’s resources.",
+        "A database design process reducing redundancy and anomalies.",
+        "A logarithmic search algorithm on sorted data."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 170,
+      "question": "For Computer Science, \"Binary search\" is best described as:?",
+      "options": [
+        "A database design process reducing redundancy and anomalies.",
+        "A reliable, connection-oriented transport protocol.",
+        "A logarithmic search algorithm on sorted data.",
+        "A state where processes wait indefinitely for each other’s resources."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 171,
+      "question": "Which description best matches \"Deadlock\" in Computer Science?",
+      "options": [
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A state where processes wait indefinitely for each other’s resources.",
+        "A database design process reducing redundancy and anomalies.",
+        "A reliable, connection-oriented transport protocol."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 172,
+      "question": "In Computer Science, \"Deadlock\" is mainly used for what?",
+      "options": [
+        "A state where processes wait indefinitely for each other’s resources.",
+        "A reliable, connection-oriented transport protocol.",
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A database design process reducing redundancy and anomalies."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 173,
+      "question": "What is the primary purpose of \"Deadlock\" in Computer Science?",
+      "options": [
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A database design process reducing redundancy and anomalies.",
+        "A reliable, connection-oriented transport protocol.",
+        "A state where processes wait indefinitely for each other’s resources."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 174,
+      "question": "Choose the most accurate statement about \"Deadlock\" in Computer Science?",
+      "options": [
+        "A reliable, connection-oriented transport protocol.",
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A state where processes wait indefinitely for each other’s resources.",
+        "A database design process reducing redundancy and anomalies."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 175,
+      "question": "Which option correctly explains \"Deadlock\" for Computer Science developers?",
+      "options": [
+        "A database design process reducing redundancy and anomalies.",
+        "A state where processes wait indefinitely for each other’s resources.",
+        "A reliable, connection-oriented transport protocol.",
+        "A notation describing asymptotic growth of algorithm complexity."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 176,
+      "question": "In practical Computer Science code, when would you use \"Deadlock\"?",
+      "options": [
+        "A state where processes wait indefinitely for each other’s resources.",
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A database design process reducing redundancy and anomalies.",
+        "A reliable, connection-oriented transport protocol."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 177,
+      "question": "What does \"Deadlock\" represent?",
+      "options": [
+        "A database design process reducing redundancy and anomalies.",
+        "A reliable, connection-oriented transport protocol.",
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A state where processes wait indefinitely for each other’s resources."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 178,
+      "question": "Identify the correct meaning of \"Deadlock\" in Computer Science?",
+      "options": [
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A database design process reducing redundancy and anomalies.",
+        "A state where processes wait indefinitely for each other’s resources.",
+        "A reliable, connection-oriented transport protocol."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 179,
+      "question": "Which definition of \"Deadlock\" is correct in Computer Science?",
+      "options": [
+        "A reliable, connection-oriented transport protocol.",
+        "A state where processes wait indefinitely for each other’s resources.",
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A database design process reducing redundancy and anomalies."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 180,
+      "question": "For Computer Science, \"Deadlock\" is best described as:?",
+      "options": [
+        "A state where processes wait indefinitely for each other’s resources.",
+        "A database design process reducing redundancy and anomalies.",
+        "A reliable, connection-oriented transport protocol.",
+        "A notation describing asymptotic growth of algorithm complexity."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 181,
+      "question": "Which description best matches \"Normalization\" in Computer Science?",
+      "options": [
+        "A reliable, connection-oriented transport protocol.",
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A LIFO data structure where the last item is removed first.",
+        "A database design process reducing redundancy and anomalies."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 182,
+      "question": "In Computer Science, \"Normalization\" is mainly used for what?",
+      "options": [
+        "A LIFO data structure where the last item is removed first.",
+        "A reliable, connection-oriented transport protocol.",
+        "A database design process reducing redundancy and anomalies.",
+        "A notation describing asymptotic growth of algorithm complexity."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 183,
+      "question": "What is the primary purpose of \"Normalization\" in Computer Science?",
+      "options": [
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A database design process reducing redundancy and anomalies.",
+        "A LIFO data structure where the last item is removed first.",
+        "A reliable, connection-oriented transport protocol."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 184,
+      "question": "Choose the most accurate statement about \"Normalization\" in Computer Science?",
+      "options": [
+        "A database design process reducing redundancy and anomalies.",
+        "A reliable, connection-oriented transport protocol.",
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A LIFO data structure where the last item is removed first."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 185,
+      "question": "Which option correctly explains \"Normalization\" for Computer Science developers?",
+      "options": [
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A LIFO data structure where the last item is removed first.",
+        "A reliable, connection-oriented transport protocol.",
+        "A database design process reducing redundancy and anomalies."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 186,
+      "question": "In practical Computer Science code, when would you use \"Normalization\"?",
+      "options": [
+        "A reliable, connection-oriented transport protocol.",
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A database design process reducing redundancy and anomalies.",
+        "A LIFO data structure where the last item is removed first."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 187,
+      "question": "What does \"Normalization\" represent?",
+      "options": [
+        "A LIFO data structure where the last item is removed first.",
+        "A database design process reducing redundancy and anomalies.",
+        "A reliable, connection-oriented transport protocol.",
+        "A notation describing asymptotic growth of algorithm complexity."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 188,
+      "question": "Identify the correct meaning of \"Normalization\" in Computer Science?",
+      "options": [
+        "A database design process reducing redundancy and anomalies.",
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A LIFO data structure where the last item is removed first.",
+        "A reliable, connection-oriented transport protocol."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 189,
+      "question": "Which definition of \"Normalization\" is correct in Computer Science?",
+      "options": [
+        "A LIFO data structure where the last item is removed first.",
+        "A reliable, connection-oriented transport protocol.",
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A database design process reducing redundancy and anomalies."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 190,
+      "question": "For Computer Science, \"Normalization\" is best described as:?",
+      "options": [
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A LIFO data structure where the last item is removed first.",
+        "A database design process reducing redundancy and anomalies.",
+        "A reliable, connection-oriented transport protocol."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 191,
+      "question": "Which description best matches \"TCP\" in Computer Science?",
+      "options": [
+        "A FIFO data structure where the first item is removed first.",
+        "A reliable, connection-oriented transport protocol.",
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A LIFO data structure where the last item is removed first."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 192,
+      "question": "In Computer Science, \"TCP\" is mainly used for what?",
+      "options": [
+        "A reliable, connection-oriented transport protocol.",
+        "A LIFO data structure where the last item is removed first.",
+        "A FIFO data structure where the first item is removed first.",
+        "A notation describing asymptotic growth of algorithm complexity."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 193,
+      "question": "What is the primary purpose of \"TCP\" in Computer Science?",
+      "options": [
+        "A FIFO data structure where the first item is removed first.",
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A LIFO data structure where the last item is removed first.",
+        "A reliable, connection-oriented transport protocol."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 194,
+      "question": "Choose the most accurate statement about \"TCP\" in Computer Science?",
+      "options": [
+        "A LIFO data structure where the last item is removed first.",
+        "A FIFO data structure where the first item is removed first.",
+        "A reliable, connection-oriented transport protocol.",
+        "A notation describing asymptotic growth of algorithm complexity."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 195,
+      "question": "Which option correctly explains \"TCP\" for Computer Science developers?",
+      "options": [
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A reliable, connection-oriented transport protocol.",
+        "A LIFO data structure where the last item is removed first.",
+        "A FIFO data structure where the first item is removed first."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 196,
+      "question": "In practical Computer Science code, when would you use \"TCP\"?",
+      "options": [
+        "A reliable, connection-oriented transport protocol.",
+        "A FIFO data structure where the first item is removed first.",
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A LIFO data structure where the last item is removed first."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 197,
+      "question": "What does \"TCP\" represent?",
+      "options": [
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A LIFO data structure where the last item is removed first.",
+        "A FIFO data structure where the first item is removed first.",
+        "A reliable, connection-oriented transport protocol."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 198,
+      "question": "Identify the correct meaning of \"TCP\" in Computer Science?",
+      "options": [
+        "A FIFO data structure where the first item is removed first.",
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A reliable, connection-oriented transport protocol.",
+        "A LIFO data structure where the last item is removed first."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 199,
+      "question": "Which definition of \"TCP\" is correct in Computer Science?",
+      "options": [
+        "A LIFO data structure where the last item is removed first.",
+        "A reliable, connection-oriented transport protocol.",
+        "A FIFO data structure where the first item is removed first.",
+        "A notation describing asymptotic growth of algorithm complexity."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 200,
+      "question": "For Computer Science, \"TCP\" is best described as:?",
+      "options": [
+        "A reliable, connection-oriented transport protocol.",
+        "A notation describing asymptotic growth of algorithm complexity.",
+        "A LIFO data structure where the last item is removed first.",
+        "A FIFO data structure where the first item is removed first."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 201,
+      "question": "After these operations, which value remains at front?\n```text\nqueue.enqueue(10)\nqueue.enqueue(20)\nqueue.dequeue()\n```",
+      "options": [
+        "10",
+        "20",
+        "Both",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 202,
+      "question": "What is the time complexity?\n```text\nfor i in range(n):\n  for j in range(n):\n    pass\n```",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n^2)",
+        "O(1)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 203,
+      "question": "Which value is popped?\n```text\nstack.push(1)\nstack.push(2)\nstack.pop()\n```",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 204,
+      "question": "This line is commonly associated with which algorithm?\n```text\nif (left < right) {\n  mid = (left + right) / 2;\n}\n```",
+      "options": [
+        "Bubble Sort",
+        "Binary Search",
+        "DFS",
+        "BFS"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 205,
+      "question": "Which concept does this represent?\n```text\nSELECT * FROM users WHERE id = 1;\n```",
+      "options": [
+        "Update query",
+        "Read query",
+        "Delete query",
+        "Schema definition"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 206,
+      "question": "In Computer Science, after these operations, which value remains at front?\n```text\nqueue.enqueue(10)\nqueue.enqueue(20)\nqueue.dequeue()\n```",
+      "options": [
+        "10",
+        "20",
+        "Both",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 207,
+      "question": "In Computer Science, what is the time complexity?\n```text\nfor i in range(n): for j in range(n): pass\n```",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n^2)",
+        "O(1)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 208,
+      "question": "In Computer Science, which value is popped?\n```text\nstack.push(1)\nstack.push(2)\nstack.pop()\n```",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 209,
+      "question": "In Computer Science, this line is commonly associated with which algorithm?\n```text\nif (left < right) { mid = (left + right) / 2;\n}\n```",
+      "options": [
+        "Bubble Sort",
+        "Binary Search",
+        "DFS",
+        "BFS"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 210,
+      "question": "In Computer Science, which concept does this represent?\n```text\nSELECT * FROM users WHERE id = 1;\n```",
+      "options": [
+        "Update query",
+        "Read query",
+        "Delete query",
+        "Schema definition"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 211,
+      "question": "For Computer Science, after these operations, which value remains at front?\n```text\nqueue.enqueue(10)\nqueue.enqueue(20)\nqueue.dequeue()\n```",
+      "options": [
+        "10",
+        "20",
+        "Both",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 212,
+      "question": "In Computer Science, in Computer Science, what is the time complexity?\n```text\nfor i in range(n): for j in range(n): pass\n```",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n^2)",
+        "O(1)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 213,
+      "question": "For Computer Science, which value is popped?\n```text\nstack.push(1)\nstack.push(2)\nstack.pop()\n```",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 214,
+      "question": "In Computer Science, in Computer Science, this line is commonly associated with which algorithm?\n```text\nif (left < right) { mid = (left + right) / 2;\n}\n```",
+      "options": [
+        "Bubble Sort",
+        "Binary Search",
+        "DFS",
+        "BFS"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 215,
+      "question": "For Computer Science, which concept does this represent?\n```text\nSELECT * FROM users WHERE id = 1;\n```",
+      "options": [
+        "Update query",
+        "Read query",
+        "Delete query",
+        "Schema definition"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 216,
+      "question": "When using Computer Science, after these operations, which value remains at front?\n```text\nqueue.enqueue(10)\nqueue.enqueue(20)\nqueue.dequeue()\n```",
+      "options": [
+        "10",
+        "20",
+        "Both",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 217,
+      "question": "For Computer Science, in Computer Science, what is the time complexity?\n```text\nfor i in range(n): for j in range(n): pass\n```",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n^2)",
+        "O(1)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 218,
+      "question": "When using Computer Science, which value is popped?\n```text\nstack.push(1)\nstack.push(2)\nstack.pop()\n```",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 219,
+      "question": "For Computer Science, in Computer Science, this line is commonly associated with which algorithm?\n```text\nif (left < right) { mid = (left + right) / 2;\n}\n```",
+      "options": [
+        "Bubble Sort",
+        "Binary Search",
+        "DFS",
+        "BFS"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 220,
+      "question": "When using Computer Science, which concept does this represent?\n```text\nSELECT * FROM users WHERE id = 1;\n```",
+      "options": [
+        "Update query",
+        "Read query",
+        "Delete query",
+        "Schema definition"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 221,
+      "question": "In a Computer Science query, after these operations, which value remains at front?\n```text\nqueue.enqueue(10)\nqueue.enqueue(20)\nqueue.dequeue()\n```",
+      "options": [
+        "10",
+        "20",
+        "Both",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 222,
+      "question": "When using Computer Science, in Computer Science, what is the time complexity?\n```text\nfor i in range(n): for j in range(n): pass\n```",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n^2)",
+        "O(1)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 223,
+      "question": "In a Computer Science query, which value is popped?\n```text\nstack.push(1)\nstack.push(2)\nstack.pop()\n```",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 224,
+      "question": "When using Computer Science, in Computer Science, this line is commonly associated with which algorithm?\n```text\nif (left < right) { mid = (left + right) / 2;\n}\n```",
+      "options": [
+        "Bubble Sort",
+        "Binary Search",
+        "DFS",
+        "BFS"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 225,
+      "question": "In a Computer Science query, which concept does this represent?\n```text\nSELECT * FROM users WHERE id = 1;\n```",
+      "options": [
+        "Update query",
+        "Read query",
+        "Delete query",
+        "Schema definition"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 226,
+      "question": "From a Computer Science perspective, after these operations, which value remains at front?\n```text\nqueue.enqueue(10)\nqueue.enqueue(20)\nqueue.dequeue()\n```",
+      "options": [
+        "10",
+        "20",
+        "Both",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 227,
+      "question": "Within Computer Science, in Computer Science, what is the time complexity?\n```text\nfor i in range(n): for j in range(n): pass\n```",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n^2)",
+        "O(1)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 228,
+      "question": "From a Computer Science perspective, which value is popped?\n```text\nstack.push(1)\nstack.push(2)\nstack.pop()\n```",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 229,
+      "question": "Within Computer Science, in Computer Science, this line is commonly associated with which algorithm?\n```text\nif (left < right) { mid = (left + right) / 2;\n}\n```",
+      "options": [
+        "Bubble Sort",
+        "Binary Search",
+        "DFS",
+        "BFS"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 230,
+      "question": "From a Computer Science perspective, which concept does this represent?\n```text\nSELECT * FROM users WHERE id = 1;\n```",
+      "options": [
+        "Update query",
+        "Read query",
+        "Delete query",
+        "Schema definition"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 231,
+      "question": "In practical Computer Science usage, after these operations, which value remains at front?\n```text\nqueue.enqueue(10)\nqueue.enqueue(20)\nqueue.dequeue()\n```",
+      "options": [
+        "10",
+        "20",
+        "Both",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 232,
+      "question": "In practical Computer Science usage, in Computer Science, what is the time complexity?\n```text\nfor i in range(n): for j in range(n): pass\n```",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n^2)",
+        "O(1)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 233,
+      "question": "In practical Computer Science usage, which value is popped?\n```text\nstack.push(1)\nstack.push(2)\nstack.pop()\n```",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 234,
+      "question": "In practical Computer Science usage, in Computer Science, this line is commonly associated with which algorithm?\n```text\nif (left < right) { mid = (left + right) / 2;\n}\n```",
+      "options": [
+        "Bubble Sort",
+        "Binary Search",
+        "DFS",
+        "BFS"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 235,
+      "question": "In practical Computer Science usage, which concept does this represent?\n```text\nSELECT * FROM users WHERE id = 1;\n```",
+      "options": [
+        "Update query",
+        "Read query",
+        "Delete query",
+        "Schema definition"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 236,
+      "question": "Within Computer Science, after these operations, which value remains at front?\n```text\nqueue.enqueue(10)\nqueue.enqueue(20)\nqueue.dequeue()\n```",
+      "options": [
+        "10",
+        "20",
+        "Both",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 237,
+      "question": "For Computer Science developers, in Computer Science, what is the time complexity?\n```text\nfor i in range(n): for j in range(n): pass\n```",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n^2)",
+        "O(1)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 238,
+      "question": "Within Computer Science, which value is popped?\n```text\nstack.push(1)\nstack.push(2)\nstack.pop()\n```",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 239,
+      "question": "For Computer Science developers, in Computer Science, this line is commonly associated with which algorithm?\n```text\nif (left < right) { mid = (left + right) / 2;\n}\n```",
+      "options": [
+        "Bubble Sort",
+        "Binary Search",
+        "DFS",
+        "BFS"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 240,
+      "question": "Within Computer Science, which concept does this represent?\n```text\nSELECT * FROM users WHERE id = 1;\n```",
+      "options": [
+        "Update query",
+        "Read query",
+        "Delete query",
+        "Schema definition"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 241,
+      "question": "For Computer Science developers, after these operations, which value remains at front?\n```text\nqueue.enqueue(10)\nqueue.enqueue(20)\nqueue.dequeue()\n```",
+      "options": [
+        "10",
+        "20",
+        "Both",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 242,
+      "question": "In Computer Science practice, in Computer Science, what is the time complexity?\n```text\nfor i in range(n): for j in range(n): pass\n```",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n^2)",
+        "O(1)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 243,
+      "question": "For Computer Science developers, which value is popped?\n```text\nstack.push(1)\nstack.push(2)\nstack.pop()\n```",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 244,
+      "question": "In Computer Science practice, in Computer Science, this line is commonly associated with which algorithm?\n```text\nif (left < right) { mid = (left + right) / 2;\n}\n```",
+      "options": [
+        "Bubble Sort",
+        "Binary Search",
+        "DFS",
+        "BFS"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 245,
+      "question": "For Computer Science developers, which concept does this represent?\n```text\nSELECT * FROM users WHERE id = 1;\n```",
+      "options": [
+        "Update query",
+        "Read query",
+        "Delete query",
+        "Schema definition"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 246,
+      "question": "In day-to-day Computer Science work, after these operations, which value remains at front?\n```text\nqueue.enqueue(10)\nqueue.enqueue(20)\nqueue.dequeue()\n```",
+      "options": [
+        "10",
+        "20",
+        "Both",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 247,
+      "question": "With Computer Science, in Computer Science, what is the time complexity?\n```text\nfor i in range(n): for j in range(n): pass\n```",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n^2)",
+        "O(1)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 248,
+      "question": "In day-to-day Computer Science work, which value is popped?\n```text\nstack.push(1)\nstack.push(2)\nstack.pop()\n```",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 249,
+      "question": "With Computer Science, in Computer Science, this line is commonly associated with which algorithm?\n```text\nif (left < right) { mid = (left + right) / 2;\n}\n```",
+      "options": [
+        "Bubble Sort",
+        "Binary Search",
+        "DFS",
+        "BFS"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 250,
+      "question": "In day-to-day Computer Science work, which concept does this represent?\n```text\nSELECT * FROM users WHERE id = 1;\n```",
+      "options": [
+        "Update query",
+        "Read query",
+        "Delete query",
+        "Schema definition"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 251,
+      "question": "Which value is removed?\n```text\nenqueue(1)\nenqueue(2)\ndequeue()\n```",
+      "options": [
+        "1",
+        "2",
+        "Both",
+        "None"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 252,
+      "question": "Which value is popped?\n```text\npush(10)\npush(20)\npop()\n```",
+      "options": [
+        "10",
+        "20",
+        "0",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 253,
+      "question": "Time complexity is?\n```text\nfor i in 1..n:\n  print(i)\n```",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 254,
+      "question": "This step belongs to which algorithm?\n```text\nif key < mid:\n  right = mid - 1\n```",
+      "options": [
+        "DFS",
+        "BFS",
+        "Binary Search",
+        "Merge Sort"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 255,
+      "question": "What does this query fetch?\n```text\nSELECT id FROM users ORDER BY id DESC LIMIT 1;\n```",
+      "options": [
+        "Lowest id",
+        "Highest id",
+        "All ids",
+        "Count ids"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 256,
+      "question": "In Computer Science, which value is removed?\n```text\nenqueue(1)\nenqueue(2)\ndequeue()\n```",
+      "options": [
+        "1",
+        "2",
+        "Both",
+        "None"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 257,
+      "question": "In Computer Science, which value is popped?\n```text\npush(10)\npush(20)\npop()\n```",
+      "options": [
+        "10",
+        "20",
+        "0",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 258,
+      "question": "In Computer Science, time complexity is?\n```text\nfor i in 1..n: print(i)\n```",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 259,
+      "question": "In Computer Science, this step belongs to which algorithm?\n```text\nif key < mid: right = mid - 1\n```",
+      "options": [
+        "DFS",
+        "BFS",
+        "Binary Search",
+        "Merge Sort"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 260,
+      "question": "In Computer Science, what does this query fetch?\n```text\nSELECT id FROM users ORDER BY id DESC LIMIT 1;\n```",
+      "options": [
+        "Lowest id",
+        "Highest id",
+        "All ids",
+        "Count ids"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 261,
+      "question": "For Computer Science, which value is removed?\n```text\nenqueue(1)\nenqueue(2)\ndequeue()\n```",
+      "options": [
+        "1",
+        "2",
+        "Both",
+        "None"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 262,
+      "question": "For Computer Science, which value is popped?\n```text\npush(10)\npush(20)\npop()\n```",
+      "options": [
+        "10",
+        "20",
+        "0",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 263,
+      "question": "In Computer Science, in Computer Science, time complexity is?\n```text\nfor i in 1..n: print(i)\n```",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 264,
+      "question": "In Computer Science, in Computer Science, this step belongs to which algorithm?\n```text\nif key < mid: right = mid - 1\n```",
+      "options": [
+        "DFS",
+        "BFS",
+        "Binary Search",
+        "Merge Sort"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 265,
+      "question": "For Computer Science, what does this query fetch?\n```text\nSELECT id FROM users ORDER BY id DESC LIMIT 1;\n```",
+      "options": [
+        "Lowest id",
+        "Highest id",
+        "All ids",
+        "Count ids"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 266,
+      "question": "When using Computer Science, which value is removed?\n```text\nenqueue(1)\nenqueue(2)\ndequeue()\n```",
+      "options": [
+        "1",
+        "2",
+        "Both",
+        "None"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 267,
+      "question": "When using Computer Science, which value is popped?\n```text\npush(10)\npush(20)\npop()\n```",
+      "options": [
+        "10",
+        "20",
+        "0",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 268,
+      "question": "For Computer Science, in Computer Science, time complexity is?\n```text\nfor i in 1..n: print(i)\n```",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 269,
+      "question": "For Computer Science, in Computer Science, this step belongs to which algorithm?\n```text\nif key < mid: right = mid - 1\n```",
+      "options": [
+        "DFS",
+        "BFS",
+        "Binary Search",
+        "Merge Sort"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 270,
+      "question": "When using Computer Science, what does this query fetch?\n```text\nSELECT id FROM users ORDER BY id DESC LIMIT 1;\n```",
+      "options": [
+        "Lowest id",
+        "Highest id",
+        "All ids",
+        "Count ids"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 271,
+      "question": "In a Computer Science query, which value is removed?\n```text\nenqueue(1)\nenqueue(2)\ndequeue()\n```",
+      "options": [
+        "1",
+        "2",
+        "Both",
+        "None"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 272,
+      "question": "In a Computer Science query, which value is popped?\n```text\npush(10)\npush(20)\npop()\n```",
+      "options": [
+        "10",
+        "20",
+        "0",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 273,
+      "question": "When using Computer Science, in Computer Science, time complexity is?\n```text\nfor i in 1..n: print(i)\n```",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 274,
+      "question": "When using Computer Science, in Computer Science, this step belongs to which algorithm?\n```text\nif key < mid: right = mid - 1\n```",
+      "options": [
+        "DFS",
+        "BFS",
+        "Binary Search",
+        "Merge Sort"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 275,
+      "question": "In a Computer Science query, what does this query fetch?\n```text\nSELECT id FROM users ORDER BY id DESC LIMIT 1;\n```",
+      "options": [
+        "Lowest id",
+        "Highest id",
+        "All ids",
+        "Count ids"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 276,
+      "question": "From a Computer Science perspective, which value is removed?\n```text\nenqueue(1)\nenqueue(2)\ndequeue()\n```",
+      "options": [
+        "1",
+        "2",
+        "Both",
+        "None"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 277,
+      "question": "From a Computer Science perspective, which value is popped?\n```text\npush(10)\npush(20)\npop()\n```",
+      "options": [
+        "10",
+        "20",
+        "0",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 278,
+      "question": "Within Computer Science, in Computer Science, time complexity is?\n```text\nfor i in 1..n: print(i)\n```",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 279,
+      "question": "Within Computer Science, in Computer Science, this step belongs to which algorithm?\n```text\nif key < mid: right = mid - 1\n```",
+      "options": [
+        "DFS",
+        "BFS",
+        "Binary Search",
+        "Merge Sort"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 280,
+      "question": "From a Computer Science perspective, what does this query fetch?\n```text\nSELECT id FROM users ORDER BY id DESC LIMIT 1;\n```",
+      "options": [
+        "Lowest id",
+        "Highest id",
+        "All ids",
+        "Count ids"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 281,
+      "question": "In practical Computer Science usage, which value is removed?\n```text\nenqueue(1)\nenqueue(2)\ndequeue()\n```",
+      "options": [
+        "1",
+        "2",
+        "Both",
+        "None"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 282,
+      "question": "In practical Computer Science usage, which value is popped?\n```text\npush(10)\npush(20)\npop()\n```",
+      "options": [
+        "10",
+        "20",
+        "0",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 283,
+      "question": "In practical Computer Science usage, in Computer Science, time complexity is?\n```text\nfor i in 1..n: print(i)\n```",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 284,
+      "question": "In practical Computer Science usage, in Computer Science, this step belongs to which algorithm?\n```text\nif key < mid: right = mid - 1\n```",
+      "options": [
+        "DFS",
+        "BFS",
+        "Binary Search",
+        "Merge Sort"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 285,
+      "question": "In practical Computer Science usage, what does this query fetch?\n```text\nSELECT id FROM users ORDER BY id DESC LIMIT 1;\n```",
+      "options": [
+        "Lowest id",
+        "Highest id",
+        "All ids",
+        "Count ids"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 286,
+      "question": "Within Computer Science, which value is removed?\n```text\nenqueue(1)\nenqueue(2)\ndequeue()\n```",
+      "options": [
+        "1",
+        "2",
+        "Both",
+        "None"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 287,
+      "question": "Within Computer Science, which value is popped?\n```text\npush(10)\npush(20)\npop()\n```",
+      "options": [
+        "10",
+        "20",
+        "0",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 288,
+      "question": "For Computer Science developers, in Computer Science, time complexity is?\n```text\nfor i in 1..n: print(i)\n```",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 289,
+      "question": "For Computer Science developers, in Computer Science, this step belongs to which algorithm?\n```text\nif key < mid: right = mid - 1\n```",
+      "options": [
+        "DFS",
+        "BFS",
+        "Binary Search",
+        "Merge Sort"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 290,
+      "question": "Within Computer Science, what does this query fetch?\n```text\nSELECT id FROM users ORDER BY id DESC LIMIT 1;\n```",
+      "options": [
+        "Lowest id",
+        "Highest id",
+        "All ids",
+        "Count ids"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 291,
+      "question": "For Computer Science developers, which value is removed?\n```text\nenqueue(1)\nenqueue(2)\ndequeue()\n```",
+      "options": [
+        "1",
+        "2",
+        "Both",
+        "None"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 292,
+      "question": "For Computer Science developers, which value is popped?\n```text\npush(10)\npush(20)\npop()\n```",
+      "options": [
+        "10",
+        "20",
+        "0",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 293,
+      "question": "In Computer Science practice, in Computer Science, time complexity is?\n```text\nfor i in 1..n: print(i)\n```",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 294,
+      "question": "In Computer Science practice, in Computer Science, this step belongs to which algorithm?\n```text\nif key < mid: right = mid - 1\n```",
+      "options": [
+        "DFS",
+        "BFS",
+        "Binary Search",
+        "Merge Sort"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 295,
+      "question": "For Computer Science developers, what does this query fetch?\n```text\nSELECT id FROM users ORDER BY id DESC LIMIT 1;\n```",
+      "options": [
+        "Lowest id",
+        "Highest id",
+        "All ids",
+        "Count ids"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 296,
+      "question": "In day-to-day Computer Science work, which value is removed?\n```text\nenqueue(1)\nenqueue(2)\ndequeue()\n```",
+      "options": [
+        "1",
+        "2",
+        "Both",
+        "None"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 297,
+      "question": "In day-to-day Computer Science work, which value is popped?\n```text\npush(10)\npush(20)\npop()\n```",
+      "options": [
+        "10",
+        "20",
+        "0",
+        "None"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 298,
+      "question": "With Computer Science, in Computer Science, time complexity is?\n```text\nfor i in 1..n: print(i)\n```",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 299,
+      "question": "With Computer Science, in Computer Science, this step belongs to which algorithm?\n```text\nif key < mid: right = mid - 1\n```",
+      "options": [
+        "DFS",
+        "BFS",
+        "Binary Search",
+        "Merge Sort"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 300,
+      "question": "In day-to-day Computer Science work, what does this query fetch?\n```text\nSELECT id FROM users ORDER BY id DESC LIMIT 1;\n```",
+      "options": [
+        "Lowest id",
+        "Highest id",
+        "All ids",
+        "Count ids"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 301,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 302:\n- Input size: n\n- Operation count: n + 2\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 302,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 304:\n- Input size: n\n- Operation count: n + 4\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 303,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 306:\n- Input size: n\n- Operation count: n + 6\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 304,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 308:\n- Input size: n\n- Operation count: n + 8\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 305,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 310:\n- Input size: n\n- Operation count: n + 0\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 306,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 312:\n- Input size: n\n- Operation count: n + 2\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 307,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 314:\n- Input size: n\n- Operation count: n + 4\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 308,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 316:\n- Input size: n\n- Operation count: n + 6\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 309,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 318:\n- Input size: n\n- Operation count: n + 8\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 310,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 320:\n- Input size: n\n- Operation count: n + 0\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 311,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 322:\n- Input size: n\n- Operation count: n + 2\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 312,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 324:\n- Input size: n\n- Operation count: n + 4\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 313,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 326:\n- Input size: n\n- Operation count: n + 6\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 314,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 328:\n- Input size: n\n- Operation count: n + 8\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 315,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 330:\n- Input size: n\n- Operation count: n + 0\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 316,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 332:\n- Input size: n\n- Operation count: n + 2\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 317,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 334:\n- Input size: n\n- Operation count: n + 4\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 318,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 336:\n- Input size: n\n- Operation count: n + 6\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 319,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 338:\n- Input size: n\n- Operation count: n + 8\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 320,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 340:\n- Input size: n\n- Operation count: n + 0\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 321,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 342:\n- Input size: n\n- Operation count: n + 2\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 322,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 344:\n- Input size: n\n- Operation count: n + 4\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 323,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 346:\n- Input size: n\n- Operation count: n + 6\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 324,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 348:\n- Input size: n\n- Operation count: n + 8\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 325,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 350:\n- Input size: n\n- Operation count: n + 0\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 326,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 352:\n- Input size: n\n- Operation count: n + 2\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 327,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 354:\n- Input size: n\n- Operation count: n + 4\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 328,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 356:\n- Input size: n\n- Operation count: n + 6\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 329,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 358:\n- Input size: n\n- Operation count: n + 8\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 330,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 360:\n- Input size: n\n- Operation count: n + 0\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 331,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 362:\n- Input size: n\n- Operation count: n + 2\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 332,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 364:\n- Input size: n\n- Operation count: n + 4\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 333,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 366:\n- Input size: n\n- Operation count: n + 6\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 334,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 368:\n- Input size: n\n- Operation count: n + 8\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 335,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 370:\n- Input size: n\n- Operation count: n + 0\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 336,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 372:\n- Input size: n\n- Operation count: n + 2\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 337,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 374:\n- Input size: n\n- Operation count: n + 4\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 338,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 376:\n- Input size: n\n- Operation count: n + 6\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 339,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 378:\n- Input size: n\n- Operation count: n + 8\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 340,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 380:\n- Input size: n\n- Operation count: n + 0\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 341,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 382:\n- Input size: n\n- Operation count: n + 2\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 342,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 384:\n- Input size: n\n- Operation count: n + 4\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 343,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 386:\n- Input size: n\n- Operation count: n + 6\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 344,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 388:\n- Input size: n\n- Operation count: n + 8\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 345,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 390:\n- Input size: n\n- Operation count: n + 0\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 346,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 392:\n- Input size: n\n- Operation count: n + 2\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 347,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 394:\n- Input size: n\n- Operation count: n + 4\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 348,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 396:\n- Input size: n\n- Operation count: n + 6\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 349,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 398:\n- Input size: n\n- Operation count: n + 8\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 350,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 400:\n- Input size: n\n- Operation count: n + 0\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 351,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 402:\n- Input size: n\n- Operation count: n + 2\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 352,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 404:\n- Input size: n\n- Operation count: n + 4\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 353,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 406:\n- Input size: n\n- Operation count: n + 6\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 354,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 408:\n- Input size: n\n- Operation count: n + 8\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 355,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 410:\n- Input size: n\n- Operation count: n + 0\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 356,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 412:\n- Input size: n\n- Operation count: n + 2\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 357,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 414:\n- Input size: n\n- Operation count: n + 4\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 358,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 416:\n- Input size: n\n- Operation count: n + 6\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 359,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 418:\n- Input size: n\n- Operation count: n + 8\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 360,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 420:\n- Input size: n\n- Operation count: n + 0\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 361,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 422:\n- Input size: n\n- Operation count: n + 2\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 362,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 424:\n- Input size: n\n- Operation count: n + 4\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 363,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 426:\n- Input size: n\n- Operation count: n + 6\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 364,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 428:\n- Input size: n\n- Operation count: n + 8\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 365,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 430:\n- Input size: n\n- Operation count: n + 0\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 366,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 432:\n- Input size: n\n- Operation count: n + 2\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 367,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 434:\n- Input size: n\n- Operation count: n + 4\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 368,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 436:\n- Input size: n\n- Operation count: n + 6\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 369,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 438:\n- Input size: n\n- Operation count: n + 8\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 370,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 440:\n- Input size: n\n- Operation count: n + 0\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 371,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 442:\n- Input size: n\n- Operation count: n + 2\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 372,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 444:\n- Input size: n\n- Operation count: n + 4\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 373,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 446:\n- Input size: n\n- Operation count: n + 6\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 374,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 448:\n- Input size: n\n- Operation count: n + 8\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 375,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 450:\n- Input size: n\n- Operation count: n + 0\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 376,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 452:\n- Input size: n\n- Operation count: n + 2\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 377,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 454:\n- Input size: n\n- Operation count: n + 4\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 378,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 456:\n- Input size: n\n- Operation count: n + 6\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 379,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 458:\n- Input size: n\n- Operation count: n + 8\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 380,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 460:\n- Input size: n\n- Operation count: n + 0\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 381,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 462:\n- Input size: n\n- Operation count: n + 2\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 382,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 464:\n- Input size: n\n- Operation count: n + 4\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 383,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 466:\n- Input size: n\n- Operation count: n + 6\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 384,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 468:\n- Input size: n\n- Operation count: n + 8\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 385,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 470:\n- Input size: n\n- Operation count: n + 0\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 386,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 472:\n- Input size: n\n- Operation count: n + 2\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 387,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 474:\n- Input size: n\n- Operation count: n + 4\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 388,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 476:\n- Input size: n\n- Operation count: n + 6\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 389,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 478:\n- Input size: n\n- Operation count: n + 8\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 390,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 480:\n- Input size: n\n- Operation count: n + 0\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 391,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 482:\n- Input size: n\n- Operation count: n + 2\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 392,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 484:\n- Input size: n\n- Operation count: n + 4\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 393,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 486:\n- Input size: n\n- Operation count: n + 6\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 394,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 488:\n- Input size: n\n- Operation count: n + 8\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 395,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 490:\n- Input size: n\n- Operation count: n + 0\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 396,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 492:\n- Input size: n\n- Operation count: n + 2\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 397,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 494:\n- Input size: n\n- Operation count: n + 4\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 398,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 496:\n- Input size: n\n- Operation count: n + 6\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 399,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 498:\n- Input size: n\n- Operation count: n + 8\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 400,
+      "question": "What is the key outcome of this snippet?\n```text\nAlgorithm Step 500:\n- Input size: n\n- Operation count: n + 0\n```",
+      "options": [
+        "It runs successfully and produces the expected result.",
+        "It throws an error by default",
+        "It deletes existing values",
+        "It creates an infinite loop"
+      ],
+      "answerIndex": 0
+    }
+  ]
+}
