@@ -111,7 +111,7 @@ export default function TestimonialsPage() {
                 key={testimonial.id}
                 className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-blue-200 hover:-translate-y-1"
               >
-                <div className="p-8">
+                <div className="p-8 h-full flex flex-col">
                   {/* Rating */}
                   <div className="flex gap-1 mb-4">
                     {[...Array(testimonial.rating)].map((_, i) => (
@@ -126,32 +126,34 @@ export default function TestimonialsPage() {
                     "{testimonial.testimonial_text}"
                   </p>
 
-                  {/* Student Info */}
-                  <div className="flex items-center gap-4 pt-6 border-t border-gray-100">
-                    <div className="relative">
-                      <div className="w-14 h-14 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full flex items-center justify-center text-white text-xl font-bold ring-2 ring-blue-100">
-                        {testimonial.student_name.charAt(0).toUpperCase()}
+                  <div className="mt-auto">
+                    {/* Student Info */}
+                    <div className="flex items-center gap-4 pt-6 border-t border-gray-100">
+                      <div className="relative">
+                        <div className="w-14 h-14 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full flex items-center justify-center text-white text-xl font-bold ring-2 ring-blue-100">
+                          {testimonial.student_name.charAt(0).toUpperCase()}
+                        </div>
+                        <div className="absolute -bottom-1 -right-1 w-6 h-6 bg-green-500 rounded-full border-2 border-white flex items-center justify-center">
+                          <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                          </svg>
+                        </div>
                       </div>
-                      <div className="absolute -bottom-1 -right-1 w-6 h-6 bg-green-500 rounded-full border-2 border-white flex items-center justify-center">
-                        <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
-                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                        </svg>
+                      <div className="flex-1">
+                        <h4 className="font-bold text-gray-900">{testimonial.student_name}</h4>
+                        <p className="text-sm text-gray-600">Instructor: {testimonial.instructor_name}</p>
                       </div>
                     </div>
-                    <div className="flex-1">
-                      <h4 className="font-bold text-gray-900">{testimonial.student_name}</h4>
-                      <p className="text-sm text-gray-600">Instructor: {testimonial.instructor_name}</p>
-                    </div>
-                  </div>
 
-                  {/* Course & Date */}
-                  <div className="mt-4 pt-4 border-t border-gray-100">
-                    <div className="flex items-center justify-between text-xs">
-                      <span className="text-gray-500">
-                        <span className="inline-block w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
-                        {testimonial.course_name}
-                      </span>
-                      <span className="text-gray-400">{testimonial.testimonial_date}</span>
+                    {/* Course & Date */}
+                    <div className="mt-4 pt-4 border-t border-gray-100">
+                      <div className="flex items-center justify-between text-xs">
+                        <span className="text-gray-500">
+                          <span className="inline-block w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
+                          {testimonial.course_name}
+                        </span>
+                        <span className="text-gray-400">{testimonial.testimonial_date}</span>
+                      </div>
                     </div>
                   </div>
                 </div>
