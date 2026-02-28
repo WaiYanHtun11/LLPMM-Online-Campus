@@ -611,7 +611,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <PublicFooter />
+      <PublicFooter compact includeTestimonials />
     </div>
   )
 }
